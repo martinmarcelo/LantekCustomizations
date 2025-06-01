@@ -1,0 +1,49 @@
+// ******************************************************************************************
+// Non-cutting operation operation time calculation.
+//
+// Input arguments:
+//     - PPRR_PPRR_00000100@Prd_Ref;
+//     - MMNN_OOPP_00000100@WrkRef;
+//     - MMNN_OOPP_00000100@CGroup;
+//     - MMNN_OOPP_00000100@DIS_OprTimeSetup;
+//     - @#MATERIAL#@; special variable  
+//     - @#THICKNESS#@; special variable
+//     
+//
+// Output parameters:
+//     - EstimatedOperationTime: non-cutting operation time (h)
+//
+//
+// ******************************************************************************************
+
+
+begin
+
+    declare input
+        PPRR_PPRR_00000100@PrdRef;
+        PPRR_PPRR_00000100@DIS_Length;
+        PPRR_PPRR_00000100@DIS_Width;
+        MMNN_OOPP_00000100@WrkRef;
+        MMNN_OOPP_00000100@CGroup;
+        MMNN_OOPP_00000100@DIS_OprTimeSetup;
+        WWCC_WWCC_00000100@WrkCap;
+        @#MATERIAL#@;
+        @#THICKNESS#@;
+    end
+
+    declare output
+        EstimatedOperationTime;
+    end
+    
+    object = CreateObject("Lantek.DISLayer_Integra.Applications.ManualData.Manufacturing.OperationTimeTableMDAction,DIS_Integra_apps");
+    EstimatedOperationTime= 0.0;
+    if (not IsNull(object)) then
+        if PPRR_PPRR_00000100@DIS_Length > PPRR_PPRR_00000100@DIS_Width then
+		EstimatedOperationTime = (PPRR_PPRR_00000100@DIS_Length / WWCC_WWCC_00000100@WrkCap) / 60;
+	else
+		EstimatedOperationTime = (PPRR_PPRR_00000100@DIS_Length / WWCC_WWCC_00000100@WrkCap) / 60;
+	end;
+    end; 
+	EstimatedOperationTime = EstimatedOperationTime * 2;
+    
+end

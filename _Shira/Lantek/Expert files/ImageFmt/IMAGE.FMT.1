@@ -1,0 +1,163 @@
+#--------------------------------------------------------------------#
+# PARAMETERS TO CONFIGURE THE GENERATION OF IMAGES                   #
+#--------------------------------------------------------------------#
+# THE BMPS HAS TO BE 70 X 60. IT IS A RESTRICTION OF THE SYSTEM      #
+#--------------------------------------------------------------------#
+#---------------------------------------------------------------------------------------------------------------------------------------------------------------------#
+#I000 Generate image     -> ON: yes; OFF: no                                                                                                                          #
+#I001 Type of element    -> 0: part; 1: nesting; 2: remnant with sheet; 3: remnant without sheet                                                                      #
+#I002 Image format       -> 0: BMP; 1: PNG; 2: WMF; 3: JPEG; 4: GIF; 5: ICO; 6: WBMP                                                                                  #
+#I003 Image size in X                                                                                                                                                 #
+#I004 Image size in Y                                                                                                                                                 #
+#I005 Image colours      -> -1: white and grey; 0: black and white; 1..6: use colours                                                                                 #
+#                           1,2,3: do not fill elements; 4,5,6: fill elements; 7,8,9: use printing colors                                                             #
+#                           1,4,7: draw geometry; 2,5,8: draw machining initialization; 3,6,9: draw machining until the current instruction                           #
+#I006 Print references   -> 0: no; 1: yes (only for nesting images)                                                                                                   #
+#I007 Image code         -> It is used to generate the image name. It must be unique for each type of element                                                         #
+#I008 Dynamic image size -> 0: the image size is fix; 1: the image size depends on the size of the element                                                            #
+#I009 Background         -> -1:Remove grey background when a remnant is used for the nesting
+#                           0,1: without background; 2,3: with background                                                                                                 #
+#                           0,2: sheet simulation disabled; 1,3: sheet simulation enabled                                                                             #
+#I010 Image size units   -> 0: pixels; 1: mm, 2: MM_LOMETRIC                                                                                                          #
+#I011 Filename source    -> 0: DB ID + image code (I007); 1: CNC filename (nesting) / Part reference (part) / Remnant reference (remnant); 2: (1) + image code (I007) #
+#                           If image code (I007) is default image format name (I002: "BMP", "IMGB", "WMF", "JPEG", "GIF", "ICO", "WBMP", "JOBRPT"), do not manage	  #
+#I012 Saving path source -> 0: Database; 1: Custom path (nesting/part/remnant); 2: CNC file path (nesting)															  #
+#							If image code (I007) is default image format name (I002: "BMP", "IMGB", "WMF", "JPEG", "GIF", "ICO", "WBMP", "JOBRPT"), do not manage	  #
+#I013 Custom saving path -> If saving path source (I012) is 1, custom saving path is required                                                                         #
+#I999 End of block                                                                                                                                                    #
+#---------------------------------------------------------------------------------------------------------------------------------------------------------------------#
+I000 ON
+I001 0
+I002 0
+I003 70
+I004 60
+I005 0
+I006 0
+I007 "BMP"
+I008 0
+I009 0
+I010 0
+I011 0
+I012 0
+I013 ""
+I999 ------------------
+I000 ON
+I001 0
+I002 0
+I003 140
+I004 120
+I005 0
+I006 0
+I007 "PNG"
+I008 0
+I009 0
+I010 0
+I011 0
+I012 0
+I013 ""
+I999 ------------------
+I000 ON
+I001 1
+I002 0
+I003 70
+I004 60
+I005 0
+I006 0
+I007 "BMP"
+I008 0
+I009 0
+I010 0
+I011 0
+I012 0
+I013 ""
+I999 ------------------
+I000 ON
+I001 3
+I002 0
+I003 70
+I004 60
+I005 0
+I006 0
+I007 "BMP"
+I008 0
+I009 0
+I010 0
+I011 0
+I012 0
+I013 ""
+I999 ------------------
+I000 ON
+I001 0
+I002 1
+I003 700
+I004 600
+I005 1
+I006 0
+I007 "IMGB"
+I008 1
+I009 3
+I010 0
+I011 0
+I012 0
+I013 ""
+I999 ------------------
+I000 ON
+I001 1
+I002 1
+I003 700
+I004 600
+I005 5
+I006 0
+I007 "IMGB"
+I008 1
+I009 3
+I010 0
+I011 0
+I012 0
+I013 ""
+I999 ------------------
+I000 ON
+I001 0
+I002 2
+I003 250
+I004 250
+I005 0
+I006 0
+I007 "JOBRPT"
+I008 1
+I009 0
+I010 2
+I011 0
+I012 0
+I013 ""
+I999 ------------------
+I000 ON
+I001 1
+I002 2
+I003 1850
+I004 1200
+I005 0
+I006 0
+I007 "JOBRPT"
+I008 1
+I009 0
+I010 2
+I011 0
+I012 0
+I013 ""
+I999 ------------------
+I000 OFF
+I001 1
+I002 2
+I003 1000
+I004 1000
+I005 0
+I006 0
+I007 "WMF"
+I008 0
+I009 0
+I010 0
+I011 0
+I012 0
+I013 ""
+I999 ------------------

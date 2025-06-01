@@ -1,0 +1,85 @@
+
+		public double LeftPanelRightEndPosition = 0.0;
+	
+		public void RightPanelSizeAndLeftDefinition(Stimulsoft.Report.Components.StiPanel panel, double longestField, double sizeReferenceField, out double valueToIncrement, out double modifiedLeftPositionPanel)
+		{				
+			double usableWidthArea = ReportPage.PageWidth - (ReportPage.Margins.Left + ReportPage.Margins.Right);				
+			double remainingFreeArea = usableWidthArea - LeftPanelRightEndPosition;
+			double staticFieldsSize = panel.Width - sizeReferenceField;
+			double totalAreaForAField = remainingFreeArea - staticFieldsSize;
+			
+			if (longestField > totalAreaForAField)
+				valueToIncrement = totalAreaForAField - sizeReferenceField;
+			else 
+				valueToIncrement = GetValueToGrow(longestField, sizeReferenceField);
+			
+			if (valueToIncrement < -0.2)
+				valueToIncrement = -0.2;
+			
+			if (LeftPanelRightEndPosition > (panel.Left - valueToIncrement))
+				modifiedLeftPositionPanel = LeftPanelRightEndPosition;
+			else
+				modifiedLeftPositionPanel = Math.Round(panel.Left,2) - Math.Round(valueToIncrement, 2);
+				
+		}
+		
+		public void LeftPanelSizeDefinition(Stimulsoft.Report.Components.StiPanel panel, double longestField, double sizeReferenceField, out double valueToIncrement)
+		{
+			valueToIncrement = GetValueToGrow(longestField, sizeReferenceField);
+			LeftPanelRightEndPosition = panel.Left + (panel.Width + valueToIncrement);
+		}
+		
+		public string StringChecker(string fieldContent)
+		{
+			if (!string.IsNullOrEmpty(fieldContent))
+				return fieldContent;				
+			else
+				return " ";
+		}
+		
+		
+		public double GetLongestField(List<KeyValuePair<string, Font>> fieldsContent)
+		{
+			float dpi = 100;
+			float longestField = 0.0f;
+			float currentFieldSize;
+			
+			foreach(var field in fieldsContent)
+			{
+				if (!string.IsNullOrWhiteSpace(field.Key))
+				{
+					SizeF sizeMm = MeasureStringInMM(field.Key, field.Value, dpi);
+					currentFieldSize = sizeMm.Width;
+					if (currentFieldSize > longestField)
+					{
+						longestField = currentFieldSize;
+					}
+				}
+			}
+			return longestField / 10; //to divide per 10 is needed because the value here is in mm and we need it in cm
+		}
+		
+		public double GetValueToGrow(double longestField, double sizeReferenceField)
+		{
+			return (Math.Round(longestField, 1) - sizeReferenceField);
+		}
+		
+		public SizeF MeasureStringInMM(string text, Font font, float dpi)
+		{
+			// creates a temporary Bitmap object only to get Graphics object
+			using (Bitmap bitmap = new Bitmap(1, 1))
+			{
+				using (Graphics graphics = Graphics.FromImage(bitmap))
+				{
+					// Measures the size of the string with the font specified in pixels
+					SizeF sizeInInches = graphics.MeasureString(text, font);
+
+					// converts from pixels to mm
+					float widthInMM = (sizeInInches.Width / dpi) * 25.4f;
+					float heightInMM = (sizeInInches.Height / dpi) * 25.4f;
+
+					return new SizeF(widthInMM, heightInMM);
+				}
+			}
+		}		
+		

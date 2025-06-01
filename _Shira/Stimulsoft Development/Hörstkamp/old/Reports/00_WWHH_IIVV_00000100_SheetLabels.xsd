@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="_x0030_0_WWHH_IIVV_00000100_SheetLabels" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+  <xs:element name="_x0030_0_WWHH_IIVV_00000100_SheetLabels" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="WWHH_IIVV_00000100" msprop:Table="WWHH_IIVV_00000100">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="WrhRef" msdata:Caption="Warehouse" type="xs:string" minOccurs="0" />
+              <xs:element name="WrhRef__Lab" msdata:Caption="Warehouse (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="PrdRef" msdata:Caption="Item" type="xs:string" minOccurs="0" />
+              <xs:element name="PrdRef__Lab" msdata:Caption="Item (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="GLS_Var1" msdata:Caption="Length" type="xs:string" minOccurs="0" />
+              <xs:element name="GLS_Var1__Lab" msdata:Caption="Length (Label)" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

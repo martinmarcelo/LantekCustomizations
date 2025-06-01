@@ -1,0 +1,960 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="0" />
+    <DataSources isList="true" count="4">
+      <Jobs Ref="2" type="DataTableSource" isKey="true">
+        <Alias>Jobs</Alias>
+        <Columns isList="true" count="4">
+          <value>JobRef,Reference,System.String</value>
+          <value>JobRef__Lab,Reference_x0020__x0028_Label_x0029_,System.String</value>
+          <value>CusRef,Customer,System.String</value>
+          <value>CusRef__Lab,Customer_x0020__x0028_Label_x0029_,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Jobs</Name>
+        <NameInSource>00_DIS_MMNN_MMOO_00000200_Label_A3.Jobs</NameInSource>
+      </Jobs>
+      <NestingInJobs Ref="3" type="DataTableSource" isKey="true">
+        <Alias>NestingInJobs</Alias>
+        <Columns isList="true" count="252">
+          <value>NstRef,Reference,System.String</value>
+          <value>NstRef__Lab,Reference_x0020__x0028_Label_x0029_,System.String</value>
+          <value>JobRef,Job,System.String</value>
+          <value>JobRef__Lab,Job_x0020__x0028_Label_x0029_,System.String</value>
+          <value>WrkRef,Work_x0020_center,System.String</value>
+          <value>WrkRef__Lab,Work_x0020_center_x0020__x0028_Label_x0029_,System.String</value>
+          <value>CutQuantity,Cut_x0020_quantity,System.Int32</value>
+          <value>CutQuantity__Lab,Cut_x0020_quantity_x0020__x0028_Label_x0029_,System.String</value>
+          <value>CutQuantity__ScN,Cut_x0020_quantity_x0020__x0028_Value_x0029_,System.String</value>
+          <value>CuttingStatus,Cutting_x0020_status,System.Int16</value>
+          <value>CuttingStatus__Lab,Cutting_x0020_status_x0020__x0028_Label_x0029_,System.String</value>
+          <value>CuttingStatus__ScN,Cutting_x0020_status_x0020__x0028_Value_x0029_,System.String</value>
+          <value>SThickness,Sheet_x0020_thickness,System.Double</value>
+          <value>SThickness__Lab,Sheet_x0020_thickness_x0020__x0028_Label_x0029_,System.String</value>
+          <value>SThickness__DBD,Sheet_x0020_thickness_x0020__x0028_Database_x0029_,System.Double</value>
+          <value>SThickness__Scr,Sheet_x0020_thickness_x0020__x0028_Value_x0029_,System.String</value>
+          <value>SThickness__ScN,Sheet_x0020_thickness_x0020__x0028_Value_x0029_,System.String</value>
+          <value>SThickness__Dec,Sheet_x0020_thickness_x0020__x0028_Decimal_x0020_digits_x0029_,System.Int16</value>
+          <value>SThickness__Rnd,Sheet_x0020_thickness_x0020__x0028_Rounded_x0029_,System.Int16</value>
+          <value>SThickness__Sff,Sheet_x0020_thickness_x0020__x0028_Suffix_x0029_,System.String</value>
+          <value>SUWeight,Sheet_x0020_used_x0020_weight,System.Double</value>
+          <value>SUWeight__Lab,Sheet_x0020_used_x0020_weight_x0020__x0028_Label_x0029_,System.String</value>
+          <value>SUWeight__DBD,Sheet_x0020_used_x0020_weight_x0020__x0028_Database_x0029_,System.Double</value>
+          <value>SUWeight__Scr,Sheet_x0020_used_x0020_weight_x0020__x0028_Value_x0029_,System.String</value>
+          <value>SUWeight__ScN,Sheet_x0020_used_x0020_weight_x0020__x0028_Value_x0029_,System.String</value>
+          <value>SUWeight__Dec,Sheet_x0020_used_x0020_weight_x0020__x0028_Decimal_x0020_digits_x0029_,System.Int16</value>
+          <value>SUWeight__Rnd,Sheet_x0020_used_x0020_weight_x0020__x0028_Rounded_x0029_,System.Int16</value>
+          <value>SUWeight__Sff,Sheet_x0020_used_x0020_weight_x0020__x0028_Suffix_x0029_,System.String</value>
+          <value>Quantity,Required_x0020_quantity,System.Int32</value>
+          <value>Quantity__Lab,Required_x0020_quantity_x0020__x0028_Label_x0029_,System.String</value>
+          <value>Quantity__ScN,Required_x0020_quantity_x0020__x0028_Value_x0029_,System.String</value>
+          <value>MQ,Made_x0020_quantity,System.Int32</value>
+          <value>MQ__Lab,Made_x0020_quantity_x0020__x0028_Label_x0029_,System.String</value>
+          <value>MQ__ScN,Made_x0020_quantity_x0020__x0028_Value_x0029_,System.String</value>
+          <value>MState,Manufacturing_x0020_status,System.Int16</value>
+          <value>MState__Lab,Manufacturing_x0020_status_x0020__x0028_Label_x0029_,System.String</value>
+          <value>MState__ScN,Manufacturing_x0020_status_x0020__x0028_Value_x0029_,System.String</value>
+          <value>CNC,CNC_x0020_name,System.String</value>
+          <value>CNC__Lab,CNC_x0020_name_x0020__x0028_Label_x0029_,System.String</value>
+          <value>ShtRef,Sheet,System.String</value>
+          <value>ShtRef__Lab,Sheet_x0020__x0028_Label_x0029_,System.String</value>
+          <value>UData1,User_x0020_data_x0020_1,System.String</value>
+          <value>UData1__Lab,User_x0020_data_x0020_1_x0020__x0028_Label_x0029_,System.String</value>
+          <value>SWidth,Sheet_x0020_width,System.Double</value>
+          <value>SWidth__Lab,Sheet_x0020_width_x0020__x0028_Label_x0029_,System.String</value>
+          <value>SWidth__DBD,Sheet_x0020_width_x0020__x0028_Database_x0029_,System.Double</value>
+          <value>SWidth__Scr,Sheet_x0020_width_x0020__x0028_Value_x0029_,System.String</value>
+          <value>SWidth__ScN,Sheet_x0020_width_x0020__x0028_Value_x0029_,System.String</value>
+          <value>SWidth__Dec,Sheet_x0020_width_x0020__x0028_Decimal_x0020_digits_x0029_,System.Int16</value>
+          <value>SWidth__Rnd,Sheet_x0020_width_x0020__x0028_Rounded_x0029_,System.Int16</value>
+          <value>SWidth__Sff,Sheet_x0020_width_x0020__x0028_Suffix_x0029_,System.String</value>
+          <value>SWeight,Sheet_x0020_weight,System.Double</value>
+          <value>SWeight__Lab,Sheet_x0020_weight_x0020__x0028_Label_x0029_,System.String</value>
+          <value>SWeight__DBD,Sheet_x0020_weight_x0020__x0028_Database_x0029_,System.Double</value>
+          <value>SWeight__Scr,Sheet_x0020_weight_x0020__x0028_Value_x0029_,System.String</value>
+          <value>SWeight__ScN,Sheet_x0020_weight_x0020__x0028_Value_x0029_,System.String</value>
+          <value>SWeight__Dec,Sheet_x0020_weight_x0020__x0028_Decimal_x0020_digits_x0029_,System.Int16</value>
+          <value>SWeight__Rnd,Sheet_x0020_weight_x0020__x0028_Rounded_x0029_,System.Int16</value>
+          <value>SWeight__Sff,Sheet_x0020_weight_x0020__x0028_Suffix_x0029_,System.String</value>
+          <value>SUArea,Sheet_x0020_used_x0020_area,System.Double</value>
+          <value>SUArea__Lab,Sheet_x0020_used_x0020_area_x0020__x0028_Label_x0029_,System.String</value>
+          <value>SUArea__DBD,Sheet_x0020_used_x0020_area_x0020__x0028_Database_x0029_,System.Double</value>
+          <value>SUArea__Scr,Sheet_x0020_used_x0020_area_x0020__x0028_Value_x0029_,System.String</value>
+          <value>SUArea__ScN,Sheet_x0020_used_x0020_area_x0020__x0028_Value_x0029_,System.String</value>
+          <value>SUArea__Dec,Sheet_x0020_used_x0020_area_x0020__x0028_Decimal_x0020_digits_x0029_,System.Int16</value>
+          <value>SUArea__Rnd,Sheet_x0020_used_x0020_area_x0020__x0028_Rounded_x0029_,System.Int16</value>
+          <value>SUArea__Sff,Sheet_x0020_used_x0020_area_x0020__x0028_Suffix_x0029_,System.String</value>
+          <value>SProfitS,Sheet_x0020_use_x0020_without_x0020_remnant,System.Double</value>
+          <value>SProfitS__Lab,Sheet_x0020_use_x0020_without_x0020_remnant_x0020__x0028_Label_x0029_,System.String</value>
+          <value>SProfitS__DBD,Sheet_x0020_use_x0020_without_x0020_remnant_x0020__x0028_Database_x0029_,System.Double</value>
+          <value>SProfitS__Scr,Sheet_x0020_use_x0020_without_x0020_remnant_x0020__x0028_Value_x0029_,System.String</value>
+          <value>SProfitS__ScN,Sheet_x0020_use_x0020_without_x0020_remnant_x0020__x0028_Value_x0029_,System.String</value>
+          <value>SProfitS__Dec,Sheet_x0020_use_x0020_without_x0020_remnant_x0020__x0028_Decimal_x0020_digits_x0029_,System.Int16</value>
+          <value>SProfitS__Rnd,Sheet_x0020_use_x0020_without_x0020_remnant_x0020__x0028_Rounded_x0029_,System.Int16</value>
+          <value>SProfitS__Sff,Sheet_x0020_use_x0020_without_x0020_remnant_x0020__x0028_Suffix_x0029_,System.String</value>
+          <value>ShtRefOrg,Origin_x0020_sheet,System.String</value>
+          <value>ShtRefOrg__Lab,Origin_x0020_sheet_x0020__x0028_Label_x0029_,System.String</value>
+          <value>SLength,Sheet_x0020_length,System.Double</value>
+          <value>SLength__Lab,Sheet_x0020_length_x0020__x0028_Label_x0029_,System.String</value>
+          <value>SLength__DBD,Sheet_x0020_length_x0020__x0028_Database_x0029_,System.Double</value>
+          <value>SLength__Scr,Sheet_x0020_length_x0020__x0028_Value_x0029_,System.String</value>
+          <value>SLength__ScN,Sheet_x0020_length_x0020__x0028_Value_x0029_,System.String</value>
+          <value>SLength__Dec,Sheet_x0020_length_x0020__x0028_Decimal_x0020_digits_x0029_,System.Int16</value>
+          <value>SLength__Rnd,Sheet_x0020_length_x0020__x0028_Rounded_x0029_,System.Int16</value>
+          <value>SLength__Sff,Sheet_x0020_length_x0020__x0028_Suffix_x0029_,System.String</value>
+          <value>SProfit,Sheet_x0020_use,System.Double</value>
+          <value>SProfit__Lab,Sheet_x0020_use_x0020__x0028_Label_x0029_,System.String</value>
+          <value>SProfit__DBD,Sheet_x0020_use_x0020__x0028_Database_x0029_,System.Double</value>
+          <value>SProfit__Scr,Sheet_x0020_use_x0020__x0028_Value_x0029_,System.String</value>
+          <value>SProfit__ScN,Sheet_x0020_use_x0020__x0028_Value_x0029_,System.String</value>
+          <value>SProfit__Dec,Sheet_x0020_use_x0020__x0028_Decimal_x0020_digits_x0029_,System.Int16</value>
+          <value>SProfit__Rnd,Sheet_x0020_use_x0020__x0028_Rounded_x0029_,System.Int16</value>
+          <value>SProfit__Sff,Sheet_x0020_use_x0020__x0028_Suffix_x0029_,System.String</value>
+          <value>RequiredDate,Required_x0020_date,System.DateTime</value>
+          <value>RequiredDate__Lab,Required_x0020_date_x0020__x0028_Label_x0029_,System.String</value>
+          <value>RequiredDate__ScN,Required_x0020_date_x0020__x0028_Value_x0029_,System.String</value>
+          <value>RequiredDate__LDt,Required_x0020_date_x0020__x0028_Long_x0020_date_x0029_,System.String</value>
+          <value>RequiredDate__MDt,Required_x0020_date_x0020__x0028_Medium_x0020_date_x0029_,System.String</value>
+          <value>RequiredDate__SDt,Required_x0020_date_x0020__x0028_Short_x0020_date_x0029_,System.String</value>
+          <value>RTime,Total_x0020_time,System.Double</value>
+          <value>RTime__Lab,Total_x0020_time_x0020__x0028_Label_x0029_,System.String</value>
+          <value>RTime__ScN,Total_x0020_time_x0020__x0028_Value_x0029_,System.String</value>
+          <value>RTime__Dec,Total_x0020_time_x0020__x0028_Decimal_x0020_digits_x0029_,System.Int16</value>
+          <value>RTime__Rnd,Total_x0020_time_x0020__x0028_Rounded_x0029_,System.Int16</value>
+          <value>SArea,Sheet_x0020_area,System.Double</value>
+          <value>SArea__Lab,Sheet_x0020_area_x0020__x0028_Label_x0029_,System.String</value>
+          <value>SArea__DBD,Sheet_x0020_area_x0020__x0028_Database_x0029_,System.Double</value>
+          <value>SArea__Scr,Sheet_x0020_area_x0020__x0028_Value_x0029_,System.String</value>
+          <value>SArea__ScN,Sheet_x0020_area_x0020__x0028_Value_x0029_,System.String</value>
+          <value>SArea__Dec,Sheet_x0020_area_x0020__x0028_Decimal_x0020_digits_x0029_,System.Int16</value>
+          <value>SArea__Rnd,Sheet_x0020_area_x0020__x0028_Rounded_x0029_,System.Int16</value>
+          <value>SArea__Sff,Sheet_x0020_area_x0020__x0028_Suffix_x0029_,System.String</value>
+          <value>EDate,End_x0020_date,System.DateTime</value>
+          <value>EDate__Lab,End_x0020_date_x0020__x0028_Label_x0029_,System.String</value>
+          <value>EDate__ScN,End_x0020_date_x0020__x0028_Value_x0029_,System.String</value>
+          <value>EDate__LDt,End_x0020_date_x0020__x0028_Long_x0020_date_x0029_,System.String</value>
+          <value>EDate__MDt,End_x0020_date_x0020__x0028_Medium_x0020_date_x0029_,System.String</value>
+          <value>EDate__SDt,End_x0020_date_x0020__x0028_Short_x0020_date_x0029_,System.String</value>
+          <value>ETime,Estimated_x0020_time,System.Double</value>
+          <value>ETime__Lab,Estimated_x0020_time_x0020__x0028_Label_x0029_,System.String</value>
+          <value>ETime__ScN,Estimated_x0020_time_x0020__x0028_Value_x0029_,System.String</value>
+          <value>ETime__Dec,Estimated_x0020_time_x0020__x0028_Decimal_x0020_digits_x0029_,System.Int16</value>
+          <value>ETime__Rnd,Estimated_x0020_time_x0020__x0028_Rounded_x0029_,System.Int16</value>
+          <value>SXMax,Sheet_x0020_maximum_x0020_used_x0020_X,System.Double</value>
+          <value>SXMax__Lab,Sheet_x0020_maximum_x0020_used_x0020_X_x0020__x0028_Label_x0029_,System.String</value>
+          <value>SXMax__DBD,Sheet_x0020_maximum_x0020_used_x0020_X_x0020__x0028_Database_x0029_,System.Double</value>
+          <value>SXMax__Scr,Sheet_x0020_maximum_x0020_used_x0020_X_x0020__x0028_Value_x0029_,System.String</value>
+          <value>SXMax__ScN,Sheet_x0020_maximum_x0020_used_x0020_X_x0020__x0028_Value_x0029_,System.String</value>
+          <value>SXMax__Dec,Sheet_x0020_maximum_x0020_used_x0020_X_x0020__x0028_Decimal_x0020_digits_x0029_,System.Int16</value>
+          <value>SXMax__Rnd,Sheet_x0020_maximum_x0020_used_x0020_X_x0020__x0028_Rounded_x0029_,System.Int16</value>
+          <value>SXMax__Sff,Sheet_x0020_maximum_x0020_used_x0020_X_x0020__x0028_Suffix_x0029_,System.String</value>
+          <value>SYMax,Sheet_x0020_maximum_x0020_used_x0020_Y,System.Double</value>
+          <value>SYMax__Lab,Sheet_x0020_maximum_x0020_used_x0020_Y_x0020__x0028_Label_x0029_,System.String</value>
+          <value>SYMax__DBD,Sheet_x0020_maximum_x0020_used_x0020_Y_x0020__x0028_Database_x0029_,System.Double</value>
+          <value>SYMax__Scr,Sheet_x0020_maximum_x0020_used_x0020_Y_x0020__x0028_Value_x0029_,System.String</value>
+          <value>SYMax__ScN,Sheet_x0020_maximum_x0020_used_x0020_Y_x0020__x0028_Value_x0029_,System.String</value>
+          <value>SYMax__Dec,Sheet_x0020_maximum_x0020_used_x0020_Y_x0020__x0028_Decimal_x0020_digits_x0029_,System.Int16</value>
+          <value>SYMax__Rnd,Sheet_x0020_maximum_x0020_used_x0020_Y_x0020__x0028_Rounded_x0029_,System.Int16</value>
+          <value>SYMax__Sff,Sheet_x0020_maximum_x0020_used_x0020_Y_x0020__x0028_Suffix_x0029_,System.String</value>
+          <value>UData2,User_x0020_data_x0020_2,System.String</value>
+          <value>UData2__Lab,User_x0020_data_x0020_2_x0020__x0028_Label_x0029_,System.String</value>
+          <value>UData3,User_x0020_data_x0020_3,System.String</value>
+          <value>UData3__Lab,User_x0020_data_x0020_3_x0020__x0028_Label_x0029_,System.String</value>
+          <value>RealTimeUpdated,System.Boolean</value>
+          <value>RealTimeUpdated__Lab,RealTimeUpdated_x0020__x0028_Label_x0029_,System.String</value>
+          <value>RealTimeUpdated__ScN,RealTimeUpdated_x0020__x0028_Value_x0029_,System.String</value>
+          <value>MatRef,Sheet_x0020_Material,System.String</value>
+          <value>MatRef__Lab,Sheet_x0020_Material_x0020__x0028_Label_x0029_,System.String</value>
+          <value>NestedParts.NstRef,Nesting,System.String</value>
+          <value>NestedParts.NstRef__Lab,Nesting_x0020__x0028_Label_x0029_,System.String</value>
+          <value>NestedParts.MnORef,Production_x0020_order,System.String</value>
+          <value>NestedParts.MnORef__Lab,Production_x0020_order_x0020__x0028_Label_x0029_,System.String</value>
+          <value>NestedParts.OprID,Operation_x0020_number,System.Int32</value>
+          <value>NestedParts.OprID__Lab,Operation_x0020_number_x0020__x0028_Label_x0029_,System.String</value>
+          <value>NestedParts.OprID__ScN,Operation_x0020_number_x0020__x0028_Value_x0029_,System.String</value>
+          <value>NestedParts.PrdRefDst,Item,System.String</value>
+          <value>NestedParts.PrdRefDst__Lab,Item_x0020__x0028_Label_x0029_,System.String</value>
+          <value>NestedParts.Quantity,Quantity_x002F_Sheet,System.Int32</value>
+          <value>NestedParts.Quantity__Lab,Quantity_x002F_Sheet_x0020__x0028_Label_x0029_,System.String</value>
+          <value>NestedParts.Quantity__ScN,Quantity_x002F_Sheet_x0020__x0028_Value_x0029_,System.String</value>
+          <value>NestedParts.MQ,Made_x0020_quantity,System.Int32</value>
+          <value>NestedParts.MQ__Lab,Made_x0020_quantity_x0020__x0028_Label_x0029_,System.String</value>
+          <value>NestedParts.MQ__ScN,Made_x0020_quantity_x0020__x0028_Value_x0029_,System.String</value>
+          <value>NestingMNO.MnORef,Production_x0020_order,System.String</value>
+          <value>NestingMNO.MnORef__Lab,Production_x0020_order_x0020__x0028_Label_x0029_,System.String</value>
+          <value>NestingMNO.PrdRef,Item,System.String</value>
+          <value>NestingMNO.PrdRef__Lab,Item_x0020__x0028_Label_x0029_,System.String</value>
+          <value>NestingMNO.MadeQuan,Made_x0020_quantity,System.Double</value>
+          <value>NestingMNO.MadeQuan__Lab,Made_x0020_quantity_x0020__x0028_Label_x0029_,System.String</value>
+          <value>NestingMNO.MadeQuan__DBD,Made_x0020_quantity_x0020__x0028_Database_x0029_,System.Double</value>
+          <value>NestingMNO.MadeQuan__Scr,Made_x0020_quantity_x0020__x0028_Value_x0029_,System.String</value>
+          <value>NestingMNO.MadeQuan__ScN,Made_x0020_quantity_x0020__x0028_Value_x0029_,System.String</value>
+          <value>NestingMNO.MadeQuan__Dec,Made_x0020_quantity_x0020__x0028_Decimal_x0020_digits_x0029_,System.Int16</value>
+          <value>NestingMNO.MadeQuan__Rnd,Made_x0020_quantity_x0020__x0028_Rounded_x0029_,System.Int16</value>
+          <value>NestingMNO.MadeQuan__Sff,Made_x0020_quantity_x0020__x0028_Suffix_x0029_,System.String</value>
+          <value>NestingMNO.UntName,Unit,System.String</value>
+          <value>NestingMNO.UntName__Lab,Unit_x0020__x0028_Label_x0029_,System.String</value>
+          <value>NestingMNO.UCtName,Unit_x0020_category,System.String</value>
+          <value>NestingMNO.UCtName__Lab,Unit_x0020_category_x0020__x0028_Label_x0029_,System.String</value>
+          <value>NestingMNO.CusRef,Customer,System.String</value>
+          <value>NestingMNO.CusRef__Lab,Customer_x0020__x0028_Label_x0029_,System.String</value>
+          <value>NestingMNO.OLineNum,Sales_x0020_order_x0020_line,System.String</value>
+          <value>NestingMNO.OLineNum__Lab,Sales_x0020_order_x0020_line_x0020__x0028_Label_x0029_,System.String</value>
+          <value>NestingMNO.OrdRef,Associated_x0020_element,System.String</value>
+          <value>NestingMNO.OrdRef__Lab,Associated_x0020_element_x0020__x0028_Label_x0029_,System.String</value>
+          <value>NestingMNO.Descrip,Description,System.String</value>
+          <value>NestingMNO.Descrip__Lab,Description_x0020__x0028_Label_x0029_,System.String</value>
+          <value>NestingMNO.CusName,Customer_x0020_name,System.String</value>
+          <value>NestingMNO.CusName__Lab,Customer_x0020_name_x0020__x0028_Label_x0029_,System.String</value>
+          <value>NestingMNO.Quantity,Quantity,System.Double</value>
+          <value>NestingMNO.Quantity__Lab,Quantity_x0020__x0028_Label_x0029_,System.String</value>
+          <value>NestingMNO.Quantity__DBD,Quantity_x0020__x0028_Database_x0029_,System.Double</value>
+          <value>NestingMNO.Quantity__Scr,Quantity_x0020__x0028_Value_x0029_,System.String</value>
+          <value>NestingMNO.Quantity__ScN,Quantity_x0020__x0028_Value_x0029_,System.String</value>
+          <value>NestingMNO.Quantity__Dec,Quantity_x0020__x0028_Decimal_x0020_digits_x0029_,System.Int16</value>
+          <value>NestingMNO.Quantity__Rnd,Quantity_x0020__x0028_Rounded_x0029_,System.Int16</value>
+          <value>NestingMNO.Quantity__Sff,Quantity_x0020__x0028_Suffix_x0029_,System.String</value>
+          <value>NestingMNO.OrderType,Type,System.Int16</value>
+          <value>NestingMNO.OrderType__Lab,Type_x0020__x0028_Label_x0029_,System.String</value>
+          <value>NestingMNO.OrderType__ScN,Type_x0020__x0028_Value_x0029_,System.String</value>
+          <value>WorkOrderPart.PrdRef,Reference,System.String</value>
+          <value>WorkOrderPart.PrdRef__Lab,Reference_x0020__x0028_Label_x0029_,System.String</value>
+          <value>WorkOrderPart.DIS_Length,Length,System.Double</value>
+          <value>WorkOrderPart.DIS_Length__Lab,Length_x0020__x0028_Label_x0029_,System.String</value>
+          <value>WorkOrderPart.DIS_Length__DBD,Length_x0020__x0028_Database_x0029_,System.Double</value>
+          <value>WorkOrderPart.DIS_Length__Scr,Length_x0020__x0028_Value_x0029_,System.String</value>
+          <value>WorkOrderPart.DIS_Length__ScN,Length_x0020__x0028_Value_x0029_,System.String</value>
+          <value>WorkOrderPart.DIS_Length__Dec,Length_x0020__x0028_Decimal_x0020_digits_x0029_,System.Int16</value>
+          <value>WorkOrderPart.DIS_Length__Rnd,Length_x0020__x0028_Rounded_x0029_,System.Int16</value>
+          <value>WorkOrderPart.DIS_Length__Sff,Length_x0020__x0028_Suffix_x0029_,System.String</value>
+          <value>WorkOrderPart.DIS_Width,Width,System.Double</value>
+          <value>WorkOrderPart.DIS_Width__Lab,Width_x0020__x0028_Label_x0029_,System.String</value>
+          <value>WorkOrderPart.DIS_Width__DBD,Width_x0020__x0028_Database_x0029_,System.Double</value>
+          <value>WorkOrderPart.DIS_Width__Scr,Width_x0020__x0028_Value_x0029_,System.String</value>
+          <value>WorkOrderPart.DIS_Width__ScN,Width_x0020__x0028_Value_x0029_,System.String</value>
+          <value>WorkOrderPart.DIS_Width__Dec,Width_x0020__x0028_Decimal_x0020_digits_x0029_,System.Int16</value>
+          <value>WorkOrderPart.DIS_Width__Rnd,Width_x0020__x0028_Rounded_x0029_,System.Int16</value>
+          <value>WorkOrderPart.DIS_Width__Sff,Width_x0020__x0028_Suffix_x0029_,System.String</value>
+          <value>WorkOrderPart.DIS_Area,Area,System.Double</value>
+          <value>WorkOrderPart.DIS_Area__Lab,Area_x0020__x0028_Label_x0029_,System.String</value>
+          <value>WorkOrderPart.DIS_Area__DBD,Area_x0020__x0028_Database_x0029_,System.Double</value>
+          <value>WorkOrderPart.DIS_Area__Scr,Area_x0020__x0028_Value_x0029_,System.String</value>
+          <value>WorkOrderPart.DIS_Area__ScN,Area_x0020__x0028_Value_x0029_,System.String</value>
+          <value>WorkOrderPart.DIS_Area__Dec,Area_x0020__x0028_Decimal_x0020_digits_x0029_,System.Int16</value>
+          <value>WorkOrderPart.DIS_Area__Rnd,Area_x0020__x0028_Rounded_x0029_,System.Int16</value>
+          <value>WorkOrderPart.DIS_Area__Sff,Area_x0020__x0028_Suffix_x0029_,System.String</value>
+          <value>WorkOrderPart.Image,Image,System.String</value>
+          <value>WorkOrderPart.Image__Lab,Image_x0020__x0028_Label_x0029_,System.String</value>
+          <value>WorkOrderPart.Image__DBD,Image_x0020__x0028_Database_x0029_,System.String</value>
+          <value>WorkOrderPart.PrdName,Name,System.String</value>
+          <value>WorkOrderPart.PrdName__Lab,Name_x0020__x0028_Label_x0029_,System.String</value>
+          <value>WorkOrderPart.ForSale,Sale,System.Boolean</value>
+          <value>WorkOrderPart.ForSale__Lab,Sale_x0020__x0028_Label_x0029_,System.String</value>
+          <value>WorkOrderPart.ForSale__ScN,Sale_x0020__x0028_Value_x0029_,System.String</value>
+          <value>WorkOrderPart.DIS_UData1_Prt,User_x0020_data_x0020_1,System.String</value>
+          <value>WorkOrderPart.DIS_UData1_Prt__Lab,User_x0020_data_x0020_1_x0020__x0028_Label_x0029_,System.String</value>
+          <value>WorkOrderPart.DIS_UData2_Prt,User_x0020_data_x0020_2,System.String</value>
+          <value>WorkOrderPart.DIS_UData2_Prt__Lab,User_x0020_data_x0020_2_x0020__x0028_Label_x0029_,System.String</value>
+          <value>WorkOrderPart.DIS_UData3_Prt,User_x0020_data_x0020_3,System.String</value>
+          <value>WorkOrderPart.DIS_UData3_Prt__Lab,User_x0020_data_x0020_3_x0020__x0028_Label_x0029_,System.String</value>
+          <value>WorkOrderPart.DIS_UData4_Prt,User_x0020_data_x0020_4,System.String</value>
+          <value>WorkOrderPart.DIS_UData4_Prt__Lab,User_x0020_data_x0020_4_x0020__x0028_Label_x0029_,System.String</value>
+          <value>WorkOrderPart.DIS_UData6_Prt,User_x0020_data_x0020_6,System.String</value>
+          <value>WorkOrderPart.DIS_UData6_Prt__Lab,User_x0020_data_x0020_6_x0020__x0028_Label_x0029_,System.String</value>
+          <value>WorkOrderPart.DIS_UData7_Prt,User_x0020_data_x0020_7,System.String</value>
+          <value>WorkOrderPart.DIS_UData7_Prt__Lab,User_x0020_data_x0020_7_x0020__x0028_Label_x0029_,System.String</value>
+          <value>WorkOrderPart.DIS_UData5_Prt,User_x0020_data_x0020_5,System.String</value>
+          <value>WorkOrderPart.DIS_UData5_Prt__Lab,User_x0020_data_x0020_5_x0020__x0028_Label_x0029_,System.String</value>
+          <value>WorkOrderPart.DIS_UData8_Prt,User_x0020_data_x0020_8,System.String</value>
+          <value>WorkOrderPart.DIS_UData8_Prt__Lab,User_x0020_data_x0020_8_x0020__x0028_Label_x0029_,System.String</value>
+          <value>WorkOrderPart.DIS_RouteAbbreviation,Abbreviated_x0020_route,System.String</value>
+          <value>WorkOrderPart.DIS_RouteAbbreviation__Lab,Abbreviated_x0020_route_x0020__x0028_Label_x0029_,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>NestingInJobs</Name>
+        <NameInSource>00_DIS_MMNN_MMOO_00000200_Label_A3.NestingInJobs</NameInSource>
+      </NestingInJobs>
+      <OrdersForRouting Ref="4" type="DataTableSource" isKey="true">
+        <Alias>OrdersForRouting</Alias>
+        <Columns isList="true" count="20">
+          <value>MnORef,Production_x0020_order,System.String</value>
+          <value>MnORef__Lab,Production_x0020_order_x0020__x0028_Label_x0029_,System.String</value>
+          <value>OprID,Operation_x0020_number,System.Int32</value>
+          <value>OprID__Lab,Operation_x0020_number_x0020__x0028_Label_x0029_,System.String</value>
+          <value>OprID__ScN,Operation_x0020_number_x0020__x0028_Value_x0029_,System.String</value>
+          <value>DIS_JobRef,Job,System.String</value>
+          <value>DIS_JobRef__Lab,Job_x0020__x0028_Label_x0029_,System.String</value>
+          <value>PrdRef,Main_x0020_item,System.String</value>
+          <value>PrdRef__Lab,Main_x0020_item_x0020__x0028_Label_x0029_,System.String</value>
+          <value>OperationsForRouting.PrdRef,Item,System.String</value>
+          <value>OperationsForRouting.PrdRef__Lab,Item_x0020__x0028_Label_x0029_,System.String</value>
+          <value>OperationsForRouting.RouRef,Routing,System.String</value>
+          <value>OperationsForRouting.RouRef__Lab,Routing_x0020__x0028_Label_x0029_,System.String</value>
+          <value>OperationsForRouting.OOrder,Operation_x0020_number,System.Int32</value>
+          <value>OperationsForRouting.OOrder__Lab,Operation_x0020_number_x0020__x0028_Label_x0029_,System.String</value>
+          <value>OperationsForRouting.OOrder__ScN,Operation_x0020_number_x0020__x0028_Value_x0029_,System.String</value>
+          <value>OperationsForRouting.WrkRef,Work_x0020_center,System.String</value>
+          <value>OperationsForRouting.WrkRef__Lab,Work_x0020_center_x0020__x0028_Label_x0029_,System.String</value>
+          <value>OperationsForRouting.OprRef,Operation,System.String</value>
+          <value>OperationsForRouting.OprRef__Lab,Operation_x0020__x0028_Label_x0029_,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>OrdersForRouting</Name>
+        <NameInSource>00_DIS_MMNN_MMOO_00000200_Label_A3.OrdersForRouting</NameInSource>
+      </OrdersForRouting>
+      <OrdersForSales Ref="5" type="DataTableSource" isKey="true">
+        <Alias>OrdersForSales</Alias>
+        <Columns isList="true" count="17">
+          <value>MnORef,Production_x0020_order,System.String</value>
+          <value>MnORef__Lab,Production_x0020_order_x0020__x0028_Label_x0029_,System.String</value>
+          <value>OprID,Operation_x0020_number,System.Int32</value>
+          <value>OprID__Lab,Operation_x0020_number_x0020__x0028_Label_x0029_,System.String</value>
+          <value>OprID__ScN,Operation_x0020_number_x0020__x0028_Value_x0029_,System.String</value>
+          <value>DIS_JobRef,Job,System.String</value>
+          <value>DIS_JobRef__Lab,Job_x0020__x0028_Label_x0029_,System.String</value>
+          <value>OrdRef,Associated_x0020_element,System.String</value>
+          <value>OrdRef__Lab,Associated_x0020_element_x0020__x0028_Label_x0029_,System.String</value>
+          <value>PrdRef,Main_x0020_item,System.String</value>
+          <value>PrdRef__Lab,Main_x0020_item_x0020__x0028_Label_x0029_,System.String</value>
+          <value>SalesLinesForSales.OrdRef,Order,System.String</value>
+          <value>SalesLinesForSales.OrdRef__Lab,Order_x0020__x0028_Label_x0029_,System.String</value>
+          <value>SalesLinesForSales.LineNum,Line_x0020_number,System.String</value>
+          <value>SalesLinesForSales.LineNum__Lab,Line_x0020_number_x0020__x0028_Label_x0029_,System.String</value>
+          <value>SalesLinesForSales.PrdRef,Item,System.String</value>
+          <value>SalesLinesForSales.PrdRef__Lab,Item_x0020__x0028_Label_x0029_,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>OrdersForSales</Name>
+        <NameInSource>00_DIS_MMNN_MMOO_00000200_Label_A3.OrdersForSales</NameInSource>
+      </OrdersForSales>
+    </DataSources>
+    <Relations isList="true" count="3">
+      <Jobs Ref="6" type="DataRelation" isKey="true">
+        <Alias>Jobs</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>JobRef</value>
+        </ChildColumns>
+        <ChildSource isRef="3" />
+        <Dictionary isRef="1" />
+        <Name>Jobs</Name>
+        <NameInSource>NestingInJobs_child_Jobs</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>JobRef</value>
+        </ParentColumns>
+        <ParentSource isRef="2" />
+      </Jobs>
+      <Jobs Ref="7" type="DataRelation" isKey="true">
+        <Alias>Jobs</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>DIS_JobRef</value>
+        </ChildColumns>
+        <ChildSource isRef="4" />
+        <Dictionary isRef="1" />
+        <Name>Jobs</Name>
+        <NameInSource>OrdersForRouting_child_Jobs</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>JobRef</value>
+        </ParentColumns>
+        <ParentSource isRef="2" />
+      </Jobs>
+      <Jobs Ref="8" type="DataRelation" isKey="true">
+        <Alias>Jobs</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>DIS_JobRef</value>
+        </ChildColumns>
+        <ChildSource isRef="5" />
+        <Dictionary isRef="1" />
+        <Name>Jobs</Name>
+        <NameInSource>OrdersForSales_child_Jobs</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>JobRef</value>
+        </ParentColumns>
+        <ParentSource isRef="2" />
+      </Jobs>
+    </Relations>
+    <Report isRef="0" />
+    <Resources isList="true" count="0" />
+    <Variables isList="true" count="4">
+      <value>,__Sys_DatePattern,__Sys_DatePattern,,System.String,,False,False,False,False</value>
+      <value>,__Mss_33466,__Mss_33466,,System.String,,False,False,False,False</value>
+      <value>,shm_Routing,shm_Routing,,System.String,,False,False,False,False</value>
+      <value>,shm_TotalQuantitySaleOrder,shm_TotalQuantitySaleOrder,,System.String,,False,False,False,False</value>
+    </Variables>
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <ReportPage Ref="9" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="3">
+        <DataBand1 Ref="10" type="DataBand" isKey="true">
+          <BeforePrintEvent>string saleOrder = OrdersForSales.OrdRef;
+
+if (ItemsQuantityPerSaleOrderDict.ContainsKey(saleOrder))
+{
+	ItemsQuantityPerSaleOrderDict[saleOrder] += 1;
+}
+else
+{
+	ItemsQuantityPerSaleOrderDict.Add(saleOrder, 1);
+}</BeforePrintEvent>
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,0.4,9.6,0</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <DataRelationName isNull="true" />
+          <DataSourceName>OrdersForSales</DataSourceName>
+          <Filters isList="true" count="0" />
+          <Name>DataBand1</Name>
+          <Page isRef="9" />
+          <Parent isRef="9" />
+          <Sort isList="true" count="0" />
+        </DataBand1>
+        <DataBand3 Ref="11" type="DataBand" isKey="true">
+          <BeforePrintEvent>string workCenter = OrdersForRouting.OperationsForRouting_WrkRef;
+string operationReference = OrdersForRouting.OperationsForRouting_OprRef;
+int operationOrder = OrdersForRouting.OperationsForRouting_OOrder;
+string partReference = OrdersForRouting.OperationsForRouting_PrdRef;
+
+string finalString = "";
+
+if ((OrdersForRouting.DIS_JobRef == Jobs.JobRef) &amp;&amp; (OrdersForRouting.OperationsForRouting_RouRef == "")) 
+{
+
+	if (operationReference.ToUpper() == "2D CUT")
+	{
+		int workCenterLength = workCenter.Length;
+		if (workCenter.Substring(0,6).ToUpper() == "TRUMPF")
+			operationReference = "Laser";
+		else if (workCenter.Substring(workCenterLength - 7,7).ToUpper() == "AUTOGEN")
+			operationReference = "Autogen";
+		else if (workCenter.Substring(workCenterLength - 6,6).ToUpper() == "PLASMA")
+			operationReference = "Plasma";
+	} 
+	
+	if (operationReference.ToUpper() == "BENDING" || operationReference.ToUpper() == "BIEGEN")
+	{
+		operationReference = "Kanten";
+	} 
+	
+	
+	if (operationOrder &gt; 1)
+	{	
+		//Variable1 = OperationsPerLineDict[LinesForRouting.PrdRef];
+		finalString = ", ";
+		//OperationsPerLineDict[LinesForRouting.PrdRef] += ", " + LinesForRouting.Operations_WrkRef;
+	}
+	
+	finalString += operationReference;
+	
+		//OperationsPerLineDict.Add(LinesForRouting.PrdRef, workCenter);
+	
+	if (OperationsPerLineDict.ContainsKey(partReference))
+	{
+		OperationsPerLineDict[partReference] += finalString;
+	}
+	else
+	{
+		OperationsPerLineDict.Add(partReference, finalString);
+	}
+}
+</BeforePrintEvent>
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,1.2,9.6,0</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <DataRelationName isNull="true" />
+          <DataSourceName>OrdersForRouting</DataSourceName>
+          <Filters isList="true" count="0" />
+          <Name>DataBand3</Name>
+          <Page isRef="9" />
+          <Parent isRef="9" />
+          <Sort isList="true" count="0" />
+        </DataBand3>
+        <DataBand2 Ref="12" type="DataBand" isKey="true">
+          <BeforePrintEvent>string partReference = NestingInJobs.NestingMNO_PrdRef;
+shm_Routing = OperationsPerLineDict[partReference];
+
+string saleOrder = NestingInJobs.NestingMNO_OrdRef;
+shm_TotalQuantitySaleOrder = ItemsQuantityPerSaleOrderDict[saleOrder].ToString();
+</BeforePrintEvent>
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <CanGrow>False</CanGrow>
+          <ClientRectangle>0,2,9.6,5</ClientRectangle>
+          <Components isList="true" count="21">
+            <Panel3 Ref="13" type="Panel" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>7.2,0,2.4,2.4</ClientRectangle>
+              <Components isList="true" count="1">
+                <Image3 Ref="14" type="Image" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>0.1,0.1,2.2,2.2</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Guid>cd8e7c5b79ef4d0fad7d47c082ae4dec</Guid>
+                  <ImageURL>{NestingInJobs.WorkOrderPart_Image}</ImageURL>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Image3</Name>
+                  <Page isRef="9" />
+                  <Parent isRef="13" />
+                  <VertAlignment>Center</VertAlignment>
+                </Image3>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <Guid>e10395ec8a8f4a279d9261117c97844d</Guid>
+              <Name>Panel3</Name>
+              <Page isRef="9" />
+              <Parent isRef="12" />
+            </Panel3>
+            <Text8 Ref="15" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,0.8,1.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,9</Font>
+              <Guid>8c6656bf56af4d3b9aad248487b511da</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text8</Name>
+              <Page isRef="9" />
+              <Parent isRef="12" />
+              <Text>Anzahl</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text8>
+            <Text9 Ref="16" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>2.8,0.8,4.2,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,9</Font>
+              <Guid>b379ee532311480c9e70f6bfafba7c50</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text9</Name>
+              <Page isRef="9" />
+              <Parent isRef="12" />
+              <Text>{NestingInJobs.NestedParts_Quantity.ToString() + "/" + NestingInJobs.NestingMNO_Quantity.ToString()}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text9>
+            <Text20 Ref="17" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,0.4,1.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,9</Font>
+              <Guid>014f772aee194c46bb5312a36f5efbe9</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text20</Name>
+              <Page isRef="9" />
+              <Parent isRef="12" />
+              <Text>Name</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text20>
+            <Text21 Ref="18" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,0,1.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,9</Font>
+              <Guid>43a30890214b4f379f78c679e884400a</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text21</Name>
+              <Page isRef="9" />
+              <Parent isRef="12" />
+              <Text>Referenz</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text21>
+            <Text22 Ref="19" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,1.6,1.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,9</Font>
+              <Guid>0cc39055b3204f10849884e7e38cafbb</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text22</Name>
+              <Page isRef="9" />
+              <Parent isRef="12" />
+              <Text>Material</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text22>
+            <Text23 Ref="20" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,2.4,2.8,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,9</Font>
+              <Guid>db17b8cb295f4c7b87b8b5f19f098f12</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text23</Name>
+              <Page isRef="9" />
+              <Parent isRef="12" />
+              <Text>Stärke Breite Höhe</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text23>
+            <Text25 Ref="21" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>2.8,0.4,4.2,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,9</Font>
+              <Guid>7788d666370e4f8294145236ed20e068</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text25</Name>
+              <Page isRef="9" />
+              <Parent isRef="12" />
+              <Text>{NestingInJobs.WorkOrderPart_PrdName}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text25>
+            <Text26 Ref="22" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>2.8,0,4.2,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,9,Bold</Font>
+              <Guid>e0a4ec336c294f9eae0f1ab30d301738</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text26</Name>
+              <Page isRef="9" />
+              <Parent isRef="12" />
+              <Text>{NestingInJobs.WorkOrderPart_PrdRef}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text26>
+            <Text27 Ref="23" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>2.8,1.6,4.2,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,9</Font>
+              <Guid>85f0a98b158341ba964f57d3a2ad433d</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text27</Name>
+              <Page isRef="9" />
+              <Parent isRef="12" />
+              <Text>{NestingInJobs.MatRef}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text27>
+            <Text28 Ref="24" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>2.8,2.4,6.8,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,9</Font>
+              <Guid>6cac5a586de24b6a9b959a1c922c9e4f</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text28</Name>
+              <Page isRef="9" />
+              <Parent isRef="12" />
+              <Text>{NestingInJobs.SThickness.ToString("F0") + " x " + NestingInJobs.WorkOrderPart_DIS_Width.ToString("F0") + " x " + NestingInJobs.WorkOrderPart_DIS_Length.ToString("F0")}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text28>
+            <BarCode2 Ref="25" type="Stimulsoft.Report.BarCodes.StiBarCode" isKey="true">
+              <BackColor>Transparent</BackColor>
+              <BarCodeType Ref="26" type="Stimulsoft.Report.BarCodes.StiEAN13BarCodeType" isKey="true" />
+              <ClientRectangle>0,4,4.2,1</ClientRectangle>
+              <Code>{NestingInJobs.NestingMNO_MnORef}</Code>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8,Bold,Pixel</Font>
+              <ForeColor>Black</ForeColor>
+              <Guid>999f07219dea4835955b70f212d54789</Guid>
+              <Name>BarCode2</Name>
+              <Page isRef="9" />
+              <Parent isRef="12" />
+              <VertAlignment>Center</VertAlignment>
+            </BarCode2>
+            <Image4 Ref="27" type="Image" isKey="true">
+              <AspectRatio>True</AspectRatio>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>6.4,3.8,3.2,1.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Guid>79d4737017944fee9360f2908178f35a</Guid>
+              <Image>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</Image>
+              <Margins>0,0,0,0</Margins>
+              <Name>Image4</Name>
+              <Page isRef="9" />
+              <Parent isRef="12" />
+              <Stretch>True</Stretch>
+              <VertAlignment>Center</VertAlignment>
+            </Image4>
+            <Text29 Ref="28" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>2.8,3.2,6.8,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,9,Bold</Font>
+              <Guid>3731d1372e8a44058b0c2e52f55494e5</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text29</Name>
+              <Page isRef="9" />
+              <Parent isRef="12" />
+              <Text>{shm_Routing}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text29>
+            <Text30 Ref="29" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,3.2,2.8,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,9</Font>
+              <Guid>5b7e720957cc4c859db4efaff3a70dba</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text30</Name>
+              <Page isRef="9" />
+              <Parent isRef="12" />
+              <Text>Arbeitsgang:</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text30>
+            <Text3 Ref="30" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,1.2,1.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,9</Font>
+              <Guid>ea9b3f225c834c2586bb1550aa7a063d</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text3</Name>
+              <Page isRef="9" />
+              <Parent isRef="12" />
+              <Text>CNC</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text3>
+            <Text4 Ref="31" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>2.8,1.2,4.2,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,9</Font>
+              <Guid>ee1264d0b31a41228dc90f0e2e937e3c</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text4</Name>
+              <Page isRef="9" />
+              <Parent isRef="12" />
+              <Text>{NestingInJobs.CNC}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text4>
+            <Text10 Ref="32" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,2.8,2.8,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,9</Font>
+              <Guid>d7ee528aa1b6410fa70eeaceb7678cc6</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text10</Name>
+              <Page isRef="9" />
+              <Parent isRef="12" />
+              <Text>Bestell. - Pos./Gesamt</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text10>
+            <Text24 Ref="33" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>2.8,2.8,6.8,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,9</Font>
+              <Guid>6953ebac8e10479c85cc344f55bbd346</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text24</Name>
+              <Page isRef="9" />
+              <Parent isRef="12" />
+              <Text>{NestingInJobs.NestingMNO_OrdRef + " - " + int.Parse(NestingInJobs.NestingMNO_OLineNum) + "/" + shm_TotalQuantitySaleOrder}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text24>
+            <Text1 Ref="34" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,2,1.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,9</Font>
+              <Guid>52cb9d46cb37470e8f8bbdb117b651bc</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text1</Name>
+              <Page isRef="9" />
+              <Parent isRef="12" />
+              <Text>Kunde</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text1>
+            <Text2 Ref="35" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>2.8,2,4.2,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,9</Font>
+              <Guid>99b97c40f8954301be70bdf86858f21d</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text2</Name>
+              <Page isRef="9" />
+              <Parent isRef="12" />
+              <Text>{NestingInJobs.NestingMNO_CusName}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text2>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DataRelationName isNull="true" />
+          <DataSourceName>NestingInJobs</DataSourceName>
+          <Filters isList="true" count="0" />
+          <Name>DataBand2</Name>
+          <Page isRef="9" />
+          <Parent isRef="9" />
+          <Sort isList="true" count="0" />
+        </DataBand2>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Guid>6c2da2b4c73841838ee3080a90f220be</Guid>
+      <Margins>0.2,0.2,0.2,0.2</Margins>
+      <Name>ReportPage</Name>
+      <PageHeight>5.4</PageHeight>
+      <PageWidth>10</PageWidth>
+      <Report isRef="0" />
+      <Watermark Ref="36" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <Font>Arial,100</Font>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
+    </ReportPage>
+  </Pages>
+  <PrinterSettings Ref="37" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>00_DIS_MMNN_MMOO_00000200_Label_A3</ReportAlias>
+  <ReportAuthor>SYSADM</ReportAuthor>
+  <ReportChanged>2/13/2025 1:41:58 PM</ReportChanged>
+  <ReportCreated>2/10/2025 11:18:54 PM</ReportCreated>
+  <ReportDescription>Etiketten pro Schachteln n-cut24</ReportDescription>
+  <ReportFile>C:/Lantek/System/Common/repository/END/reports/00_DIS_MMNN_MMOO_00000200_Label_A3.mrt</ReportFile>
+  <ReportGuid>4a8f2ef334cf47b287ab99d1d3de301f</ReportGuid>
+  <ReportImage isNull="true" />
+  <ReportName>00_DIS_MMNN_MMOO_00000200_Label_A3</ReportName>
+  <ReportUnit>Centimeters</ReportUnit>
+  <ReportVersion>2017.1.1.0</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+using System.Collections.Generic;
+using System.Globalization;
+
+namespace Reports
+{
+    public class JobParts : Stimulsoft.Report.StiReport
+    {
+        public JobParts()        {
+            this.InitializeComponent();
+        }
+
+		public Dictionary&lt;string, string&gt; OperationsPerLineDict = new Dictionary&lt;string, string&gt;();
+		
+		public Dictionary&lt;double, double&gt; PaymentDiscountsPerTime = new Dictionary&lt;double, double&gt;();
+		
+		public Dictionary&lt;string, int&gt; ItemsQuantityPerSaleOrderDict = new Dictionary&lt;string, int&gt;();
+		
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}
+</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="7">
+    <Titles Ref="38" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>Bottom;[187:187:187];3;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Arial,22,Bold</Font>
+      <Name>Titles</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Titles>
+    <PageHeader Ref="39" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>Bottom;[187:187:187];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Arial,9</Font>
+      <Name>PageHeader</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </PageHeader>
+    <PageFooter Ref="40" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>Top;[187:187:187];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Arial,9</Font>
+      <Name>PageFooter</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </PageFooter>
+    <Headers Ref="41" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>All;[238:238:238];1;Solid;False;4;Black</Border>
+      <Brush>[234:234:234]</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Arial,11,Bold</Font>
+      <Name>Headers</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Headers>
+    <DataClean Ref="42" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Arial,10</Font>
+      <Name>DataClean</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </DataClean>
+    <DataOdd Ref="43" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>All;[221:221:221];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Arial,10</Font>
+      <Name>DataOdd</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </DataOdd>
+    <DataEven Ref="44" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>All;[221:221:221];1;Solid;False;4;Black</Border>
+      <Brush>[255:255:255]</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Arial,10</Font>
+      <Name>DataEven</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </DataEven>
+  </Styles>
+</StiSerializer>

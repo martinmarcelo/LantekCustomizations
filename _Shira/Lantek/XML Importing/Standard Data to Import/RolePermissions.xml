@@ -1,0 +1,682 @@
+<DATAEX>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="User" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Basic permissions" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Administrative" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Addresses" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Administrative" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Bank accounts" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Administrative" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Banking movements" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Administrative" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Banking orders" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Administrative" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Basic permissions" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Administrative" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Companies" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Administrative" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Supplier prices" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Administrative" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Customers auxiliary data" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Administrative" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Contacts" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Administrative" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Delivery notes" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Administrative" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Employees (read only)" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Administrative" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Inventory (read only)" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Administrative" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Methods of payment" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Administrative" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Product backlogs (read only)" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Administrative" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Production orders (read only)" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Administrative" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Purchase receptions (read only)" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Administrative" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Products" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Administrative" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Purchase invoices" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Administrative" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Purchase orders (read only)" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Administrative" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Quotes (read only)" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Administrative" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Sale invoices" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Administrative" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Sale orders" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Administrative" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Sale prices" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Administrative" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Suppliers auxiliary data" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Administrative" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Tariffs" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Administrative" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Taxes" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Administrative" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Materials (read only)" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Commercial manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Addresses" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Commercial manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Basic permissions" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Commercial manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Carriers auxiliary data" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Commercial manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Companies" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Commercial manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Contacts" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Commercial manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Customers auxiliary data" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Commercial manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Delivery notes (read only)" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Commercial manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Employees (read only)" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Commercial manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Inventory (read only)" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Commercial manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Opportunities" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Commercial manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Methods of payment (read only)" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Commercial manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Products" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Commercial manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Production orders (read only)" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Commercial manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Quotes" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Commercial manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Sale invoices (read only)" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Commercial manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Sale orders" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Commercial manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Sale prices" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Commercial manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Tariffs (read only)" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Commercial manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Taxes (read only)" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Commercial manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Materials (read only)" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Purchasing manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Addresses" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Purchasing manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Basic permissions" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Purchasing manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Batch numbers" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Purchasing manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Carriers auxiliary data" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Purchasing manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Companies" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Purchasing manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Contacts" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Purchasing manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Employees (read only)" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Purchasing manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Warehouses (read only)" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Purchasing manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Inventory (read only)" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Purchasing manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Materials (read only)" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Purchasing manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Outsourcing operations" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Purchasing manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Outsourcing orders" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Purchasing manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Outsourcing receptions" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Purchasing manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Outsourcing shipments" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Purchasing manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Product backlogs (read only)" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Purchasing manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Products" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Purchasing manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Purchase invoices" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Purchasing manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Purchase orders" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Purchasing manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Purchase receptions" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Purchasing manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Supplier prices" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Purchasing manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Suppliers auxiliary data" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Purchasing manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Methods of payment (read only)" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Purchasing manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Taxes (read only)" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Purchasing manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Production orders (read only)" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Purchasing manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Work center operations" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Warehouse staff" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Basic permissions" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Warehouse staff" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Batch numbers" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Warehouse staff" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Carriers auxiliary data (read only)" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Warehouse staff" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Companies (read only)" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Warehouse staff" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Contacts (read only)" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Warehouse staff" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Addresses (read only)" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Warehouse staff" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Delivery notes" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Warehouse staff" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Outsourcing receptions" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Warehouse staff" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Outsourcing shipments" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Warehouse staff" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Product backlogs" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Warehouse staff" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Purchase orders (read only)" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Warehouse staff" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Purchase receptions" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Warehouse staff" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Sale orders (read only)" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Warehouse staff" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Warehouses" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Warehouse staff" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Production orders (read only)" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Warehouse staff" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Jobs (read only)" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Warehouse staff" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Products (read only)" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Warehouse staff" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Warehouse movements" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Warehouse staff" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Inventory" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Executive" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Addresses" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Executive" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Bank accounts" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Executive" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Banking movements" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Executive" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Banking orders" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Executive" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Basic permissions" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Executive" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Batch numbers" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Executive" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Carriers auxiliary data" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Executive" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Companies" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Executive" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Contacts" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Executive" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Delivery notes" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Executive" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Employees" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Executive" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Inventory" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Executive" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Jobs" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Executive" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Materials" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Executive" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Methods of payment" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Executive" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Nestings" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Executive" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Opportunities" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Executive" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Outsourcing operations" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Executive" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Outsourcing orders" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Executive" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Outsourcing receptions" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Executive" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Outsourcing shipments" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Executive" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Product backlogs" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Executive" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Product operations" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Executive" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Production orders" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Executive" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Products" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Executive" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Purchase invoices" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Executive" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Purchase orders" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Executive" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Purchase receptions" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Executive" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Quotes" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Executive" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Sale invoices" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Executive" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Sale orders" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Executive" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Sale prices" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Executive" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Supplier prices" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Executive" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Suppliers auxiliary data" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Executive" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Tariffs" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Executive" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Taxes" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Executive" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Warehouses" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Executive" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Work centers" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Production manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Batch numbers (read only)" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Production manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Jobs" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Production manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Materials" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Production manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Nestings" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Production manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Outsourcing operations" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Production manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Outsourcing orders (read only)" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Production manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Product backlogs" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Production manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Product operations" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Production manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Production orders" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Production manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Labor tickets" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Production manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Products" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Production manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Sale orders (read only)" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Production manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Work centers" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Workshop operator" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Basic permissions" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Workshop operator" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Batch numbers (read only)" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Workshop operator" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Inventory (read only)" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Workshop operator" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Jobs (read only)" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Workshop operator" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Materials (read only)" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Workshop operator" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Nestings" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Workshop operator" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Labor tickets" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Workshop operator" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Product backlogs (read only)" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Workshop operator" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Product operations (read only)" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Workshop operator" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Production orders (read only)" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Workshop operator" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Products (read only)" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Workshop operator" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Warehouses (read only)" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Workshop operator" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Work centers (read only)" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="CAM operator" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Basic permissions" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="CAM operator" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Batch numbers (read only)" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="CAM operator" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Jobs" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="CAM operator" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Materials (read only)" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="CAM operator" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Nestings" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="CAM operator" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Product backlogs (read only)" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="CAM operator" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Product operations (read only)" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="CAM operator" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Products" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="CAM operator" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Work centers (read only)" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Financial manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Bank accounts" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Financial manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Banking movements" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Financial manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Banking orders" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Financial manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Accounting" FldType="20" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLEPERMISSIONS">
+		<FIELD FldRef="RoleName" FldValue="Financial manager" FldType="20" />
+		<FIELD FldRef="GroupName" FldValue="Assets" FldType="20" />
+	</COMMAND>
+</DATAEX>

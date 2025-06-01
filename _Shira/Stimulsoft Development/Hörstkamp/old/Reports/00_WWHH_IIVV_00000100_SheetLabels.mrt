@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="0" />
+    <DataSources isList="true" count="1">
+      <WWHH_IIVV_00000100 Ref="2" type="DataTableSource" isKey="true">
+        <Alias>WWHH_IIVV_00000100</Alias>
+        <Columns isList="true" count="6">
+          <value>WrhRef,Warehouse,System.String</value>
+          <value>WrhRef__Lab,Warehouse_x0020__x0028_Label_x0029_,System.String</value>
+          <value>PrdRef,Item,System.String</value>
+          <value>PrdRef__Lab,Item_x0020__x0028_Label_x0029_,System.String</value>
+          <value>GLS_Var1,Length,System.String</value>
+          <value>GLS_Var1__Lab,Length_x0020__x0028_Label_x0029_,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>WWHH_IIVV_00000100</Name>
+        <NameInSource>00_WWHH_IIVV_00000100_SheetLabels.WWHH_IIVV_00000100</NameInSource>
+      </WWHH_IIVV_00000100>
+    </DataSources>
+    <Relations isList="true" count="0" />
+    <Report isRef="0" />
+    <Resources isList="true" count="0" />
+    <Variables isList="true" count="2">
+      <value>,__Sys_DatePattern,__Sys_DatePattern,,System.String,,False,False,False,False</value>
+      <value>,__Mss_33466,__Mss_33466,,System.String,,False,False,False,False</value>
+    </Variables>
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <ReportPage Ref="3" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="3">
+        <PageHeaderBand Ref="4" type="PageHeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0.4,19,1</ClientRectangle>
+          <Components isList="true" count="1">
+            <TitleHeader Ref="5" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,19,0.4</ClientRectangle>
+              <ComponentStyle>PageHeader</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>TitleHeader</Name>
+              <Parent isRef="4" />
+              <PrintOn>ExceptFirstPage</PrintOn>
+              <Text>Plattenetikett</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </TitleHeader>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>PageHeaderBand</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <PrintOn>ExceptFirstPage</PrintOn>
+        </PageHeaderBand>
+        <PageFooterBand Ref="6" type="PageFooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,26.5,19,1.2</ClientRectangle>
+          <Components isList="true" count="2">
+            <TodayFooter Ref="7" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0.5,13.6,0.6</ClientRectangle>
+              <ComponentStyle>PageFooter</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>TodayFooter</Name>
+              <Parent isRef="6" />
+              <PrintOn>OnlyFirstPage</PrintOn>
+              <Text>{String.Format("{0:"+__Sys_DatePattern+"}",Time)}</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </TodayFooter>
+            <PagesFooter Ref="8" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0.5,19,0.6</ClientRectangle>
+              <ComponentStyle>PageFooter</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>PagesFooter</Name>
+              <Parent isRef="6" />
+              <Text>{Replace(Replace(__Mss_33466,"@#PAGENUMBER#@",PageNumber),"@#TOTALPAGECOUNT#@",TotalPageCount)}</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </PagesFooter>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>PageFooterBand</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+        </PageFooterBand>
+        <TitleBand Ref="9" type="ReportTitleBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,2.2,19,1.8</ClientRectangle>
+          <Components isList="true" count="1">
+            <ReportTitle Ref="10" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,19,1</ClientRectangle>
+              <ComponentStyle>Titles</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>ReportTitle</Name>
+              <Parent isRef="9" />
+              <Text>Plattenetikett</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </ReportTitle>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>TitleBand</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+        </TitleBand>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Guid>a1edc2943aa4465c9fbc51af75de71c8</Guid>
+      <Margins>1,1,1,1</Margins>
+      <Name>ReportPage</Name>
+      <PageHeight>29.7</PageHeight>
+      <PageWidth>21</PageWidth>
+      <Report isRef="0" />
+      <Watermark Ref="11" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <Font>Arial,100</Font>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
+    </ReportPage>
+  </Pages>
+  <PrinterSettings Ref="12" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>00_WWHH_IIVV_00000100_SheetLabels</ReportAlias>
+  <ReportAuthor>SYSADM</ReportAuthor>
+  <ReportChanged>3/12/2025 8:42:51 AM</ReportChanged>
+  <ReportCreated>3/12/2025 8:42:51 AM</ReportCreated>
+  <ReportDescription>Plattenetikett</ReportDescription>
+  <ReportFile />
+  <ReportGuid>0d8f5da9fca24f798f5d0e37b95eed10</ReportGuid>
+  <ReportImage isNull="true" />
+  <ReportName>00_WWHH_IIVV_00000100_SheetLabels</ReportName>
+  <ReportUnit>Centimeters</ReportUnit>
+  <ReportVersion>2017.1.1.0</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    public class n00_WWHH_IIVV_00000100_SheetLabels : Stimulsoft.Report.StiReport
+    {
+        public n00_WWHH_IIVV_00000100_SheetLabels()        {
+            this.InitializeComponent();
+        }
+
+        #region StiReport Designer generated code - do not modify
+        #endregion StiReport Designer generated code - do not modify
+    }
+}
+</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="7">
+    <Titles Ref="13" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>Bottom;[187:187:187];3;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Arial,22,Bold</Font>
+      <Name>Titles</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Titles>
+    <PageHeader Ref="14" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>Bottom;[187:187:187];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Arial,9</Font>
+      <Name>PageHeader</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </PageHeader>
+    <PageFooter Ref="15" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>Top;[187:187:187];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Arial,9</Font>
+      <Name>PageFooter</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </PageFooter>
+    <Headers Ref="16" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>All;[238:238:238];1;Solid;False;4;Black</Border>
+      <Brush>[234:234:234]</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Arial,11,Bold</Font>
+      <Name>Headers</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Headers>
+    <DataClean Ref="17" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Arial,10</Font>
+      <Name>DataClean</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </DataClean>
+    <DataOdd Ref="18" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>All;[221:221:221];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Arial,10</Font>
+      <Name>DataOdd</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </DataOdd>
+    <DataEven Ref="19" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>All;[221:221:221];1;Solid;False;4;Black</Border>
+      <Brush>[255:255:255]</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Arial,10</Font>
+      <Name>DataEven</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </DataEven>
+  </Styles>
+</StiSerializer>

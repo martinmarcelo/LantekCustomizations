@@ -1,0 +1,209 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="_x0030_0_SSHH_SSHH_00000100_SheetsLabels" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+  <xs:element name="_x0030_0_SSHH_SSHH_00000100_SheetsLabels" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Receipt" msprop:Table="SSHH_SSHH_00000100">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ShpRef" msdata:Caption="Reference" type="xs:string" minOccurs="0" />
+              <xs:element name="ShpRef__Lab" msdata:Caption="Reference (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="CurName" msdata:Caption="Currency" type="xs:string" minOccurs="0" />
+              <xs:element name="CurName__Lab" msdata:Caption="Currency (Label)" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ReceiptLines" msprop:Table="SSHH_SSHH_00000200">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ShpRef" msdata:Caption="Delivery note" type="xs:string" minOccurs="0" />
+              <xs:element name="ShpRef__Lab" msdata:Caption="Delivery note (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="LineNum" msdata:Caption="Line number" type="xs:int" minOccurs="0" />
+              <xs:element name="LineNum__Lab" msdata:Caption="Line number (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="LineNum__ScN" msdata:Caption="Line number (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="PrdRef" msdata:Caption="Item" type="xs:string" minOccurs="0" />
+              <xs:element name="PrdRef__Lab" msdata:Caption="Item (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="OrdRef" msdata:Caption="Purchase order" type="xs:string" minOccurs="0" />
+              <xs:element name="OrdRef__Lab" msdata:Caption="Purchase order (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="SuppRef" msdata:Caption="Supplier" type="xs:string" minOccurs="0" />
+              <xs:element name="SuppRef__Lab" msdata:Caption="Supplier (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="SPrdRef" msdata:Caption="Supplier item" type="xs:string" minOccurs="0" />
+              <xs:element name="SPrdRef__Lab" msdata:Caption="Supplier item (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="WrhRef" msdata:Caption="Warehouse" type="xs:string" minOccurs="0" />
+              <xs:element name="WrhRef__Lab" msdata:Caption="Warehouse (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="TPrice" msdata:Caption="Subtotal" type="xs:double" minOccurs="0" />
+              <xs:element name="TPrice__Lab" msdata:Caption="Subtotal (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="TPrice__DBD" msdata:Caption="Subtotal (Database)" type="xs:double" minOccurs="0" />
+              <xs:element name="TPrice__Scr" msdata:Caption="Subtotal (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="TPrice__ScN" msdata:Caption="Subtotal (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="TPrice__Dec" msdata:Caption="Subtotal (Decimal digits)" type="xs:short" minOccurs="0" />
+              <xs:element name="TPrice__Rnd" msdata:Caption="Subtotal (Rounded)" type="xs:short" minOccurs="0" />
+              <xs:element name="TPrice__Sff" msdata:Caption="Subtotal (Suffix)" type="xs:string" minOccurs="0" />
+              <xs:element name="TPrice__Prf" msdata:Caption="Subtotal (Prefix)" type="xs:string" minOccurs="0" />
+              <xs:element name="TPrice__PrP" msdata:Caption="Subtotal (Positive prefix)" type="xs:string" minOccurs="0" />
+              <xs:element name="TPrice__PrN" msdata:Caption="Subtotal (Negative prefix)" type="xs:string" minOccurs="0" />
+              <xs:element name="TPrice__SfP" msdata:Caption="Subtotal (Positive suffix)" type="xs:string" minOccurs="0" />
+              <xs:element name="TPrice__SfN" msdata:Caption="Subtotal (Negative suffix)" type="xs:string" minOccurs="0" />
+              <xs:element name="Weight" msdata:Caption="Theoretical weight" type="xs:double" minOccurs="0" />
+              <xs:element name="Weight__Lab" msdata:Caption="Theoretical weight (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="Weight__DBD" msdata:Caption="Theoretical weight (Database)" type="xs:double" minOccurs="0" />
+              <xs:element name="Weight__Scr" msdata:Caption="Theoretical weight (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="Weight__ScN" msdata:Caption="Theoretical weight (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="Weight__Dec" msdata:Caption="Theoretical weight (Decimal digits)" type="xs:short" minOccurs="0" />
+              <xs:element name="Weight__Rnd" msdata:Caption="Theoretical weight (Rounded)" type="xs:short" minOccurs="0" />
+              <xs:element name="Weight__Sff" msdata:Caption="Theoretical weight (Suffix)" type="xs:string" minOccurs="0" />
+              <xs:element name="DIS_WGHUntName" msdata:Caption="Weight unit" type="xs:string" minOccurs="0" />
+              <xs:element name="DIS_WGHUntName__Lab" msdata:Caption="Weight unit (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="DIS_WGHUCtName" msdata:Caption="Weight unit category" type="xs:string" minOccurs="0" />
+              <xs:element name="DIS_WGHUCtName__Lab" msdata:Caption="Weight unit category (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="UPrice" msdata:Caption="Unit price" type="xs:double" minOccurs="0" />
+              <xs:element name="UPrice__Lab" msdata:Caption="Unit price (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="UPrice__DBD" msdata:Caption="Unit price (Database)" type="xs:double" minOccurs="0" />
+              <xs:element name="UPrice__Scr" msdata:Caption="Unit price (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="UPrice__ScN" msdata:Caption="Unit price (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="UPrice__Dec" msdata:Caption="Unit price (Decimal digits)" type="xs:short" minOccurs="0" />
+              <xs:element name="UPrice__Rnd" msdata:Caption="Unit price (Rounded)" type="xs:short" minOccurs="0" />
+              <xs:element name="UPrice__Sff" msdata:Caption="Unit price (Suffix)" type="xs:string" minOccurs="0" />
+              <xs:element name="UPrice__Prf" msdata:Caption="Unit price (Prefix)" type="xs:string" minOccurs="0" />
+              <xs:element name="UPrice__PrP" msdata:Caption="Unit price (Positive prefix)" type="xs:string" minOccurs="0" />
+              <xs:element name="UPrice__PrN" msdata:Caption="Unit price (Negative prefix)" type="xs:string" minOccurs="0" />
+              <xs:element name="UPrice__SfP" msdata:Caption="Unit price (Positive suffix)" type="xs:string" minOccurs="0" />
+              <xs:element name="UPrice__SfN" msdata:Caption="Unit price (Negative suffix)" type="xs:string" minOccurs="0" />
+              <xs:element name="Quantity" type="xs:double" minOccurs="0" />
+              <xs:element name="Quantity__Lab" msdata:Caption="Quantity (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="Quantity__DBD" msdata:Caption="Quantity (Database)" type="xs:double" minOccurs="0" />
+              <xs:element name="Quantity__Scr" msdata:Caption="Quantity (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="Quantity__ScN" msdata:Caption="Quantity (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="Quantity__Dec" msdata:Caption="Quantity (Decimal digits)" type="xs:short" minOccurs="0" />
+              <xs:element name="Quantity__Rnd" msdata:Caption="Quantity (Rounded)" type="xs:short" minOccurs="0" />
+              <xs:element name="Quantity__Sff" msdata:Caption="Quantity (Suffix)" type="xs:string" minOccurs="0" />
+              <xs:element name="QUANUntName" msdata:Caption="Quantity unit" type="xs:string" minOccurs="0" />
+              <xs:element name="QUANUntName__Lab" msdata:Caption="Quantity unit (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="QUANUCtName" msdata:Caption="Quantity unit category" type="xs:string" minOccurs="0" />
+              <xs:element name="QUANUCtName__Lab" msdata:Caption="Quantity unit category (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="PrdName" msdata:Caption="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="PrdName__Lab" msdata:Caption="Name (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="Descrip" msdata:Caption="Comments" type="xs:string" minOccurs="0" />
+              <xs:element name="Descrip__Lab" msdata:Caption="Comments (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalUnits" msdata:Caption="Purchase quantity" type="xs:double" minOccurs="0" />
+              <xs:element name="TotalUnits__Lab" msdata:Caption="Purchase quantity (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalUnits__DBD" msdata:Caption="Purchase quantity (Database)" type="xs:double" minOccurs="0" />
+              <xs:element name="TotalUnits__Scr" msdata:Caption="Purchase quantity (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalUnits__ScN" msdata:Caption="Purchase quantity (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalUnits__Dec" msdata:Caption="Purchase quantity (Decimal digits)" type="xs:short" minOccurs="0" />
+              <xs:element name="TotalUnits__Rnd" msdata:Caption="Purchase quantity (Rounded)" type="xs:short" minOccurs="0" />
+              <xs:element name="TotalUnits__Sff" msdata:Caption="Purchase quantity (Suffix)" type="xs:string" minOccurs="0" />
+              <xs:element name="UntName" msdata:Caption="Purchase unit" type="xs:string" minOccurs="0" />
+              <xs:element name="UntName__Lab" msdata:Caption="Purchase unit (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="UCtName" msdata:Caption="Purchase unit category" type="xs:string" minOccurs="0" />
+              <xs:element name="UCtName__Lab" msdata:Caption="Purchase unit category (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="BatchLines.Date" msdata:Caption="Date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="BatchLines.Date__Lab" msdata:Caption="Date (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="BatchLines.Date__ScN" msdata:Caption="Date (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="BatchLines.Date__LDt" msdata:Caption="Date (Long date)" type="xs:string" minOccurs="0" />
+              <xs:element name="BatchLines.Date__SDt" msdata:Caption="Date (Short date)" type="xs:string" minOccurs="0" />
+              <xs:element name="BatchLines.PrdRef" msdata:Caption="Item" type="xs:string" minOccurs="0" />
+              <xs:element name="BatchLines.PrdRef__Lab" msdata:Caption="Item (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="BatchLines.BatchNo" msdata:Caption="Batch/Serial No." type="xs:string" minOccurs="0" />
+              <xs:element name="BatchLines.BatchNo__Lab" msdata:Caption="Batch/Serial No. (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="BatchLines.Reference" msdata:Caption="Associated element" type="xs:string" minOccurs="0" />
+              <xs:element name="BatchLines.Reference__Lab" msdata:Caption="Associated element (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="BatchLines.RecID" msdata:Caption="Element identifier" type="xs:int" minOccurs="0" />
+              <xs:element name="BatchLines.RecID__Lab" msdata:Caption="Element identifier (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="BatchLines.RecID__ScN" msdata:Caption="Element identifier (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="BatchLines.LineNum" msdata:Caption="Line number" type="xs:string" minOccurs="0" />
+              <xs:element name="BatchLines.LineNum__Lab" msdata:Caption="Line number (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="BatchLines.Type" msdata:Caption="Type" type="xs:short" minOccurs="0" />
+              <xs:element name="BatchLines.Type__Lab" msdata:Caption="Type (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="BatchLines.Type__ScN" msdata:Caption="Type (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="BatchLines.Quantity" msdata:Caption="Quantity" type="xs:double" minOccurs="0" />
+              <xs:element name="BatchLines.Quantity__Lab" msdata:Caption="Quantity (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="BatchLines.Quantity__DBD" msdata:Caption="Quantity (Database)" type="xs:double" minOccurs="0" />
+              <xs:element name="BatchLines.Quantity__Scr" msdata:Caption="Quantity (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="BatchLines.Quantity__ScN" msdata:Caption="Quantity (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="BatchLines.Quantity__Dec" msdata:Caption="Quantity (Decimal digits)" type="xs:short" minOccurs="0" />
+              <xs:element name="BatchLines.Quantity__Rnd" msdata:Caption="Quantity (Rounded)" type="xs:short" minOccurs="0" />
+              <xs:element name="BatchLines.Quantity__Sff" msdata:Caption="Quantity (Suffix)" type="xs:string" minOccurs="0" />
+              <xs:element name="BatchLines.UntName" msdata:Caption="Unit" type="xs:string" minOccurs="0" />
+              <xs:element name="BatchLines.UntName__Lab" msdata:Caption="Unit (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="BatchLines.UCtName" msdata:Caption="Unit category" type="xs:string" minOccurs="0" />
+              <xs:element name="BatchLines.UCtName__Lab" msdata:Caption="Unit category (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="BatchLines.SerialNo" msdata:Caption="Batch/Serial No." type="xs:string" minOccurs="0" />
+              <xs:element name="BatchLines.SerialNo__Lab" msdata:Caption="Batch/Serial No. (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="TrackingNumbers.BatchNo" msdata:Caption="Tracking number" type="xs:string" minOccurs="0" />
+              <xs:element name="TrackingNumbers.BatchNo__Lab" msdata:Caption="Tracking number (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="TrackingNumbers.DIS_CastingNo" msdata:Caption="Casting number" type="xs:string" minOccurs="0" />
+              <xs:element name="TrackingNumbers.DIS_CastingNo__Lab" msdata:Caption="Casting number (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="TrackingNumbers.SuppBatchNo" msdata:Caption="Batch number" type="xs:string" minOccurs="0" />
+              <xs:element name="TrackingNumbers.SuppBatchNo__Lab" msdata:Caption="Batch number (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="TrackingNumbers.SuppRef" msdata:Caption="Supplier" type="xs:string" minOccurs="0" />
+              <xs:element name="TrackingNumbers.SuppRef__Lab" msdata:Caption="Supplier (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="TrackingNumbers.SuppName" msdata:Caption="Supplier name" type="xs:string" minOccurs="0" />
+              <xs:element name="TrackingNumbers.SuppName__Lab" msdata:Caption="Supplier name (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="TrackingNumbers.BatchParent" msdata:Caption="Tracking number origin" type="xs:string" minOccurs="0" />
+              <xs:element name="TrackingNumbers.BatchParent__Lab" msdata:Caption="Tracking number origin (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="ProductLines.PrdRef" msdata:Caption="Reference" type="xs:string" minOccurs="0" />
+              <xs:element name="ProductLines.PrdRef__Lab" msdata:Caption="Reference (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="ProductLines.DIS_Area" msdata:Caption="Area" type="xs:double" minOccurs="0" />
+              <xs:element name="ProductLines.DIS_Area__Lab" msdata:Caption="Area (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="ProductLines.DIS_Area__DBD" msdata:Caption="Area (Database)" type="xs:double" minOccurs="0" />
+              <xs:element name="ProductLines.DIS_Area__Scr" msdata:Caption="Area (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="ProductLines.DIS_Area__ScN" msdata:Caption="Area (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="ProductLines.DIS_Area__Dec" msdata:Caption="Area (Decimal digits)" type="xs:short" minOccurs="0" />
+              <xs:element name="ProductLines.DIS_Area__Rnd" msdata:Caption="Area (Rounded)" type="xs:short" minOccurs="0" />
+              <xs:element name="ProductLines.DIS_Area__Sff" msdata:Caption="Area (Suffix)" type="xs:string" minOccurs="0" />
+              <xs:element name="ProductLines.Image" msdata:Caption="Image" type="xs:string" minOccurs="0" />
+              <xs:element name="ProductLines.Image__Lab" msdata:Caption="Image (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="ProductLines.Image__DBD" msdata:Caption="Image (Database)" type="xs:string" minOccurs="0" />
+              <xs:element name="ProductLines.DIS_MatRef" msdata:Caption="Material" type="xs:string" minOccurs="0" />
+              <xs:element name="ProductLines.DIS_MatRef__Lab" msdata:Caption="Material (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="ProductLines.DIS_Length" msdata:Caption="Length" type="xs:double" minOccurs="0" />
+              <xs:element name="ProductLines.DIS_Length__Lab" msdata:Caption="Length (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="ProductLines.DIS_Length__DBD" msdata:Caption="Length (Database)" type="xs:double" minOccurs="0" />
+              <xs:element name="ProductLines.DIS_Length__Scr" msdata:Caption="Length (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="ProductLines.DIS_Length__ScN" msdata:Caption="Length (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="ProductLines.DIS_Length__Dec" msdata:Caption="Length (Decimal digits)" type="xs:short" minOccurs="0" />
+              <xs:element name="ProductLines.DIS_Length__Rnd" msdata:Caption="Length (Rounded)" type="xs:short" minOccurs="0" />
+              <xs:element name="ProductLines.DIS_Length__Sff" msdata:Caption="Length (Suffix)" type="xs:string" minOccurs="0" />
+              <xs:element name="ProductLines.Weight" msdata:Caption="Weight" type="xs:double" minOccurs="0" />
+              <xs:element name="ProductLines.Weight__Lab" msdata:Caption="Weight (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="ProductLines.Weight__DBD" msdata:Caption="Weight (Database)" type="xs:double" minOccurs="0" />
+              <xs:element name="ProductLines.Weight__Scr" msdata:Caption="Weight (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="ProductLines.Weight__ScN" msdata:Caption="Weight (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="ProductLines.Weight__Dec" msdata:Caption="Weight (Decimal digits)" type="xs:short" minOccurs="0" />
+              <xs:element name="ProductLines.Weight__Rnd" msdata:Caption="Weight (Rounded)" type="xs:short" minOccurs="0" />
+              <xs:element name="ProductLines.Weight__Sff" msdata:Caption="Weight (Suffix)" type="xs:string" minOccurs="0" />
+              <xs:element name="ProductLines.DIS_Thickness" msdata:Caption="Thickness" type="xs:double" minOccurs="0" />
+              <xs:element name="ProductLines.DIS_Thickness__Lab" msdata:Caption="Thickness (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="ProductLines.DIS_Thickness__DBD" msdata:Caption="Thickness (Database)" type="xs:double" minOccurs="0" />
+              <xs:element name="ProductLines.DIS_Thickness__Scr" msdata:Caption="Thickness (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="ProductLines.DIS_Thickness__ScN" msdata:Caption="Thickness (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="ProductLines.DIS_Thickness__Dec" msdata:Caption="Thickness (Decimal digits)" type="xs:short" minOccurs="0" />
+              <xs:element name="ProductLines.DIS_Thickness__Rnd" msdata:Caption="Thickness (Rounded)" type="xs:short" minOccurs="0" />
+              <xs:element name="ProductLines.DIS_Thickness__Sff" msdata:Caption="Thickness (Suffix)" type="xs:string" minOccurs="0" />
+              <xs:element name="ProductLines.DIS_UData1_Sht" msdata:Caption="User data 1" type="xs:string" minOccurs="0" />
+              <xs:element name="ProductLines.DIS_UData1_Sht__Lab" msdata:Caption="User data 1 (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="ProductLines.DIS_UData2_Sht" msdata:Caption="User data 2" type="xs:string" minOccurs="0" />
+              <xs:element name="ProductLines.DIS_UData2_Sht__Lab" msdata:Caption="User data 2 (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="ProductLines.DIS_UData3_Sht" msdata:Caption="User data 3" type="xs:string" minOccurs="0" />
+              <xs:element name="ProductLines.DIS_UData3_Sht__Lab" msdata:Caption="User data 3 (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="ProductLines.DIS_Width" msdata:Caption="Width" type="xs:double" minOccurs="0" />
+              <xs:element name="ProductLines.DIS_Width__Lab" msdata:Caption="Width (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="ProductLines.DIS_Width__DBD" msdata:Caption="Width (Database)" type="xs:double" minOccurs="0" />
+              <xs:element name="ProductLines.DIS_Width__Scr" msdata:Caption="Width (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="ProductLines.DIS_Width__ScN" msdata:Caption="Width (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="ProductLines.DIS_Width__Dec" msdata:Caption="Width (Decimal digits)" type="xs:short" minOccurs="0" />
+              <xs:element name="ProductLines.DIS_Width__Rnd" msdata:Caption="Width (Rounded)" type="xs:short" minOccurs="0" />
+              <xs:element name="ProductLines.DIS_Width__Sff" msdata:Caption="Width (Suffix)" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="ReceiptLines_child_Receipt" msdata:parent="Receipt" msdata:child="ReceiptLines" msdata:parentkey="ShpRef" msdata:childkey="ShpRef" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

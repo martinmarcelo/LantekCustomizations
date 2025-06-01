@@ -1,0 +1,42 @@
+// ******************************************************************************************
+// Non-cutting operation setup time calculation.
+//
+// Input arguments:
+//     - PPRR_PPRR_00000100@Prd_Ref;
+//     - MMNN_OOPP_00000100@WrkRef;
+//     - MMNN_OOPP_00000100@CGroup;
+//     - MMNN_OOPP_00000100@DIS_OprTimeSetup;
+//     - @#MATERIAL#@; special variable  
+//     - @#THICKNESS#@; special variable
+//     - @#QUANTITY#@;
+//	
+// Output parameters:
+//     - SetupTime: operation setup time (h)
+//
+//
+// ******************************************************************************************
+
+
+begin
+
+    declare input
+        PPRR_PPRR_00000100@PrdRef;
+        MMNN_OOPP_00000100@WrkRef;
+        MMNN_OOPP_00000100@CGroup;
+        MMNN_OOPP_00000100@DIS_OprTimeSetup;
+        QQTT_QQTT_00000200@Quantity;
+        @#MATERIAL#@;
+        @#THICKNESS#@;
+	@#QUANTITY#@;
+    end
+
+    declare output
+        OtherOperationCost;
+        Consumption;
+    end
+
+    declare
+        Quantity;
+    end
+OtherOperationCost = 30;
+end

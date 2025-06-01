@@ -1,0 +1,3578 @@
+<DATAEX>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Basic permissions" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SYST_SHRT_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="1" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="0" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="0" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="1" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="1" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="1" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Basic permissions" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SYST_SHRT_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="1" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="0" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="0" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="1" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="1" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="1" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Basic permissions" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SYST_QQEE_00000201" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="1" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="0" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="0" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="1" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="1" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Basic permissions" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SYST_UUMM_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="4" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="4" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="4" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="1" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="1" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="1" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Basic permissions" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SYST_UUMM_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="4" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="4" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="4" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="1" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="1" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="1" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Basic permissions" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SYST_UUMM_00000400" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="4" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="4" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="4" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="1" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="1" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="1" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Basic permissions" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SYST_CCRR_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="4" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="4" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="4" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="1" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="1" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="1" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Basic permissions" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SYST_TTGG_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="1" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="0" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="0" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="1" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="1" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="1" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Basic permissions" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SYST_TTGG_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="4" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="0" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="0" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Basic permissions" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SYST_CCUU_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="4" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="4" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="4" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="1" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="1" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="1" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Basic permissions" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SYST_CCUU_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="4" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="4" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="4" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="1" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="1" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="1" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Basic permissions" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SYST_CCUU_00000300" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="4" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="4" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="4" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="1" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="1" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="1" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Basic permissions" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SYST_SSRR_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="4" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="4" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="4" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="1" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="1" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="1" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Basic permissions" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SYST_FFTT_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="1" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="0" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="0" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="1" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="1" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="1" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Basic permissions" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SYST_AARR_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="1" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="0" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="0" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="1" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="1" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="1" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Basic permissions" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SYST_AARR_00000300" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="4" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="0" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="0" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="4" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="1" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="1" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Basic permissions" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SYST_EETT_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="1" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="0" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="0" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="1" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="1" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="1" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Basic permissions" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SYST_FFLL_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="4" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="0" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="0" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="1" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="1" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="1" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Basic permissions" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SYST_FFLL_00000400" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="4" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="0" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="0" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="1" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="1" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="1" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Basic permissions" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SYST_WRKF_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="4" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="0" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="0" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="1" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="1" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="1" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Basic permissions" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SYST_TASK_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="1" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="4" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="4" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="1" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="1" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="1" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Basic permissions" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SYST_CCLL_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="1" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="0" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="0" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Basic permissions" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SYST_CCLL_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="1" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="0" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="0" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Basic permissions" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SYST_CCLL_00000300" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="1" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="0" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="0" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Quotes (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="QQTT_QQTT_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Quotes (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="QQTT_QQTT_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Quotes (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="QQTT_QQTT_00000300" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Quotes (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="QQTT_QQTT_00000400" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Quotes (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_QQTL_EEXX_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Quotes (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_QQTL_QQTL_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Quotes (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_QQTL_QQTL_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Quotes (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_QQTL_QQTL_00000300" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Quotes" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="QQTT_QQTT_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Quotes" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="QQTT_QQTT_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Quotes" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="QQTT_QQTT_00000300" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Quotes" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="QQTT_QQTT_00000400" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Quotes" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_QQTL_EEXX_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Quotes" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_QQTL_QQTL_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Quotes" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_QQTL_QQTL_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Quotes" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_QQTL_QQTL_00000300" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Quotes" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="PPRR_PPRR_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Quotes" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="MMNN_PPOO_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Quotes" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="MMNN_PPOO_00000300" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Quotes" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="MMNN_OOPP_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Sale orders (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SSAA_SSOO_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Sale orders (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SSAA_SSOO_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Sale orders" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SSAA_SSOO_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Sale orders" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SSAA_SSOO_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Delivery notes (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SSAA_SSHH_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Delivery notes (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SSAA_SSHH_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Delivery notes" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SSAA_SSHH_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Delivery notes" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SSAA_SSHH_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Sale invoices (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SSAA_IINN_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Sale invoices (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SSAA_IINN_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Sale invoices (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SSPP_PPYY_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Sale invoices" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SSAA_IINN_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Sale invoices" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SSAA_IINN_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Sale invoices" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SSPP_PPYY_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Methods of payment (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SSPP_SSPP_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Methods of payment (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SSPP_SSPP_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Methods of payment" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SSPP_SSPP_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Methods of payment" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SSPP_SSPP_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Carriers auxiliary data (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SSPP_SSPP_00000500" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Carriers auxiliary data" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SSPP_SSPP_00000500" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Taxes (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SSPP_SSPP_00001000" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Taxes" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SSPP_SSPP_00001000" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Tariffs (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SSPP_TTRR_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Tariffs" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SSPP_TTRR_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Sale prices (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SSPP_TTRR_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Sale prices" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SSPP_TTRR_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Companies (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="CCOO_CCOO_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Companies" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="CCOO_CCOO_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Contacts (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="CCOO_CONT_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Contacts" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="CCOO_CONT_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Customers auxiliary data (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SSAA_CCUU_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Customers auxiliary data" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SSAA_CCUU_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Suppliers auxiliary data (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SSHH_SSPP_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Suppliers auxiliary data" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SSHH_SSPP_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Addresses (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="AADD_AADD_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Addresses" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="AADD_AADD_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Products (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="PPRR_PPRR_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Products (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="PPRR_PPRR_00000500" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Products (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="PPRR_PPRR_00000600" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Products (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="PPRR_PPRR_00000700" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Products (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="GLS_IITT_PPVV_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Products (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="GLS_IITT_IIVV_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Products (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_SHPR_PPTT_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Products (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_DUCT_FFEE_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Products (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_PPFF_PPFF_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Products (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_SHPR_MMMM_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Products (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_SHPR_PPMM_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Products" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="PPRR_PPRR_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Products" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="PPRR_PPRR_00000500" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Products" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="PPRR_PPRR_00000600" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Products" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="PPRR_PPRR_00000700" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Products" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="GLS_IITT_PPVV_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Products" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="GLS_IITT_IIVV_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Products" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_SHPR_PPTT_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Products" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_DUCT_FFEE_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Products" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_PPFF_PPFF_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Products" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_SHPR_MMMM_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Products" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_SHPR_PPMM_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Supplier prices (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="PPRR_PPRR_00001100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Supplier prices" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="PPRR_PPRR_00001100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Product operations (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="MMNN_PPOO_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Product operations (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="MMNN_PPOO_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Product operations (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="MMNN_PPOO_00000300" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Product operations" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="MMNN_PPOO_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Product operations" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="MMNN_PPOO_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Product operations" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="MMNN_PPOO_00000300" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Materials (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_MMTT_MMTT_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Materials" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_MMTT_MMTT_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="WWCC_WWCC_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="WWCC_WWCC_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_PPTT_WWCC_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_PPTT_WWCC_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_PPTT_WWCC_00000300" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_PPTT_WWCC_00000400" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_PPTT_WWCC_00000500" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_PPTT_WWCC_00000600" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_PPTT_WWCC_00000700" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_PPTT_WWCC_00000800" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_PPTT_WWCC_00000900" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_PPTT_WWCC_00001000" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_PPTT_WWCC_00001100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_PPTT_WWCC_00001200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_PPTT_TTLL_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_PPTT_TTLL_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_PPTT_TTLL_00000300" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_PPTT_TTLL_00000400" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_PPTT_TTRR_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_PPTT_TTRR_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_PPTT_TTRR_00000300" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_PPTT_TTRR_00000400" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_PPTT_TTRR_00000500" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_PPTT_TTRR_00000600" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_PPTT_TTRR_00000700" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_PPTT_TTRR_00000800" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_PPTT_TTRR_00000900" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="WWCC_WWCC_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="WWCC_WWCC_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_PPTT_WWCC_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_PPTT_WWCC_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_PPTT_WWCC_00000300" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_PPTT_WWCC_00000400" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_PPTT_WWCC_00000500" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_PPTT_WWCC_00000600" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_PPTT_WWCC_00000700" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_PPTT_WWCC_00000800" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_PPTT_WWCC_00000900" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_PPTT_WWCC_00001000" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_PPTT_WWCC_00001100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_PPTT_WWCC_00001200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_PPTT_TTLL_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_PPTT_TTLL_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_PPTT_TTLL_00000300" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_PPTT_TTLL_00000400" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_PPTT_TTRR_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_PPTT_TTRR_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_PPTT_TTRR_00000300" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_PPTT_TTRR_00000400" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_PPTT_TTRR_00000500" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_PPTT_TTRR_00000600" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_PPTT_TTRR_00000700" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_PPTT_TTRR_00000800" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work centers" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_PPTT_TTRR_00000900" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Purchase orders (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SSHH_PPOO_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Purchase orders (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SSHH_PPOO_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Purchase orders (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SSHH_PPOO_00000300" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Purchase orders" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SSHH_PPOO_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Purchase orders" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SSHH_PPOO_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Purchase orders" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SSHH_PPOO_00000300" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Purchase receptions (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SSHH_SSHH_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Purchase receptions (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SSHH_SSHH_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Purchase receptions" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SSHH_SSHH_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Purchase receptions" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SSHH_SSHH_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Purchase invoices (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SSHH_IINN_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Purchase invoices (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SSHH_IINN_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Purchase invoices" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SSHH_IINN_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Purchase invoices" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="SSHH_IINN_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Inventory (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="WWHH_IIVV_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Inventory (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="WWHH_IIVV_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Inventory" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="WWHH_IIVV_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Inventory" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="WWHH_IIVV_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Warehouses (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="WWHH_WWHH_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Warehouses (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="WWHH_WWHH_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Warehouses (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="WWHH_WWHH_00000300" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Warehouses" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="WWHH_WWHH_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Warehouses" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="WWHH_WWHH_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Warehouses" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="WWHH_WWHH_00000300" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Warehouse movements (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="WWHH_MMVV_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Warehouse movements" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="WWHH_MMVV_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Product backlogs (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="PPBB_PPBB_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Product backlogs" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="PPBB_PPBB_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Batch numbers (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="GLS_IITT_IITT_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Batch numbers (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="GLS_IITT_IITT_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Batch numbers" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="GLS_IITT_IITT_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Batch numbers" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="GLS_IITT_IITT_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Production orders (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="MMNN_MMOO_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Production orders (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="MMNN_MMOO_00000300" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Production orders (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="MMNN_MMOO_00000400" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Production orders" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="MMNN_MMOO_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Production orders" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="MMNN_MMOO_00000300" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Production orders" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="MMNN_MMOO_00000400" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Labor tickets (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="MMNN_MMOO_00000500" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Labor tickets" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="MMNN_MMOO_00000500" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Jobs (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_MMNN_MMOO_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Jobs" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_MMNN_MMOO_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work center operations (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="MMNN_OOPP_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work center operations (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="MMNN_OOPP_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work center operations" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="MMNN_OOPP_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Work center operations" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="MMNN_OOPP_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Nestings (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_NEST_NEST_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Nestings (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_NEST_NEST_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Nestings (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_NEST_NEST_00000300" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Nestings (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_NEST_NEST_00000400" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Nestings (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_NEST_NEST_00000500" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Nestings (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_NEST_NEST_00000600" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Nestings" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_NEST_NEST_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Nestings" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_NEST_NEST_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Nestings" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_NEST_NEST_00000300" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Nestings" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_NEST_NEST_00000400" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Nestings" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_NEST_NEST_00000500" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Nestings" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="DIS_NEST_NEST_00000600" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Employees (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="EEMM_EEMM_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Employees (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="EEMM_EEMM_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Employees (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="EEMM_EEMM_00000400" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Employees (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="EEMM_EEMM_00000500" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Employees" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="EEMM_EEMM_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Employees" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="EEMM_EEMM_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Employees" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="EEMM_EEMM_00000400" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Employees" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="EEMM_EEMM_00000500" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Outsourcing operations (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="OOSS_CCOO_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Outsourcing operations" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="OOSS_CCOO_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Outsourcing orders (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="OOSS_OOOO_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Outsourcing orders (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="OOSS_OOOO_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Outsourcing orders" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="OOSS_OOOO_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Outsourcing orders" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="OOSS_OOOO_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Outsourcing shipments (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="OOSS_EXDN_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Outsourcing shipments (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="OOSS_EXDN_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Outsourcing shipments" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="OOSS_EXDN_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Outsourcing shipments" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="OOSS_EXDN_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Outsourcing receptions (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="OOSS_ENDN_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Outsourcing receptions (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="OOSS_ENDN_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Outsourcing receptions" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="OOSS_ENDN_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Outsourcing receptions" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="OOSS_ENDN_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Opportunities (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="OOPP_OOPP_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Opportunities (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="OOPP_OOPP_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Opportunities (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="OOPP_OOPP_00000300" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Opportunities (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="OOPP_OOPP_00000400" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Opportunities" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="OOPP_OOPP_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Opportunities" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="OOPP_OOPP_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Opportunities" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="OOPP_OOPP_00000300" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Opportunities" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="OOPP_OOPP_00000400" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Bank accounts (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="AACC_AACC_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Bank accounts (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="AACC_AACC_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Bank accounts" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="AACC_AACC_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Bank accounts" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="AACC_AACC_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Banking movements (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="BBKK_BBKK_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Banking movements" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="BBKK_BBKK_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Banking orders (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="BBKK_OORR_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Banking orders" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="BBKK_OORR_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Accounting (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="AATT_AATT_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Accounting (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="AATT_AATT_00000300" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Accounting (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="AATT_AATT_00000400" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Accounting (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="AATT_AATT_00000500" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Accounting (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="AATT_AATT_00000550" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Accounting (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="AATT_AATT_00000600" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Accounting (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="AATT_AATT_00000700" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Accounting (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="AATT_AATT_00000800" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Accounting (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="AATT_AATT_00001100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Accounting (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="AATT_AATT_00001200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Accounting (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="AATT_AATT_00001300" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Accounting (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="AATT_AATT_00001400" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Accounting (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="AATT_BBDG_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Accounting (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="AATT_PRDF_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Accounting (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="AATT_PRDF_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Accounting" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="AATT_AATT_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Accounting" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="AATT_AATT_00000300" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Accounting" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="AATT_AATT_00000400" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Accounting" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="AATT_AATT_00000500" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Accounting" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="AATT_AATT_00000550" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Accounting" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="AATT_AATT_00000600" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Accounting" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="AATT_AATT_00000700" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Accounting" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="AATT_AATT_00000800" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Accounting" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="AATT_AATT_00001100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Accounting" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="AATT_AATT_00001200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Accounting" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="AATT_AATT_00001300" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Accounting" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="AATT_AATT_00001400" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Accounting" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="AATT_BBDG_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Accounting" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="AATT_PRDF_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Accounting" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="AATT_PRDF_00000200" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Assets (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="AAMM_AAMM_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Assets (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="AAMM_AAMM_00000300" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Assets (read only)" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="AAMM_AAMM_00000400" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="0" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="0" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="0" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="0" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Assets" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="AAMM_AAMM_00000100" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Assets" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="AAMM_AAMM_00000300" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="TABLEPERMISSIONS">
+		<FIELD FldRef="RolName" FldValue="Assets" FldType="20" />
+		<FIELD FldRef="TblRef" FldValue="AAMM_AAMM_00000400" FldType="20" />
+		<FIELD FldRef="PSelect" FldValue="3" FldType="80" />
+		<FIELD FldRef="PPrint" FldValue="3" FldType="80" />
+		<FIELD FldRef="PExport" FldValue="3" FldType="80" />
+		<FIELD FldRef="PInsert" FldValue="1" FldType="80" />
+		<FIELD FldRef="PUpdate" FldValue="3" FldType="80" />
+		<FIELD FldRef="PDelete" FldValue="3" FldType="80" />
+		<FIELD FldRef="PAssign" FldValue="3" FldType="80" />
+		<FIELD FldRef="PShare" FldValue="3" FldType="80" />
+	</COMMAND>
+</DATAEX>

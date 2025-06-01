@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="GLS_IITT_IITT_00000200_SheetLabels" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+  <xs:element name="GLS_IITT_IITT_00000200_SheetLabels" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GLS_IITT_IITT_00000200" msprop:Table="GLS_IITT_IITT_00000200">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Date__Lab" msdata:Caption="Date (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="Date__ScN" msdata:Caption="Date (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="Date__LDt" msdata:Caption="Date (Long date)" type="xs:string" minOccurs="0" />
+              <xs:element name="Date__SDt" msdata:Caption="Date (Short date)" type="xs:string" minOccurs="0" />
+              <xs:element name="PrdRef" msdata:Caption="Item" type="xs:string" minOccurs="0" />
+              <xs:element name="PrdRef__Lab" msdata:Caption="Item (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="BatchNo" msdata:Caption="Batch/Serial No." type="xs:string" minOccurs="0" />
+              <xs:element name="BatchNo__Lab" msdata:Caption="Batch/Serial No. (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="Reference" msdata:Caption="Associated element" type="xs:string" minOccurs="0" />
+              <xs:element name="Reference__Lab" msdata:Caption="Associated element (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="RecID" msdata:Caption="Element identifier" type="xs:int" minOccurs="0" />
+              <xs:element name="RecID__Lab" msdata:Caption="Element identifier (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="RecID__ScN" msdata:Caption="Element identifier (Value)" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

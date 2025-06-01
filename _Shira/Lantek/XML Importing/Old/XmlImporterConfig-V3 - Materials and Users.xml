@@ -1,0 +1,326 @@
+<Configuration>
+    <UserFieldsMapping>
+        <!-- Products -->
+        <FieldItemList TableName="PPRR_PPRR_00000100" AlternativeTableName="PRODUCTS">
+            <FieldItem DBName="ForSale" Tag="FORSALE" AlternativeTag="FORSALE" />
+            <FieldItem DBName="Assembly" Tag="ASSEMBLY" AlternativeTag="ASSEMBLY" />
+            <FieldItem DBName="PrdRef" Tag="RAWREF" AlternativeTag="REFERENCE" />
+            <FieldItem DBName="PrdName" Tag="RAWNAME" AlternativeTag="NAME" />
+            <FieldItem DBName="PrdRef" Tag="PRDREF" AlternativeTag="REFERENCE" />
+            <FieldItem DBName="PrdName" Tag="PRDNAME" AlternativeTag="NAME" />
+            <FieldItem DBName="PType" Tag="RTYPE" AlternativeTag="PTYPE" />
+            <FieldItem DBName="PType" Tag="PTYPE" AlternativeTag="PTYPE" />
+            <FieldItem DBName="Weight" Tag="WEIGHT" AlternativeTag="WEIGHT" />
+            <FieldItem DBName="Image" Tag="IMAGE" AlternativeTag="IMAGE" />
+            <FieldItem DBName="StdCost" Tag="STANDARDCOST" AlternativeTag="STDCOST" />
+            <FieldItem DBName="DIS_PClass" Tag="RCATEGORY" AlternativeTag="RCATEGORY" />
+            <FieldItem DBName="DIS_PClass" Tag="PCATEGORY" AlternativeTag="PCATEGORY" />
+            <FieldItem DBName="DIS_MatRef" Tag="MATREF" AlternativeTag="MATERIAL" />
+            <FieldItem DBName="DIS_Length" Tag="LENGTH" AlternativeTag="LENGTH" />
+            <FieldItem DBName="DIS_Width" Tag="WIDTH" AlternativeTag="WIDTH" />
+            <FieldItem DBName="DIS_Thickness" Tag="HEIGHT" AlternativeTag="THICKNESS" />
+            <FieldItem DBName="DIS_Area" Tag="AREA" AlternativeTag="AREA" />
+            <FieldItem DBName="DIS_Price" Tag="PRICEPERWEIGHT" AlternativeTag="WEIGHTPRICE" />
+            <FieldItem DBName="DIS_CutPerim" Tag="CUTPERIM" AlternativeTag="CUTPERIM" />
+            <FieldItem DBName="DIS_MrkPerim" Tag="MRKPERIM" AlternativeTag="MRKPERIM" />
+            <FieldItem DBName="DIS_RectArea" Tag="RCAREA" AlternativeTag="RECTANGULARAREA" />
+            <FieldItem DBName="DIS_ExtArea" Tag="EXAREA" AlternativeTag="EXTERNALAREA" />
+            <FieldItem DBName="DIS_RectWeight" Tag="RCWEIGHT" AlternativeTag="RECTANGULARWEIGHT" />
+            <FieldItem DBName="DIS_ExtWeight" Tag="EXWEIGHT" AlternativeTag="EXTERNALWEIGHT" />
+            <FieldItem DBName="DIS_FormatRef" Tag="FORMAT" AlternativeTag="FORMAT" />
+            <FieldItem DBName="DIS_ProfileRef" Tag="PROFILE" AlternativeTag="PROFILE" />
+            <FieldItem DBName="DIS_IsRemnant" Tag="REMNANT" AlternativeTag="ISREMNANT" />
+            <FieldItem DBName="DIS_ShtRefOrg" Tag="SHTREFORG" AlternativeTag="ORIGINSHEET" />
+            <FieldItem DBName="DIS_UData1_Prt" Tag="UDATA1" AlternativeTag="UDATA1" />
+            <FieldItem DBName="DIS_UData2_Prt" Tag="UDATA2" AlternativeTag="UDATA2" />
+            <FieldItem DBName="DIS_UData3_Prt" Tag="UDATA3" AlternativeTag="UDATA3" />
+            <FieldItem DBName="DIS_UData4_Prt" Tag="UDATA4" AlternativeTag="UDATA4" />
+            <FieldItem DBName="DIS_UData5_Prt" Tag="UDATA5" AlternativeTag="UDATA5" />
+            <FieldItem DBName="DIS_UData6_Prt" Tag="UDATA6" AlternativeTag="UDATA6" />
+            <FieldItem DBName="DIS_UData7_Prt" Tag="UDATA7" AlternativeTag="UDATA7" />
+            <FieldItem DBName="DIS_UData8_Prt" Tag="UDATA8" AlternativeTag="UDATA8" />
+            <FieldItem DBName="DIS_CamQuan" Tag="XQUANT" AlternativeTag="CAMQUANTITY" />
+            <FieldItem DBName="DIS_Rotations" Tag="ROTATIONS" AlternativeTag="ROTATIONS" />
+            <FieldItem DBName="DIS_ModelingBy" Tag="MODELINGBY" AlternativeTag="MODELINGBY" />
+            <FieldItem DBName="DIS_ModelingByID" Tag="MODELINGBYID" AlternativeTag="MODELINGBYID" />
+            <FieldItem DBName="CstMethod" Tag="MSTOCK" AlternativeTag="MSTOCK" />
+            <FieldItem DBName="DIS_PrcRmntPrice" Tag="UPROP6" AlternativeTag="REMNANTPRICE" />
+            <FieldItem DBName="DIS_PrcScrpPrice" Tag="UPROP7" AlternativeTag="SCRAPPRICE" />
+            <FieldItem DBName="UCtName" Tag="UCTREF" AlternativeTag="UNITCATEGORY" />
+            <FieldItem DBName="UntName" Tag="UNTREF" AlternativeTag="UNIT" />
+            <FieldItem DBName="UscName" Tag="USCREF" AlternativeTag="USCREF" />
+            <FieldItem DBName="DIS_RPriority" Tag="PRIORITY" AlternativeTag="PRIORITY" />
+            <FieldItem DBName="Product" Tag="PRODUCT" AlternativeTag="PRODUCT" />
+            <FieldItem DBName="GeometryType" Tag="GEOMETRYTYPE" AlternativeTag="GEOMETRYTYPE" />
+            <FieldItem DBName="GeometryPath" Tag="GEOMETRYPATH" AlternativeTag="GEOMETRYPATH" />
+            <FieldItem DBName="WrkRef" Tag="WRKREF" AlternativeTag="WORKCENTER" />
+            <FieldItem DBName="Parameters" Tag="PARAMETERS" AlternativeTag="PARAMETERS" />
+            <FieldItem DBName="DIS_WSA" Tag="WSA" AlternativeTag="WSA" />
+            <FieldItem DBName="DIS_WEA" Tag="WEA" AlternativeTag="WEA" />
+            <FieldItem DBName="DIS_FSA" Tag="FSA" AlternativeTag="FSA" />
+            <FieldItem DBName="DIS_FEA" Tag="FEA" AlternativeTag="FEA" />
+        </FieldItemList>
+        <!-- Product operations -->
+        <FieldItemList TableName="MMNN_PPOO_00000200" AlternativeTableName="OPERATIONS">
+            <FieldItem DBName="PrdRef" Tag="PRDREF" AlternativeTag="PRODUCT" />
+            <FieldItem DBName="OOrder" Tag="OORDER" AlternativeTag="OPERATIONORDER" />
+            <FieldItem DBName="WrkRef" Tag="WRKREF" AlternativeTag="WORKCENTER" />
+            <FieldItem DBName="OprRef" Tag="OPRREF" AlternativeTag="OPERATION" />
+            <FieldItem DBName="PrevOpr" Tag="PREVOPR" AlternativeTag="PREVIOUSOPERATION" />
+            <FieldItem DBName="OTime" Tag="OTIME" AlternativeTag="OPERATIONTIME" />
+            <FieldItem DBName="PrdName" Tag="PRDNAME" AlternativeTag="PRODUCTNAME" />
+            <FieldItem DBName="Descrip" Tag="DESCRIP" AlternativeTag="DESCRIPTION" />
+        </FieldItemList>
+        <!-- Bendings -->
+        <FieldItemList TableName="DIS_SHPR_BEND_00000100" AlternativeTableName="BENDINGS">
+            <FieldItem DBName="PrdRef" Tag="PRDREF" AlternativeTag="PRODUCT" />
+            <FieldItem DBName="Length" Tag="LENGTH" AlternativeTag="LENGTH" />
+            <FieldItem DBName="Angle" Tag="ANGLE" AlternativeTag="ANGLE" />
+            <FieldItem DBName="Radius" Tag="RADIUS" AlternativeTag="RADIUS" />
+            <FieldItem DBName="KFactor" Tag="KFACTOR" AlternativeTag="KFACTOR" />
+            <FieldItem DBName="Special" Tag="SPECIAL" AlternativeTag="SPECIAL" />
+            <FieldItem DBName="Rotation" Tag="ROTATION" AlternativeTag="ROTATION" />
+            <FieldItem DBName="ToolChange" Tag="TOOLCHANGE" AlternativeTag="TOOLCHANGE" />
+        </FieldItemList>
+        <!-- Product structure -->
+        <FieldItemList TableName="PPRR_PPRR_00000600" AlternativeTableName="ASSEMBLYSTRUCTURE">
+            <FieldItem DBName="PrdRefOrg" Tag="PRDREFORG" AlternativeTag="ORIGINGPRODUCT" />
+            <FieldItem DBName="PrdRefDst" Tag="PRDREFDST" AlternativeTag="CHILDPRODUCT" />
+            <FieldItem DBName="Quantity" Tag="PQUANT" AlternativeTag="QUANTITY" />
+        </FieldItemList>
+        <!-- Production orders -->
+        <FieldItemList TableName="MMNN_MMOO_00000100" AlternativeTableName="MANUFACTURING">
+            <FieldItem DBName="CDate" Tag="CDATE" AlternativeTag="CREATIONDATE" />
+            <FieldItem DBName="DDate" Tag="DDATE" AlternativeTag="DELIVERYDATE" />
+            <FieldItem DBName="SDate" Tag="SDATE" AlternativeTag="STARTDATE" />
+            <FieldItem DBName="EDate" Tag="EDATE" AlternativeTag="ENDDATE" />
+            <FieldItem DBName="WrkRef" Tag="WRKREF" AlternativeTag="WORKCENTER" />
+            <FieldItem DBName="OprRef" Tag="OPRREF" AlternativeTag="OPERATION" />
+            <FieldItem DBName="OrdRef" Tag="ORDREF" AlternativeTag="SALEORDER" />
+            <FieldItem DBName="PrdRefDst" Tag="PRDREFDST" AlternativeTag="PRODUCT" />
+            <FieldItem DBName="RQ" Tag="RQ" AlternativeTag="QUANTITY" />
+            <FieldItem DBName="OLineNum" Tag="OLINENUM" AlternativeTag="SALEORDERLINENUM" />
+            <FieldItem DBName="Descrip" Tag="DESCRIP" AlternativeTag="DESCRIPTION" />
+            <FieldItem DBName="MnORef" Tag="MNOID" AlternativeTag="REFERENCE" />
+            <FieldItem DBName="DIS_JobRef" Tag="DIS_JOBREF" AlternativeTag="JOB" />
+            <FieldItem DBName="Priority" Tag="PPRIORITY" AlternativeTag="PPRIORITY" />
+            <FieldItem DBName="CusRef" Tag="COMNAME" AlternativeTag="CUSTOMER" />
+            <FieldItem DBName="DIS_Is2DSOp" Tag="IS2DSOP" AlternativeTag="IS2DSOP" />
+            <FieldItem DBName="DIS_Is3DSOp" Tag="IS3DSOP" AlternativeTag="IS3DSOP" />
+            <FieldItem DBName="DIS_MatRef" Tag="MATREF" AlternativeTag="MATERIAL" />
+            <FieldItem DBName="DIS_Thickness" Tag="HEIGHT" AlternativeTag="THICKNESS" />
+            <FieldItem DBName="DIS_AutoNesting" Tag="AUTONESTING" AlternativeTag="AUTOMATIC" />
+        </FieldItemList>
+        <!-- Multiprogram -->
+        <FieldItemList TableName="DIS_MMPP_MMPP_00000100" AlternativeTableName="MULTIPROGRAM">
+            <FieldItem DBName="MlpRef" Tag="MLPREF" AlternativeTag="REFERENCE" />
+            <FieldItem DBName="Quantity" Tag="QUANTITY" AlternativeTag="QUANTITY" />
+            <FieldItem DBName="DeliveryDate" Tag="DELIVERYDATE" AlternativeTag="DELIVERYDATE" />
+        </FieldItemList>
+        <!-- Jobs -->
+        <FieldItemList TableName="DIS_MMNN_MMOO_00000200" AlternativeTableName="JOBS">
+            <FieldItem DBName="JobRef" Tag="JOBREF" AlternativeTag="REFERENCE" />
+            <FieldItem DBName="JobName" Tag="JOBNAME" AlternativeTag="NAME" />
+            <FieldItem DBName="CDate" Tag="CDATE" AlternativeTag="CRRATIONDATE" />
+            <FieldItem DBName="RDate" Tag="RDATE" AlternativeTag="REQUIREDDATE" />
+            <FieldItem DBName="WrkRef" Tag="WRKREF" AlternativeTag="WORKCENTER" />
+            <FieldItem DBName="MatRef" Tag="MATREF" AlternativeTag="MATERIAL" />
+            <FieldItem DBName="Thickness" Tag="HEIGHT" AlternativeTag="THICKNESS" />
+        </FieldItemList>		
+        <!-- Inventory -->
+        <FieldItemList TableName="WWHH_IIVV_00000100" AlternativeTableName="INVENTORY">
+            <FieldItem DBName="PrdRef" Tag="PRDREF" AlternativeTag="PRODUCT" />
+            <FieldItem DBName="PrdName" Tag="PRDNAME" AlternativeTag="PRODUCTNAME" />
+            <FieldItem DBName="UntName" Tag="UNTNAME" AlternativeTag="UNIT" />
+            <FieldItem DBName="WrhRef" Tag="WHREF" AlternativeTag="WAREHOUSE" />
+            <FieldItem DBName="LocRef" Tag="LOCREF" AlternativeTag="LOCATION" />
+            <FieldItem DBName="GLS_Var1" Tag="LENGTH" AlternativeTag="LENGTH" />
+            <FieldItem DBName="StockQ" Tag="QUANTITY" AlternativeTag="QUANTITY" />
+        </FieldItemList>
+        <!-- Material -->
+        <FieldItemList TableName="DIS_MMTT_MMTT_00000100" AlternativeTableName="RAWMATERIAL">
+            <FieldItem DBName="MatRef" Tag="MATREF" AlternativeTag="MATERIAL" />
+            <FieldItem DBName="Density" Tag="DENSITY" AlternativeTag="DENSITY" />
+            <FieldItem DBName="Price" Tag="PRICE" AlternativeTag="PRICE" />
+            <FieldItem DBName="Descrip" Tag="DESCRIP" AlternativeTag="DESCRIPTION" />
+            <FieldItem DBName="MFactor" Tag="MFACTOR" AlternativeTag="MFACTOR" />
+            <FieldItem DBName="IntRef" Tag="INTREF" AlternativeTag="INTREF" />
+        </FieldItemList>		
+        <!-- Warehouse movements -->
+        <FieldItemList TableName="WWHH_MMVV_00000100" AlternativeTableName="WAREHOUSEMOVEMENTS">
+            <FieldItem DBName="Type" Tag="TYPE" AlternativeTag="TYPE" />
+            <FieldItem DBName="Product" Tag="PRODUCT" AlternativeTag="PRODUCT" />
+            <FieldItem DBName="Length" Tag="LENGTH" AlternativeTag="LENGTH" />
+            <FieldItem DBName="Warehouse" Tag="WAREHOUSE" AlternativeTag="WAREHOUSE" />
+            <FieldItem DBName="Location" Tag="LOCATION" AlternativeTag="LOCATION" />
+            <FieldItem DBName="BatchNumber" Tag="BATCHNUMBER" AlternativeTag="BATCHNUMBER" />
+            <FieldItem DBName="UnitCost" Tag="UNITCOST" AlternativeTag="UNITCOST" />
+            <FieldItem DBName="Quantity" Tag="QUANTITY" AlternativeTag="QUANTITY" />
+            <FieldItem DBName="RWeight" Tag="REALWEIGHT" AlternativeTag="REALWEIGHT" />
+        </FieldItemList>
+        <!-- Companies -->
+        <FieldItemList TableName="CCOO_CCOO_00000100" AlternativeTableName="COMPANIES">
+            <FieldItem DBName="ComRef" Tag="COMREF" AlternativeTag="REFERENCE" />
+            <FieldItem DBName="ComName" Tag="COMNAME" AlternativeTag="NAME" />
+            <FieldItem DBName="IsCust" Tag="ISCUST" AlternativeTag="ISCUSTOMER" />
+            <FieldItem DBName="IsSupp" Tag="ISSUPP" AlternativeTag="ISSUPPLIER" />
+            <FieldItem DBName="Address1" Tag="ADDRESS1" AlternativeTag="ADDRESS1" />
+            <FieldItem DBName="Address2" Tag="ADDRESS2" AlternativeTag="ADDRESS2" />
+            <FieldItem DBName="Address3" Tag="ADDRESS3" AlternativeTag="ADDRESS3" />
+            <FieldItem DBName="City" Tag="CITY" AlternativeTag="CITY" />
+            <FieldItem DBName="ZipCode" Tag="ZIPCODE" AlternativeTag="ZIPCODE" />
+            <FieldItem DBName="State" Tag="STATE" AlternativeTag="STATE" />
+            <FieldItem DBName="CouName" Tag="COUNAME" AlternativeTag="COUNTRY" />
+            <FieldItem DBName="Phone" Tag="PHONE" AlternativeTag="PHONE" />
+            <FieldItem DBName="Fax" Tag="FAX" AlternativeTag="FAX" />
+            <FieldItem DBName="Web" Tag="WEB" AlternativeTag="WEB" />
+            <FieldItem DBName="EMail" Tag="EMAIL" AlternativeTag="EMAIL" />
+            <FieldItem DBName="VatNum" Tag="VATNUM" AlternativeTag= "VAT" />
+        </FieldItemList>
+        <!-- Sale orders -->
+        <FieldItemList TableName="SSAA_SSOO_00000100" AlternativeTableName="SALEORDERS">
+            <FieldItem DBName="OrdRef" Tag="ORDREF" AlternativeTag="REFERENCE" />
+            <FieldItem DBName="CurName" Tag="CURNAME" AlternativeTag="CURRENCY" />
+            <FieldItem DBName="CusRef" Tag="CUSREF" AlternativeTag="CUSTOMER" />
+            <FieldItem DBName="CusName" Tag="CUSNAME" AlternativeTag="CUSTOMERNAME" />
+            <FieldItem DBName="Contact" Tag="CONTACT" AlternativeTag="CONTACT" />
+            <FieldItem DBName="ConSurname1" Tag="CONSURNAME1" AlternativeTag="CONTACTSURNAME1" />
+            <FieldItem DBName="CusORef" Tag="CUSOREF" AlternativeTag="CUSTOMERORDER" />
+            <FieldItem DBName="CDate" Tag="CDATE" AlternativeTag="CREATIONDATE" />
+            <FieldItem DBName="DDate" Tag="DDATE" AlternativeTag="DELIVERYDATE" />
+            <FieldItem DBName="DIS_ECusRef" Tag="DIS_ECUSREF" AlternativeTag="ENDCUSTOMER" />
+            <FieldItem DBName="DIS_ECusName" Tag="DIS_ECUSNAME" AlternativeTag="ENDCUSTOMERNAME" />
+            <FieldItem DBName="EmpRef" Tag="EMPREF" AlternativeTag="EMPLOYEE" />
+            <FieldItem DBName="Descrip" Tag="DESCRIP" AlternativeTag="DESCRIPTION" />
+            <FieldItem DBName="TarRef" Tag="TARREF" AlternativeTag="TARIFF" />
+            <FieldItem DBName="TaxRef" Tag="TAXREF" AlternativeTag="TAX" />
+            <FieldItem DBName="DDisc" Tag="DDISC" AlternativeTag="DISCOUNT" />
+            <FieldItem DBName="FinancialC" Tag="FINANCIALC" AlternativeTag="FINANCIALCHARGES" />
+            <FieldItem DBName="FinancialP" Tag="FINANCIALP" AlternativeTag="FINANCIALCHARGESPERCENT" />
+            <FieldItem DBName="GDate" Tag="GDATE" AlternativeTag="GUARANTEEDATE" />
+            <FieldItem DBName="NumPack" Tag="NUMPACK" AlternativeTag="NUMPACK" />
+            <FieldItem DBName="OType" Tag="OTYPE" AlternativeTag="OTYPE" />
+            <FieldItem DBName="OwnFees" Tag="OWNFEES" AlternativeTag="OWNFEES" />
+            <FieldItem DBName="PFees" Tag="PFEES" AlternativeTag="PAIDFEES" />
+            <FieldItem DBName="PymDsc" Tag="PYMDSC" AlternativeTag="PAYMENTMETHOD" />
+            <FieldItem DBName="PymName" Tag="PYMNAME" AlternativeTag="PAYMENTMETHODNAME" />
+            <FieldItem DBName="QutRef" Tag="QUTREF" AlternativeTag="QUOTE" />
+            <FieldItem DBName="Address1" Tag="ADDRESS1" AlternativeTag="ADDRESS1" />
+            <FieldItem DBName="Address2" Tag="ADDRESS2" AlternativeTag="ADDRESS2" />
+            <FieldItem DBName="Address3" Tag="ADDRESS3" AlternativeTag="ADDRESS3" />
+            <FieldItem DBName="City" Tag="CITY" AlternativeTag="CITY" />
+            <FieldItem DBName="ZipCode" Tag="ZIPCODE" AlternativeTag="ZIPCODE" />
+            <FieldItem DBName="State" Tag="STATE" AlternativeTag="STATE" />
+            <FieldItem DBName="CouName" Tag="COUNAME" AlternativeTag="COUNTRY" />
+            <FieldItem DBName="CarName" Tag="CARNAME" AlternativeTag="CARRIERNAME" />
+            <FieldItem DBName="CarRef" Tag="CARREF" AlternativeTag="CARRIER" />
+            <FieldItem DBName="CarrierC" Tag="CARRIERC" AlternativeTag="CARRIERCOST" />
+            <FieldItem DBName="CarrierFees" Tag="CARRIERFEES" AlternativeTag="CARRIERFEES" />
+            <FieldItem DBName="SAddress1" Tag="SADDRESS1" AlternativeTag="SHIPPINGADDRESS1" />
+            <FieldItem DBName="SAddress2" Tag="SADDRESS2" AlternativeTag="SHIPPINGADDRESS2" />
+            <FieldItem DBName="SAddress3" Tag="SADDRESS3" AlternativeTag="SHIPPINGADDRESS3" />
+            <FieldItem DBName="SCity" Tag="SCITY" AlternativeTag="SHIPPINGCITY" />
+            <FieldItem DBName="SZipCode" Tag="SZIPCODE" AlternativeTag="SHIPPINGZIPCODE" />
+            <FieldItem DBName="SState" Tag="SSTATE" AlternativeTag="SHIPPINGSTATE" />
+            <FieldItem DBName="SCouName" Tag="SCOUNAME" AlternativeTag="SHIPPINGCOUNTRY" />
+            <FieldItem DBName="SOWeight" Tag="SOWEIGHT" AlternativeTag="ORDERWEIGHT" />
+            <FieldItem DBName="ToInvoice" Tag="TOINVOICE" AlternativeTag="TOINVOICE" />
+            <FieldItem DBName="Subtotal" Tag="SUBTOTAL" AlternativeTag="SUBTOTAL" />
+            <FieldItem DBName="TotalA" Tag="TOTALA" AlternativeTag="TOTALAMOUNT" />
+            <FieldItem DBName="TotalWT" Tag="TOTALWT" AlternativeTag="TOTALWITHTAXES" />
+            <FieldItem DBName="TValue" Tag="TVALUE" AlternativeTag="TAXVALUE" />
+        </FieldItemList>
+        <!-- Sale order lines -->
+        <FieldItemList TableName="SSAA_SSOO_00000200" AlternativeTableName="SALEORDERLINES">
+            <FieldItem DBName="OrdRef" Tag="ORDREF" AlternativeTag="SALEORDER" />
+            <FieldItem DBName="LineNum" Tag="LINENUM" AlternativeTag="LINENUMBER" />
+            <FieldItem DBName="Quantity" Tag="QUANTITY" AlternativeTag="QUANTITY" />
+            <FieldItem DBName="UPrice" Tag="UPRICE" AlternativeTag="UNITPRICE" />
+            <FieldItem DBName="Disc" Tag="DISC" AlternativeTag="DISCOUNT" />
+            <FieldItem DBName="PrdRef" Tag="ARTREF" AlternativeTag="PRODUCT" />
+            <FieldItem DBName="PrdName" Tag="ARTNAME" AlternativeTag="PRODUCTNAME" />
+            <FieldItem DBName="ReadyToInvoice" Tag="READYTOINVOICE" AlternativeTag="READYTOINVOICE" />
+        </FieldItemList>
+        <!-- Documents -->
+        <FieldItemList TableName="SYST_OWND_00000100" AlternativeTableName="DOCUMENTS" >
+            <FieldItem DBName="DocDsc" Tag="DOCDSC" AlternativeTag="DocumentDescription" />
+            <FieldItem DBName="FFName" Tag="FFNAME" AlternativeTag="FilePath" />
+            <FieldItem DBName="FFVault" Tag="FFVAULT" AlternativeTag="Vault" />
+        </FieldItemList>
+        <!-- Users -->
+        <FieldItemList TableName="SYST_SSRR_00000200" AlternativeTableName="USERS" >
+            <FieldItem DBName="UsrName" Tag="UsrName" AlternativeTag="UsrName" />
+            <FieldItem DBName="WPhone" Tag="WPhone" AlternativeTag="WPhone" />
+            <FieldItem DBName="PPhone" Tag="PPhone" AlternativeTag="PPhone" />
+            <FieldItem DBName="MPhone" Tag="MPhone" AlternativeTag="MPhone" />
+            <FieldItem DBName="Email" Tag="Email" AlternativeTag="Email" />
+            <FieldItem DBName="IsActive" Tag="IsActive" AlternativeTag="IsActive" />
+            <FieldItem DBName="IsSysUsr" Tag="IsSysUsr" AlternativeTag="IsSysUsr" />
+            <FieldItem DBName="OUName" Tag="OUName" AlternativeTag="OUName" />
+            <FieldItem DBName="Manager" Tag="Manager" AlternativeTag="Manager" />
+            <FieldItem DBName="Scope" Tag="Scope" AlternativeTag="Scope" />
+            <FieldItem DBName="Image" Tag="Image" AlternativeTag="Image" />
+            <FieldItem DBName="UsrPss" Tag="UsrPss" AlternativeTag="UsrPss" />
+            <FieldItem DBName="Salt" Tag="Salt" AlternativeTag="Salt" />
+            <FieldItem DBName="ChgPssCnn" Tag="ChgPssCnn" AlternativeTag="ChgPssCnn" />
+            <FieldItem DBName="ChgPssDate" Tag="ChgPssDate" AlternativeTag="ChgPssDate" />
+            <FieldItem DBName="Attempts" Tag="Attempts" AlternativeTag="Attempts" />
+            <FieldItem DBName="Locked" Tag="Locked" AlternativeTag="Locked" />
+            <FieldItem DBName="DIS_WindowsUser" Tag="DIS_WindowsUser" AlternativeTag="DIS_WindowsUser" />
+        </FieldItemList>
+        <!-- Employees -->
+        <FieldItemList TableName="EEMM_EEMM_00000100" AlternativeTableName="EMPLOYEES" >
+            <FieldItem DBName="EmpRef" Tag="EmpRef" AlternativeTag="EmpRef" />
+            <FieldItem DBName="EName" Tag="EName" AlternativeTag="EName" />
+            <FieldItem DBName="ESurname1" Tag="ESurname1" AlternativeTag="ESurname1" />
+            <FieldItem DBName="ESurname2" Tag="ESurname2" AlternativeTag="ESurname2" />
+            <FieldItem DBName="EAlias" Tag="EAlias" AlternativeTag="EAlias" />
+            <FieldItem DBName="BarCode" Tag="BarCode" AlternativeTag="BarCode" />
+            <FieldItem DBName="BDate" Tag="BDate" AlternativeTag="BDate" />
+            <FieldItem DBName="BCountry" Tag="BCountry" AlternativeTag="BCountry" />
+            <FieldItem DBName="Title" Tag="Title" AlternativeTag="Title" />
+            <FieldItem DBName="Gender" Tag="Gender" AlternativeTag="Gender" />
+            <FieldItem DBName="WPhone" Tag="WPhone" AlternativeTag="WPhone" />
+            <FieldItem DBName="Extension" Tag="Extension" AlternativeTag="Extension" />
+            <FieldItem DBName="MPhone" Tag="MPhone" AlternativeTag="MPhone" />
+            <FieldItem DBName="Fax" Tag="Fax" AlternativeTag="Fax" />
+            <FieldItem DBName="WEMail" Tag="WEMail" AlternativeTag="WEMail" />
+            <FieldItem DBName="Address1" Tag="Address1" AlternativeTag="Address1" />
+            <FieldItem DBName="Address2" Tag="Address2" AlternativeTag="Address2" />
+            <FieldItem DBName="Address3" Tag="Address3" AlternativeTag="Address3" />
+            <FieldItem DBName="ZipCode" Tag="ZipCode" AlternativeTag="ZipCode" />
+            <FieldItem DBName="City" Tag="City" AlternativeTag="City" />
+            <FieldItem DBName="State" Tag="State" AlternativeTag="State" />
+            <FieldItem DBName="CouName" Tag="CouName" AlternativeTag="CouName" />
+            <FieldItem DBName="UsrRef" Tag="UsrRef" AlternativeTag="UsrRef" />
+            <FieldItem DBName="Image" Tag="Image" AlternativeTag="Image" />
+            <FieldItem DBName="IsActive" Tag="IsActive" AlternativeTag="IsActive" />
+            <FieldItem DBName="IsComm" Tag="IsComm" AlternativeTag="IsComm" />
+            <FieldItem DBName="IsOper" Tag="IsOper" AlternativeTag="IsOper" />
+            <FieldItem DBName="PPhone" Tag="PPhone" AlternativeTag="PPhone" />
+            <FieldItem DBName="PMPhone" Tag="PMPhone" AlternativeTag="PMPhone" />
+            <FieldItem DBName="PEMail" Tag="PEMail" AlternativeTag="PEMail" />
+            <FieldItem DBName="CName" Tag="CName" AlternativeTag="CName" />
+            <FieldItem DBName="CPhone" Tag="CPhone" AlternativeTag="CPhone" />
+            <FieldItem DBName="CInfo" Tag="CInfo" AlternativeTag="CInfo" />
+            <FieldItem DBName="JDate" Tag="JDate" AlternativeTag="JDate" />
+            <FieldItem DBName="LDate" Tag="LDate" AlternativeTag="LDate" />
+            <FieldItem DBName="SSNumber" Tag="SSNumber" AlternativeTag="SSNumber" />
+            <FieldItem DBName="IdCardType" Tag="IdCardType" AlternativeTag="IdCardType" />
+            <FieldItem DBName="IdCard" Tag="IdCard" AlternativeTag="IdCard" />
+            <FieldItem DBName="Category" Tag="Category" AlternativeTag="Category" />
+            <FieldItem DBName="Postion" Tag="Postion" AlternativeTag="Postion" />
+            <FieldItem DBName="Type" Tag="Type" AlternativeTag="Type" />
+            <FieldItem DBName="Cost" Tag="Cost" AlternativeTag="Cost" />
+            <FieldItem DBName="Status" Tag="Status" AlternativeTag="Status" />
+            <FieldItem DBName="Children" Tag="Children" AlternativeTag="Children" />
+            <FieldItem DBName="EdLevel" Tag="EdLevel" AlternativeTag="EdLevel" />
+            <FieldItem DBName="ADate" Tag="ADate" AlternativeTag="ADate" />
+            <FieldItem DBName="Disability" Tag="Disability" AlternativeTag="Disability" />
+            <FieldItem DBName="Degree" Tag="Degree" AlternativeTag="Degree" />
+            <FieldItem DBName="Descrip" Tag="Descrip" AlternativeTag="Descrip" />
+            <FieldItem DBName="AccNumber" Tag="AccNumber" AlternativeTag="AccNumber" />
+            <FieldItem DBName="VacationDays" Tag="VacationDays" AlternativeTag="VacationDays" />
+        </FieldItemList>		
+    </UserFieldsMapping>
+</Configuration>

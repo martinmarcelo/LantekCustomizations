@@ -1,0 +1,590 @@
+<DATAEX>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Administrator" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="933" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="User" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="7" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Basic permissions" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="1512" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Quotes (read only)" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Quotes" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Sale orders (read only)" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Sale orders" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Delivery notes (read only)" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Delivery notes" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Sale invoices (read only)" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Sale invoices" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Methods of payment (read only)" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Methods of payment" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Carriers auxiliary data (read only)" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Carriers auxiliary data" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Taxes (read only)" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Taxes" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Tariffs (read only)" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Tariffs" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Sale prices (read only)" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Sale prices" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Companies (read only)" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Companies" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Contacts (read only)" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Contacts" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Customers auxiliary data (read only)" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Customers auxiliary data" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Suppliers auxiliary data (read only)" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Suppliers auxiliary data" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Addresses (read only)" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Addresses" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Products (read only)" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Products" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Supplier prices (read only)" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Supplier prices" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Product operations (read only)" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Product operations" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Materials (read only)" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Materials" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Work centers (read only)" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Work centers" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Purchase orders (read only)" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Purchase orders" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Purchase receptions (read only)" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Purchase receptions" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Purchase invoices (read only)" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Purchase invoices" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Inventory (read only)" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Inventory" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Warehouses (read only)" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Warehouses" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Warehouse movements (read only)" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Warehouse movements" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Product backlogs (read only)" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Product backlogs" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Batch numbers (read only)" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Batch numbers" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Production orders (read only)" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Production orders" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Labor tickets (read only)" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Labor tickets" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Jobs (read only)" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Jobs" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Work center operations (read only)" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Work center operations" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Nestings (read only)" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Nestings" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Employees (read only)" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Employees" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Outsourcing operations (read only)" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Outsourcing operations" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Outsourcing orders (read only)" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Outsourcing orders" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Outsourcing shipments (read only)" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Outsourcing shipments" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Outsourcing receptions (read only)" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Outsourcing receptions" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Opportunities (read only)" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Opportunities" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Bank accounts (read only)" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Bank accounts" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Banking movements (read only)" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Banking movements" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Banking orders (read only)" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Banking orders" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Accounting (read only)" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Accounting" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Assets (read only)" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Assets" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="1" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Commercial manager" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Administrative" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Purchasing manager" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Warehouse staff" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Executive" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Production manager" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Workshop operator" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="CAM operator" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="0" FldType="80" />
+	</COMMAND>
+	<COMMAND Name="Import" TblRef="ROLES">
+		<FIELD FldRef="RolName" FldValue="Financial manager" FldType="20" />
+		<FIELD FldRef="MsgNum" FldValue="-1" FldType="20" />
+		<FIELD FldRef="IsActive" FldValue="1" FldType="80" />
+		<FIELD FldRef="IsGroup" FldValue="0" FldType="80" />
+	</COMMAND>
+</DATAEX>	

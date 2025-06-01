@@ -1,0 +1,710 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="0" />
+    <DataSources isList="true" count="5">
+      <Jobs Ref="2" type="DataTableSource" isKey="true">
+        <Alias>Jobs</Alias>
+        <Columns isList="true" count="4">
+          <value>JobRef,Reference,System.String</value>
+          <value>JobRef__Lab,Reference_x0020__x0028_Label_x0029_,System.String</value>
+          <value>CusRef,Customer,System.String</value>
+          <value>CusRef__Lab,Customer_x0020__x0028_Label_x0029_,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Jobs</Name>
+        <NameInSource>00_DIS_MMNN_MMOO_00000100_NestingPartsList.Jobs</NameInSource>
+      </Jobs>
+      <Nestings Ref="3" type="DataTableSource" isKey="true">
+        <Alias>Nestings</Alias>
+        <Columns isList="true" count="6">
+          <value>NstRef,Reference,System.String</value>
+          <value>NstRef__Lab,Reference_x0020__x0028_Label_x0029_,System.String</value>
+          <value>JobRef,Job,System.String</value>
+          <value>JobRef__Lab,Job_x0020__x0028_Label_x0029_,System.String</value>
+          <value>CNC,CNC_x0020_name,System.String</value>
+          <value>CNC__Lab,CNC_x0020_name_x0020__x0028_Label_x0029_,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Nestings</Name>
+        <NameInSource>00_DIS_MMNN_MMOO_00000100_NestingPartsList.Nestings</NameInSource>
+      </Nestings>
+      <NestingsForListing Ref="4" type="DataTableSource" isKey="true">
+        <Alias>NestingsForListing</Alias>
+        <Columns isList="true" count="96">
+          <value>NstRef,Nesting,System.String</value>
+          <value>NstRef__Lab,Nesting_x0020__x0028_Label_x0029_,System.String</value>
+          <value>MnORef,Production_x0020_order,System.String</value>
+          <value>MnORef__Lab,Production_x0020_order_x0020__x0028_Label_x0029_,System.String</value>
+          <value>OprID,Operation_x0020_number,System.Int32</value>
+          <value>OprID__Lab,Operation_x0020_number_x0020__x0028_Label_x0029_,System.String</value>
+          <value>OprID__ScN,Operation_x0020_number_x0020__x0028_Value_x0029_,System.String</value>
+          <value>PrdRefDst,Item,System.String</value>
+          <value>PrdRefDst__Lab,Item_x0020__x0028_Label_x0029_,System.String</value>
+          <value>MQ,Made_x0020_quantity,System.Int32</value>
+          <value>MQ__Lab,Made_x0020_quantity_x0020__x0028_Label_x0029_,System.String</value>
+          <value>MQ__ScN,Made_x0020_quantity_x0020__x0028_Value_x0029_,System.String</value>
+          <value>OrdersForListing.MnORef,Production_x0020_order,System.String</value>
+          <value>OrdersForListing.MnORef__Lab,Production_x0020_order_x0020__x0028_Label_x0029_,System.String</value>
+          <value>OrdersForListing.OprID,Operation_x0020_number,System.Int32</value>
+          <value>OrdersForListing.OprID__Lab,Operation_x0020_number_x0020__x0028_Label_x0029_,System.String</value>
+          <value>OrdersForListing.OprID__ScN,Operation_x0020_number_x0020__x0028_Value_x0029_,System.String</value>
+          <value>OrdersForListing.PrdRef,Main_x0020_item,System.String</value>
+          <value>OrdersForListing.PrdRef__Lab,Main_x0020_item_x0020__x0028_Label_x0029_,System.String</value>
+          <value>OrdersForListing.OrdRef,Associated_x0020_element,System.String</value>
+          <value>OrdersForListing.OrdRef__Lab,Associated_x0020_element_x0020__x0028_Label_x0029_,System.String</value>
+          <value>OrdersForListing.Quantity,Quantity,System.Double</value>
+          <value>OrdersForListing.Quantity__Lab,Quantity_x0020__x0028_Label_x0029_,System.String</value>
+          <value>OrdersForListing.Quantity__DBD,Quantity_x0020__x0028_Database_x0029_,System.Double</value>
+          <value>OrdersForListing.Quantity__Scr,Quantity_x0020__x0028_Value_x0029_,System.String</value>
+          <value>OrdersForListing.Quantity__ScN,Quantity_x0020__x0028_Value_x0029_,System.String</value>
+          <value>OrdersForListing.Quantity__Dec,Quantity_x0020__x0028_Decimal_x0020_digits_x0029_,System.Int16</value>
+          <value>OrdersForListing.Quantity__Rnd,Quantity_x0020__x0028_Rounded_x0029_,System.Int16</value>
+          <value>OrdersForListing.Quantity__Sff,Quantity_x0020__x0028_Suffix_x0029_,System.String</value>
+          <value>OrdersForListing.UntName,Unit,System.String</value>
+          <value>OrdersForListing.UntName__Lab,Unit_x0020__x0028_Label_x0029_,System.String</value>
+          <value>OrdersForListing.UCtName,Unit_x0020_category,System.String</value>
+          <value>OrdersForListing.UCtName__Lab,Unit_x0020_category_x0020__x0028_Label_x0029_,System.String</value>
+          <value>OrdersForListing.CusName,Customer_x0020_name,System.String</value>
+          <value>OrdersForListing.CusName__Lab,Customer_x0020_name_x0020__x0028_Label_x0029_,System.String</value>
+          <value>OrdersForListing.OLineNum,Sales_x0020_order_x0020_line,System.String</value>
+          <value>OrdersForListing.OLineNum__Lab,Sales_x0020_order_x0020_line_x0020__x0028_Label_x0029_,System.String</value>
+          <value>OrdersForListing.DIS_Thickness,Thickness,System.Double</value>
+          <value>OrdersForListing.DIS_Thickness__Lab,Thickness_x0020__x0028_Label_x0029_,System.String</value>
+          <value>OrdersForListing.DIS_Thickness__DBD,Thickness_x0020__x0028_Database_x0029_,System.Double</value>
+          <value>OrdersForListing.DIS_Thickness__Scr,Thickness_x0020__x0028_Value_x0029_,System.String</value>
+          <value>OrdersForListing.DIS_Thickness__ScN,Thickness_x0020__x0028_Value_x0029_,System.String</value>
+          <value>OrdersForListing.DIS_Thickness__Dec,Thickness_x0020__x0028_Decimal_x0020_digits_x0029_,System.Int16</value>
+          <value>OrdersForListing.DIS_Thickness__Rnd,Thickness_x0020__x0028_Rounded_x0029_,System.Int16</value>
+          <value>OrdersForListing.DIS_Thickness__Sff,Thickness_x0020__x0028_Suffix_x0029_,System.String</value>
+          <value>OrdersForListing.DIS_MatRef,Material,System.String</value>
+          <value>OrdersForListing.DIS_MatRef__Lab,Material_x0020__x0028_Label_x0029_,System.String</value>
+          <value>OrdersForListing.EDate,End_x0020_date,System.DateTime</value>
+          <value>OrdersForListing.EDate__Lab,End_x0020_date_x0020__x0028_Label_x0029_,System.String</value>
+          <value>OrdersForListing.EDate__ScN,End_x0020_date_x0020__x0028_Value_x0029_,System.String</value>
+          <value>OrdersForListing.EDate__LDt,End_x0020_date_x0020__x0028_Long_x0020_date_x0029_,System.String</value>
+          <value>OrdersForListing.EDate__MDt,End_x0020_date_x0020__x0028_Medium_x0020_date_x0029_,System.String</value>
+          <value>OrdersForListing.EDate__SDt,End_x0020_date_x0020__x0028_Short_x0020_date_x0029_,System.String</value>
+          <value>SalesLinesForListing.OrdRef,Order,System.String</value>
+          <value>SalesLinesForListing.OrdRef__Lab,Order_x0020__x0028_Label_x0029_,System.String</value>
+          <value>SalesLinesForListing.LineNum,Line_x0020_number,System.String</value>
+          <value>SalesLinesForListing.LineNum__Lab,Line_x0020_number_x0020__x0028_Label_x0029_,System.String</value>
+          <value>SalesLinesForListing.PrdRef,Item,System.String</value>
+          <value>SalesLinesForListing.PrdRef__Lab,Item_x0020__x0028_Label_x0029_,System.String</value>
+          <value>SalesLinesForListing.PrdName,Name,System.String</value>
+          <value>SalesLinesForListing.PrdName__Lab,Name_x0020__x0028_Label_x0029_,System.String</value>
+          <value>SalesLinesForListing.Weight,Weight,System.Double</value>
+          <value>SalesLinesForListing.Weight__Lab,Weight_x0020__x0028_Label_x0029_,System.String</value>
+          <value>SalesLinesForListing.Weight__DBD,Weight_x0020__x0028_Database_x0029_,System.Double</value>
+          <value>SalesLinesForListing.Weight__Scr,Weight_x0020__x0028_Value_x0029_,System.String</value>
+          <value>SalesLinesForListing.Weight__ScN,Weight_x0020__x0028_Value_x0029_,System.String</value>
+          <value>SalesLinesForListing.Weight__Dec,Weight_x0020__x0028_Decimal_x0020_digits_x0029_,System.Int16</value>
+          <value>SalesLinesForListing.Weight__Rnd,Weight_x0020__x0028_Rounded_x0029_,System.Int16</value>
+          <value>SalesLinesForListing.Weight__Sff,Weight_x0020__x0028_Suffix_x0029_,System.String</value>
+          <value>SalesLinesForListing.DIS_WGHUntName,Weight_x0020_unit,System.String</value>
+          <value>SalesLinesForListing.DIS_WGHUntName__Lab,Weight_x0020_unit_x0020__x0028_Label_x0029_,System.String</value>
+          <value>SalesLinesForListing.DIS_WGHUCtName,Weight_x0020_unit_x0020_category,System.String</value>
+          <value>SalesLinesForListing.DIS_WGHUCtName__Lab,Weight_x0020_unit_x0020_category_x0020__x0028_Label_x0029_,System.String</value>
+          <value>PartsForListing.PrdRef,Reference,System.String</value>
+          <value>PartsForListing.PrdRef__Lab,Reference_x0020__x0028_Label_x0029_,System.String</value>
+          <value>PartsForListing.PrdName,Name,System.String</value>
+          <value>PartsForListing.PrdName__Lab,Name_x0020__x0028_Label_x0029_,System.String</value>
+          <value>PartsForListing.DIS_Width,Width,System.Double</value>
+          <value>PartsForListing.DIS_Width__Lab,Width_x0020__x0028_Label_x0029_,System.String</value>
+          <value>PartsForListing.DIS_Width__DBD,Width_x0020__x0028_Database_x0029_,System.Double</value>
+          <value>PartsForListing.DIS_Width__Scr,Width_x0020__x0028_Value_x0029_,System.String</value>
+          <value>PartsForListing.DIS_Width__ScN,Width_x0020__x0028_Value_x0029_,System.String</value>
+          <value>PartsForListing.DIS_Width__Dec,Width_x0020__x0028_Decimal_x0020_digits_x0029_,System.Int16</value>
+          <value>PartsForListing.DIS_Width__Rnd,Width_x0020__x0028_Rounded_x0029_,System.Int16</value>
+          <value>PartsForListing.DIS_Width__Sff,Width_x0020__x0028_Suffix_x0029_,System.String</value>
+          <value>PartsForListing.DIS_Length,Length,System.Double</value>
+          <value>PartsForListing.DIS_Length__Lab,Length_x0020__x0028_Label_x0029_,System.String</value>
+          <value>PartsForListing.DIS_Length__DBD,Length_x0020__x0028_Database_x0029_,System.Double</value>
+          <value>PartsForListing.DIS_Length__Scr,Length_x0020__x0028_Value_x0029_,System.String</value>
+          <value>PartsForListing.DIS_Length__ScN,Length_x0020__x0028_Value_x0029_,System.String</value>
+          <value>PartsForListing.DIS_Length__Dec,Length_x0020__x0028_Decimal_x0020_digits_x0029_,System.Int16</value>
+          <value>PartsForListing.DIS_Length__Rnd,Length_x0020__x0028_Rounded_x0029_,System.Int16</value>
+          <value>PartsForListing.DIS_Length__Sff,Length_x0020__x0028_Suffix_x0029_,System.String</value>
+          <value>PartsForListing.Image,Image,System.String</value>
+          <value>PartsForListing.Image__Lab,Image_x0020__x0028_Label_x0029_,System.String</value>
+          <value>PartsForListing.Image__DBD,Image_x0020__x0028_Database_x0029_,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>NestingsForListing</Name>
+        <NameInSource>00_DIS_MMNN_MMOO_00000100_NestingPartsList.NestingsForListing</NameInSource>
+      </NestingsForListing>
+      <OrdersForRouting Ref="5" type="DataTableSource" isKey="true">
+        <Alias>OrdersForRouting</Alias>
+        <Columns isList="true" count="20">
+          <value>MnORef,Production_x0020_order,System.String</value>
+          <value>MnORef__Lab,Production_x0020_order_x0020__x0028_Label_x0029_,System.String</value>
+          <value>OprID,Operation_x0020_number,System.Int32</value>
+          <value>OprID__Lab,Operation_x0020_number_x0020__x0028_Label_x0029_,System.String</value>
+          <value>OprID__ScN,Operation_x0020_number_x0020__x0028_Value_x0029_,System.String</value>
+          <value>DIS_JobRef,Job,System.String</value>
+          <value>DIS_JobRef__Lab,Job_x0020__x0028_Label_x0029_,System.String</value>
+          <value>PrdRef,Main_x0020_item,System.String</value>
+          <value>PrdRef__Lab,Main_x0020_item_x0020__x0028_Label_x0029_,System.String</value>
+          <value>OperationsForRouting.PrdRef,Item,System.String</value>
+          <value>OperationsForRouting.PrdRef__Lab,Item_x0020__x0028_Label_x0029_,System.String</value>
+          <value>OperationsForRouting.RouRef,Routing,System.String</value>
+          <value>OperationsForRouting.RouRef__Lab,Routing_x0020__x0028_Label_x0029_,System.String</value>
+          <value>OperationsForRouting.OOrder,Operation_x0020_number,System.Int32</value>
+          <value>OperationsForRouting.OOrder__Lab,Operation_x0020_number_x0020__x0028_Label_x0029_,System.String</value>
+          <value>OperationsForRouting.OOrder__ScN,Operation_x0020_number_x0020__x0028_Value_x0029_,System.String</value>
+          <value>OperationsForRouting.WrkRef,Work_x0020_center,System.String</value>
+          <value>OperationsForRouting.WrkRef__Lab,Work_x0020_center_x0020__x0028_Label_x0029_,System.String</value>
+          <value>OperationsForRouting.OprRef,Operation,System.String</value>
+          <value>OperationsForRouting.OprRef__Lab,Operation_x0020__x0028_Label_x0029_,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>OrdersForRouting</Name>
+        <NameInSource>00_DIS_MMNN_MMOO_00000100_NestingPartsList.OrdersForRouting</NameInSource>
+      </OrdersForRouting>
+      <OrdersForSales Ref="6" type="DataTableSource" isKey="true">
+        <Alias>OrdersForSales</Alias>
+        <Columns isList="true" count="15">
+          <value>MnORef,Production_x0020_order,System.String</value>
+          <value>MnORef__Lab,Production_x0020_order_x0020__x0028_Label_x0029_,System.String</value>
+          <value>OprID,Operation_x0020_number,System.Int32</value>
+          <value>OprID__Lab,Operation_x0020_number_x0020__x0028_Label_x0029_,System.String</value>
+          <value>OprID__ScN,Operation_x0020_number_x0020__x0028_Value_x0029_,System.String</value>
+          <value>DIS_JobRef,Job,System.String</value>
+          <value>DIS_JobRef__Lab,Job_x0020__x0028_Label_x0029_,System.String</value>
+          <value>PrdRef,Main_x0020_item,System.String</value>
+          <value>PrdRef__Lab,Main_x0020_item_x0020__x0028_Label_x0029_,System.String</value>
+          <value>SalesLinesForSales.OrdRef,Order,System.String</value>
+          <value>SalesLinesForSales.OrdRef__Lab,Order_x0020__x0028_Label_x0029_,System.String</value>
+          <value>SalesLinesForSales.LineNum,Line_x0020_number,System.String</value>
+          <value>SalesLinesForSales.LineNum__Lab,Line_x0020_number_x0020__x0028_Label_x0029_,System.String</value>
+          <value>SalesLinesForSales.PrdRef,Item,System.String</value>
+          <value>SalesLinesForSales.PrdRef__Lab,Item_x0020__x0028_Label_x0029_,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>OrdersForSales</Name>
+        <NameInSource>00_DIS_MMNN_MMOO_00000100_NestingPartsList.OrdersForSales</NameInSource>
+      </OrdersForSales>
+    </DataSources>
+    <Relations isList="true" count="4">
+      <Jobs Ref="7" type="DataRelation" isKey="true">
+        <Alias>Jobs</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>JobRef</value>
+        </ChildColumns>
+        <ChildSource isRef="3" />
+        <Dictionary isRef="1" />
+        <Name>Jobs</Name>
+        <NameInSource>Nestings_child_Jobs</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>JobRef</value>
+        </ParentColumns>
+        <ParentSource isRef="2" />
+      </Jobs>
+      <Nestings Ref="8" type="DataRelation" isKey="true">
+        <Alias>Nestings</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>NstRef</value>
+        </ChildColumns>
+        <ChildSource isRef="4" />
+        <Dictionary isRef="1" />
+        <Name>Nestings</Name>
+        <NameInSource>NestingsForListing_child_Nestings</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>NstRef</value>
+        </ParentColumns>
+        <ParentSource isRef="3" />
+      </Nestings>
+      <Jobs Ref="9" type="DataRelation" isKey="true">
+        <Alias>Jobs</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>DIS_JobRef</value>
+        </ChildColumns>
+        <ChildSource isRef="5" />
+        <Dictionary isRef="1" />
+        <Name>Jobs</Name>
+        <NameInSource>OrdersForRouting_child_Jobs</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>JobRef</value>
+        </ParentColumns>
+        <ParentSource isRef="2" />
+      </Jobs>
+      <Jobs Ref="10" type="DataRelation" isKey="true">
+        <Alias>Jobs</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>DIS_JobRef</value>
+        </ChildColumns>
+        <ChildSource isRef="6" />
+        <Dictionary isRef="1" />
+        <Name>Jobs</Name>
+        <NameInSource>OrdersForSales_child_Jobs</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>JobRef</value>
+        </ParentColumns>
+        <ParentSource isRef="2" />
+      </Jobs>
+    </Relations>
+    <Report isRef="0" />
+    <Resources isList="true" count="0" />
+    <Variables isList="true" count="5">
+      <value>,__Sys_DatePattern,__Sys_DatePattern,,System.String,,False,False,False,False</value>
+      <value>,__Mss_33466,__Mss_33466,,System.String,,False,False,False,False</value>
+      <value>,shm_Routing,shm_Routing,,System.String,,False,False,False,False</value>
+      <value>,shm_Total,shm_Total,,System.String,,False,False,False,False</value>
+      <value>,OrganizationImage,OrganizationImage,,System.String,select_x0020_Image_x0020_from_x0020_SYST_OORR_00000100,True,False,False,False,,,True</value>
+    </Variables>
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <ReportPage Ref="11" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="4">
+        <PageHeaderBand1 Ref="12" type="PageHeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0.4,19,2</ClientRectangle>
+          <Components isList="true" count="1">
+            <Image2 Ref="13" type="Image" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,19,2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <ImageURL>{OrganizationImage}</ImageURL>
+              <Margins>0,0,0,0</Margins>
+              <Name>Image2</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Stretch>True</Stretch>
+              <VertAlignment>Center</VertAlignment>
+            </Image2>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>PageHeaderBand1</Name>
+          <Page isRef="11" />
+          <Parent isRef="11" />
+        </PageHeaderBand1>
+        <DataBand3 Ref="14" type="DataBand" isKey="true">
+          <BeforePrintEvent>string salesOrder = OrdersForSales.SalesLinesForSales_OrdRef;
+
+if (LinesCounter.ContainsKey(salesOrder))
+{
+	LinesCounter[salesOrder] += 1;
+}
+else
+{
+	LinesCounter.Add(salesOrder, 1);
+}
+</BeforePrintEvent>
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,3.2,19,0</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <DataRelationName isNull="true" />
+          <DataSourceName>OrdersForSales</DataSourceName>
+          <Filters isList="true" count="0" />
+          <Name>DataBand3</Name>
+          <Page isRef="11" />
+          <Parent isRef="11" />
+          <Sort isList="true" count="0" />
+        </DataBand3>
+        <DataBand2 Ref="15" type="DataBand" isKey="true">
+          <BeforePrintEvent>string workCenter = OrdersForRouting.OperationsForRouting_WrkRef;
+string operationReference = OrdersForRouting.OperationsForRouting_OprRef;
+int operationOrder = OrdersForRouting.OperationsForRouting_OOrder;
+string partReference = OrdersForRouting.OperationsForRouting_PrdRef;
+
+string finalString = "";
+
+if ((Jobs.JobRef == OrdersForRouting.DIS_JobRef) &amp;&amp; (OrdersForRouting.OperationsForRouting_RouRef == "")) 
+{
+
+if (operationReference.ToUpper() == "2D CUT")
+{
+	int workCenterLength = workCenter.Length;
+	if (workCenter.Substring(0,6).ToUpper() == "TRUMPF")
+		operationReference = "Laser";
+	else if (workCenter.Substring(workCenterLength - 7,7).ToUpper() == "AUTOGEN")
+		operationReference = "Autogen";
+	else if (workCenter.Substring(workCenterLength - 6,6).ToUpper() == "PLASMA")
+		operationReference = "Plasma";
+} 
+	
+if (operationReference.ToUpper() == "BENDING" || operationReference.ToUpper() == "BIEGEN")
+{
+	operationReference = "Kanten";
+} 
+	
+	
+	if (operationOrder &gt; 1)
+	{	
+		//Variable1 = OperationsPerLineDict[LinesForRouting.PrdRef];
+		finalString = ", ";
+		//OperationsPerLineDict[LinesForRouting.PrdRef] += ", " + LinesForRouting.Operations_WrkRef;
+	}
+	
+	finalString += operationReference;
+	
+		//OperationsPerLineDict.Add(LinesForRouting.PrdRef, workCenter);
+	
+if (OperationsPerLineDict.ContainsKey(partReference))
+{
+	OperationsPerLineDict[partReference] += finalString;
+}
+	else
+	{
+		OperationsPerLineDict.Add(partReference, finalString);
+	}
+}
+</BeforePrintEvent>
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,4,19,0</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <DataRelationName isNull="true" />
+          <DataSourceName>OrdersForRouting</DataSourceName>
+          <Filters isList="true" count="0" />
+          <Name>DataBand2</Name>
+          <Page isRef="11" />
+          <Parent isRef="11" />
+          <Sort isList="true" count="0" />
+        </DataBand2>
+        <DataBand1 Ref="16" type="DataBand" isKey="true">
+          <BeforePrintEvent>string partReference = NestingsForListing.PartsForListing_PrdRef;
+shm_Routing = OperationsPerLineDict[partReference];
+
+string salesOrder = NestingsForListing.SalesLinesForListing_OrdRef;
+shm_Total = LinesCounter[salesOrder].ToString();</BeforePrintEvent>
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,4.8,19,6</ClientRectangle>
+          <Components isList="true" count="1">
+            <Panel1 Ref="17" type="Panel" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0.2,19,5.6</ClientRectangle>
+              <Components isList="true" count="12">
+                <Text1 Ref="18" type="Text" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>5,0.8,6.4,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Calibri Light,10</Font>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text1</Name>
+                  <Page isRef="11" />
+                  <Parent isRef="17" />
+                  <Text>{"Name: " + NestingsForListing.PartsForListing_PrdName}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text1>
+                <Image1 Ref="19" type="Image" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>0.1,0.1,4.6,3.2</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <ImageURL>{NestingsForListing.PartsForListing_Image}</ImageURL>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Image1</Name>
+                  <Page isRef="11" />
+                  <Parent isRef="17" />
+                  <VertAlignment>Center</VertAlignment>
+                </Image1>
+                <Text3 Ref="20" type="Text" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>5,0,6.4,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Calibri Light,10</Font>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text3</Name>
+                  <Page isRef="11" />
+                  <Parent isRef="17" />
+                  <Text>{"Referez: " + NestingsForListing.OrdersForListing_PrdRef}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text3>
+                <Text4 Ref="21" type="Text" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>5,2.4,6.4,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Calibri Light,10</Font>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text4</Name>
+                  <Page isRef="11" />
+                  <Parent isRef="17" />
+                  <Text>{"Kundenaufträge: " + NestingsForListing.OrdersForListing_OrdRef}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text4>
+                <Text5 Ref="22" type="Text" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>5,3.2,6.4,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Calibri Light,10</Font>
+                  <Guid>25c93024f37344eeba8e75a9989ec3d6</Guid>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text5</Name>
+                  <Page isRef="11" />
+                  <Parent isRef="17" />
+                  <Text>{"Position: " + NestingsForListing.OrdersForListing_OLineNum}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text5>
+                <Text7 Ref="23" type="Text" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>5,1.6,9,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Calibri Light,10</Font>
+                  <Guid>76c996f5ffd64bdc88abe0017f0d35d5</Guid>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text7</Name>
+                  <Page isRef="11" />
+                  <Parent isRef="17" />
+                  <Text>{"Abmessungen (HxLxB): " + NestingsForListing.OrdersForListing_DIS_Thickness.ToString("F2") + " x " + NestingsForListing.PartsForListing_DIS_Width.ToString("F2") + " x " + NestingsForListing.PartsForListing_DIS_Length.ToString("F2")}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text7>
+                <Text11 Ref="24" type="Text" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>11.6,2.4,7,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Calibri Light,10</Font>
+                  <Guid>795a4bbca97a4c948358bf531c9c40ad</Guid>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text11</Name>
+                  <Page isRef="11" />
+                  <Parent isRef="17" />
+                  <Text>{"Gewicht: " + NestingsForListing.SalesLinesForListing_Weight.ToString("F2")}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text11>
+                <Text2 Ref="25" type="Text" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>11.6,3.2,7.2,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Calibri Light,9</Font>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text2</Name>
+                  <Page isRef="11" />
+                  <Parent isRef="17" />
+                  <Text>{shm_Routing}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+                  <VertAlignment>Center</VertAlignment>
+                </Text2>
+                <BarCode1 Ref="26" type="Stimulsoft.Report.BarCodes.StiBarCode" isKey="true">
+                  <BackColor>Transparent</BackColor>
+                  <BarCodeType Ref="27" type="Stimulsoft.Report.BarCodes.StiEAN13BarCodeType" isKey="true" />
+                  <ClientRectangle>11.8,0.2,7.2,1.2</ClientRectangle>
+                  <Code>{NestingsForListing.OrdersForListing_MnORef}</Code>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,8,Bold,Pixel</Font>
+                  <ForeColor>Black</ForeColor>
+                  <Name>BarCode1</Name>
+                  <Page isRef="11" />
+                  <Parent isRef="17" />
+                  <VertAlignment>Center</VertAlignment>
+                </BarCode1>
+                <Text6 Ref="28" type="Text" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>11.6,4,6.4,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Calibri Light,9</Font>
+                  <Guid>adc5abc829754e0495bfe69211d216fc</Guid>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text6</Name>
+                  <Page isRef="11" />
+                  <Parent isRef="17" />
+                  <Text>{shm_Total}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text6>
+                <Text8 Ref="29" type="Text" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>5,4,6.4,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Calibri Light,10</Font>
+                  <Guid>8e79658fdeb64fb49d32282c1b2f8c56</Guid>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text8</Name>
+                  <Page isRef="11" />
+                  <Parent isRef="17" />
+                  <Text>{"Anzahl: " + NestingsForListing.MQ + "/" + NestingsForListing.OrdersForListing_Quantity}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text8>
+                <Text9 Ref="30" type="Text" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>5,4.8,6.4,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Calibri Light,10</Font>
+                  <Guid>52048c49dbab473ba2bd38b10b439cde</Guid>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text9</Name>
+                  <Page isRef="11" />
+                  <Parent isRef="17" />
+                  <Text>{"CNC: " + Nestings.CNC}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text9>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <Name>Panel1</Name>
+              <Page isRef="11" />
+              <Parent isRef="16" />
+            </Panel1>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DataRelationName isNull="true" />
+          <DataSourceName>NestingsForListing</DataSourceName>
+          <Filters isList="true" count="0" />
+          <Name>DataBand1</Name>
+          <Page isRef="11" />
+          <Parent isRef="11" />
+          <Sort isList="true" count="0" />
+        </DataBand1>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Guid>6c2da2b4c73841838ee3080a90f220be</Guid>
+      <Margins>1,1,1,1</Margins>
+      <Name>ReportPage</Name>
+      <PageHeight>29.7</PageHeight>
+      <PageWidth>21</PageWidth>
+      <Report isRef="0" />
+      <Watermark Ref="31" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <Font>Arial,100</Font>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
+    </ReportPage>
+  </Pages>
+  <PrinterSettings Ref="32" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>00_DIS_MMNN_MMOO_00000100_NestingPartsList</ReportAlias>
+  <ReportAuthor>SYSADM</ReportAuthor>
+  <ReportChanged>2/28/2025 3:43:30 PM</ReportChanged>
+  <ReportCreated>2/10/2025 11:18:54 PM</ReportCreated>
+  <ReportDescription>Nesting Parts List</ReportDescription>
+  <ReportFile>C:/Lantek/System/Common/repository/END/reports/00_DIS_MMNN_MMOO_00000100_NestingPartsList.mrt</ReportFile>
+  <ReportGuid>942230f6ce1847fdafbe9dcfd68e6334</ReportGuid>
+  <ReportImage isNull="true" />
+  <ReportName>00_DIS_MMNN_MMOO_00000100_NestingPartsList</ReportName>
+  <ReportUnit>Centimeters</ReportUnit>
+  <ReportVersion>2017.1.1.0</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+using System.Collections.Generic;
+using System.Globalization;
+
+namespace Reports
+{
+    public class JobParts : Stimulsoft.Report.StiReport
+    {
+        public JobParts()        {
+            this.InitializeComponent();
+        }
+		
+		public Dictionary&lt;string, string&gt; OperationsPerLineDict = new Dictionary&lt;string, string&gt;();
+		
+		public Dictionary&lt;double, double&gt; PaymentDiscountsPerTime = new Dictionary&lt;double, double&gt;();
+		
+		public Dictionary&lt;string, int&gt; LinesCounter = new Dictionary&lt;string, int&gt;();
+		
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}
+</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="7">
+    <Titles Ref="33" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>Bottom;[187:187:187];3;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Arial,22,Bold</Font>
+      <Name>Titles</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Titles>
+    <PageHeader Ref="34" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>Bottom;[187:187:187];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Arial,9</Font>
+      <Name>PageHeader</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </PageHeader>
+    <PageFooter Ref="35" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>Top;[187:187:187];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Arial,9</Font>
+      <Name>PageFooter</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </PageFooter>
+    <Headers Ref="36" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>All;[238:238:238];1;Solid;False;4;Black</Border>
+      <Brush>[234:234:234]</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Arial,11,Bold</Font>
+      <Name>Headers</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Headers>
+    <DataClean Ref="37" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Arial,10</Font>
+      <Name>DataClean</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </DataClean>
+    <DataOdd Ref="38" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>All;[221:221:221];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Arial,10</Font>
+      <Name>DataOdd</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </DataOdd>
+    <DataEven Ref="39" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>All;[221:221:221];1;Solid;False;4;Black</Border>
+      <Brush>[255:255:255]</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Arial,10</Font>
+      <Name>DataEven</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </DataEven>
+  </Styles>
+</StiSerializer>

@@ -1,0 +1,50 @@
+
+double valueToIncrement = 0.0;
+double modifiedLeftPositionPanel = 0.0;
+List<KeyValuePair<string, Font>> kvpList = new List<KeyValuePair<string, Font>>();
+			
+Font font = new Font("Calibri Light", 9, FontStyle.Regular);
+kvpList.Add(new KeyValuePair<string, Font>(StringChecker(shm_EnterpriseAddress), font));
+
+font = new Font("Calibri Light", 11, FontStyle.Regular);
+kvpList.Add(new KeyValuePair<string, Font>(StringChecker(Quotes.CusName), font));
+kvpList.Add(new KeyValuePair<string, Font>(StringChecker(shm_PersonalTreatment), font));
+kvpList.Add(new KeyValuePair<string, Font>(StringChecker(Quotes.Customer_Address1), font));
+kvpList.Add(new KeyValuePair<string, Font>(StringChecker(Quotes.Customer_ZipCode + " " + Quotes.Customer_City), font));
+kvpList.Add(new KeyValuePair<string, Font>(StringChecker(Quotes.SAddress1), font));
+kvpList.Add(new KeyValuePair<string, Font>(StringChecker(Quotes.SZipCode + " " + Quotes.SCity), font));
+
+LeftPanelSizeDefinition(Panel30, GetLongestField(kvpList), Panel30.Width, out valueToIncrement);
+
+Panel30.Width += valueToIncrement;
+Text11.Width += valueToIncrement;
+Text18.Width += valueToIncrement;
+Text20.Width += valueToIncrement;
+Text21.Width += valueToIncrement;
+
+
+//************************** left ends, right begins
+kvpList = new List<KeyValuePair<string, Font>>();
+
+font = new Font("Calibri Light", 10, FontStyle.Bold);
+kvpList.Add(new KeyValuePair<string, Font>(StringChecker(Quotes.QutRef), font));
+kvpList.Add(new KeyValuePair<string, Font>(StringChecker(Quotes.CDate__ScN), font));
+
+font = new Font("Calibri Light", 10, FontStyle.Regular);
+kvpList.Add(new KeyValuePair<string, Font>(StringChecker(Quotes.CusRef), font));
+kvpList.Add(new KeyValuePair<string, Font>(StringChecker(shm_EmployeeNaming), font));
+kvpList.Add(new KeyValuePair<string, Font>(StringChecker(Quotes.Employee_WPhone), font));
+kvpList.Add(new KeyValuePair<string, Font>(StringChecker(Quotes.Employee_WEMail), font));
+			
+RightPanelSizeAndLeftDefinition(Panel3, GetLongestField(kvpList), Text1.Width, out valueToIncrement, out modifiedLeftPositionPanel);
+
+Panel3.Left = modifiedLeftPositionPanel;
+Panel3.Width += valueToIncrement;
+Text1.Width += valueToIncrement;
+Text3.Width += valueToIncrement;
+Text32.Width += valueToIncrement;
+Text5.Width += valueToIncrement;
+Text13.Width += valueToIncrement;
+Text56.Width += valueToIncrement;
+Text4.Width += valueToIncrement;
+Text104.Width += valueToIncrement;

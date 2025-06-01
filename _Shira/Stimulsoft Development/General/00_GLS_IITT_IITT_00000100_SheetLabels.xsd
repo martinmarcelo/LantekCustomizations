@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="_x0030_0_GLS_IITT_IITT_00000100_SheetLabels" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+  <xs:element name="_x0030_0_GLS_IITT_IITT_00000100_SheetLabels" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GLS_IITT_IITT_00000100" msprop:Table="GLS_IITT_IITT_00000100">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BatchNo" msdata:Caption="Tracking number" type="xs:string" minOccurs="0" />
+              <xs:element name="BatchNo__Lab" msdata:Caption="Tracking number (Label)" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

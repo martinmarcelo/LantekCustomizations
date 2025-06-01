@@ -1,0 +1,8 @@
+the output variables accepted are:
+
+for time programs
+- SetupTime
+- EstimatedOperationTime
+
+for cost programs
+- OtherOperationCost
