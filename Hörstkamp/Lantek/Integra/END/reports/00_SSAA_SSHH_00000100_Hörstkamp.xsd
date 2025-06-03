@@ -431,14 +431,6 @@
               <xs:element name="OperationProcesses.OprRef__Lab" msdata:Caption="Operation (Label)" type="xs:string" minOccurs="0" />
               <xs:element name="OperationProcesses.WrkRef" msdata:Caption="Work center" type="xs:string" minOccurs="0" />
               <xs:element name="OperationProcesses.WrkRef__Lab" msdata:Caption="Work center (Label)" type="xs:string" minOccurs="0" />
-              <xs:element name="Workcenter.WrkRef" msdata:Caption="Reference" type="xs:string" minOccurs="0" />
-              <xs:element name="Workcenter.WrkRef__Lab" msdata:Caption="Reference (Label)" type="xs:string" minOccurs="0" />
-              <xs:element name="Workcenter.IsOutsourcing" msdata:Caption="Outsourcing" type="xs:boolean" minOccurs="0" />
-              <xs:element name="Workcenter.IsOutsourcing__Lab" msdata:Caption="Outsourcing (Label)" type="xs:string" minOccurs="0" />
-              <xs:element name="Workcenter.IsOutsourcing__ScN" msdata:Caption="Outsourcing (Value)" type="xs:string" minOccurs="0" />
-              <xs:element name="Workcenter.DIS_OTechn" msdata:Caption="Technology" type="xs:short" minOccurs="0" />
-              <xs:element name="Workcenter.DIS_OTechn__Lab" msdata:Caption="Technology (Label)" type="xs:string" minOccurs="0" />
-              <xs:element name="Workcenter.DIS_OTechn__ScN" msdata:Caption="Technology (Value)" type="xs:string" minOccurs="0" />
             </xs:sequence>
           </xs:complexType>
         </xs:element>
