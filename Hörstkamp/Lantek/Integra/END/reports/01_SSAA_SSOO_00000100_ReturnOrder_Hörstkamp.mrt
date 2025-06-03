@@ -1492,7 +1492,7 @@ Text58.Width += valueToIncrement;
                   <Page isRef="14" />
                   <Parent isRef="40" />
                   <ShiftMode>None</ShiftMode>
-                  <Text>Auftragsbestätigung</Text>
+                  <Text>Rücksendeauftrag</Text>
                   <TextBrush>Black</TextBrush>
                   <Type>Expression</Type>
                   <VertAlignment>Center</VertAlignment>
@@ -2569,11 +2569,11 @@ else
   </ReferencedAssemblies>
   <ReportAlias>01_SSAA_SSOO_00000100_ReturnOrder_Hörstkamp</ReportAlias>
   <ReportAuthor>SYSADM</ReportAuthor>
-  <ReportChanged>6/2/2025 3:45:10 PM</ReportChanged>
+  <ReportChanged>6/3/2025 4:46:02 PM</ReportChanged>
   <ReportCreated>12/20/2016 5:37:56 PM</ReportCreated>
   <ReportDescription>Rücksendeauftrag Hörstkamp</ReportDescription>
   <ReportFile>C:/Lantek/System/Common/repository/END/reports/01_SSAA_SSOO_00000100_ReturnOrder_Hörstkamp.mrt</ReportFile>
-  <ReportGuid>4f6cfe34564441daacb2a15df6caa006</ReportGuid>
+  <ReportGuid>4b2ee95495fc4c88b83de6d4b5ee2c27</ReportGuid>
   <ReportImage isNull="true" />
   <ReportName>01_SSAA_SSOO_00000100_ReturnOrder_Hörstkamp</ReportName>
   <ReportUnit>Centimeters</ReportUnit>

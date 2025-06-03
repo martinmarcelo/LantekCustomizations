@@ -506,7 +506,7 @@
       </Lines>
       <RoutingLines Ref="4" type="DataTableSource" isKey="true">
         <Alias>RoutingLines</Alias>
-        <Columns isList="true" count="23">
+        <Columns isList="true" count="28">
           <value>QutRef,Quote,System.String</value>
           <value>QutRef__Lab,Quote_x0020__x0028_Label_x0029_,System.String</value>
           <value>LineNum,Line_x0020_number,System.String</value>
@@ -530,6 +530,11 @@
           <value>Operation.WrkRef__Lab,Work_x0020_center_x0020__x0028_Label_x0029_,System.String</value>
           <value>Operation.OprRef,Operation,System.String</value>
           <value>Operation.OprRef__Lab,Operation_x0020__x0028_Label_x0029_,System.String</value>
+          <value>Workcenter.WrkRef,Reference,System.String</value>
+          <value>Workcenter.WrkRef__Lab,Reference_x0020__x0028_Label_x0029_,System.String</value>
+          <value>Workcenter.IsOutsourcing,Outsourcing,System.Boolean</value>
+          <value>Workcenter.IsOutsourcing__Lab,Outsourcing_x0020__x0028_Label_x0029_,System.String</value>
+          <value>Workcenter.IsOutsourcing__ScN,Outsourcing_x0020__x0028_Value_x0029_,System.String</value>
         </Columns>
         <Dictionary isRef="1" />
         <Name>RoutingLines</Name>
@@ -1598,6 +1603,7 @@ Text104.Width += valueToIncrement;</BeforePrintEvent>
 string operationReference = RoutingLines.Operation_OprRef;
 int operationOrder = RoutingLines.Operation_OOrder;
 string partReference = RoutingLines.Operation_PrdRef;
+
 string finalString = "";
 
 if (operationReference.ToUpper() == "2D CUT")
@@ -1628,15 +1634,17 @@ if (operationReference.ToUpper() == "BENDING" || operationReference.ToUpper() ==
 
 if (!OperationsPerLineDict.ContainsKey(partReference))
 {
-	OperationsPerLineDict[partReference] = new List&lt;string&gt;();
-	//OperationsPerLineDict[partReference].Add(operationReference);
-	//OperationsPerLineDict[partReference] += finalString;
+	OperationsPerLineDict[partReference] = new Dictionary&lt;string, Dictionary&lt;string,bool&gt;&gt;();
 }
-//else 
-//	OperationsPerLineDict.Add(partReference, finalString);
-if (!OperationsPerLineDict[partReference].Contains(operationReference))
+
+if (!OperationsPerLineDict[partReference].ContainsKey(workCenter))
 {
-	OperationsPerLineDict[partReference].Add(operationReference);
+	OperationsPerLineDict[partReference][workCenter] = new Dictionary&lt;string, bool&gt;();
+}
+
+if (!OperationsPerLineDict[partReference][workCenter].ContainsKey(operationReference))
+{
+	OperationsPerLineDict[partReference][workCenter][operationReference] = RoutingLines.Workcenter_IsOutsourcing;
 }</BeforePrintEvent>
           <Brush>Transparent</Brush>
           <BusinessObjectGuid isNull="true" />
@@ -1883,17 +1891,24 @@ if (!OperationsPerLineDict[partReference].Contains(operationReference))
           <BeforePrintEvent>ForTaxBreakdown = IIF(ForTaxBreakdown != "", ForTaxBreakdown,IIF(Quotes.TValue!= Lines.TaxValue,"1","")).ToString();
 
 string partReference = Lines.Items_PrdRef;
+string workCenter = RoutingLines.Workcenter_WrkRef;
+string operationReference = RoutingLines.Operation_OprRef;
+	
 PartPicture = Replace(ToLowerCase(Lines.Items_Image),".bmp","-IMGB.png");
 
 bool hasOutsourcing = false;
 
 if (OperationsPerLineDict.ContainsKey(partReference))
 {
-	foreach(var operation in OperationsPerLineDict[partReference])
+	foreach(var workCenterPair in OperationsPerLineDict[partReference])
 	{
-		if (operation == "External Cut")
+		foreach(var operationPair in workCenterPair.Value)
 		{
-			hasOutsourcing = true;
+			hasOutsourcing = operationPair.Value;
+			break;	
+		}
+		if (hasOutsourcing)
+		{
 			break;
 		}
 	}
@@ -1901,7 +1916,7 @@ if (OperationsPerLineDict.ContainsKey(partReference))
 LinesData.Enabled = hasOutsourcing;
 
 if (OperationsPerLineDict.ContainsKey(partReference))
-	shm_Routing = string.Join(", ", OperationsPerLineDict[partReference]);
+	shm_Routing = string.Join(", ", OperationsPerLineDict[partReference][workCenter].Keys);
 else
 	shm_Routing = "";
 
@@ -2270,11 +2285,11 @@ Lines.UnitWeight__Scr + ")" ,"")}</Text>
   </ReferencedAssemblies>
   <ReportAlias>00_QQTT_QQTT_00000100_PriceRequest_Hörstkamp</ReportAlias>
   <ReportAuthor>SYSADM</ReportAuthor>
-  <ReportChanged>6/3/2025 4:29:59 PM</ReportChanged>
+  <ReportChanged>6/3/2025 10:31:44 PM</ReportChanged>
   <ReportCreated>10/9/2012 3:59:16 PM</ReportCreated>
   <ReportDescription>Preisanfrage Hörstkamp</ReportDescription>
   <ReportFile />
-  <ReportGuid>de9ab14ba051492cb416e50e2eaafd12</ReportGuid>
+  <ReportGuid>2a86c743d0c04fdb993bec124f2bca08</ReportGuid>
   <ReportImage isNull="true" />
   <ReportName>00_QQTT_QQTT_00000100_PriceRequest_Hörstkamp</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
@@ -2304,7 +2319,7 @@ namespace Reports
         }
 
 		//public Dictionary&lt;string, string&gt; OperationsPerLineDict = new Dictionary&lt;string, string&gt;();
-		public Dictionary&lt;string, List&lt;string&gt;&gt; OperationsPerLineDict = new Dictionary&lt;string, List&lt;string&gt;&gt;();
+		public Dictionary&lt;string, Dictionary&lt;string, Dictionary&lt;string,bool&gt;&gt;&gt; OperationsPerLineDict = new Dictionary&lt;string, Dictionary&lt;string, Dictionary&lt;string,bool&gt;&gt;&gt;();
 		public Dictionary&lt;double, double&gt; PaymentDiscountsPerTime = new Dictionary&lt;double, double&gt;();
 		
 		public double LeftPanelRightEndPosition = 0.0;
