@@ -186,60 +186,7 @@
         <Name>Production order</Name>
         <NameInSource>00_MMNN_MMOO_00000100_Hörstkamp.Production order</NameInSource>
       </Production_x0020_order>
-      <Operations Ref="3" type="DataTableSource" isKey="true">
-        <Alias>Operations</Alias>
-        <Columns isList="true" count="45">
-          <value>MnORef,Production_x0020_order,System.String</value>
-          <value>MnORef__Lab,Production_x0020_order_x0020__x0028_Label_x0029_,System.String</value>
-          <value>OprID,Operation_x0020_number,System.Int32</value>
-          <value>OprID__Lab,Operation_x0020_number_x0020__x0028_Label_x0029_,System.String</value>
-          <value>OprID__ScN,Operation_x0020_number_x0020__x0028_Value_x0029_,System.String</value>
-          <value>PrdRefDst,Item,System.String</value>
-          <value>PrdRefDst__Lab,Item_x0020__x0028_Label_x0029_,System.String</value>
-          <value>WrkRef,Work_x0020_center,System.String</value>
-          <value>WrkRef__Lab,Work_x0020_center_x0020__x0028_Label_x0029_,System.String</value>
-          <value>IsOutsourcing,Outsourcing,System.Boolean</value>
-          <value>IsOutsourcing__Lab,Outsourcing_x0020__x0028_Label_x0029_,System.String</value>
-          <value>IsOutsourcing__ScN,Outsourcing_x0020__x0028_Value_x0029_,System.String</value>
-          <value>DIS_JobRef,Job,System.String</value>
-          <value>DIS_JobRef__Lab,Job_x0020__x0028_Label_x0029_,System.String</value>
-          <value>DIS_MatRef,Material,System.String</value>
-          <value>DIS_MatRef__Lab,Material_x0020__x0028_Label_x0029_,System.String</value>
-          <value>DIS_Thickness,Thickness,System.Double</value>
-          <value>DIS_Thickness__Lab,Thickness_x0020__x0028_Label_x0029_,System.String</value>
-          <value>DIS_Thickness__DBD,Thickness_x0020__x0028_Database_x0029_,System.Double</value>
-          <value>DIS_Thickness__Scr,Thickness_x0020__x0028_Value_x0029_,System.String</value>
-          <value>DIS_Thickness__ScN,Thickness_x0020__x0028_Value_x0029_,System.String</value>
-          <value>DIS_Thickness__Dec,Thickness_x0020__x0028_Decimal_x0020_digits_x0029_,System.Int16</value>
-          <value>DIS_Thickness__Rnd,Thickness_x0020__x0028_Rounded_x0029_,System.Int16</value>
-          <value>DIS_Thickness__Sff,Thickness_x0020__x0028_Suffix_x0029_,System.String</value>
-          <value>MState,Manufacturing_x0020_status,System.Int16</value>
-          <value>MState__Lab,Manufacturing_x0020_status_x0020__x0028_Label_x0029_,System.String</value>
-          <value>MState__ScN,Manufacturing_x0020_status_x0020__x0028_Value_x0029_,System.String</value>
-          <value>StdTime,Estimated_x0020_time,System.Double</value>
-          <value>StdTime__Lab,Estimated_x0020_time_x0020__x0028_Label_x0029_,System.String</value>
-          <value>StdTime__ScN,Estimated_x0020_time_x0020__x0028_Value_x0029_,System.String</value>
-          <value>StdTime__Dec,Estimated_x0020_time_x0020__x0028_Decimal_x0020_digits_x0029_,System.Int16</value>
-          <value>StdTime__Rnd,Estimated_x0020_time_x0020__x0028_Rounded_x0029_,System.Int16</value>
-          <value>OprRef,Operation,System.String</value>
-          <value>OprRef__Lab,Operation_x0020__x0028_Label_x0029_,System.String</value>
-          <value>OOrder,Item_x0020_operation_x0020_number,System.Int32</value>
-          <value>OOrder__Lab,Item_x0020_operation_x0020_number_x0020__x0028_Label_x0029_,System.String</value>
-          <value>OOrder__ScN,Item_x0020_operation_x0020_number_x0020__x0028_Value_x0029_,System.String</value>
-          <value>WorkCenter.WrkRef,Reference,System.String</value>
-          <value>WorkCenter.WrkRef__Lab,Reference_x0020__x0028_Label_x0029_,System.String</value>
-          <value>WorkCenter.IsOutsourcing,Outsourcing,System.Boolean</value>
-          <value>WorkCenter.IsOutsourcing__Lab,Outsourcing_x0020__x0028_Label_x0029_,System.String</value>
-          <value>WorkCenter.IsOutsourcing__ScN,Outsourcing_x0020__x0028_Value_x0029_,System.String</value>
-          <value>WorkCenter.DIS_OTechn,Technology,System.Int16</value>
-          <value>WorkCenter.DIS_OTechn__Lab,Technology_x0020__x0028_Label_x0029_,System.String</value>
-          <value>WorkCenter.DIS_OTechn__ScN,Technology_x0020__x0028_Value_x0029_,System.String</value>
-        </Columns>
-        <Dictionary isRef="1" />
-        <Name>Operations</Name>
-        <NameInSource>00_MMNN_MMOO_00000100_Hörstkamp.Operations</NameInSource>
-      </Operations>
-      <Bendings Ref="4" type="DataTableSource" isKey="true">
+      <Bendings Ref="3" type="DataTableSource" isKey="true">
         <Alias>Bendings</Alias>
         <Columns isList="true" count="29">
           <value>RecID,Element_x0020_identifier,System.Int32</value>
@@ -276,34 +223,89 @@
         <Name>Bendings</Name>
         <NameInSource>00_MMNN_MMOO_00000100_Hörstkamp.Bendings</NameInSource>
       </Bendings>
+      <Operations Ref="4" type="DataTableSource" isKey="true">
+        <Alias>Operations</Alias>
+        <Columns isList="true" count="47">
+          <value>MnORef,Production_x0020_order,System.String</value>
+          <value>MnORef__Lab,Production_x0020_order_x0020__x0028_Label_x0029_,System.String</value>
+          <value>OprID,Operation_x0020_number,System.Int32</value>
+          <value>OprID__Lab,Operation_x0020_number_x0020__x0028_Label_x0029_,System.String</value>
+          <value>OprID__ScN,Operation_x0020_number_x0020__x0028_Value_x0029_,System.String</value>
+          <value>PrdRef,Main_x0020_item,System.String</value>
+          <value>PrdRef__Lab,Main_x0020_item_x0020__x0028_Label_x0029_,System.String</value>
+          <value>WrkRef,Work_x0020_center,System.String</value>
+          <value>WrkRef__Lab,Work_x0020_center_x0020__x0028_Label_x0029_,System.String</value>
+          <value>DIS_MatRef,Material,System.String</value>
+          <value>DIS_MatRef__Lab,Material_x0020__x0028_Label_x0029_,System.String</value>
+          <value>DIS_Thickness,Thickness,System.Double</value>
+          <value>DIS_Thickness__Lab,Thickness_x0020__x0028_Label_x0029_,System.String</value>
+          <value>DIS_Thickness__DBD,Thickness_x0020__x0028_Database_x0029_,System.Double</value>
+          <value>DIS_Thickness__Scr,Thickness_x0020__x0028_Value_x0029_,System.String</value>
+          <value>DIS_Thickness__ScN,Thickness_x0020__x0028_Value_x0029_,System.String</value>
+          <value>DIS_Thickness__Dec,Thickness_x0020__x0028_Decimal_x0020_digits_x0029_,System.Int16</value>
+          <value>DIS_Thickness__Rnd,Thickness_x0020__x0028_Rounded_x0029_,System.Int16</value>
+          <value>DIS_Thickness__Sff,Thickness_x0020__x0028_Suffix_x0029_,System.String</value>
+          <value>PrdRefDst,Item,System.String</value>
+          <value>PrdRefDst__Lab,Item_x0020__x0028_Label_x0029_,System.String</value>
+          <value>DIS_JobRef,Job,System.String</value>
+          <value>DIS_JobRef__Lab,Job_x0020__x0028_Label_x0029_,System.String</value>
+          <value>IsOutsourcing,Outsourcing,System.Boolean</value>
+          <value>IsOutsourcing__Lab,Outsourcing_x0020__x0028_Label_x0029_,System.String</value>
+          <value>IsOutsourcing__ScN,Outsourcing_x0020__x0028_Value_x0029_,System.String</value>
+          <value>MState,Manufacturing_x0020_status,System.Int16</value>
+          <value>MState__Lab,Manufacturing_x0020_status_x0020__x0028_Label_x0029_,System.String</value>
+          <value>MState__ScN,Manufacturing_x0020_status_x0020__x0028_Value_x0029_,System.String</value>
+          <value>OprRef,Operation,System.String</value>
+          <value>OprRef__Lab,Operation_x0020__x0028_Label_x0029_,System.String</value>
+          <value>OOrder,Item_x0020_operation_x0020_number,System.Int32</value>
+          <value>OOrder__Lab,Item_x0020_operation_x0020_number_x0020__x0028_Label_x0029_,System.String</value>
+          <value>OOrder__ScN,Item_x0020_operation_x0020_number_x0020__x0028_Value_x0029_,System.String</value>
+          <value>StdTime,Estimated_x0020_time,System.Double</value>
+          <value>StdTime__Lab,Estimated_x0020_time_x0020__x0028_Label_x0029_,System.String</value>
+          <value>StdTime__ScN,Estimated_x0020_time_x0020__x0028_Value_x0029_,System.String</value>
+          <value>StdTime__Dec,Estimated_x0020_time_x0020__x0028_Decimal_x0020_digits_x0029_,System.Int16</value>
+          <value>StdTime__Rnd,Estimated_x0020_time_x0020__x0028_Rounded_x0029_,System.Int16</value>
+          <value>WorkCenter.WrkRef,Reference,System.String</value>
+          <value>WorkCenter.WrkRef__Lab,Reference_x0020__x0028_Label_x0029_,System.String</value>
+          <value>WorkCenter.DIS_OTechn,Technology,System.Int16</value>
+          <value>WorkCenter.DIS_OTechn__Lab,Technology_x0020__x0028_Label_x0029_,System.String</value>
+          <value>WorkCenter.DIS_OTechn__ScN,Technology_x0020__x0028_Value_x0029_,System.String</value>
+          <value>WorkCenter.IsOutsourcing,Outsourcing,System.Boolean</value>
+          <value>WorkCenter.IsOutsourcing__Lab,Outsourcing_x0020__x0028_Label_x0029_,System.String</value>
+          <value>WorkCenter.IsOutsourcing__ScN,Outsourcing_x0020__x0028_Value_x0029_,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Operations</Name>
+        <NameInSource>00_MMNN_MMOO_00000100_Hörstkamp.Operations</NameInSource>
+      </Operations>
     </DataSources>
     <Relations isList="true" count="2">
       <Production_x0020_order Ref="5" type="DataRelation" isKey="true">
         <Alias>Production order</Alias>
-        <ChildColumns isList="true" count="2">
-          <value>MnORef</value>
-          <value>PrdRefDst</value>
+        <ChildColumns isList="true" count="1">
+          <value>PrdRef</value>
         </ChildColumns>
         <ChildSource isRef="3" />
         <Dictionary isRef="1" />
         <Name>Production order</Name>
-        <NameInSource>Operations</NameInSource>
-        <ParentColumns isList="true" count="2">
-          <value>MnORef</value>
+        <NameInSource>Bendings_child_Production order</NameInSource>
+        <ParentColumns isList="true" count="1">
           <value>PrdRef</value>
         </ParentColumns>
         <ParentSource isRef="2" />
       </Production_x0020_order>
       <Production_x0020_order Ref="6" type="DataRelation" isKey="true">
         <Alias>Production order</Alias>
-        <ChildColumns isList="true" count="1">
-          <value>PrdRef</value>
+        <ChildColumns isList="true" count="2">
+          <value>MnORef</value>
+          <value>PrdRefDst</value>
         </ChildColumns>
         <ChildSource isRef="4" />
         <Dictionary isRef="1" />
         <Name>Production order</Name>
-        <NameInSource>Bendings_child_Production order</NameInSource>
-        <ParentColumns isList="true" count="1">
+        <NameInSource>Operations_child_Production order</NameInSource>
+        <ParentColumns isList="true" count="2">
+          <value>MnORef</value>
           <value>PrdRef</value>
         </ParentColumns>
         <ParentSource isRef="2" />
@@ -357,7 +359,7 @@
       <value>,ForQuantity,ForQuantity,,System.String,,True,True,False,False</value>
       <value>,ForMState,ForMState,,System.String,Switch_x0028_Production_order.MState_x0020__x003D__x003D__x0020_0_x002C__x0020___Mss_35917_x002C__x0020_Production_order.MState_x0020__x003D__x003D__x0020_1_x002C__x0020___Mss_60002371_x002C__x0020_Production_order.MState_x0020__x003D__x003D__x0020_10_x002C__x0020___Mss_33493_x002C__x0020_Production_order.MState_x0020__x003D__x003D__x0020_20_x002C__x0020___Mss_60001819_x002C__x0020_Production_order.MState_x0020__x003D__x003D__x0020_30_x002C__x0020___Mss_31012_x002C__x0020_Production_order.MState_x0020__x003D__x003D__x0020_40_x002C__x0020___Mss_31823_x002C__x0020_Production_order.MState_x0020__x003D__x003D__x0020_50_x002C__x0020___Mss_30120_x002C__x0020_Production_order.MState_x0020__x003D__x003D__x0020_60_x002C__x0020___Mss_30037_x002C__x0020_Production_order.MState_x0020__x003D__x003D__x0020_80_x002C__x0020___Mss_60000410_x002C__x0020_Production_order.MState_x0020__x003D__x003D__x0020_81_x002C__x0020___Mss_60002395_x002C__x0020_Production_order.MState_x0020__x003D__x003D__x0020_90_x002C__x0020___Mss_60001996_x002C__x0020_Production_order.MState_x0020__x003D__x003D__x0020_91_x002C__x0020___Mss_60001995_x0029_.ToString_x0028__x0029_,True,True,False,False</value>
       <value>,ForStdTime,ForStdTime,,System.String,CalculateTime_x0028_Operations.StdTime_x002C__x0020_0_x0029_,True,True,False,False</value>
-      <value>,ForOperationMState,ForOperationMState,,System.String,Switch_x0028_Operations.MState_x0020__x003D__x003D__x0020_0_x002C__x0020___Mss_35917_x002C__x0020_Operations.MState_x0020__x003D__x003D__x0020_1_x002C__x0020___Mss_60002371_x002C__x0020_Operations.MState_x0020__x003D__x003D__x0020_100_x002C__x0020___Mss_60000679_x002C__x0020_Operations.MState_x0020__x003D__x003D__x0020_10_x002C__x0020___Mss_30296_x002C__x0020_Operations.MState_x0020__x003D__x003D__x0020_110_x002C__x0020___Mss_60001819_x002C__x0020_Operations.MState_x0020__x003D__x003D__x0020_120_x002C__x0020___Mss_60000683_x002C__x0020_Operations.MState_x0020__x003D__x003D__x0020_130_x002C__x0020___Mss_60000744_x002C__x0020_Operations.MState_x0020__x003D__x003D__x0020_141_x002C__x0020___Mss_30037_x002C__x0020_Operations.MState_x0020__x003D__x003D__x0020_140_x002C__x0020___Mss_60000653_x002C__x0020_Operations.MState_x0020__x003D__x003D__x0020_151_x002C__x0020___Mss_60001838_x002C__x0020_Operations.MState_x0020__x003D__x003D__x0020_150_x002C__x0020___Mss_60000654_x002C__x0020_Operations.MState_x0020__x003D__x003D__x0020_40_x002C__x0020___Mss_60000656_x002C__x0020_Operations.MState_x0020__x003D__x003D__x0020_30_x002C__x0020___Mss_60000657_x002C__x0020_Operations.MState_x0020__x003D__x003D__x0020_50_x002C__x0020___Mss_60000659_x002C__x0020_Operations.MState_x0020__x003D__x003D__x0020_160_x002C__x0020___Mss_60001995_x002C__x0020_Operations.MState_x0020__x003D__x003D__x0020_161_x002C__x0020___Mss_60001996_x002C__x0020_Operations.MState_x0020__x003D__x003D__x0020_170_x002C__x0020___Mss_34134_x002C_Operations.MState_x0020__x003D__x003D__x0020_180_x002C__x0020___Mss_60000410_x002C_Operations.MState_x0020__x003D__x003D__x0020_181_x002C__x0020___Mss_60002395_x002C__x0020_Operations.MState_x0020__x003D__x003D__x0020_60_x002C__x0020___Mss_31465_x0029_.ToString_x0028__x0029__x000D__x000A__x000D__x000A_,True,True,False,False</value>
+      <value>,ForOperationMState,ForOperationMState,,System.String,Switch_x0028_Operations.MState_x0020__x003D__x003D__x0020_0_x002C__x0020___Mss_35917_x002C__x0020_Operations.MState_x0020__x003D__x003D__x0020_1_x002C__x0020___Mss_60002371_x002C__x0020_Operations.MState_x0020__x003D__x003D__x0020_100_x002C__x0020___Mss_60000679_x002C__x0020_Operations.MState_x0020__x003D__x003D__x0020_10_x002C__x0020___Mss_30296_x002C__x0020_Operations.MState_x0020__x003D__x003D__x0020_110_x002C__x0020___Mss_60001819_x002C__x0020_Operations.MState_x0020__x003D__x003D__x0020_120_x002C__x0020___Mss_60000683_x002C__x0020_Operations.MState_x0020__x003D__x003D__x0020_130_x002C__x0020___Mss_60000744_x002C__x0020_Operations.MState_x0020__x003D__x003D__x0020_141_x002C__x0020___Mss_30037_x002C__x0020_Operations.MState_x0020__x003D__x003D__x0020_140_x002C__x0020___Mss_60000653_x002C__x0020_Operations.MState_x0020__x003D__x003D__x0020_151_x002C__x0020___Mss_60001838_x002C__x0020_Operations.MState_x0020__x003D__x003D__x0020_150_x002C__x0020___Mss_60000654_x002C__x0020_Operations.MState_x0020__x003D__x003D__x0020_40_x002C__x0020___Mss_60000656_x002C__x0020_Operations.MState_x0020__x003D__x003D__x0020_30_x002C__x0020___Mss_60000657_x002C__x0020_Operations.MState_x0020__x003D__x003D__x0020_50_x002C__x0020___Mss_60000659_x002C__x0020_Operations.MState_x0020__x003D__x003D__x0020_160_x002C__x0020___Mss_60001995_x002C__x0020_Operations.MState_x0020__x003D__x003D__x0020_161_x002C__x0020___Mss_60001996_x002C__x0020_Operations.MState_x0020__x003D__x003D__x0020_170_x002C__x0020___Mss_34134_x002C__x0020_Operations.MState_x0020__x003D__x003D__x0020_180_x002C__x0020___Mss_60000410_x002C__x0020_Operations.MState_x0020__x003D__x003D__x0020_181_x002C__x0020___Mss_60002395_x002C__x0020_Operations.MState_x0020__x003D__x003D__x0020_60_x002C__x0020___Mss_31465_x0029_.ToString_x0028__x0029__x000D__x000A__x000D__x000A_,True,True,False,False</value>
       <value>,ForPage,ForPage,,System.String,,False,False,False,False</value>
       <value>,HasBendingOperation,HasBendingOperation,,System.Boolean,CheckBendingOperation_x0028_Operations.WorkCenter_DIS_OTechn_x002C_HasBendingOperation_x0029_,False,True,False,False</value>
       <value>,__Mss_60001075,__Mss_60001075,,System.String,,False,False,False,False</value>
@@ -988,7 +990,6 @@ if (operationReference.ToUpper() == "BENDING" || operationReference.ToUpper() ==
 } 
 shm_OperationReference = operationReference;</BeforePrintEvent>
           <Brush>Transparent</Brush>
-          <BusinessObjectGuid isNull="true" />
           <ClientRectangle>0,12.6,20,0.6</ClientRectangle>
           <Columns>4</Columns>
           <Components isList="true" count="2">
@@ -1028,7 +1029,6 @@ shm_OperationReference = operationReference;</BeforePrintEvent>
                   <Name>Text35</Name>
                   <Page isRef="7" />
                   <Parent isRef="51" />
-                  <Text>CODE</Text>
                   <TextBrush>Black</TextBrush>
                   <Type>Expression</Type>
                   <VertAlignment>Center</VertAlignment>
@@ -1057,7 +1057,7 @@ shm_OperationReference = operationReference;</BeforePrintEvent>
             </EndPointPrimitive1>
           </Components>
           <Conditions isList="true" count="0" />
-          <DataRelationName>Operations</DataRelationName>
+          <DataRelationName>Operations_child_Production order</DataRelationName>
           <DataSourceName>Operations</DataSourceName>
           <Filters isList="true" count="0" />
           <Linked>True</Linked>
@@ -1124,11 +1124,11 @@ shm_OperationReference = operationReference;</BeforePrintEvent>
   </ReferencedAssemblies>
   <ReportAlias>00_MMNN_MMOO_00000100_Hörstkamp</ReportAlias>
   <ReportAuthor>SYSADM</ReportAuthor>
-  <ReportChanged>3/6/2025 3:25:44 PM</ReportChanged>
+  <ReportChanged>6/2/2025 7:56:09 PM</ReportChanged>
   <ReportCreated>11/23/2012 10:26:02 AM</ReportCreated>
   <ReportDescription>Produktion Hörstkamp</ReportDescription>
-  <ReportFile />
-  <ReportGuid>3203e8cf26ab401e9d5c794da0c1e2ca</ReportGuid>
+  <ReportFile>C:/Lantek/System/Common/repository/END/reports/00_MMNN_MMOO_00000100_Hörstkamp.mrt</ReportFile>
+  <ReportGuid>354ea7b84d14402badf195a122adcea4</ReportGuid>
   <ReportImage isNull="true" />
   <ReportName>00_MMNN_MMOO_00000100_Hörstkamp</ReportName>
   <ReportUnit>Centimeters</ReportUnit>

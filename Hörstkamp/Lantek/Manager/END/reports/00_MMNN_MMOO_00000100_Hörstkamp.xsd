@@ -183,57 +183,6 @@
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="Operations" msprop:Table="MMNN_MMOO_00000300">
-          <xs:complexType>
-            <xs:sequence>
-              <xs:element name="MnORef" msdata:Caption="Production order" type="xs:string" minOccurs="0" />
-              <xs:element name="MnORef__Lab" msdata:Caption="Production order (Label)" type="xs:string" minOccurs="0" />
-              <xs:element name="OprID" msdata:Caption="Operation number" type="xs:int" minOccurs="0" />
-              <xs:element name="OprID__Lab" msdata:Caption="Operation number (Label)" type="xs:string" minOccurs="0" />
-              <xs:element name="OprID__ScN" msdata:Caption="Operation number (Value)" type="xs:string" minOccurs="0" />
-              <xs:element name="PrdRefDst" msdata:Caption="Item" type="xs:string" minOccurs="0" />
-              <xs:element name="PrdRefDst__Lab" msdata:Caption="Item (Label)" type="xs:string" minOccurs="0" />
-              <xs:element name="WrkRef" msdata:Caption="Work center" type="xs:string" minOccurs="0" />
-              <xs:element name="WrkRef__Lab" msdata:Caption="Work center (Label)" type="xs:string" minOccurs="0" />
-              <xs:element name="IsOutsourcing" msdata:Caption="Outsourcing" type="xs:boolean" minOccurs="0" />
-              <xs:element name="IsOutsourcing__Lab" msdata:Caption="Outsourcing (Label)" type="xs:string" minOccurs="0" />
-              <xs:element name="IsOutsourcing__ScN" msdata:Caption="Outsourcing (Value)" type="xs:string" minOccurs="0" />
-              <xs:element name="DIS_JobRef" msdata:Caption="Job" type="xs:string" minOccurs="0" />
-              <xs:element name="DIS_JobRef__Lab" msdata:Caption="Job (Label)" type="xs:string" minOccurs="0" />
-              <xs:element name="DIS_MatRef" msdata:Caption="Material" type="xs:string" minOccurs="0" />
-              <xs:element name="DIS_MatRef__Lab" msdata:Caption="Material (Label)" type="xs:string" minOccurs="0" />
-              <xs:element name="DIS_Thickness" msdata:Caption="Thickness" type="xs:double" minOccurs="0" />
-              <xs:element name="DIS_Thickness__Lab" msdata:Caption="Thickness (Label)" type="xs:string" minOccurs="0" />
-              <xs:element name="DIS_Thickness__DBD" msdata:Caption="Thickness (Database)" type="xs:double" minOccurs="0" />
-              <xs:element name="DIS_Thickness__Scr" msdata:Caption="Thickness (Value)" type="xs:string" minOccurs="0" />
-              <xs:element name="DIS_Thickness__ScN" msdata:Caption="Thickness (Value)" type="xs:string" minOccurs="0" />
-              <xs:element name="DIS_Thickness__Dec" msdata:Caption="Thickness (Decimal digits)" type="xs:short" minOccurs="0" />
-              <xs:element name="DIS_Thickness__Rnd" msdata:Caption="Thickness (Rounded)" type="xs:short" minOccurs="0" />
-              <xs:element name="DIS_Thickness__Sff" msdata:Caption="Thickness (Suffix)" type="xs:string" minOccurs="0" />
-              <xs:element name="MState" msdata:Caption="Manufacturing status" type="xs:short" minOccurs="0" />
-              <xs:element name="MState__Lab" msdata:Caption="Manufacturing status (Label)" type="xs:string" minOccurs="0" />
-              <xs:element name="MState__ScN" msdata:Caption="Manufacturing status (Value)" type="xs:string" minOccurs="0" />
-              <xs:element name="StdTime" msdata:Caption="Estimated time" type="xs:double" minOccurs="0" />
-              <xs:element name="StdTime__Lab" msdata:Caption="Estimated time (Label)" type="xs:string" minOccurs="0" />
-              <xs:element name="StdTime__ScN" msdata:Caption="Estimated time (Value)" type="xs:string" minOccurs="0" />
-              <xs:element name="StdTime__Dec" msdata:Caption="Estimated time (Decimal digits)" type="xs:short" minOccurs="0" />
-              <xs:element name="StdTime__Rnd" msdata:Caption="Estimated time (Rounded)" type="xs:short" minOccurs="0" />
-              <xs:element name="OprRef" msdata:Caption="Operation" type="xs:string" minOccurs="0" />
-              <xs:element name="OprRef__Lab" msdata:Caption="Operation (Label)" type="xs:string" minOccurs="0" />
-              <xs:element name="OOrder" msdata:Caption="Item operation number" type="xs:int" minOccurs="0" />
-              <xs:element name="OOrder__Lab" msdata:Caption="Item operation number (Label)" type="xs:string" minOccurs="0" />
-              <xs:element name="OOrder__ScN" msdata:Caption="Item operation number (Value)" type="xs:string" minOccurs="0" />
-              <xs:element name="WorkCenter.WrkRef" msdata:Caption="Reference" type="xs:string" minOccurs="0" />
-              <xs:element name="WorkCenter.WrkRef__Lab" msdata:Caption="Reference (Label)" type="xs:string" minOccurs="0" />
-              <xs:element name="WorkCenter.IsOutsourcing" msdata:Caption="Outsourcing" type="xs:boolean" minOccurs="0" />
-              <xs:element name="WorkCenter.IsOutsourcing__Lab" msdata:Caption="Outsourcing (Label)" type="xs:string" minOccurs="0" />
-              <xs:element name="WorkCenter.IsOutsourcing__ScN" msdata:Caption="Outsourcing (Value)" type="xs:string" minOccurs="0" />
-              <xs:element name="WorkCenter.DIS_OTechn" msdata:Caption="Technology" type="xs:short" minOccurs="0" />
-              <xs:element name="WorkCenter.DIS_OTechn__Lab" msdata:Caption="Technology (Label)" type="xs:string" minOccurs="0" />
-              <xs:element name="WorkCenter.DIS_OTechn__ScN" msdata:Caption="Technology (Value)" type="xs:string" minOccurs="0" />
-            </xs:sequence>
-          </xs:complexType>
-        </xs:element>
         <xs:element name="Bendings" msprop:Table="DIS_SHPR_BEND_00000100">
           <xs:complexType>
             <xs:sequence>
@@ -269,13 +218,66 @@
             </xs:sequence>
           </xs:complexType>
         </xs:element>
+        <xs:element name="Operations" msprop:Table="MMNN_MMOO_00000300">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MnORef" msdata:Caption="Production order" type="xs:string" minOccurs="0" />
+              <xs:element name="MnORef__Lab" msdata:Caption="Production order (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="OprID" msdata:Caption="Operation number" type="xs:int" minOccurs="0" />
+              <xs:element name="OprID__Lab" msdata:Caption="Operation number (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="OprID__ScN" msdata:Caption="Operation number (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="PrdRef" msdata:Caption="Main item" type="xs:string" minOccurs="0" />
+              <xs:element name="PrdRef__Lab" msdata:Caption="Main item (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="WrkRef" msdata:Caption="Work center" type="xs:string" minOccurs="0" />
+              <xs:element name="WrkRef__Lab" msdata:Caption="Work center (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="DIS_MatRef" msdata:Caption="Material" type="xs:string" minOccurs="0" />
+              <xs:element name="DIS_MatRef__Lab" msdata:Caption="Material (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="DIS_Thickness" msdata:Caption="Thickness" type="xs:double" minOccurs="0" />
+              <xs:element name="DIS_Thickness__Lab" msdata:Caption="Thickness (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="DIS_Thickness__DBD" msdata:Caption="Thickness (Database)" type="xs:double" minOccurs="0" />
+              <xs:element name="DIS_Thickness__Scr" msdata:Caption="Thickness (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="DIS_Thickness__ScN" msdata:Caption="Thickness (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="DIS_Thickness__Dec" msdata:Caption="Thickness (Decimal digits)" type="xs:short" minOccurs="0" />
+              <xs:element name="DIS_Thickness__Rnd" msdata:Caption="Thickness (Rounded)" type="xs:short" minOccurs="0" />
+              <xs:element name="DIS_Thickness__Sff" msdata:Caption="Thickness (Suffix)" type="xs:string" minOccurs="0" />
+              <xs:element name="PrdRefDst" msdata:Caption="Item" type="xs:string" minOccurs="0" />
+              <xs:element name="PrdRefDst__Lab" msdata:Caption="Item (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="DIS_JobRef" msdata:Caption="Job" type="xs:string" minOccurs="0" />
+              <xs:element name="DIS_JobRef__Lab" msdata:Caption="Job (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="IsOutsourcing" msdata:Caption="Outsourcing" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsOutsourcing__Lab" msdata:Caption="Outsourcing (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="IsOutsourcing__ScN" msdata:Caption="Outsourcing (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="MState" msdata:Caption="Manufacturing status" type="xs:short" minOccurs="0" />
+              <xs:element name="MState__Lab" msdata:Caption="Manufacturing status (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="MState__ScN" msdata:Caption="Manufacturing status (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="OprRef" msdata:Caption="Operation" type="xs:string" minOccurs="0" />
+              <xs:element name="OprRef__Lab" msdata:Caption="Operation (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="OOrder" msdata:Caption="Item operation number" type="xs:int" minOccurs="0" />
+              <xs:element name="OOrder__Lab" msdata:Caption="Item operation number (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="OOrder__ScN" msdata:Caption="Item operation number (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="StdTime" msdata:Caption="Estimated time" type="xs:double" minOccurs="0" />
+              <xs:element name="StdTime__Lab" msdata:Caption="Estimated time (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="StdTime__ScN" msdata:Caption="Estimated time (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="StdTime__Dec" msdata:Caption="Estimated time (Decimal digits)" type="xs:short" minOccurs="0" />
+              <xs:element name="StdTime__Rnd" msdata:Caption="Estimated time (Rounded)" type="xs:short" minOccurs="0" />
+              <xs:element name="WorkCenter.WrkRef" msdata:Caption="Reference" type="xs:string" minOccurs="0" />
+              <xs:element name="WorkCenter.WrkRef__Lab" msdata:Caption="Reference (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="WorkCenter.DIS_OTechn" msdata:Caption="Technology" type="xs:short" minOccurs="0" />
+              <xs:element name="WorkCenter.DIS_OTechn__Lab" msdata:Caption="Technology (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="WorkCenter.DIS_OTechn__ScN" msdata:Caption="Technology (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="WorkCenter.IsOutsourcing" msdata:Caption="Outsourcing" type="xs:boolean" minOccurs="0" />
+              <xs:element name="WorkCenter.IsOutsourcing__Lab" msdata:Caption="Outsourcing (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="WorkCenter.IsOutsourcing__ScN" msdata:Caption="Outsourcing (Value)" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
       </xs:choice>
     </xs:complexType>
   </xs:element>
   <xs:annotation>
     <xs:appinfo>
-      <msdata:Relationship name="Operations" msdata:parent="Production_x0020_order" msdata:child="Operations" msdata:parentkey="MnORef PrdRef" msdata:childkey="MnORef PrdRefDst" />
       <msdata:Relationship name="Bendings_child_Production_x0020_order" msdata:parent="Production_x0020_order" msdata:child="Bendings" msdata:parentkey="PrdRef" msdata:childkey="PrdRef" />
+      <msdata:Relationship name="Operations_child_Production_x0020_order" msdata:parent="Production_x0020_order" msdata:child="Operations" msdata:parentkey="MnORef PrdRef" msdata:childkey="MnORef PrdRefDst" />
     </xs:appinfo>
   </xs:annotation>
 </xs:schema>

@@ -268,14 +268,25 @@ if ((OrdersForRouting.DIS_JobRef == Jobs.JobRef) &amp;&amp; (OrdersForRouting.Op
 	{
 		operationReference = "Kanten";
 	}
-		
+
+	if (!OperationsPerLineDict.ContainsKey(partReference))
+	{
+		OperationsPerLineDict[partReference] = new List&lt;string&gt;();
+	}
+	if (!OperationsPerLineDict[partReference].Contains(operationReference))
+	{
+		OperationsPerLineDict[partReference].Add(operationReference);
+	}
+/*			
 	if (operationOrder &gt; 1)
 	{	
 		finalString = ", ";
 	}
+
 		
 	finalString += operationReference;
-		
+
+	
 	if (OperationsPerLineDict.ContainsKey(partReference))
 	{
 		OperationsPerLineDict[partReference] += finalString;
@@ -300,6 +311,7 @@ if ((OrdersForRouting.DIS_JobRef == Jobs.JobRef) &amp;&amp; (OrdersForRouting.Op
 			OperationsPerLineDict2[partReference] = OperationsPerItemDict;
 		}
 	}
+*/
 }</BeforePrintEvent>
           <Brush>Transparent</Brush>
           <BusinessObjectGuid isNull="true" />
@@ -317,13 +329,20 @@ if ((OrdersForRouting.DIS_JobRef == Jobs.JobRef) &amp;&amp; (OrdersForRouting.Op
         </DataBand3>
         <DataBand2 Ref="9" type="DataBand" isKey="true">
           <BeforePrintEvent>PartPicture = Replace(ToLowerCase(MNOrder.PartForMnO_Image),".bmp","-IMGB.png");
+shm_GeometryRecognition = "";
+shm_Routing = "";
 
 //routings
 string partReference = MNOrder.PrdRef;
-string[] partOperations = OperationsPerLineDict[partReference].Split(',');
-shm_Routing = "";
+//string[] partOperations = OperationsPerLineDict[partReference].Split(',');
 
-if (OperationsPerLineDict2.ContainsKey(partReference))
+
+
+
+	//shm_Routing = string.Join(", ", OperationsPerLineDict[partReference]);
+
+
+if (OperationsPerLineDict.ContainsKey(partReference))
 {
 	int counter = 0;
 	StringBuilder sb = new StringBuilder();
@@ -334,7 +353,7 @@ if (OperationsPerLineDict2.ContainsKey(partReference))
 	double limitFieldSize = 10 - 0.4 - 0.4; //page width - margins of each side - margin of the text box
 	
 	
-	foreach(var operation in OperationsPerLineDict2[partReference].Values)
+	foreach(var operation in OperationsPerLineDict[partReference])
 	{
 		string contentToAdd = "[   ] " + operation + "     ";
 		SizeF sizeMm = MeasureStringInMM((sb.ToString() + contentToAdd), font, dpi);	
@@ -348,7 +367,8 @@ if (OperationsPerLineDict2.ContainsKey(partReference))
 	}
 	shm_Routing = sb.ToString();
 }
-
+else
+	shm_Routing = "";
 
 //geometry recognition
 double realArea = MNOrder.PartForMnO_DIS_Area;
@@ -359,8 +379,9 @@ double lengthItem = MNOrder.PartForMnO_DIS_Length;
 
 double epsilon = 1e-6;
 
-shm_GeometryRecognition = "";
 //check if it is a rectangle
+if (realArea &gt; 0)
+{
 if (rectangularArea == realArea)
 {
 	//check if it is a square
@@ -391,7 +412,8 @@ else if (Math.Abs(checkCircleArea-externalArea) &lt; epsilon)
 */
 }
 else 
-	shm_GeometryRecognition = "";</BeforePrintEvent>
+	shm_GeometryRecognition = "";
+}</BeforePrintEvent>
           <Brush>Transparent</Brush>
           <BusinessObjectGuid isNull="true" />
           <CanGrow>False</CanGrow>
@@ -580,11 +602,11 @@ else
   </ReferencedAssemblies>
   <ReportAlias>00_DIS_MMNN_MMOO_00000200_Label_A2</ReportAlias>
   <ReportAuthor>SYSADM</ReportAuthor>
-  <ReportChanged>3/6/2025 3:08:04 PM</ReportChanged>
+  <ReportChanged>6/2/2025 3:43:04 PM</ReportChanged>
   <ReportCreated>2/10/2025 11:18:54 PM</ReportCreated>
   <ReportDescription>Etiketten pro Job Hörstkamp</ReportDescription>
-  <ReportFile>C:/Lantek/System/Common/repository/END/reports/00_DIS_MMNN_MMOO_00000200_Label_A2.mrt</ReportFile>
-  <ReportGuid>baa3abb25b5942c590d77bf0cf7f25d4</ReportGuid>
+  <ReportFile />
+  <ReportGuid>4b932c2833ae4f75a79c8d8bc123bc91</ReportGuid>
   <ReportImage isNull="true" />
   <ReportName>00_DIS_MMNN_MMOO_00000200_Label_A2</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
@@ -610,10 +632,8 @@ namespace Reports
         public JobParts()        {
             this.InitializeComponent();
         }
-
 		
-		public Dictionary&lt;string, string&gt; OperationsPerLineDict = new Dictionary&lt;string, string&gt;();
-		public Dictionary&lt;string, Dictionary&lt;int, string&gt;&gt; OperationsPerLineDict2 = new Dictionary&lt;string, Dictionary&lt;int, string&gt;&gt;();
+		public Dictionary&lt;string, List&lt;string&gt;&gt; OperationsPerLineDict = new Dictionary&lt;string, List&lt;string&gt;&gt;();
 		public Dictionary&lt;int, string&gt; OperationsPerItemDict = new Dictionary&lt;int, string&gt;();
 
 		public static SizeF MeasureStringInMM(string text, Font font, float dpi)

@@ -21,6 +21,8 @@
               <xs:element name="Contact__ScN" msdata:Caption="Associated element identifier (Value)" type="xs:string" minOccurs="0" />
               <xs:element name="ConSurname1" msdata:Caption="Contact" type="xs:string" minOccurs="0" />
               <xs:element name="ConSurname1__Lab" msdata:Caption="Contact (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="RecOU" msdata:Caption="Element organizational unit" type="xs:string" minOccurs="0" />
+              <xs:element name="RecOU__Lab" msdata:Caption="Element organizational unit (Label)" type="xs:string" minOccurs="0" />
               <xs:element name="CusORef" msdata:Caption="Customer order" type="xs:string" minOccurs="0" />
               <xs:element name="CusORef__Lab" msdata:Caption="Customer order (Label)" type="xs:string" minOccurs="0" />
               <xs:element name="CrtDate" msdata:Caption="Creation date" type="xs:dateTime" minOccurs="0" />
@@ -104,8 +106,6 @@
               <xs:element name="TotalA__SfN" msdata:Caption="Total (Negative suffix)" type="xs:string" minOccurs="0" />
               <xs:element name="PymName" msdata:Caption="Payment method" type="xs:string" minOccurs="0" />
               <xs:element name="PymName__Lab" msdata:Caption="Payment method (Label)" type="xs:string" minOccurs="0" />
-              <xs:element name="RecOU" msdata:Caption="Element organizational unit" type="xs:string" minOccurs="0" />
-              <xs:element name="RecOU__Lab" msdata:Caption="Element organizational unit (Label)" type="xs:string" minOccurs="0" />
               <xs:element name="Customer.ComRef" msdata:Caption="Reference" type="xs:string" minOccurs="0" />
               <xs:element name="Customer.ComRef__Lab" msdata:Caption="Reference (Label)" type="xs:string" minOccurs="0" />
               <xs:element name="Customer.LanName" msdata:Caption="Default language" type="xs:string" minOccurs="0" />
@@ -360,25 +360,77 @@
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="RoutingLines" msprop:Table="MMNN_PPOO_00000200">
+        <xs:element name="Tracking_Delivery_x0020_Note_x0020_Lines" msprop:Table="SSAA_SSHH_00000200">
           <xs:complexType>
             <xs:sequence>
+              <xs:element name="ShpRef" msdata:Caption="Delivery note" type="xs:string" minOccurs="0" />
+              <xs:element name="ShpRef__Lab" msdata:Caption="Delivery note (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="LineNum" msdata:Caption="Line number" type="xs:string" minOccurs="0" />
+              <xs:element name="LineNum__Lab" msdata:Caption="Line number (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="OrdRef" msdata:Caption="Sales order" type="xs:string" minOccurs="0" />
+              <xs:element name="OrdRef__Lab" msdata:Caption="Sales order (Label)" type="xs:string" minOccurs="0" />
               <xs:element name="PrdRef" msdata:Caption="Item" type="xs:string" minOccurs="0" />
               <xs:element name="PrdRef__Lab" msdata:Caption="Item (Label)" type="xs:string" minOccurs="0" />
-              <xs:element name="RouRef" msdata:Caption="Routing" type="xs:string" minOccurs="0" />
-              <xs:element name="RouRef__Lab" msdata:Caption="Routing (Label)" type="xs:string" minOccurs="0" />
-              <xs:element name="OOrder" msdata:Caption="Operation number" type="xs:int" minOccurs="0" />
-              <xs:element name="OOrder__Lab" msdata:Caption="Operation number (Label)" type="xs:string" minOccurs="0" />
-              <xs:element name="OOrder__ScN" msdata:Caption="Operation number (Value)" type="xs:string" minOccurs="0" />
-              <xs:element name="OprRef" msdata:Caption="Operation" type="xs:string" minOccurs="0" />
-              <xs:element name="OprRef__Lab" msdata:Caption="Operation (Label)" type="xs:string" minOccurs="0" />
-              <xs:element name="WrkRef" msdata:Caption="Work center" type="xs:string" minOccurs="0" />
-              <xs:element name="WrkRef__Lab" msdata:Caption="Work center (Label)" type="xs:string" minOccurs="0" />
-              <xs:element name="OTime" msdata:Caption="Estimated time" type="xs:double" minOccurs="0" />
-              <xs:element name="OTime__Lab" msdata:Caption="Estimated time (Label)" type="xs:string" minOccurs="0" />
-              <xs:element name="OTime__ScN" msdata:Caption="Estimated time (Value)" type="xs:string" minOccurs="0" />
-              <xs:element name="OTime__Dec" msdata:Caption="Estimated time (Decimal digits)" type="xs:short" minOccurs="0" />
-              <xs:element name="OTime__Rnd" msdata:Caption="Estimated time (Rounded)" type="xs:short" minOccurs="0" />
+              <xs:element name="OLineNum" msdata:Caption="Sales order line" type="xs:string" minOccurs="0" />
+              <xs:element name="OLineNum__Lab" msdata:Caption="Sales order line (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="Tracking_MNOrder.MnORef" msdata:Caption="Production order" type="xs:string" minOccurs="0" />
+              <xs:element name="Tracking_MNOrder.MnORef__Lab" msdata:Caption="Production order (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="Tracking_MNOrder.OrdRef" msdata:Caption="Associated element" type="xs:string" minOccurs="0" />
+              <xs:element name="Tracking_MNOrder.OrdRef__Lab" msdata:Caption="Associated element (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="Tracking_MNOrder.PrdRef" msdata:Caption="Item" type="xs:string" minOccurs="0" />
+              <xs:element name="Tracking_MNOrder.PrdRef__Lab" msdata:Caption="Item (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="Tracking_MNOrder.OLineNum" msdata:Caption="Sales order line" type="xs:string" minOccurs="0" />
+              <xs:element name="Tracking_MNOrder.OLineNum__Lab" msdata:Caption="Sales order line (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="Tracking_MNOrderNesting.NstRef" msdata:Caption="Nesting" type="xs:string" minOccurs="0" />
+              <xs:element name="Tracking_MNOrderNesting.NstRef__Lab" msdata:Caption="Nesting (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="Tracking_MNOrderNesting.MnORef" msdata:Caption="Production order" type="xs:string" minOccurs="0" />
+              <xs:element name="Tracking_MNOrderNesting.MnORef__Lab" msdata:Caption="Production order (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="Tracking_MNOrderNesting.OprID" msdata:Caption="Operation number" type="xs:int" minOccurs="0" />
+              <xs:element name="Tracking_MNOrderNesting.OprID__Lab" msdata:Caption="Operation number (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="Tracking_MNOrderNesting.OprID__ScN" msdata:Caption="Operation number (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="Tracking_MNOrderNesting.PrdRefDst" msdata:Caption="Item" type="xs:string" minOccurs="0" />
+              <xs:element name="Tracking_MNOrderNesting.PrdRefDst__Lab" msdata:Caption="Item (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="Tracking_ItemBatch.Date" msdata:Caption="Date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Tracking_ItemBatch.Date__Lab" msdata:Caption="Date (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="Tracking_ItemBatch.Date__ScN" msdata:Caption="Date (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="Tracking_ItemBatch.Date__LDt" msdata:Caption="Date (Long date)" type="xs:string" minOccurs="0" />
+              <xs:element name="Tracking_ItemBatch.Date__SDt" msdata:Caption="Date (Short date)" type="xs:string" minOccurs="0" />
+              <xs:element name="Tracking_ItemBatch.PrdRef" msdata:Caption="Item" type="xs:string" minOccurs="0" />
+              <xs:element name="Tracking_ItemBatch.PrdRef__Lab" msdata:Caption="Item (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="Tracking_ItemBatch.BatchNo" msdata:Caption="Batch/Serial No." type="xs:string" minOccurs="0" />
+              <xs:element name="Tracking_ItemBatch.BatchNo__Lab" msdata:Caption="Batch/Serial No. (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="Tracking_ItemBatch.Reference" msdata:Caption="Associated element" type="xs:string" minOccurs="0" />
+              <xs:element name="Tracking_ItemBatch.Reference__Lab" msdata:Caption="Associated element (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="Tracking_ItemBatch.RecID" msdata:Caption="Element identifier" type="xs:int" minOccurs="0" />
+              <xs:element name="Tracking_ItemBatch.RecID__Lab" msdata:Caption="Element identifier (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="Tracking_ItemBatch.RecID__ScN" msdata:Caption="Element identifier (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="Tracking_ItemBatch.LineNum" msdata:Caption="Line number" type="xs:string" minOccurs="0" />
+              <xs:element name="Tracking_ItemBatch.LineNum__Lab" msdata:Caption="Line number (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="Tracking_ItemBatch.SerialNo" msdata:Caption="Batch/Serial No." type="xs:string" minOccurs="0" />
+              <xs:element name="Tracking_ItemBatch.SerialNo__Lab" msdata:Caption="Batch/Serial No. (Label)" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="RoutingLines" msprop:Table="SSAA_SSHH_00000200">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ShpRef" msdata:Caption="Delivery note" type="xs:string" minOccurs="0" />
+              <xs:element name="ShpRef__Lab" msdata:Caption="Delivery note (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="LineNum" msdata:Caption="Line number" type="xs:string" minOccurs="0" />
+              <xs:element name="LineNum__Lab" msdata:Caption="Line number (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="PrdRef" msdata:Caption="Item" type="xs:string" minOccurs="0" />
+              <xs:element name="PrdRef__Lab" msdata:Caption="Item (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="OperationProcesses.PrdRef" msdata:Caption="Item" type="xs:string" minOccurs="0" />
+              <xs:element name="OperationProcesses.PrdRef__Lab" msdata:Caption="Item (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="OperationProcesses.RouRef" msdata:Caption="Routing" type="xs:string" minOccurs="0" />
+              <xs:element name="OperationProcesses.RouRef__Lab" msdata:Caption="Routing (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="OperationProcesses.OOrder" msdata:Caption="Operation number" type="xs:int" minOccurs="0" />
+              <xs:element name="OperationProcesses.OOrder__Lab" msdata:Caption="Operation number (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="OperationProcesses.OOrder__ScN" msdata:Caption="Operation number (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="OperationProcesses.OprRef" msdata:Caption="Operation" type="xs:string" minOccurs="0" />
+              <xs:element name="OperationProcesses.OprRef__Lab" msdata:Caption="Operation (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="OperationProcesses.WrkRef" msdata:Caption="Work center" type="xs:string" minOccurs="0" />
+              <xs:element name="OperationProcesses.WrkRef__Lab" msdata:Caption="Work center (Label)" type="xs:string" minOccurs="0" />
             </xs:sequence>
           </xs:complexType>
         </xs:element>
@@ -403,7 +455,8 @@
   <xs:annotation>
     <xs:appinfo>
       <msdata:Relationship name="Lines" msdata:parent="Delivery_x0020_Notes" msdata:child="Delivery_x0020_note_x0020_lines" msdata:parentkey="ShpRef" msdata:childkey="ShpRef" />
-      <msdata:Relationship name="RoutingLines_child_Delivery_x0020_note_x0020_lines" msdata:parent="Delivery_x0020_note_x0020_lines" msdata:child="RoutingLines" msdata:parentkey="PrdRef" msdata:childkey="PrdRef" />
+      <msdata:Relationship name="Tracking_Delivery_x0020_Note_x0020_Lines_child_Delivery_x0020_Notes" msdata:parent="Delivery_x0020_Notes" msdata:child="Tracking_Delivery_x0020_Note_x0020_Lines" msdata:parentkey="ShpRef" msdata:childkey="ShpRef" />
+      <msdata:Relationship name="RoutingLines_child_Delivery_x0020_Notes" msdata:parent="Delivery_x0020_Notes" msdata:child="RoutingLines" msdata:parentkey="ShpRef" msdata:childkey="ShpRef" />
     </xs:appinfo>
   </xs:annotation>
 </xs:schema>
