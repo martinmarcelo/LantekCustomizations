@@ -1559,8 +1559,9 @@ Text104.Width += valueToIncrement;</BeforePrintEvent>
                   <Page isRef="12" />
                   <Parent isRef="44" />
                   <ShiftMode>None</ShiftMode>
-                  <Text>{__Mss_30027}</Text>
+                  <Text>Preisanfrage</Text>
                   <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
                   <VertAlignment>Center</VertAlignment>
                 </Text4>
                 <Text32 Ref="58" type="Text" isKey="true">
@@ -2285,11 +2286,11 @@ Lines.UnitWeight__Scr + ")" ,"")}</Text>
   </ReferencedAssemblies>
   <ReportAlias>00_QQTT_QQTT_00000100_PriceRequest_Hörstkamp</ReportAlias>
   <ReportAuthor>SYSADM</ReportAuthor>
-  <ReportChanged>6/3/2025 10:31:44 PM</ReportChanged>
+  <ReportChanged>6/3/2025 11:08:43 PM</ReportChanged>
   <ReportCreated>10/9/2012 3:59:16 PM</ReportCreated>
   <ReportDescription>Preisanfrage Hörstkamp</ReportDescription>
-  <ReportFile />
-  <ReportGuid>2a86c743d0c04fdb993bec124f2bca08</ReportGuid>
+  <ReportFile>C:/Lantek/System/Common/repository/END/reports/00_QQTT_QQTT_00000100_PriceRequest_Hörstkamp.mrt</ReportFile>
+  <ReportGuid>754f4f5ffe5c4a9583a42291f93ce264</ReportGuid>
   <ReportImage isNull="true" />
   <ReportName>00_QQTT_QQTT_00000100_PriceRequest_Hörstkamp</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
