@@ -26,6 +26,8 @@
               <xs:element name="CusName__Lab" msdata:Caption="Customer name (Label)" type="xs:string" minOccurs="0" />
               <xs:element name="CurName" msdata:Caption="Currency" type="xs:string" minOccurs="0" />
               <xs:element name="CurName__Lab" msdata:Caption="Currency (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="RecOU" msdata:Caption="Element organizational unit" type="xs:string" minOccurs="0" />
+              <xs:element name="RecOU__Lab" msdata:Caption="Element organizational unit (Label)" type="xs:string" minOccurs="0" />
               <xs:element name="Address2" msdata:Caption="Address 2" type="xs:string" minOccurs="0" />
               <xs:element name="Address2__Lab" msdata:Caption="Address 2 (Label)" type="xs:string" minOccurs="0" />
               <xs:element name="Address3" msdata:Caption="Address 3" type="xs:string" minOccurs="0" />
@@ -162,8 +164,6 @@
               <xs:element name="CarRef__Lab" msdata:Caption="Carrier (Label)" type="xs:string" minOccurs="0" />
               <xs:element name="City" type="xs:string" minOccurs="0" />
               <xs:element name="City__Lab" msdata:Caption="City (Label)" type="xs:string" minOccurs="0" />
-              <xs:element name="RecOU" msdata:Caption="Element organizational unit" type="xs:string" minOccurs="0" />
-              <xs:element name="RecOU__Lab" msdata:Caption="Element organizational unit (Label)" type="xs:string" minOccurs="0" />
               <xs:element name="Employee.EmpRef" msdata:Caption="Reference" type="xs:string" minOccurs="0" />
               <xs:element name="Employee.EmpRef__Lab" msdata:Caption="Reference (Label)" type="xs:string" minOccurs="0" />
               <xs:element name="Employee.UsrRef" msdata:Caption="User" type="xs:string" minOccurs="0" />

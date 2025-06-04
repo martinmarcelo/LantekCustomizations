@@ -1029,8 +1029,8 @@ Text58.Width += valueToIncrement;
 //**************************</BeforePrintEvent>
           <Brush>Transparent</Brush>
           <BusinessObjectGuid isNull="true" />
-          <ClientRectangle>0,1.2,19,10.01</ClientRectangle>
-          <Components isList="true" count="5">
+          <ClientRectangle>0,1.2,19,9.61</ClientRectangle>
+          <Components isList="true" count="4">
             <Image1 Ref="25" type="Image" isKey="true">
               <AspectRatio>True</AspectRatio>
               <Brush>Transparent</Brush>
@@ -1046,11 +1046,11 @@ Text58.Width += valueToIncrement;
             <Panel1 Ref="26" type="Panel" isKey="true">
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
-              <ClientRectangle>0,8,19,1.6</ClientRectangle>
+              <ClientRectangle>1,8,18,1.6</ClientRectangle>
               <Components isList="true" count="12">
                 <Text11 Ref="27" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
-                  <ClientRectangle>2.2,0.2,6.4,0.4</ClientRectangle>
+                  <ClientRectangle>2.2,0.2,6.2,0.4</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Font>Calibri Light,9</Font>
                   <Guid>5f9b1a4fb01249e484b89a72f6ad3097</Guid>
@@ -1065,7 +1065,7 @@ Text58.Width += valueToIncrement;
                 </Text11>
                 <Text12 Ref="28" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
-                  <ClientRectangle>0.2,0.2,2,0.4</ClientRectangle>
+                  <ClientRectangle>0.2,0.2,1.8,0.4</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Font>Calibri Light,9</Font>
                   <Guid>52d3289550ed41db9e84c89a9ea6f02b</Guid>
@@ -1080,7 +1080,7 @@ Text58.Width += valueToIncrement;
                 </Text12>
                 <Text13 Ref="29" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
-                  <ClientRectangle>0.2,0.6,2,0.4</ClientRectangle>
+                  <ClientRectangle>0.2,0.6,1.8,0.4</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Font>Calibri Light,9</Font>
                   <Guid>db0ea70a30154edaaa6f440ea85e49d6</Guid>
@@ -1095,7 +1095,7 @@ Text58.Width += valueToIncrement;
                 </Text13>
                 <Text14 Ref="30" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
-                  <ClientRectangle>0.2,1,2,0.4</ClientRectangle>
+                  <ClientRectangle>0.2,1,1.8,0.4</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Font>Calibri Light,9</Font>
                   <Guid>da92e8f9c61b4ab8bebf2bd9c19885aa</Guid>
@@ -1110,7 +1110,7 @@ Text58.Width += valueToIncrement;
                 </Text14>
                 <Text15 Ref="31" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
-                  <ClientRectangle>2.2,0.6,6.4,0.4</ClientRectangle>
+                  <ClientRectangle>2.2,0.6,6.2,0.4</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Font>Calibri Light,9</Font>
                   <Guid>e3b5b09a99694db18a1bca8e7df8946f</Guid>
@@ -1125,7 +1125,7 @@ Text58.Width += valueToIncrement;
                 </Text15>
                 <Text16 Ref="32" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
-                  <ClientRectangle>2.2,1,6.4,0.4</ClientRectangle>
+                  <ClientRectangle>2.2,1,6.2,0.4</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Font>Calibri Light,9</Font>
                   <Guid>410b430738df4007aef0c82ad2561492</Guid>
@@ -1140,7 +1140,7 @@ Text58.Width += valueToIncrement;
                 </Text16>
                 <Text23 Ref="33" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
-                  <ClientRectangle>11.8,0.2,7,0.4</ClientRectangle>
+                  <ClientRectangle>11.2,0.2,6.6,0.4</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Font>Calibri Light,9</Font>
                   <Guid>3ee6fd0713aa47bd8a21bf772433037e</Guid>
@@ -1155,7 +1155,7 @@ Text58.Width += valueToIncrement;
                 </Text23>
                 <Text24 Ref="34" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
-                  <ClientRectangle>8.8,0.2,2.8,0.4</ClientRectangle>
+                  <ClientRectangle>8.6,0.2,2.4,0.4</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Font>Calibri Light,9</Font>
                   <Guid>ac5e5dceccb840bcb0d19a364b53869d</Guid>
@@ -1170,7 +1170,7 @@ Text58.Width += valueToIncrement;
                 </Text24>
                 <Text25 Ref="35" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
-                  <ClientRectangle>8.8,0.6,2.8,0.4</ClientRectangle>
+                  <ClientRectangle>8.6,0.6,2.4,0.4</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Font>Calibri Light,9</Font>
                   <Guid>146c068ab5e7488d8da4e4062feba635</Guid>
@@ -1185,7 +1185,7 @@ Text58.Width += valueToIncrement;
                 </Text25>
                 <Text27 Ref="36" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
-                  <ClientRectangle>8.8,1,2.8,0.4</ClientRectangle>
+                  <ClientRectangle>8.6,1,2.4,0.4</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Font>Calibri Light,9</Font>
                   <Guid>7aef15fb64b04a9a84d06612fa04f2a0</Guid>
@@ -1200,7 +1200,7 @@ Text58.Width += valueToIncrement;
                 </Text27>
                 <Text31 Ref="37" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
-                  <ClientRectangle>11.8,1,7,0.4</ClientRectangle>
+                  <ClientRectangle>11.2,1,6.6,0.4</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Font>Calibri Light,9</Font>
                   <Guid>b9580466dd084cc099b55fc4f8e32ee4</Guid>
@@ -1215,7 +1215,7 @@ Text58.Width += valueToIncrement;
                 </Text31>
                 <Text32 Ref="38" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
-                  <ClientRectangle>11.8,0.6,7,0.4</ClientRectangle>
+                  <ClientRectangle>11.2,0.6,6.6,0.4</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Font>Calibri Light,9</Font>
                   <Guid>510bec4f14784f0893ab163ba0c9a073</Guid>
@@ -1235,28 +1235,12 @@ Text58.Width += valueToIncrement;
               <Page isRef="14" />
               <Parent isRef="24" />
             </Panel1>
-            <Text18 Ref="39" type="Text" isKey="true">
-              <Brush>Transparent</Brush>
-              <CanGrow>True</CanGrow>
-              <ClientRectangle>0,9.6,12.2,0.4</ClientRectangle>
-              <Conditions isList="true" count="0" />
-              <Font>Calibri Light,10</Font>
-              <Guid>7392588974b345e89f48faf36a2825f9</Guid>
-              <Margins>0,0,0,0</Margins>
-              <Name>Text18</Name>
-              <Page isRef="14" />
-              <Parent isRef="24" />
-              <Text>{shm_HelloMessage}</Text>
-              <TextBrush>Black</TextBrush>
-              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
-              <Type>Expression</Type>
-            </Text18>
-            <Panel2 Ref="40" type="Panel" isKey="true">
+            <Panel2 Ref="39" type="Panel" isKey="true">
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <ClientRectangle>13.8,2.4,5.2,5.4</ClientRectangle>
               <Components isList="true" count="16">
-                <Text52 Ref="41" type="Text" isKey="true">
+                <Text52 Ref="40" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
                   <ClientRectangle>0.2,4.8,4.8,0.6</ClientRectangle>
                   <Conditions isList="true" count="0" />
@@ -1266,13 +1250,13 @@ Text58.Width += valueToIncrement;
                   <Margins>0,0,0,0</Margins>
                   <Name>Text52</Name>
                   <Page isRef="14" />
-                  <Parent isRef="40" />
+                  <Parent isRef="39" />
                   <Text>Bitte bei allen Rückfragen angeben !</Text>
                   <TextBrush>Black</TextBrush>
                   <Type>Expression</Type>
                   <VertAlignment>Center</VertAlignment>
                 </Text52>
-                <Text6 Ref="42" type="Text" isKey="true">
+                <Text6 Ref="41" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
                   <ClientRectangle>0.2,0.6,1.8,0.6</ClientRectangle>
                   <Conditions isList="true" count="0" />
@@ -1281,13 +1265,13 @@ Text58.Width += valueToIncrement;
                   <Margins>0,0,0,0</Margins>
                   <Name>Text6</Name>
                   <Page isRef="14" />
-                  <Parent isRef="40" />
+                  <Parent isRef="39" />
                   <Text>Beleg-Nr.</Text>
                   <TextBrush>Black</TextBrush>
                   <Type>Expression</Type>
                   <VertAlignment>Center</VertAlignment>
                 </Text6>
-                <Text7 Ref="43" type="Text" isKey="true">
+                <Text7 Ref="42" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
                   <ClientRectangle>0.2,1.2,1.8,0.6</ClientRectangle>
                   <Conditions isList="true" count="0" />
@@ -1296,13 +1280,13 @@ Text58.Width += valueToIncrement;
                   <Margins>0,0,0,0</Margins>
                   <Name>Text7</Name>
                   <Page isRef="14" />
-                  <Parent isRef="40" />
+                  <Parent isRef="39" />
                   <Text>Datum</Text>
                   <TextBrush>Black</TextBrush>
                   <Type>Expression</Type>
                   <VertAlignment>Center</VertAlignment>
                 </Text7>
-                <Text43 Ref="44" type="Text" isKey="true">
+                <Text43 Ref="43" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
                   <ClientRectangle>0.2,1.8,1.8,0.6</ClientRectangle>
                   <Conditions isList="true" count="0" />
@@ -1311,13 +1295,13 @@ Text58.Width += valueToIncrement;
                   <Margins>0,0,0,0</Margins>
                   <Name>Text43</Name>
                   <Page isRef="14" />
-                  <Parent isRef="40" />
+                  <Parent isRef="39" />
                   <Text>Kunden-Nr.</Text>
                   <TextBrush>Black</TextBrush>
                   <Type>Expression</Type>
                   <VertAlignment>Center</VertAlignment>
                 </Text43>
-                <Text44 Ref="45" type="Text" isKey="true">
+                <Text44 Ref="44" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
                   <ClientRectangle>0.2,2.4,1.8,0.6</ClientRectangle>
                   <Conditions isList="true" count="0" />
@@ -1326,13 +1310,13 @@ Text58.Width += valueToIncrement;
                   <Margins>0,0,0,0</Margins>
                   <Name>Text44</Name>
                   <Page isRef="14" />
-                  <Parent isRef="40" />
+                  <Parent isRef="39" />
                   <Text>Bearbeiter</Text>
                   <TextBrush>Black</TextBrush>
                   <Type>Expression</Type>
                   <VertAlignment>Center</VertAlignment>
                 </Text44>
-                <Text45 Ref="46" type="Text" isKey="true">
+                <Text45 Ref="45" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
                   <ClientRectangle>0.2,3,1.8,0.6</ClientRectangle>
                   <Conditions isList="true" count="0" />
@@ -1341,13 +1325,13 @@ Text58.Width += valueToIncrement;
                   <Margins>0,0,0,0</Margins>
                   <Name>Text45</Name>
                   <Page isRef="14" />
-                  <Parent isRef="40" />
+                  <Parent isRef="39" />
                   <Text>Telefon</Text>
                   <TextBrush>Black</TextBrush>
                   <Type>Expression</Type>
                   <VertAlignment>Center</VertAlignment>
                 </Text45>
-                <Text46 Ref="47" type="Text" isKey="true">
+                <Text46 Ref="46" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
                   <ClientRectangle>0.2,3.6,1.8,0.6</ClientRectangle>
                   <Conditions isList="true" count="0" />
@@ -1356,13 +1340,13 @@ Text58.Width += valueToIncrement;
                   <Margins>0,0,0,0</Margins>
                   <Name>Text46</Name>
                   <Page isRef="14" />
-                  <Parent isRef="40" />
+                  <Parent isRef="39" />
                   <Text>Telefax</Text>
                   <TextBrush>Black</TextBrush>
                   <Type>Expression</Type>
                   <VertAlignment>Center</VertAlignment>
                 </Text46>
-                <Text48 Ref="48" type="Text" isKey="true">
+                <Text48 Ref="47" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
                   <ClientRectangle>0.2,4.2,1.8,0.6</ClientRectangle>
                   <Conditions isList="true" count="0" />
@@ -1371,13 +1355,13 @@ Text58.Width += valueToIncrement;
                   <Margins>0,0,0,0</Margins>
                   <Name>Text48</Name>
                   <Page isRef="14" />
-                  <Parent isRef="40" />
+                  <Parent isRef="39" />
                   <Text>E-mail</Text>
                   <TextBrush>Black</TextBrush>
                   <Type>Expression</Type>
                   <VertAlignment>Center</VertAlignment>
                 </Text48>
-                <Text5 Ref="49" type="Text" isKey="true">
+                <Text5 Ref="48" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
                   <ClientRectangle>2.2,0.6,2.8,0.6</ClientRectangle>
                   <Conditions isList="true" count="0" />
@@ -1385,12 +1369,12 @@ Text58.Width += valueToIncrement;
                   <Margins>0,0,0,0</Margins>
                   <Name>Text5</Name>
                   <Page isRef="14" />
-                  <Parent isRef="40" />
+                  <Parent isRef="39" />
                   <Text>{Sale_order.OrdRef}</Text>
                   <TextBrush>Black</TextBrush>
                   <VertAlignment>Center</VertAlignment>
                 </Text5>
-                <Text10 Ref="50" type="Text" isKey="true">
+                <Text10 Ref="49" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
                   <ClientRectangle>2.2,1.2,2.8,0.6</ClientRectangle>
                   <Conditions isList="true" count="0" />
@@ -1399,13 +1383,13 @@ Text58.Width += valueToIncrement;
                   <Margins>0,0,0,0</Margins>
                   <Name>Text10</Name>
                   <Page isRef="14" />
-                  <Parent isRef="40" />
+                  <Parent isRef="39" />
                   <Text>{Sale_order.CDate.ToString("dd.MM.yyyy")}</Text>
                   <TextBrush>Black</TextBrush>
                   <Type>Expression</Type>
                   <VertAlignment>Center</VertAlignment>
                 </Text10>
-                <Text53 Ref="51" type="Text" isKey="true">
+                <Text53 Ref="50" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
                   <ClientRectangle>2.2,1.8,2.8,0.6</ClientRectangle>
                   <Conditions isList="true" count="0" />
@@ -1414,13 +1398,13 @@ Text58.Width += valueToIncrement;
                   <Margins>0,0,0,0</Margins>
                   <Name>Text53</Name>
                   <Page isRef="14" />
-                  <Parent isRef="40" />
+                  <Parent isRef="39" />
                   <Text>{Sale_order.CusRef}</Text>
                   <TextBrush>Black</TextBrush>
                   <Type>Expression</Type>
                   <VertAlignment>Center</VertAlignment>
                 </Text53>
-                <Text54 Ref="52" type="Text" isKey="true">
+                <Text54 Ref="51" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
                   <ClientRectangle>2.2,2.4,2.8,0.6</ClientRectangle>
                   <Conditions isList="true" count="0" />
@@ -1429,13 +1413,13 @@ Text58.Width += valueToIncrement;
                   <Margins>0,0,0,0</Margins>
                   <Name>Text54</Name>
                   <Page isRef="14" />
-                  <Parent isRef="40" />
+                  <Parent isRef="39" />
                   <Text>{shm_EmployeeNaming}</Text>
                   <TextBrush>Black</TextBrush>
                   <Type>Expression</Type>
                   <VertAlignment>Center</VertAlignment>
                 </Text54>
-                <Text55 Ref="53" type="Text" isKey="true">
+                <Text55 Ref="52" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
                   <ClientRectangle>2.2,3,2.8,0.6</ClientRectangle>
                   <Conditions isList="true" count="0" />
@@ -1444,13 +1428,13 @@ Text58.Width += valueToIncrement;
                   <Margins>0,0,0,0</Margins>
                   <Name>Text55</Name>
                   <Page isRef="14" />
-                  <Parent isRef="40" />
+                  <Parent isRef="39" />
                   <Text>{Sale_order.Employee_WPhone}</Text>
                   <TextBrush>Black</TextBrush>
                   <Type>Expression</Type>
                   <VertAlignment>Center</VertAlignment>
                 </Text55>
-                <Text56 Ref="54" type="Text" isKey="true">
+                <Text56 Ref="53" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
                   <ClientRectangle>2.2,3.6,2.8,0.6</ClientRectangle>
                   <Conditions isList="true" count="0" />
@@ -1459,13 +1443,13 @@ Text58.Width += valueToIncrement;
                   <Margins>0,0,0,0</Margins>
                   <Name>Text56</Name>
                   <Page isRef="14" />
-                  <Parent isRef="40" />
+                  <Parent isRef="39" />
                   <Text>{Sale_order.Organization_Fax}</Text>
                   <TextBrush>Black</TextBrush>
                   <Type>Expression</Type>
                   <VertAlignment>Center</VertAlignment>
                 </Text56>
-                <Text58 Ref="55" type="Text" isKey="true">
+                <Text58 Ref="54" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
                   <ClientRectangle>2.2,4.2,2.8,0.6</ClientRectangle>
                   <Conditions isList="true" count="0" />
@@ -1474,13 +1458,13 @@ Text58.Width += valueToIncrement;
                   <Margins>0,0,0,0</Margins>
                   <Name>Text58</Name>
                   <Page isRef="14" />
-                  <Parent isRef="40" />
+                  <Parent isRef="39" />
                   <Text>{Sale_order.Employee_WEMail}</Text>
                   <TextBrush>Black</TextBrush>
                   <Type>Expression</Type>
                   <VertAlignment>Center</VertAlignment>
                 </Text58>
-                <Text8 Ref="56" type="Text" isKey="true">
+                <Text8 Ref="55" type="Text" isKey="true">
                   <Border>All;Black;1;Solid;False;4;Black</Border>
                   <Brush>LightGray</Brush>
                   <ClientRectangle>0,0,5.2,0.6</ClientRectangle>
@@ -1490,7 +1474,7 @@ Text58.Width += valueToIncrement;
                   <Margins>0,0,0,0</Margins>
                   <Name>Text8</Name>
                   <Page isRef="14" />
-                  <Parent isRef="40" />
+                  <Parent isRef="39" />
                   <ShiftMode>None</ShiftMode>
                   <Text>Rücksendeauftrag</Text>
                   <TextBrush>Black</TextBrush>
@@ -1505,11 +1489,11 @@ Text58.Width += valueToIncrement;
               <Page isRef="14" />
               <Parent isRef="24" />
             </Panel2>
-            <Panel12 Ref="57" type="Panel" isKey="true">
+            <Panel12 Ref="56" type="Panel" isKey="true">
               <Brush>Transparent</Brush>
               <ClientRectangle>1,2.8,5.8,5</ClientRectangle>
               <Components isList="true" count="4">
-                <Text3 Ref="58" type="Text" isKey="true">
+                <Text3 Ref="57" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
                   <ClientRectangle>0,2.8,5.8,0.8</ClientRectangle>
                   <Conditions isList="true" count="0" />
@@ -1518,14 +1502,14 @@ Text58.Width += valueToIncrement;
                   <Margins>0,0,0,0</Margins>
                   <Name>Text3</Name>
                   <Page isRef="14" />
-                  <Parent isRef="57" />
+                  <Parent isRef="56" />
                   <Text>Lieferanschrift:</Text>
                   <TextBrush>Black</TextBrush>
                   <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
                   <Type>Expression</Type>
                   <VertAlignment>Bottom</VertAlignment>
                 </Text3>
-                <Text2 Ref="59" type="Text" isKey="true">
+                <Text2 Ref="58" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
                   <ClientRectangle>0,3.6,5.8,1.4</ClientRectangle>
                   <Conditions isList="true" count="0" />
@@ -1534,13 +1518,13 @@ Text58.Width += valueToIncrement;
                   <Margins>0,0,0,0</Margins>
                   <Name>Text2</Name>
                   <Page isRef="14" />
-                  <Parent isRef="57" />
+                  <Parent isRef="56" />
                   <Text>{Sale_order.CusName + IIF(Sale_order.SAddress1 != "" || Sale_order.SCity != "", IIF(Sale_order.SAddress1 != "", "\n" + Sale_order.SAddress1, "").ToString() + IIF(Sale_order.SZipCode != "", "\n" + Sale_order.SZipCode + " " + Sale_order.SCity, IIF(Sale_order.SCity != "", "\n" + Sale_order.SCity,"")).ToString(), IIF(Sale_order.Customer_Address1 != "", "\n" + Sale_order.Customer_Address1, "").ToString() + IIF(Sale_order.Customer_ZipCode != "", "\n" + Sale_order.Customer_ZipCode + " " + Sale_order.Customer_City, IIF(Sale_order.Customer_City != "", "\n" + Sale_order.Customer_City,"")).ToString())}</Text>
                   <TextBrush>Black</TextBrush>
                   <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
                   <Type>Expression</Type>
                 </Text2>
-                <Text57 Ref="60" type="Text" isKey="true">
+                <Text57 Ref="59" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
                   <ClientRectangle>0,0.6,5.8,2.2</ClientRectangle>
                   <Conditions isList="true" count="0" />
@@ -1549,7 +1533,7 @@ Text58.Width += valueToIncrement;
                   <Margins>0,0,0,0</Margins>
                   <Name>Text57</Name>
                   <Page isRef="14" />
-                  <Parent isRef="57" />
+                  <Parent isRef="56" />
                   <Text>{Sale_order.CusName 
 + IIF(shm_PersonalTreatment != "", "\n" + shm_PersonalTreatment, "")
 + IIF(Sale_order.Customer_Address1 != "", "\n" + Sale_order.Customer_Address1, "")
@@ -1559,7 +1543,7 @@ Text58.Width += valueToIncrement;
                   <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
                   <Type>Expression</Type>
                 </Text57>
-                <Text1 Ref="61" type="Text" isKey="true">
+                <Text1 Ref="60" type="Text" isKey="true">
                   <AllowHtmlTags>True</AllowHtmlTags>
                   <Brush>Transparent</Brush>
                   <CanGrow>True</CanGrow>
@@ -1569,7 +1553,7 @@ Text58.Width += valueToIncrement;
                   <Margins>0,0,0,0</Margins>
                   <Name>Text1</Name>
                   <Page isRef="14" />
-                  <Parent isRef="57" />
+                  <Parent isRef="56" />
                   <Text>{shm_EnterpriseAddress}</Text>
                   <TextBrush>Black</TextBrush>
                   <TextQuality>Wysiwyg</TextQuality>
@@ -1593,7 +1577,7 @@ Text58.Width += valueToIncrement;
           <PrintIfDetailEmpty>True</PrintIfDetailEmpty>
           <Sort isList="true" count="0" />
         </SaleOrder>
-        <DataBand6 Ref="62" type="DataBand" isKey="true">
+        <DataBand6 Ref="61" type="DataBand" isKey="true">
           <BeforePrintEvent>string workCenter = RoutingLines.Operation_WrkRef;
 string operationReference = RoutingLines.Operation_OprRef;
 int operationOrder = RoutingLines.Operation_OOrder;
@@ -1630,7 +1614,7 @@ if (!OperationsPerLineDict[partReference].Contains(operationReference))
 }</BeforePrintEvent>
           <Brush>Transparent</Brush>
           <BusinessObjectGuid isNull="true" />
-          <ClientRectangle>0,12.01,19,0</ClientRectangle>
+          <ClientRectangle>0,11.61,19,0</ClientRectangle>
           <Components isList="true" count="0" />
           <Conditions isList="true" count="0" />
           <DataRelationName>RoutingLines_child_Sale order</DataRelationName>
@@ -1642,20 +1626,20 @@ if (!OperationsPerLineDict[partReference].Contains(operationReference))
           <Parent isRef="14" />
           <Sort isList="true" count="0" />
         </DataBand6>
-        <HeaderBand1 Ref="63" type="HeaderBand" isKey="true">
+        <HeaderBand1 Ref="62" type="HeaderBand" isKey="true">
           <Brush>Transparent</Brush>
-          <ClientRectangle>0,12.81,19,0</ClientRectangle>
+          <ClientRectangle>0,12.41,19,0</ClientRectangle>
           <Components isList="true" count="0" />
           <Conditions isList="true" count="0" />
           <Name>HeaderBand1</Name>
           <Page isRef="14" />
           <Parent isRef="14" />
         </HeaderBand1>
-        <ChildBand4 Ref="64" type="ChildBand" isKey="true">
+        <ChildBand4 Ref="63" type="ChildBand" isKey="true">
           <Brush>Transparent</Brush>
-          <ClientRectangle>0,13.61,19,0.4</ClientRectangle>
+          <ClientRectangle>0,13.21,19,0.4</ClientRectangle>
           <Components isList="true" count="2">
-            <Text4 Ref="65" type="Text" isKey="true">
+            <Text4 Ref="64" type="Text" isKey="true">
               <Brush>Transparent</Brush>
               <ClientRectangle>16.6,0,2.4,0.4</ClientRectangle>
               <Conditions isList="true" count="0" />
@@ -1665,12 +1649,12 @@ if (!OperationsPerLineDict[partReference].Contains(operationReference))
               <Margins>0,0,0,0</Margins>
               <Name>Text4</Name>
               <Page isRef="14" />
-              <Parent isRef="64" />
+              <Parent isRef="63" />
               <Text>{ForPage = Replace(Replace(__Mss_33466, "@#PAGENUMBER#@", PageNumber),  "@#TOTALPAGECOUNT#@", TotalPageCount)}</Text>
               <TextBrush>Black</TextBrush>
               <Type>Expression</Type>
             </Text4>
-            <Text9 Ref="66" type="Text" isKey="true">
+            <Text9 Ref="65" type="Text" isKey="true">
               <Brush>Transparent</Brush>
               <ClientRectangle>14.6,0,2,0.4</ClientRectangle>
               <Conditions isList="true" count="0" />
@@ -1679,7 +1663,7 @@ if (!OperationsPerLineDict[partReference].Contains(operationReference))
               <Margins>0,0,0,0</Margins>
               <Name>Text9</Name>
               <Page isRef="14" />
-              <Parent isRef="64" />
+              <Parent isRef="63" />
               <Text>{IIF(PageNumber &gt; 1, Sale_order.OrdRef, "")}</Text>
               <TextBrush>Black</TextBrush>
               <Type>Expression</Type>
@@ -1692,15 +1676,15 @@ if (!OperationsPerLineDict[partReference].Contains(operationReference))
           <Parent isRef="14" />
           <PrintOn>ExceptFirstPage</PrintOn>
         </ChildBand4>
-        <ChildBand1 Ref="67" type="ChildBand" isKey="true">
+        <ChildBand1 Ref="66" type="ChildBand" isKey="true">
           <Brush>EmptyBrush</Brush>
-          <ClientRectangle>0,14.81,19,0.8</ClientRectangle>
+          <ClientRectangle>0,14.41,19,0.8</ClientRectangle>
           <Components isList="true" count="1">
-            <Panel6 Ref="68" type="Panel" isKey="true">
+            <Panel6 Ref="67" type="Panel" isKey="true">
               <Brush>LightGray</Brush>
-              <ClientRectangle>0,0.19,19,0.4</ClientRectangle>
+              <ClientRectangle>1,0.19,18,0.4</ClientRectangle>
               <Components isList="true" count="7">
-                <Text26 Ref="69" type="Text" isKey="true">
+                <Text26 Ref="68" type="Text" isKey="true">
                   <Brush>[216:216:216]</Brush>
                   <ClientRectangle>0,0.01,1,0.4</ClientRectangle>
                   <Conditions isList="true" count="0" />
@@ -1708,90 +1692,90 @@ if (!OperationsPerLineDict[partReference].Contains(operationReference))
                   <Margins>0,0,0,0</Margins>
                   <Name>Text26</Name>
                   <Page isRef="14" />
-                  <Parent isRef="68" />
+                  <Parent isRef="67" />
                   <Text>Pos.</Text>
                   <TextBrush>Black</TextBrush>
                   <Type>Expression</Type>
                   <VertAlignment>Center</VertAlignment>
                 </Text26>
-                <Text28 Ref="70" type="Text" isKey="true">
+                <Text28 Ref="69" type="Text" isKey="true">
                   <Brush>[216:216:216]</Brush>
-                  <ClientRectangle>1,0.01,7.6,0.4</ClientRectangle>
+                  <ClientRectangle>1,0.01,6.6,0.4</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Font>Calibri Light,10,Bold</Font>
                   <Margins>0,0,0,0</Margins>
                   <Name>Text28</Name>
                   <Page isRef="14" />
-                  <Parent isRef="68" />
+                  <Parent isRef="67" />
                   <Text>{__Dsc_PrdName}</Text>
                   <TextBrush>Black</TextBrush>
                   <Type>Expression</Type>
                   <VertAlignment>Center</VertAlignment>
                 </Text28>
-                <Text29 Ref="71" type="Text" isKey="true">
+                <Text29 Ref="70" type="Text" isKey="true">
                   <Brush>[216:216:216]</Brush>
-                  <ClientRectangle>13.6,0.01,2.4,0.4</ClientRectangle>
+                  <ClientRectangle>13.4,0.01,1.8,0.4</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Font>Calibri Light,10,Bold</Font>
                   <HorAlignment>Right</HorAlignment>
                   <Margins>0,0,0,0</Margins>
                   <Name>Text29</Name>
                   <Page isRef="14" />
-                  <Parent isRef="68" />
+                  <Parent isRef="67" />
                   <Text>{__Dsc_UPrice}</Text>
                   <TextBrush>Black</TextBrush>
                   <Type>Expression</Type>
                   <VertAlignment>Center</VertAlignment>
                 </Text29>
-                <Text30 Ref="72" type="Text" isKey="true">
+                <Text30 Ref="71" type="Text" isKey="true">
                   <Brush>[216:216:216]</Brush>
-                  <ClientRectangle>16,0.01,3,0.4</ClientRectangle>
+                  <ClientRectangle>15.2,0.01,2.8,0.4</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Font>Calibri Light,10,Bold</Font>
                   <HorAlignment>Right</HorAlignment>
                   <Margins>0,0,0,0</Margins>
                   <Name>Text30</Name>
                   <Page isRef="14" />
-                  <Parent isRef="68" />
+                  <Parent isRef="67" />
                   <Text>{__Dsc_TotalPrice}</Text>
                   <TextBrush>Black</TextBrush>
                   <Type>Expression</Type>
                   <VertAlignment>Center</VertAlignment>
                 </Text30>
-                <Text34 Ref="73" type="Text" isKey="true">
+                <Text34 Ref="72" type="Text" isKey="true">
                   <Brush>[216:216:216]</Brush>
                   <ClientRectangle>11,0.01,1.4,0.4</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Font>Calibri Light,10,Bold</Font>
                   <Guid>2d046f8bde7248cf930cc54b5be2df15</Guid>
                   <HorAlignment>Right</HorAlignment>
-                  <Margins>0,0,0,0</Margins>
+                  <Margins>0,4,0,0</Margins>
                   <Name>Text34</Name>
                   <Page isRef="14" />
-                  <Parent isRef="68" />
+                  <Parent isRef="67" />
                   <Text>Menge</Text>
                   <TextBrush>Black</TextBrush>
                   <Type>Expression</Type>
                   <VertAlignment>Center</VertAlignment>
                 </Text34>
-                <Text35 Ref="74" type="Text" isKey="true">
+                <Text35 Ref="73" type="Text" isKey="true">
                   <Brush>[216:216:216]</Brush>
-                  <ClientRectangle>12.4,0.01,1.4,0.4</ClientRectangle>
+                  <ClientRectangle>12.4,0.01,1.2,0.4</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Font>Calibri Light,10,Bold</Font>
                   <Guid>5951e9b74b9940158c053d4b28401c3b</Guid>
                   <Margins>0,8,0,0</Margins>
                   <Name>Text35</Name>
                   <Page isRef="14" />
-                  <Parent isRef="68" />
+                  <Parent isRef="67" />
                   <Text>ME</Text>
                   <TextBrush>Black</TextBrush>
                   <Type>Expression</Type>
                   <VertAlignment>Center</VertAlignment>
                 </Text35>
-                <Text33 Ref="75" type="Text" isKey="true">
+                <Text33 Ref="74" type="Text" isKey="true">
                   <Brush>[216:216:216]</Brush>
-                  <ClientRectangle>8.6,0.01,2.4,0.4</ClientRectangle>
+                  <ClientRectangle>8.4,0.01,2.8,0.4</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Font>Calibri Light,10,Bold</Font>
                   <Guid>3334c2fa9e9b4141b6db2f70345165ad</Guid>
@@ -1799,7 +1783,7 @@ if (!OperationsPerLineDict[partReference].Contains(operationReference))
                   <Margins>0,0,0,0</Margins>
                   <Name>Text33</Name>
                   <Page isRef="14" />
-                  <Parent isRef="68" />
+                  <Parent isRef="67" />
                   <Text>Termin u.V.</Text>
                   <TextBrush>Black</TextBrush>
                   <Type>Expression</Type>
@@ -1809,7 +1793,7 @@ if (!OperationsPerLineDict[partReference].Contains(operationReference))
               <Conditions isList="true" count="0" />
               <Name>Panel6</Name>
               <Page isRef="14" />
-              <Parent isRef="67" />
+              <Parent isRef="66" />
             </Panel6>
           </Components>
           <Conditions isList="true" count="1">
@@ -1819,7 +1803,7 @@ if (!OperationsPerLineDict[partReference].Contains(operationReference))
           <Page isRef="14" />
           <Parent isRef="14" />
         </ChildBand1>
-        <SaleOrderLines Ref="76" type="DataBand" isKey="true">
+        <SaleOrderLines Ref="75" type="DataBand" isKey="true">
           <AfterPrintEvent>ForTaxesBreakdown = IIF(ForTaxesBreakdown != "", ForTaxesBreakdown,IIF(Sale_order.TValue!=Sale_order_lines.TaxValue,"1","")).ToString();
 if(ForPreviousTax == -5)
 {
@@ -1880,7 +1864,7 @@ else if (Math.Abs(checkCircleArea-externalArea) &lt; epsilon)
           <Brush>Transparent</Brush>
           <BusinessObjectGuid isNull="true" />
           <CanBreak>True</CanBreak>
-          <ClientRectangle>0,16.41,19,0</ClientRectangle>
+          <ClientRectangle>0,16.01,19,0</ClientRectangle>
           <Components isList="true" count="0" />
           <Conditions isList="true" count="0" />
           <DataRelationName>Lines</DataRelationName>
@@ -1896,7 +1880,7 @@ else if (Math.Abs(checkCircleArea-externalArea) &lt; epsilon)
             <value>LineNum</value>
           </Sort>
         </SaleOrderLines>
-        <ChildBand3 Ref="77" type="ChildBand" isKey="true">
+        <ChildBand3 Ref="76" type="ChildBand" isKey="true">
           <BeforePrintEvent>string partReference = Sale_order_lines.PrdRef;
 
 PartPicture = Replace(ToLowerCase(Sale_order_lines.Product_Image),".bmp","-IMGB.png");
@@ -1907,13 +1891,13 @@ else
 	shm_Routing = "";
 </BeforePrintEvent>
           <Brush>Transparent</Brush>
-          <ClientRectangle>0,17.21,19,3.19</ClientRectangle>
+          <ClientRectangle>0,16.81,19,3.19</ClientRectangle>
           <Components isList="true" count="2">
-            <Panel3 Ref="78" type="Panel" isKey="true">
+            <Panel3 Ref="77" type="Panel" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>0,0.18,19,2.8</ClientRectangle>
+              <ClientRectangle>1,0.18,18,2.8</ClientRectangle>
               <Components isList="true" count="8">
-                <Text37 Ref="79" type="Text" isKey="true">
+                <Text37 Ref="78" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
                   <ClientRectangle>0,0,1,2.8</ClientRectangle>
                   <Conditions isList="true" count="0" />
@@ -1921,13 +1905,13 @@ else
                   <Margins>0,0,0,0</Margins>
                   <Name>Text37</Name>
                   <Page isRef="14" />
-                  <Parent isRef="78" />
+                  <Parent isRef="77" />
                   <Text>{int.Parse(Sale_order_lines.LineNum).ToString("F0")}</Text>
                   <TextBrush>Black</TextBrush>
                   <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
                   <Type>Expression</Type>
                 </Text37>
-                <Text40 Ref="80" type="Text" isKey="true">
+                <Text40 Ref="79" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
                   <CanGrow>True</CanGrow>
                   <ClientRectangle>11.2,0,1.2,2.8</ClientRectangle>
@@ -1937,29 +1921,28 @@ else
                   <Margins>0,4,0,0</Margins>
                   <Name>Text40</Name>
                   <Page isRef="14" />
-                  <Parent isRef="78" />
+                  <Parent isRef="77" />
                   <Text>{Sale_order_lines.Quantity__Scr}</Text>
                   <TextBrush>Black</TextBrush>
                   <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
                   <Type>Expression</Type>
                 </Text40>
-                <Text41 Ref="81" type="Text" isKey="true">
+                <Text41 Ref="80" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
                   <CanGrow>True</CanGrow>
-                  <ClientRectangle>16,0,3,2.8</ClientRectangle>
+                  <ClientRectangle>15.2,0,2.8,2.8</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Font>Calibri Light,10</Font>
                   <HorAlignment>Right</HorAlignment>
                   <Margins>0,0,0,0</Margins>
                   <Name>Text41</Name>
                   <Page isRef="14" />
-                  <Parent isRef="78" />
-                  <Text>{Sale_order_lines.TPrice__Prf}{(Sale_order_lines.UPrice * Sale_order_lines.Quantity).ToString("F2")}{Sale_order_lines.TPrice__Sff}</Text>
+                  <Parent isRef="77" />
+                  <Text>{(Sale_order_lines.UPrice * Sale_order_lines.Quantity).ToString("F2")+ " €"}</Text>
                   <TextBrush>Black</TextBrush>
-                  <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
                   <Type>Expression</Type>
                 </Text41>
-                <Image2 Ref="82" type="Image" isKey="true">
+                <Image2 Ref="81" type="Image" isKey="true">
                   <Brush>Transparent</Brush>
                   <ClientRectangle>8.6,0.6,2.6,2.2</ClientRectangle>
                   <Conditions isList="true" count="0" />
@@ -1968,13 +1951,13 @@ else
                   <Margins>0,0,0,0</Margins>
                   <Name>Image2</Name>
                   <Page isRef="14" />
-                  <Parent isRef="78" />
+                  <Parent isRef="77" />
                   <Stretch>True</Stretch>
                 </Image2>
-                <Text20 Ref="83" type="Text" isKey="true">
+                <Text20 Ref="82" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
                   <CanGrow>True</CanGrow>
-                  <ClientRectangle>13.8,0,2.2,2.8</ClientRectangle>
+                  <ClientRectangle>13.6,0,1.6,2.8</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Font>Calibri Light,10</Font>
                   <Guid>57ef03752865452282ca0840c5d8feb5</Guid>
@@ -1982,13 +1965,12 @@ else
                   <Margins>0,0,0,0</Margins>
                   <Name>Text20</Name>
                   <Page isRef="14" />
-                  <Parent isRef="78" />
-                  <Text>{Sale_order_lines.UPrice__Scr}</Text>
+                  <Parent isRef="77" />
+                  <Text>{Sale_order_lines.UPrice.ToString("F2") + " €"}</Text>
                   <TextBrush>Black</TextBrush>
-                  <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
                   <Type>Expression</Type>
                 </Text20>
-                <Text21 Ref="84" type="Text" isKey="true">
+                <Text21 Ref="83" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
                   <ClientRectangle>8.6,0,2.6,0.6</ClientRectangle>
                   <Conditions isList="true" count="0" />
@@ -1998,28 +1980,28 @@ else
                   <Margins>0,0,0,0</Margins>
                   <Name>Text21</Name>
                   <Page isRef="14" />
-                  <Parent isRef="78" />
+                  <Parent isRef="77" />
                   <Text>{Sale_order_lines.DDate__ScN}</Text>
                   <TextBrush>Black</TextBrush>
                   <Type>Expression</Type>
                 </Text21>
-                <Text22 Ref="85" type="Text" isKey="true">
+                <Text22 Ref="84" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
                   <CanGrow>True</CanGrow>
-                  <ClientRectangle>12.4,0,1.4,2.8</ClientRectangle>
+                  <ClientRectangle>12.4,0,1.2,2.8</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Font>Calibri Light,10,Bold</Font>
                   <Guid>578c2bcaae4a4d9f8f28b4893a1f704a</Guid>
                   <Margins>2,0,0,0</Margins>
                   <Name>Text22</Name>
                   <Page isRef="14" />
-                  <Parent isRef="78" />
+                  <Parent isRef="77" />
                   <Text>{IIF(Sale_order_lines.DIS_QUANUntName.ToUpper() == "UNT", "Stk.", Sale_order_lines.DIS_QUANUntName)} </Text>
                   <TextBrush>Black</TextBrush>
                   <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
                   <Type>Expression</Type>
                 </Text22>
-                <Text36 Ref="86" type="Text" isKey="true">
+                <Text36 Ref="85" type="Text" isKey="true">
                   <AllowHtmlTags>True</AllowHtmlTags>
                   <Brush>Transparent</Brush>
                   <ClientRectangle>1,0,7.6,2.8</ClientRectangle>
@@ -2028,7 +2010,7 @@ else
                   <Margins>0,0,0,0</Margins>
                   <Name>Text36</Name>
                   <Page isRef="14" />
-                  <Parent isRef="78" />
+                  <Parent isRef="77" />
                   <Text>{shm_PartDesc + shm_GeometryRecognition + IIF(shm_Routing != "", "&lt;br/&gt;" + shm_Routing,"")}</Text>
                   <TextBrush>Black</TextBrush>
                   <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
@@ -2040,18 +2022,18 @@ else
               <Guid>c2343a857d194963bfbda3e51d2b28b6</Guid>
               <Name>Panel3</Name>
               <Page isRef="14" />
-              <Parent isRef="77" />
+              <Parent isRef="76" />
             </Panel3>
-            <HorizontalLinePrimitive1 Ref="87" type="HorizontalLinePrimitive" isKey="true">
+            <HorizontalLinePrimitive1 Ref="86" type="HorizontalLinePrimitive" isKey="true">
               <ClientRectangle>0,3.1,19,0.0254</ClientRectangle>
               <Color>LightGray</Color>
-              <EndCap Ref="88" type="Cap" isKey="true">
+              <EndCap Ref="87" type="Cap" isKey="true">
                 <Color>Black</Color>
               </EndCap>
               <Name>HorizontalLinePrimitive1</Name>
               <Page isRef="14" />
-              <Parent isRef="77" />
-              <StartCap Ref="89" type="Cap" isKey="true">
+              <Parent isRef="76" />
+              <StartCap Ref="88" type="Cap" isKey="true">
                 <Color>Black</Color>
               </StartCap>
             </HorizontalLinePrimitive1>
@@ -2064,9 +2046,9 @@ else
           <Page isRef="14" />
           <Parent isRef="14" />
         </ChildBand3>
-        <FooterBand2 Ref="90" type="FooterBand" isKey="true">
+        <FooterBand2 Ref="89" type="FooterBand" isKey="true">
           <Brush>Transparent</Brush>
-          <ClientRectangle>0,21.2,19,0</ClientRectangle>
+          <ClientRectangle>0,20.8,19,0</ClientRectangle>
           <Components isList="true" count="0" />
           <Conditions isList="true" count="0" />
           <KeepFooterTogether>False</KeepFooterTogether>
@@ -2074,10 +2056,10 @@ else
           <Page isRef="14" />
           <Parent isRef="14" />
         </FooterBand2>
-        <DataBand2 Ref="91" type="DataBand" isKey="true">
+        <DataBand2 Ref="90" type="DataBand" isKey="true">
           <Brush>Transparent</Brush>
           <BusinessObjectGuid isNull="true" />
-          <ClientRectangle>0,22,19,0</ClientRectangle>
+          <ClientRectangle>0,21.6,19,0</ClientRectangle>
           <Components isList="true" count="0" />
           <Conditions isList="true" count="0" />
           <DataRelationName>Operations_child_Sale order</DataRelationName>
@@ -2090,19 +2072,19 @@ else
           <PrintIfDetailEmpty>True</PrintIfDetailEmpty>
           <Sort isList="true" count="0" />
         </DataBand2>
-        <GroupFooterBand1 Ref="92" type="GroupFooterBand" isKey="true">
+        <GroupFooterBand1 Ref="91" type="GroupFooterBand" isKey="true">
           <Brush>Transparent</Brush>
-          <ClientRectangle>0,22.8,19,0</ClientRectangle>
+          <ClientRectangle>0,22.4,19,0</ClientRectangle>
           <Components isList="true" count="0" />
           <Conditions isList="true" count="0" />
           <Name>GroupFooterBand1</Name>
           <Page isRef="14" />
           <Parent isRef="14" />
         </GroupFooterBand1>
-        <DataBand5 Ref="93" type="DataBand" isKey="true">
+        <DataBand5 Ref="92" type="DataBand" isKey="true">
           <Brush>Transparent</Brush>
           <BusinessObjectGuid isNull="true" />
-          <ClientRectangle>0,23.6,19,0</ClientRectangle>
+          <ClientRectangle>0,23.2,19,0</ClientRectangle>
           <Components isList="true" count="0" />
           <Conditions isList="true" count="0" />
           <DataRelationName isNull="true" />
@@ -2114,7 +2096,7 @@ else
           <Parent isRef="14" />
           <Sort isList="true" count="0" />
         </DataBand5>
-        <FooterBand1 Ref="94" type="FooterBand" isKey="true">
+        <FooterBand1 Ref="93" type="FooterBand" isKey="true">
           <BeforePrintEvent>double discountPercentage = Sale_order.DDisc;
 double discountInvertedFactor;
 double discountFinalAmount = 0;
@@ -2148,9 +2130,9 @@ shm_Discount = discountFinalAmount;
 shm_Taxes = taxes;</BeforePrintEvent>
           <Brush>Transparent</Brush>
           <CanShrink>True</CanShrink>
-          <ClientRectangle>0,24.4,19,2.79</ClientRectangle>
+          <ClientRectangle>0,24,19,2.79</ClientRectangle>
           <Components isList="true" count="3">
-            <Text63 Ref="95" type="Text" isKey="true">
+            <Text63 Ref="94" type="Text" isKey="true">
               <Brush>Transparent</Brush>
               <ClientRectangle>0.41,0,5,0</ClientRectangle>
               <Conditions isList="true" count="0" />
@@ -2158,12 +2140,12 @@ shm_Taxes = taxes;</BeforePrintEvent>
               <Margins>0,0,0,0</Margins>
               <Name>Text63</Name>
               <Page isRef="14" />
-              <Parent isRef="94" />
+              <Parent isRef="93" />
               <Text>{ForCheckFinancialVAT = false}</Text>
               <TextBrush>Black</TextBrush>
               <Type>Expression</Type>
             </Text63>
-            <Text64 Ref="96" type="Text" isKey="true">
+            <Text64 Ref="95" type="Text" isKey="true">
               <Brush>Transparent</Brush>
               <ClientRectangle>5.59,0,5.41,0</ClientRectangle>
               <Conditions isList="true" count="0" />
@@ -2171,26 +2153,26 @@ shm_Taxes = taxes;</BeforePrintEvent>
               <Margins>0,0,0,0</Margins>
               <Name>Text64</Name>
               <Page isRef="14" />
-              <Parent isRef="94" />
+              <Parent isRef="93" />
               <Text>{ForCheckCarrierVAT = false}</Text>
               <TextBrush>Black</TextBrush>
               <Type>Expression</Type>
             </Text64>
-            <Panel9 Ref="97" type="Panel" isKey="true">
+            <Panel9 Ref="96" type="Panel" isKey="true">
               <Brush>Transparent</Brush>
               <CanShrink>True</CanShrink>
-              <ClientRectangle>0,0.2,19,2.6</ClientRectangle>
+              <ClientRectangle>1,0.2,18,2.6</ClientRectangle>
               <Components isList="true" count="2">
-                <Text59 Ref="98" type="Text" isKey="true">
+                <Text59 Ref="97" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
                   <CanShrink>True</CanShrink>
-                  <ClientRectangle>11.6,0,3.8,2.6</ClientRectangle>
+                  <ClientRectangle>10.6,0,3.8,2.6</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Font>Calibri Light,10,Bold</Font>
                   <Margins>0,0,0,0</Margins>
                   <Name>Text59</Name>
                   <Page isRef="14" />
-                  <Parent isRef="97" />
+                  <Parent isRef="96" />
                   <Text>{Sale_order.Subtotal__Lab
 + IIF(Sale_order.CarrierC &gt; 0, "\n" + "Transportkosten", "")
 + IIF(Sale_order.FinancialC &gt; 0, "\n" + "Verpackungskosten", "")
@@ -2201,10 +2183,10 @@ shm_Taxes = taxes;</BeforePrintEvent>
                   <TextBrush>Black</TextBrush>
                   <Type>Expression</Type>
                 </Text59>
-                <Text60 Ref="99" type="Text" isKey="true">
+                <Text60 Ref="98" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
                   <CanShrink>True</CanShrink>
-                  <ClientRectangle>15.8,0,3.2,2.6</ClientRectangle>
+                  <ClientRectangle>14.8,0,3.2,2.6</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Font>Calibri Light,10</Font>
                   <Guid>9e0e3446ba9e487ca08a532f725c0df6</Guid>
@@ -2212,13 +2194,13 @@ shm_Taxes = taxes;</BeforePrintEvent>
                   <Margins>0,0,0,0</Margins>
                   <Name>Text60</Name>
                   <Page isRef="14" />
-                  <Parent isRef="97" />
-                  <Text>{shm_TotalPriceParts.ToString("N2", new CultureInfo("de-DE")) + Sale_order.TotalA__Sff
-+ IIF(shm_CarrierCosts &gt; 0, "\n" + shm_CarrierCosts.ToString("N2", new CultureInfo("de-DE")) + Sale_order.TotalA__Sff, "")
-+ IIF(shm_Financial &gt; 0, "\n" + shm_Financial.ToString("N2", new CultureInfo("de-DE")) + Sale_order.TotalA__Sff, "")
-+ IIF(shm_Discount &gt; 0, "\n" + "-" + shm_Discount.ToString("N2", new CultureInfo("de-DE")) + Sale_order.TotalA__Sff, "")
-+ IIF(shm_QuoteSubtotal &gt; 0, "\n" + shm_QuoteSubtotal.ToString("N2", new CultureInfo("de-DE")) + Sale_order.TotalA__Sff, "")
-+ IIF(shm_Taxes &gt; 0, "\n" + shm_Taxes.ToString("N2", new CultureInfo("de-DE")) + Sale_order.TotalA__Sff, "")
+                  <Parent isRef="96" />
+                  <Text>{shm_TotalPriceParts.ToString("N2", new CultureInfo("de-DE")) + " €"
++ IIF(shm_CarrierCosts &gt; 0, "\n" + shm_CarrierCosts.ToString("N2", new CultureInfo("de-DE")) + " €", "")
++ IIF(shm_Financial &gt; 0, "\n" + shm_Financial.ToString("N2", new CultureInfo("de-DE")) + " €", "")
++ IIF(shm_Discount &gt; 0, "\n" + "-" + shm_Discount.ToString("N2", new CultureInfo("de-DE")) + " €", "")
++ IIF(shm_QuoteSubtotal &gt; 0, "\n" + shm_QuoteSubtotal.ToString("N2", new CultureInfo("de-DE")) + " €", "")
++ IIF(shm_Taxes &gt; 0, "\n" + shm_Taxes.ToString("N2", new CultureInfo("de-DE")) + " €", "")
 }</Text>
                   <TextBrush>Black</TextBrush>
                   <Type>Expression</Type>
@@ -2227,7 +2209,7 @@ shm_Taxes = taxes;</BeforePrintEvent>
               <Conditions isList="true" count="0" />
               <Name>Panel9</Name>
               <Page isRef="14" />
-              <Parent isRef="94" />
+              <Parent isRef="93" />
             </Panel9>
           </Components>
           <Conditions isList="true" count="0" />
@@ -2237,17 +2219,17 @@ shm_Taxes = taxes;</BeforePrintEvent>
           <Page isRef="14" />
           <Parent isRef="14" />
         </FooterBand1>
-        <ChildBand2 Ref="100" type="ChildBand" isKey="true">
+        <ChildBand2 Ref="99" type="ChildBand" isKey="true">
           <Brush>Transparent</Brush>
           <CanGrow>False</CanGrow>
           <CanShrink>True</CanShrink>
-          <ClientRectangle>0,27.99,19,2</ClientRectangle>
+          <ClientRectangle>0,27.59,19,2</ClientRectangle>
           <Components isList="true" count="2">
-            <Panel10 Ref="101" type="Panel" isKey="true">
+            <Panel10 Ref="100" type="Panel" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>0,1.21,19,0.8</ClientRectangle>
+              <ClientRectangle>1,1.21,18,0.8</ClientRectangle>
               <Components isList="true" count="1">
-                <Text49 Ref="102" type="Text" isKey="true">
+                <Text49 Ref="101" type="Text" isKey="true">
                   <AllowHtmlTags>True</AllowHtmlTags>
                   <AutoWidth>True</AutoWidth>
                   <Brush>Transparent</Brush>
@@ -2259,7 +2241,7 @@ shm_Taxes = taxes;</BeforePrintEvent>
                   <Margins>0,0,0,0</Margins>
                   <Name>Text49</Name>
                   <Page isRef="14" />
-                  <Parent isRef="101" />
+                  <Parent isRef="100" />
                   <Text>Eigentumsvorbehalt der gelieferten Ware bis zur
 vollständigen Bezahlung.
 &lt;/br&gt;&lt;/br&gt;
@@ -2273,68 +2255,68 @@ vollständigen Bezahlung.
               <Conditions isList="true" count="0" />
               <Name>Panel10</Name>
               <Page isRef="14" />
-              <Parent isRef="100" />
+              <Parent isRef="99" />
             </Panel10>
-            <Panel11 Ref="103" type="Panel" isKey="true">
+            <Panel11 Ref="102" type="Panel" isKey="true">
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
               <CanShrink>True</CanShrink>
-              <ClientRectangle>0,0.01,19,1.2</ClientRectangle>
+              <ClientRectangle>1,0.01,18,1.2</ClientRectangle>
               <Components isList="true" count="4">
-                <Text47 Ref="104" type="Text" isKey="true">
+                <Text47 Ref="103" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
-                  <ClientRectangle>15.8,0.4,3.2,0.4</ClientRectangle>
+                  <ClientRectangle>14.8,0.4,3.2,0.4</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Font>Calibri Light,10,Bold</Font>
                   <HorAlignment>Right</HorAlignment>
                   <Margins>0,0,0,0</Margins>
                   <Name>Text47</Name>
                   <Page isRef="14" />
-                  <Parent isRef="103" />
-                  <Text>{Sale_order.TotalA__Scr}</Text>
+                  <Parent isRef="102" />
+                  <Text>{Sale_order.TotalA.ToString("F2") + " €"}</Text>
                   <TextBrush>Black</TextBrush>
                   <Type>Expression</Type>
                   <VertAlignment>Center</VertAlignment>
                 </Text47>
-                <Text61 Ref="105" type="Text" isKey="true">
+                <Text61 Ref="104" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
-                  <ClientRectangle>11.6,0.4,3.8,0.4</ClientRectangle>
+                  <ClientRectangle>10.6,0.4,3.8,0.4</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Font>Calibri Light,10,Bold</Font>
                   <Guid>5c42a2ac1a2d4c0fb9342a81f30621e6</Guid>
                   <Margins>0,0,0,0</Margins>
                   <Name>Text61</Name>
                   <Page isRef="14" />
-                  <Parent isRef="103" />
+                  <Parent isRef="102" />
                   <Text>{Sale_order.TotalA__Lab}</Text>
                   <TextBrush>Black</TextBrush>
                   <Type>Expression</Type>
                   <VertAlignment>Center</VertAlignment>
                 </Text61>
-                <HorizontalLinePrimitive2 Ref="106" type="HorizontalLinePrimitive" isKey="true">
-                  <ClientRectangle>11.6,1,7.4,0.0254</ClientRectangle>
+                <HorizontalLinePrimitive2 Ref="105" type="HorizontalLinePrimitive" isKey="true">
+                  <ClientRectangle>10.6,1,7.4,0.0254</ClientRectangle>
                   <Color>Black</Color>
-                  <EndCap Ref="107" type="Cap" isKey="true">
+                  <EndCap Ref="106" type="Cap" isKey="true">
                     <Color>Black</Color>
                   </EndCap>
                   <Name>HorizontalLinePrimitive2</Name>
                   <Page isRef="14" />
-                  <Parent isRef="103" />
+                  <Parent isRef="102" />
                   <Size>2</Size>
-                  <StartCap Ref="108" type="Cap" isKey="true">
+                  <StartCap Ref="107" type="Cap" isKey="true">
                     <Color>Black</Color>
                   </StartCap>
                 </HorizontalLinePrimitive2>
-                <HorizontalLinePrimitive3 Ref="109" type="HorizontalLinePrimitive" isKey="true">
-                  <ClientRectangle>11.6,0.2,7.4,0.0254</ClientRectangle>
+                <HorizontalLinePrimitive3 Ref="108" type="HorizontalLinePrimitive" isKey="true">
+                  <ClientRectangle>10.6,0.2,7.4,0.0254</ClientRectangle>
                   <Color>Black</Color>
-                  <EndCap Ref="110" type="Cap" isKey="true">
+                  <EndCap Ref="109" type="Cap" isKey="true">
                     <Color>Black</Color>
                   </EndCap>
                   <Name>HorizontalLinePrimitive3</Name>
                   <Page isRef="14" />
-                  <Parent isRef="103" />
-                  <StartCap Ref="111" type="Cap" isKey="true">
+                  <Parent isRef="102" />
+                  <StartCap Ref="110" type="Cap" isKey="true">
                     <Color>Black</Color>
                   </StartCap>
                 </HorizontalLinePrimitive3>
@@ -2344,7 +2326,7 @@ vollständigen Bezahlung.
               <Guid>0e9fcbf694bd450382e0f28304f1ed9a</Guid>
               <Name>Panel11</Name>
               <Page isRef="14" />
-              <Parent isRef="100" />
+              <Parent isRef="99" />
             </Panel11>
           </Components>
           <Conditions isList="true" count="0" />
@@ -2352,7 +2334,7 @@ vollständigen Bezahlung.
           <Page isRef="14" />
           <Parent isRef="14" />
         </ChildBand2>
-        <HeaderBand2 Ref="112" type="HeaderBand" isKey="true">
+        <HeaderBand2 Ref="111" type="HeaderBand" isKey="true">
           <BeforePrintEvent>if(Sale_order.EarlyPymName == "")
 	DataBand3.Enabled = false;
 else
@@ -2363,18 +2345,18 @@ if(Sale_order.PymName == "")
 else
 	DataBand4.Enabled = true;</BeforePrintEvent>
           <Brush>Transparent</Brush>
-          <ClientRectangle>0,30.79,19,0.6</ClientRectangle>
+          <ClientRectangle>0,30.39,19,0.6</ClientRectangle>
           <Components isList="true" count="1">
-            <Text50 Ref="113" type="Text" isKey="true">
+            <Text50 Ref="112" type="Text" isKey="true">
               <Border>None;[199:213:224];1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
-              <ClientRectangle>0.2,0,12,0.6</ClientRectangle>
+              <ClientRectangle>1,0,12,0.6</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Calibri Light,11,Bold| Underline</Font>
               <Margins>0,0,0,0</Margins>
               <Name>Text50</Name>
               <Page isRef="14" />
-              <Parent isRef="112" />
+              <Parent isRef="111" />
               <Text>{IIF((Sale_order.EarlyPymName != "") || (Sale_order.PymName != ""),"Zahlungsbedingungen:", "")}</Text>
               <TextBrush>Black</TextBrush>
               <Type>Expression</Type>
@@ -2386,31 +2368,31 @@ else
           <Page isRef="14" />
           <Parent isRef="14" />
         </HeaderBand2>
-        <DataBand3 Ref="114" type="DataBand" isKey="true">
+        <DataBand3 Ref="113" type="DataBand" isKey="true">
           <Brush>Transparent</Brush>
           <BusinessObjectGuid isNull="true" />
           <CanShrink>True</CanShrink>
-          <ClientRectangle>0,32.19,19,0.4</ClientRectangle>
+          <ClientRectangle>0,31.79,19,0.4</ClientRectangle>
           <Components isList="true" count="1">
-            <Panel5 Ref="115" type="Panel" isKey="true">
+            <Panel5 Ref="114" type="Panel" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>0.2,0,18.6,0.4</ClientRectangle>
+              <ClientRectangle>1,0,18,0.4</ClientRectangle>
               <Components isList="true" count="3">
-                <Text38 Ref="116" type="Text" isKey="true">
+                <Text38 Ref="115" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
-                  <ClientRectangle>0.2,0,3.6,0.4</ClientRectangle>
+                  <ClientRectangle>0.4,0,3.6,0.4</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Font>Calibri Light,10</Font>
                   <Margins>0,0,0,0</Margins>
                   <Name>Text38</Name>
                   <Page isRef="14" />
-                  <Parent isRef="115" />
+                  <Parent isRef="114" />
                   <Text>{EarlyPaymentMethod.PaymentDiscounts_PayTime + " Tage"}</Text>
                   <TextBrush>Black</TextBrush>
                   <Type>Expression</Type>
                   <VertAlignment>Center</VertAlignment>
                 </Text38>
-                <Text39 Ref="117" type="Text" isKey="true">
+                <Text39 Ref="116" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
                   <ClientRectangle>6.4,0,4.6,0.4</ClientRectangle>
                   <Conditions isList="true" count="0" />
@@ -2419,13 +2401,13 @@ else
                   <Margins>0,0,0,0</Margins>
                   <Name>Text39</Name>
                   <Page isRef="14" />
-                  <Parent isRef="115" />
+                  <Parent isRef="114" />
                   <Text>{IIF(EarlyPaymentMethod.PaymentDiscounts_Percent == 0, "ohne Abzug", EarlyPaymentMethod.PaymentDiscounts_Percent.ToString("F2") + "%")}</Text>
                   <TextBrush>Black</TextBrush>
                   <Type>Expression</Type>
                   <VertAlignment>Center</VertAlignment>
                 </Text39>
-                <Text42 Ref="118" type="Text" isKey="true">
+                <Text42 Ref="117" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
                   <ClientRectangle>12.8,0,4.6,0.4</ClientRectangle>
                   <Conditions isList="true" count="0" />
@@ -2434,8 +2416,8 @@ else
                   <Margins>0,0,0,0</Margins>
                   <Name>Text42</Name>
                   <Page isRef="14" />
-                  <Parent isRef="115" />
-                  <Text>{IIF(EarlyPaymentMethod.PaymentDiscounts_Percent == 0, Sale_order.TotalA.ToString("F2"), (((100-EarlyPaymentMethod.PaymentDiscounts_Percent)/100)*Sale_order.TotalA).ToString("F2"))}{Sale_order.TotalA__Sff}</Text>
+                  <Parent isRef="114" />
+                  <Text>{IIF(EarlyPaymentMethod.PaymentDiscounts_Percent == 0, Sale_order.TotalA.ToString("F2"), (((100-EarlyPaymentMethod.PaymentDiscounts_Percent)/100)*Sale_order.TotalA).ToString("F2")) + " €"}</Text>
                   <TextBrush>Black</TextBrush>
                   <Type>Expression</Type>
                   <VertAlignment>Center</VertAlignment>
@@ -2444,7 +2426,7 @@ else
               <Conditions isList="true" count="0" />
               <Name>Panel5</Name>
               <Page isRef="14" />
-              <Parent isRef="114" />
+              <Parent isRef="113" />
             </Panel5>
           </Components>
           <Conditions isList="true" count="0" />
@@ -2457,31 +2439,31 @@ else
           <Parent isRef="14" />
           <Sort isList="true" count="0" />
         </DataBand3>
-        <DataBand4 Ref="119" type="DataBand" isKey="true">
+        <DataBand4 Ref="118" type="DataBand" isKey="true">
           <Brush>Transparent</Brush>
           <BusinessObjectGuid isNull="true" />
-          <ClientRectangle>0,33.39,19,0.4</ClientRectangle>
+          <ClientRectangle>0,32.99,19,0.4</ClientRectangle>
           <Components isList="true" count="1">
-            <Panel4 Ref="120" type="Panel" isKey="true">
+            <Panel4 Ref="119" type="Panel" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>0.2,0.01,18.6,0.4</ClientRectangle>
+              <ClientRectangle>1,0.01,18,0.4</ClientRectangle>
               <Components isList="true" count="3">
-                <Text51 Ref="121" type="Text" isKey="true">
+                <Text51 Ref="120" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
-                  <ClientRectangle>0.2,0,3.6,0.4</ClientRectangle>
+                  <ClientRectangle>0.4,0,3.6,0.4</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Font>Calibri Light,10</Font>
                   <Guid>eb5655dd8606460498d473cb14813d32</Guid>
                   <Margins>0,0,0,0</Margins>
                   <Name>Text51</Name>
                   <Page isRef="14" />
-                  <Parent isRef="120" />
+                  <Parent isRef="119" />
                   <Text>{NormalPayment.PayTime + " Tage"}</Text>
                   <TextBrush>Black</TextBrush>
                   <Type>Expression</Type>
                   <VertAlignment>Center</VertAlignment>
                 </Text51>
-                <Text62 Ref="122" type="Text" isKey="true">
+                <Text62 Ref="121" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
                   <ClientRectangle>6.4,0,4.6,0.4</ClientRectangle>
                   <Conditions isList="true" count="0" />
@@ -2490,13 +2472,13 @@ else
                   <Margins>0,0,0,0</Margins>
                   <Name>Text62</Name>
                   <Page isRef="14" />
-                  <Parent isRef="120" />
+                  <Parent isRef="119" />
                   <Text>{IIF((100 - NormalPayment.Percent) == 0, "ohne Abzug", (100 - NormalPayment.Percent).ToString("F2") + "%")}</Text>
                   <TextBrush>Black</TextBrush>
                   <Type>Expression</Type>
                   <VertAlignment>Center</VertAlignment>
                 </Text62>
-                <Text65 Ref="123" type="Text" isKey="true">
+                <Text65 Ref="122" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
                   <ClientRectangle>12.8,0,4.6,0.4</ClientRectangle>
                   <Conditions isList="true" count="0" />
@@ -2505,8 +2487,8 @@ else
                   <Margins>0,0,0,0</Margins>
                   <Name>Text65</Name>
                   <Page isRef="14" />
-                  <Parent isRef="120" />
-                  <Text>{IIF((100 - NormalPayment.Percent) == 0, Sale_order.TotalA.ToString("F2"), (((NormalPayment.Percent)/100)*Sale_order.TotalA).ToString("F2"))}{Sale_order.TotalA__Sff}</Text>
+                  <Parent isRef="119" />
+                  <Text>{IIF((100 - NormalPayment.Percent) == 0, Sale_order.TotalA.ToString("F2"), (((NormalPayment.Percent)/100)*Sale_order.TotalA).ToString("F2")) + " €"}</Text>
                   <TextBrush>Black</TextBrush>
                   <Type>Expression</Type>
                   <VertAlignment>Center</VertAlignment>
@@ -2516,7 +2498,7 @@ else
               <Guid>b926f063c43040b49642c2d619f08b7e</Guid>
               <Name>Panel4</Name>
               <Page isRef="14" />
-              <Parent isRef="119" />
+              <Parent isRef="118" />
             </Panel4>
           </Components>
           <Conditions isList="true" count="0" />
@@ -2529,10 +2511,10 @@ else
           <Parent isRef="14" />
           <Sort isList="true" count="0" />
         </DataBand4>
-        <FooterBand6 Ref="124" type="FooterBand" isKey="true">
+        <FooterBand6 Ref="123" type="FooterBand" isKey="true">
           <Brush>Transparent</Brush>
           <CanShrink>True</CanShrink>
-          <ClientRectangle>0,34.59,19,0</ClientRectangle>
+          <ClientRectangle>0,34.19,19,0</ClientRectangle>
           <Components isList="true" count="0" />
           <Conditions isList="true" count="0" />
           <Name>FooterBand6</Name>
@@ -2550,13 +2532,13 @@ else
       <PageWidth>21</PageWidth>
       <PaperSize>A4</PaperSize>
       <Report isRef="0" />
-      <Watermark Ref="125" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+      <Watermark Ref="124" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
         <Font>Arial,100</Font>
         <TextBrush>[50:0:0:0]</TextBrush>
       </Watermark>
     </ReportPage>
   </Pages>
-  <PrinterSettings Ref="126" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <PrinterSettings Ref="125" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
   <ReferencedAssemblies isList="true" count="8">
     <value>System.Dll</value>
     <value>System.Drawing.Dll</value>
@@ -2569,11 +2551,11 @@ else
   </ReferencedAssemblies>
   <ReportAlias>01_SSAA_SSOO_00000100_ReturnOrder_Hörstkamp</ReportAlias>
   <ReportAuthor>SYSADM</ReportAuthor>
-  <ReportChanged>6/3/2025 4:46:02 PM</ReportChanged>
+  <ReportChanged>6/4/2025 3:14:02 PM</ReportChanged>
   <ReportCreated>12/20/2016 5:37:56 PM</ReportCreated>
-  <ReportDescription>Rücksendeauftrag Hörstkamp</ReportDescription>
+  <ReportDescription>Rücksendeauftrag</ReportDescription>
   <ReportFile>C:/Lantek/System/Common/repository/END/reports/01_SSAA_SSOO_00000100_ReturnOrder_Hörstkamp.mrt</ReportFile>
-  <ReportGuid>4b2ee95495fc4c88b83de6d4b5ee2c27</ReportGuid>
+  <ReportGuid>554f9e1c6d214b3fb2783a19beaa0d96</ReportGuid>
   <ReportImage isNull="true" />
   <ReportName>01_SSAA_SSOO_00000100_ReturnOrder_Hörstkamp</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
@@ -2753,7 +2735,7 @@ namespace Reports
 }</Script>
   <ScriptLanguage>CSharp</ScriptLanguage>
   <Styles isList="true" count="7">
-    <Titles Ref="127" type="Stimulsoft.Report.StiStyle" isKey="true">
+    <Titles Ref="126" type="Stimulsoft.Report.StiStyle" isKey="true">
       <Border>Bottom;[199:213:224];3;Solid;False;4;Black</Border>
       <Brush>Transparent</Brush>
       <Conditions isList="true" count="0" />
@@ -2762,7 +2744,7 @@ namespace Reports
       <TextBrush>Black</TextBrush>
       <VertAlignment>Center</VertAlignment>
     </Titles>
-    <PageHeader Ref="128" type="Stimulsoft.Report.StiStyle" isKey="true">
+    <PageHeader Ref="127" type="Stimulsoft.Report.StiStyle" isKey="true">
       <Border>Bottom;[199:213:224];1;Solid;False;4;Black</Border>
       <Brush>Transparent</Brush>
       <Conditions isList="true" count="0" />
@@ -2771,7 +2753,7 @@ namespace Reports
       <TextBrush>Black</TextBrush>
       <VertAlignment>Center</VertAlignment>
     </PageHeader>
-    <PageFooter Ref="129" type="Stimulsoft.Report.StiStyle" isKey="true">
+    <PageFooter Ref="128" type="Stimulsoft.Report.StiStyle" isKey="true">
       <Border>Top;[199:213:224];1;Solid;False;4;Black</Border>
       <Brush>Transparent</Brush>
       <Conditions isList="true" count="0" />
@@ -2780,7 +2762,7 @@ namespace Reports
       <TextBrush>Black</TextBrush>
       <VertAlignment>Center</VertAlignment>
     </PageFooter>
-    <Headers Ref="130" type="Stimulsoft.Report.StiStyle" isKey="true">
+    <Headers Ref="129" type="Stimulsoft.Report.StiStyle" isKey="true">
       <Border>All;[131:166:224];1;Solid;False;4;Black</Border>
       <Brush>[185:218:255]</Brush>
       <Conditions isList="true" count="0" />
@@ -2789,7 +2771,7 @@ namespace Reports
       <TextBrush>Black</TextBrush>
       <VertAlignment>Center</VertAlignment>
     </Headers>
-    <DataClean Ref="131" type="Stimulsoft.Report.StiStyle" isKey="true">
+    <DataClean Ref="130" type="Stimulsoft.Report.StiStyle" isKey="true">
       <Brush>Transparent</Brush>
       <Conditions isList="true" count="0" />
       <Font>Verdana,10</Font>
@@ -2797,7 +2779,7 @@ namespace Reports
       <TextBrush>Black</TextBrush>
       <VertAlignment>Center</VertAlignment>
     </DataClean>
-    <DataOdd Ref="132" type="Stimulsoft.Report.StiStyle" isKey="true">
+    <DataOdd Ref="131" type="Stimulsoft.Report.StiStyle" isKey="true">
       <Border>All;[216:223:232];1;Solid;False;4;Black</Border>
       <Brush>Transparent</Brush>
       <Conditions isList="true" count="0" />
@@ -2806,7 +2788,7 @@ namespace Reports
       <TextBrush>Black</TextBrush>
       <VertAlignment>Center</VertAlignment>
     </DataOdd>
-    <DataEven Ref="133" type="Stimulsoft.Report.StiStyle" isKey="true">
+    <DataEven Ref="132" type="Stimulsoft.Report.StiStyle" isKey="true">
       <Border>All;[216:223:232];1;Solid;False;4;Black</Border>
       <Brush>[240:245:251]</Brush>
       <Conditions isList="true" count="0" />

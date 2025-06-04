@@ -31,6 +31,8 @@
               <xs:element name="Contact__ScN" msdata:Caption="Associated element identifier (Value)" type="xs:string" minOccurs="0" />
               <xs:element name="ConSurname1" msdata:Caption="Contact" type="xs:string" minOccurs="0" />
               <xs:element name="ConSurname1__Lab" msdata:Caption="Contact (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="RecOU" msdata:Caption="Element organizational unit" type="xs:string" minOccurs="0" />
+              <xs:element name="RecOU__Lab" msdata:Caption="Element organizational unit (Label)" type="xs:string" minOccurs="0" />
               <xs:element name="Address1" msdata:Caption="Buy-to address 1" type="xs:string" minOccurs="0" />
               <xs:element name="Address1__Lab" msdata:Caption="Buy-to address 1 (Label)" type="xs:string" minOccurs="0" />
               <xs:element name="Address1__Add" msdata:Caption="Buy-to address 1 (Address)" type="xs:string" minOccurs="0" />
@@ -137,8 +139,6 @@
               <xs:element name="CarRef__Lab" msdata:Caption="Carrier (Label)" type="xs:string" minOccurs="0" />
               <xs:element name="END_CostGroup" msdata:Caption="Kostenstelle" type="xs:string" minOccurs="0" />
               <xs:element name="END_CostGroup__Lab" msdata:Caption="Kostenstelle (Label)" type="xs:string" minOccurs="0" />
-              <xs:element name="RecOU" msdata:Caption="Element organizational unit" type="xs:string" minOccurs="0" />
-              <xs:element name="RecOU__Lab" msdata:Caption="Element organizational unit (Label)" type="xs:string" minOccurs="0" />
               <xs:element name="Supplier.ComRef" msdata:Caption="Reference" type="xs:string" minOccurs="0" />
               <xs:element name="Supplier.ComRef__Lab" msdata:Caption="Reference (Label)" type="xs:string" minOccurs="0" />
               <xs:element name="Supplier.LanName" msdata:Caption="Default language" type="xs:string" minOccurs="0" />

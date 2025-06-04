@@ -518,11 +518,11 @@
               <xs:element name="Operation.OOrder" msdata:Caption="Operation number" type="xs:int" minOccurs="0" />
               <xs:element name="Operation.OOrder__Lab" msdata:Caption="Operation number (Label)" type="xs:string" minOccurs="0" />
               <xs:element name="Operation.OOrder__ScN" msdata:Caption="Operation number (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="Operation.WrkRef" msdata:Caption="Work center" type="xs:string" minOccurs="0" />
+              <xs:element name="Operation.WrkRef__Lab" msdata:Caption="Work center (Label)" type="xs:string" minOccurs="0" />
               <xs:element name="Operation.PrevOpr" msdata:Caption="Previous operation" type="xs:int" minOccurs="0" />
               <xs:element name="Operation.PrevOpr__Lab" msdata:Caption="Previous operation (Label)" type="xs:string" minOccurs="0" />
               <xs:element name="Operation.PrevOpr__ScN" msdata:Caption="Previous operation (Value)" type="xs:string" minOccurs="0" />
-              <xs:element name="Operation.WrkRef" msdata:Caption="Work center" type="xs:string" minOccurs="0" />
-              <xs:element name="Operation.WrkRef__Lab" msdata:Caption="Work center (Label)" type="xs:string" minOccurs="0" />
               <xs:element name="Operation.OprRef" msdata:Caption="Operation" type="xs:string" minOccurs="0" />
               <xs:element name="Operation.OprRef__Lab" msdata:Caption="Operation (Label)" type="xs:string" minOccurs="0" />
               <xs:element name="Workcenter.WrkRef" msdata:Caption="Reference" type="xs:string" minOccurs="0" />
