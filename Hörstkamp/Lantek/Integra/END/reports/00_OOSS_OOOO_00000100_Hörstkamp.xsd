@@ -25,6 +25,8 @@
               <xs:element name="Contact__ScN" msdata:Caption="Associated element identifier (Value)" type="xs:string" minOccurs="0" />
               <xs:element name="ConSurname" msdata:Caption="Contact" type="xs:string" minOccurs="0" />
               <xs:element name="ConSurname__Lab" msdata:Caption="Contact (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="RecOU" msdata:Caption="Element organizational unit" type="xs:string" minOccurs="0" />
+              <xs:element name="RecOU__Lab" msdata:Caption="Element organizational unit (Label)" type="xs:string" minOccurs="0" />
               <xs:element name="Descrip" msdata:Caption="Comments" type="xs:string" minOccurs="0" />
               <xs:element name="Descrip__Lab" msdata:Caption="Comments (Label)" type="xs:string" minOccurs="0" />
               <xs:element name="TotalA" msdata:Caption="Total" type="xs:double" minOccurs="0" />
@@ -143,8 +145,6 @@
               <xs:element name="CarrierFees__ScN" msdata:Caption="Carrier charges (Value)" type="xs:string" minOccurs="0" />
               <xs:element name="END_CostGroup" msdata:Caption="Kostenstelle" type="xs:string" minOccurs="0" />
               <xs:element name="END_CostGroup__Lab" msdata:Caption="Kostenstelle (Label)" type="xs:string" minOccurs="0" />
-              <xs:element name="RecOU" msdata:Caption="Element organizational unit" type="xs:string" minOccurs="0" />
-              <xs:element name="RecOU__Lab" msdata:Caption="Element organizational unit (Label)" type="xs:string" minOccurs="0" />
               <xs:element name="Employee.EmpRef" msdata:Caption="Reference" type="xs:string" minOccurs="0" />
               <xs:element name="Employee.EmpRef__Lab" msdata:Caption="Reference (Label)" type="xs:string" minOccurs="0" />
               <xs:element name="Employee.UsrRef" msdata:Caption="User" type="xs:string" minOccurs="0" />

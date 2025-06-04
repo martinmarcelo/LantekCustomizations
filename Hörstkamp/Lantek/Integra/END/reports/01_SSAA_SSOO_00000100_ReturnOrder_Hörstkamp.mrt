@@ -2025,7 +2025,7 @@ else
               <Parent isRef="76" />
             </Panel3>
             <HorizontalLinePrimitive1 Ref="86" type="HorizontalLinePrimitive" isKey="true">
-              <ClientRectangle>0,3.1,19,0.0254</ClientRectangle>
+              <ClientRectangle>1,3.1,18,0.0254</ClientRectangle>
               <Color>LightGray</Color>
               <EndCap Ref="87" type="Cap" isKey="true">
                 <Color>Black</Color>
@@ -2551,11 +2551,11 @@ else
   </ReferencedAssemblies>
   <ReportAlias>01_SSAA_SSOO_00000100_ReturnOrder_Hörstkamp</ReportAlias>
   <ReportAuthor>SYSADM</ReportAuthor>
-  <ReportChanged>6/4/2025 3:14:02 PM</ReportChanged>
+  <ReportChanged>6/4/2025 3:51:59 PM</ReportChanged>
   <ReportCreated>12/20/2016 5:37:56 PM</ReportCreated>
   <ReportDescription>Rücksendeauftrag</ReportDescription>
   <ReportFile>C:/Lantek/System/Common/repository/END/reports/01_SSAA_SSOO_00000100_ReturnOrder_Hörstkamp.mrt</ReportFile>
-  <ReportGuid>554f9e1c6d214b3fb2783a19beaa0d96</ReportGuid>
+  <ReportGuid>607e574607e1477f98925891e528a639</ReportGuid>
   <ReportImage isNull="true" />
   <ReportName>01_SSAA_SSOO_00000100_ReturnOrder_Hörstkamp</ReportName>
   <ReportUnit>Centimeters</ReportUnit>

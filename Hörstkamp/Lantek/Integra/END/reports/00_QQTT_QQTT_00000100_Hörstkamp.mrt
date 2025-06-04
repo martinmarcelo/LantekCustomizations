@@ -2544,11 +2544,11 @@ else
   </ReferencedAssemblies>
   <ReportAlias>00_QQTT_QQTT_00000100_Hörstkamp</ReportAlias>
   <ReportAuthor>SYSADM</ReportAuthor>
-  <ReportChanged>6/4/2025 2:50:05 PM</ReportChanged>
+  <ReportChanged>6/4/2025 4:05:21 PM</ReportChanged>
   <ReportCreated>10/9/2012 3:59:16 PM</ReportCreated>
   <ReportDescription>Angebot</ReportDescription>
   <ReportFile>C:/Lantek/System/Common/repository/END/reports/00_QQTT_QQTT_00000100_Hörstkamp.mrt</ReportFile>
-  <ReportGuid>91d72ce89a1844f68a657becb876a578</ReportGuid>
+  <ReportGuid>171342beb32748f68e4c3c738302a773</ReportGuid>
   <ReportImage isNull="true" />
   <ReportName>00_QQTT_QQTT_00000100_Hörstkamp</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
