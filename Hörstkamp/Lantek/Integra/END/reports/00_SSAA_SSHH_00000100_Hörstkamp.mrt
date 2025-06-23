@@ -367,7 +367,7 @@
       </Delivery_x0020_note_x0020_lines>
       <Tracking_Delivery_x0020_Note_x0020_Lines Ref="4" type="DataTableSource" isKey="true">
         <Alias>Tracking_Delivery Note Lines</Alias>
-        <Columns isList="true" count="45">
+        <Columns isList="true" count="49">
           <value>ShpRef,Delivery_x0020_note,System.String</value>
           <value>ShpRef__Lab,Delivery_x0020_note_x0020__x0028_Label_x0029_,System.String</value>
           <value>LineNum,Line_x0020_number,System.String</value>
@@ -413,6 +413,10 @@
           <value>Tracking_ItemBatch.LineNum__Lab,Line_x0020_number_x0020__x0028_Label_x0029_,System.String</value>
           <value>Tracking_ItemBatch.SerialNo,Batch_x002F_Serial_x0020_No.,System.String</value>
           <value>Tracking_ItemBatch.SerialNo__Lab,Batch_x002F_Serial_x0020_No._x0020__x0028_Label_x0029_,System.String</value>
+          <value>Tracking_TrackingNumbers.BatchNo,Tracking_x0020_number,System.String</value>
+          <value>Tracking_TrackingNumbers.BatchNo__Lab,Tracking_x0020_number_x0020__x0028_Label_x0029_,System.String</value>
+          <value>Tracking_TrackingNumbers.SuppBatchNo,Batch_x0020_number,System.String</value>
+          <value>Tracking_TrackingNumbers.SuppBatchNo__Lab,Batch_x0020_number_x0020__x0028_Label_x0029_,System.String</value>
         </Columns>
         <Dictionary isRef="1" />
         <Name>Tracking_Delivery Note Lines</Name>
@@ -1364,7 +1368,7 @@ if (!OperationsPerLineDict[partReference].Contains(operationReference))
 string lineNumber = Tracking_Delivery_Note_Lines.OLineNum;
 string itemIdentifier = partReference + lineNumber;
 
-string batchNumber = Tracking_Delivery_Note_Lines.Tracking_ItemBatch_BatchNo;
+string batchNumber = Tracking_Delivery_Note_Lines.Tracking_TrackingNumbers_SuppBatchNo;
 
 	//if (batchNumber != "")
 if (!string.IsNullOrEmpty(batchNumber))
@@ -1401,9 +1405,11 @@ if (!string.IsNullOrEmpty(batchNumber))
           <ClientRectangle>0,13.4,19,0</ClientRectangle>
           <Components isList="true" count="0" />
           <Conditions isList="true" count="0" />
+          <Linked>True</Linked>
           <Name>LinesHeader</Name>
           <Page isRef="10" />
           <Parent isRef="10" />
+          <SkipFirst>False</SkipFirst>
         </LinesHeader>
         <ChildBand1 Ref="59" type="ChildBand" isKey="true">
           <Brush>Transparent</Brush>
@@ -1447,7 +1453,7 @@ if (!string.IsNullOrEmpty(batchNumber))
         </ChildBand1>
         <LinesHeaderImage Ref="62" type="ChildBand" isKey="true">
           <Brush>EmptyBrush</Brush>
-          <ClientRectangle>0,15.4,19,1</ClientRectangle>
+          <ClientRectangle>0,15.4,19,0.8</ClientRectangle>
           <Components isList="true" count="1">
             <Panel5 Ref="63" type="Panel" isKey="true">
               <Brush>LightGray</Brush>
@@ -1523,12 +1529,12 @@ if (!string.IsNullOrEmpty(batchNumber))
               <Parent isRef="62" />
             </Panel5>
           </Components>
-          <Conditions isList="true" count="1">
-            <value>_x007B_ForCheckImage_x0020__x003D__x003D__x0020_true_x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
-          </Conditions>
+          <Conditions isList="true" count="0" />
+          <Linked>True</Linked>
           <Name>LinesHeaderImage</Name>
           <Page isRef="10" />
           <Parent isRef="10" />
+          <SkipFirst>False</SkipFirst>
         </LinesHeaderImage>
         <DataBand5 Ref="68" type="DataBand" isKey="true">
           <BeforePrintEvent>
@@ -1599,7 +1605,7 @@ else
 	shm_Tracking = "";</BeforePrintEvent>
           <Brush>Transparent</Brush>
           <BusinessObjectGuid isNull="true" />
-          <ClientRectangle>0,17.2,19,0</ClientRectangle>
+          <ClientRectangle>0,17,19,0</ClientRectangle>
           <Components isList="true" count="0" />
           <Conditions isList="true" count="0" />
           <DataRelationName>Lines</DataRelationName>
@@ -1616,7 +1622,7 @@ else
         </DataBand5>
         <LinesImage Ref="69" type="ChildBand" isKey="true">
           <Brush>Transparent</Brush>
-          <ClientRectangle>0,18,19,3.2</ClientRectangle>
+          <ClientRectangle>0,17.8,19,3.2</ClientRectangle>
           <Components isList="true" count="2">
             <Panel1 Ref="70" type="Panel" isKey="true">
               <Brush>Transparent</Brush>
@@ -1665,7 +1671,7 @@ else
                   <Name>Text42</Name>
                   <Page isRef="10" />
                   <Parent isRef="70" />
-                  <Text>{shm_PartDesc + shm_GeometryRecognition + IIF(shm_Routing != "", "&lt;br/&gt;" + shm_Routing, "") + IIF(Delivery_note_lines.Sale_Order_Line_Weight &gt; 0, "&lt;br/&gt;" + Delivery_note_lines.Sale_Order_Line_Weight.ToString("F2") + " Kg","") + IIF(shm_Tracking != "", "&lt;br/&gt;" + shm_Tracking, "")}</Text>
+                  <Text>{shm_PartDesc + shm_GeometryRecognition + IIF(shm_Routing != "", "&lt;br/&gt;" + shm_Routing, "") + IIF(Delivery_note_lines.Sale_Order_Line_Weight &gt; 0, "&lt;br/&gt;" + "Nettogewicht: " + Delivery_note_lines.Sale_Order_Line_Weight.ToString("F2") + " kg","") + IIF(shm_Tracking != "", "&lt;br/&gt;" + shm_Tracking, "")}</Text>
                   <TextBrush>Black</TextBrush>
                   <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
                   <TextQuality>Wysiwyg</TextQuality>
@@ -1703,7 +1709,7 @@ else
                 <Text4 Ref="76" type="Text" isKey="true">
                   <Border>None;[199:213:224];1;Solid;False;4;Black</Border>
                   <Brush>Transparent</Brush>
-                  <ClientRectangle>13.8,0,1.2,2.8</ClientRectangle>
+                  <ClientRectangle>13.8,0,2.6,2.8</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Font>Calibri Light,10,Bold</Font>
                   <Guid>13830ea3e61846e7a3e88bebfae38b35</Guid>
@@ -1711,7 +1717,7 @@ else
                   <Name>Text4</Name>
                   <Page isRef="10" />
                   <Parent isRef="70" />
-                  <Text>{IIF(Delivery_note_lines.DIS_QUANUntName.ToUpper() == "UNT", "Stk.", Delivery_note_lines.DIS_QUANUntName)} </Text>
+                  <Text>{IIF(Delivery_note_lines.DIS_QUANUntName.ToUpper() == "UNT", "Stk. geliefert", Delivery_note_lines.DIS_QUANUntName + " geliefert")} </Text>
                   <TextBrush>Black</TextBrush>
                   <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
                   <Type>Expression</Type>
@@ -1745,7 +1751,7 @@ else
         <FooterBand2 Ref="80" type="FooterBand" isKey="true">
           <Brush>Transparent</Brush>
           <CanShrink>True</CanShrink>
-          <ClientRectangle>0,22,19,0</ClientRectangle>
+          <ClientRectangle>0,21.8,19,0</ClientRectangle>
           <Components isList="true" count="0" />
           <Conditions isList="true" count="0" />
           <Name>FooterBand2</Name>
@@ -1756,7 +1762,7 @@ else
         <HeaderBand1 Ref="81" type="HeaderBand" isKey="true">
           <Brush>Transparent</Brush>
           <CanShrink>True</CanShrink>
-          <ClientRectangle>0,22.8,19,0</ClientRectangle>
+          <ClientRectangle>0,22.6,19,0</ClientRectangle>
           <Components isList="true" count="0" />
           <Conditions isList="true" count="0" />
           <Name>HeaderBand1</Name>
@@ -1765,7 +1771,7 @@ else
         </HeaderBand1>
         <DataBand2 Ref="82" type="DataBand" isKey="true">
           <Brush>Transparent</Brush>
-          <ClientRectangle>0,23.6,19,4.2</ClientRectangle>
+          <ClientRectangle>0,23.4,19,4.2</ClientRectangle>
           <Components isList="true" count="1">
             <Text48 Ref="83" type="Text" isKey="true">
               <Brush>Transparent</Brush>
@@ -1805,7 +1811,7 @@ Aufsteckrahmen-angeliefert____________Stück - zurück____________Stück
         <FooterBand1 Ref="84" type="FooterBand" isKey="true">
           <Brush>Transparent</Brush>
           <CanShrink>True</CanShrink>
-          <ClientRectangle>0,28.6,19,0.8</ClientRectangle>
+          <ClientRectangle>0,28.4,19,0.8</ClientRectangle>
           <Components isList="true" count="1">
             <Text50 Ref="85" type="Text" isKey="true">
               <Brush>Transparent</Brush>
@@ -1860,11 +1866,11 @@ Aufsteckrahmen-angeliefert____________Stück - zurück____________Stück
   </ReferencedAssemblies>
   <ReportAlias>00_SSAA_SSHH_00000100_Hörstkamp</ReportAlias>
   <ReportAuthor>SYSADM</ReportAuthor>
-  <ReportChanged>6/4/2025 4:29:50 PM</ReportChanged>
+  <ReportChanged>6/23/2025 4:41:48 PM</ReportChanged>
   <ReportCreated>12/26/2016 4:14:08 PM</ReportCreated>
   <ReportDescription>Lieferschein</ReportDescription>
   <ReportFile />
-  <ReportGuid>28acfe854b7740d39a493e927ef276e6</ReportGuid>
+  <ReportGuid>f21fa8aa252c45768b3a4f8a90f27b8b</ReportGuid>
   <ReportImage isNull="true" />
   <ReportName>00_SSAA_SSHH_00000100_Hörstkamp</ReportName>
   <ReportUnit>Centimeters</ReportUnit>

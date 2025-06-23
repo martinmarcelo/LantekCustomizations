@@ -408,6 +408,10 @@
               <xs:element name="Tracking_ItemBatch.LineNum__Lab" msdata:Caption="Line number (Label)" type="xs:string" minOccurs="0" />
               <xs:element name="Tracking_ItemBatch.SerialNo" msdata:Caption="Batch/Serial No." type="xs:string" minOccurs="0" />
               <xs:element name="Tracking_ItemBatch.SerialNo__Lab" msdata:Caption="Batch/Serial No. (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="Tracking_TrackingNumbers.BatchNo" msdata:Caption="Tracking number" type="xs:string" minOccurs="0" />
+              <xs:element name="Tracking_TrackingNumbers.BatchNo__Lab" msdata:Caption="Tracking number (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="Tracking_TrackingNumbers.SuppBatchNo" msdata:Caption="Batch number" type="xs:string" minOccurs="0" />
+              <xs:element name="Tracking_TrackingNumbers.SuppBatchNo__Lab" msdata:Caption="Batch number (Label)" type="xs:string" minOccurs="0" />
             </xs:sequence>
           </xs:complexType>
         </xs:element>
