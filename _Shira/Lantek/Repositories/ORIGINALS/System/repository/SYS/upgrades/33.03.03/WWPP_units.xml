@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<QUERIES xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\..\..\xsd\Queries\Queries.xsd">
+    <!-- WWPP_WWOO_00000100,TheoreticalTotalWeight -->
+    <INSERT TblRef="SYST_UUMM_00000800">
+        <FIELDVALUE FldRef="TblRef" FldType="20" FldValue="WWPP_WWOO_00000100" />
+        <FIELDVALUE FldRef="FldRef" FldType="20" FldValue="TheoreticalTotalWeight" />
+        <FIELDVALUE FldRef="USyName" FldType="20" FldValue="MET" />
+        <FIELDVALUE FldRef="UCtName" FldType="20" FldValue="WGH" />
+        <FIELDVALUE FldRef="UntName" FldType="20" FldValue="kg" />
+        <FIELDVALUE FldRef="CntID" FldType="80" FldValue="0" />
+    </INSERT>
+    <INSERT TblRef="SYST_UUMM_00000800">
+        <FIELDVALUE FldRef="TblRef" FldType="20" FldValue="WWPP_WWOO_00000100" />
+        <FIELDVALUE FldRef="FldRef" FldType="20" FldValue="TheoreticalTotalWeight" />
+        <FIELDVALUE FldRef="USyName" FldType="20" FldValue="IMP" />
+        <FIELDVALUE FldRef="UCtName" FldType="20" FldValue="WGH" />
+        <FIELDVALUE FldRef="UntName" FldType="20" FldValue="lb" />
+        <FIELDVALUE FldRef="CntID" FldType="80" FldValue="0" />
+    </INSERT>
+</QUERIES>

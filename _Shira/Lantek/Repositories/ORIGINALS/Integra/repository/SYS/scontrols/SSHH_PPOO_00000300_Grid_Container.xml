@@ -1,0 +1,264 @@
+<CONTROL Name="SSHH_PPOO_00000300_Grid_Container" Type="Container" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\..\xsd\Repository\Controls.xsd">
+    <CONTROLPROPS>
+        <LAYOUT>
+            <SIZE WidthType="Auto" />
+        </LAYOUT>
+        <STYLES>
+            <NORMALSTYLE Name="Background" />
+        </STYLES>
+        <OTHER LabelText="{1:30282}" />
+        <SPECIAL>
+            <CNT HideIfEmpty="1" ScrollingType="No" />
+        </SPECIAL>
+    </CONTROLPROPS>
+    <CHILDREN>
+        <CONTROL Name="SSHH_PPOO_00000300_Grid" Type="Grid">
+            <CONTROLPROPS>
+                <LAYOUT>
+                    <SIZE WidthType="Auto" />
+                    <SPACING Value="APP:ControlSpacing" />
+                </LAYOUT>
+                <DATAACCESS StructureIdentifier="SSHH_PPOO_00000300" />
+                <STYLES MergeRowsStyle="1" />
+                <OTHER LabelText="{1:36574}" Expand="Expanded" />
+                <SPECIAL>
+                    <GRD MultipleSelection="0" PhonesFormatString="{0:cell_LineNumPO}{0:cell_POrdRef##, #}{0:cell_Quantity##: #}" />
+                </SPECIAL>
+            </CONTROLPROPS>
+            <CHILDREN>
+                <CONTROL Name="SSHH_PPOO_00000300_Grid_MenuActions" Type="Custom" ClassType="Lantek.Avantia.Application.Controls.ListActionsControlEntity,lnkavnt_apps" ILayout="NOPhones">
+                    <CONTROLPROPS>
+                        <DATAACCESS StructureIdentifier="SSHH_PPOO_00000300" />
+                        <OTHER Text="{1:156}" Image="" />
+                    </CONTROLPROPS>
+                </CONTROL>
+                <CONTROL Name="SSHH_PPOO_00000300_Grid_MenuActions_Phones" Type="Custom" ClassType="Lantek.Avantia.Application.Controls.ListActionsControlEntity,lnkavnt_apps" ILayout="Phones">
+                    <CONTROLPROPS>
+                        <DATAACCESS StructureIdentifier="SSHH_PPOO_00000300" />
+                        <OTHER Text="" Image="./img/cmd/Actions.png" />
+                    </CONTROLPROPS>
+                </CONTROL>
+                <CONTROL Name="SSHH_PPOO_00000300_Grid_Origin" Type="GridColumn">
+                    <CONTROLPROPS>
+                        <LAYOUT>
+                            <SIZE WidthValue="APP:LittleImagesColumnsWidth" />
+                        </LAYOUT>
+                        <DATAACCESS ColumnIdentifier="Origin" />
+                        <OTHER LabelText="{1:36321}" Image="./img/col/Type.png" />
+                        <SPECIAL>
+                            <COL Preserve="1" ColumnType="Combo" CanResize="0" />
+                        </SPECIAL>
+                    </CONTROLPROPS>
+                </CONTROL>
+                <CONTROL Name="SSHH_PPOO_00000300_Grid_Order" Type="GridColumn">
+                    <CONTROLPROPS>
+                        <LAYOUT>
+                            <SIZE WidthValue="APP:ReferencesColumnsWidth" />
+                        </LAYOUT>
+                        <DATAACCESS ColumnIdentifier="POrdRef" />
+                        <OTHER LabelText="{1:30257}" LabelTooltip="{1:30283}">
+                            <C N="OpenParent">
+                                <P N="Structure" V="SSHH_PPOO_00000300" />
+                                <P N="ChildTable" V="[STR,SSHH_PPOO_00000300,tbl]" />
+                                <P N="ChildField" V="POrdRef" />
+                                <P N="ParentRelation" V="Purchase order" />
+                                <P N="ChildRecord" V="[CELL,SSHH_PPOO_00000300,RecID,-1,bv]" />
+                            </C>
+                        </OTHER>
+                    </CONTROLPROPS>
+                </CONTROL>
+                <CONTROL Name="SSHH_PPOO_00000300_Grid_PrdRef" Type="GridColumn">
+                    <CONTROLPROPS>
+                        <LAYOUT>
+                            <SIZE WidthValue="APP:LongTextsBigColumnsWidth" />
+                        </LAYOUT>
+                        <DATAACCESS ColumnIdentifier="PrdRef" FormatString="{0:cell_PrdRef}{0:cell_PrdName##, #}" />
+                        <OTHER>
+                            <C N="OpenParent">
+                                <P N="Structure" V="SSHH_PPOO_00000300" />
+                                <P N="ChildTable" V="[STR,SSHH_PPOO_00000300,tbl]" />
+                                <P N="ChildField" V="PrdRef" />
+                                <P N="ParentRelation" V="Product" />
+                                <P N="ChildRecord" V="[CELL,SSHH_PPOO_00000300,RecID,-1,bv]" />
+                            </C>
+                        </OTHER>
+                    </CONTROLPROPS>
+                </CONTROL>
+                <CONTROL Name="SSHH_PPOO_00000300_Grid_Supplier" Type="GridColumn">
+                    <CONTROLPROPS>
+                        <LAYOUT>
+                            <SIZE WidthValue="APP:ShortTextsColumnsWidth" />
+                        </LAYOUT>
+                        <DATAACCESS ColumnIdentifier="SuppRef" FormatString="{0:cell_SuppRef}{0:cell_SuppName##, #}" />
+                    </CONTROLPROPS>
+                </CONTROL>
+                <CONTROL Name="SSHH_PPOO_00000300_Grid_Warehouse" Type="GridColumn">
+                    <CONTROLPROPS>
+                        <LAYOUT>
+                            <SIZE WidthValue="APP:ReferencesColumnsWidth" />
+                        </LAYOUT>
+                        <DATAACCESS ColumnIdentifier="WrhRef" />
+                    </CONTROLPROPS>
+                </CONTROL>
+                <CONTROL Name="SSHH_PPOO_00000300_Grid_Quantity" Type="GridColumn">
+                    <CONTROLPROPS>
+                        <LAYOUT>
+                            <SIZE WidthValue="APP:DurationColumnsWidth" />
+                        </LAYOUT>
+                        <DATAACCESS ColumnIdentifier="Quantity" />
+                        <STYLES Alignment="Right" />
+                        <SPECIAL>
+                            <COL PercentWidth="0" />
+                        </SPECIAL>
+                    </CONTROLPROPS>
+                </CONTROL>
+                <CONTROL Name="SSHH_PPOO_00000300_Grid_ReceivedQuantity" Type="GridColumn">
+                    <CONTROLPROPS>
+                        <LAYOUT>
+                            <SIZE WidthValue="APP:DurationColumnsWidth" />
+                        </LAYOUT>
+                        <DATAACCESS ColumnIdentifier="RcvdQuantity" />
+                        <STYLES Alignment="Right" />
+                        <SPECIAL>
+                            <COL PercentWidth="0" />
+                        </SPECIAL>
+                    </CONTROLPROPS>
+                </CONTROL>
+                <CONTROL Name="SSHH_PPOO_00000300_Grid_RequiredDate" Type="GridColumn">
+                    <CONTROLPROPS>
+                        <LAYOUT>
+                            <SIZE WidthValue="APP:ShortDatesColumnsWidth" />
+                        </LAYOUT>
+                        <DATAACCESS ColumnIdentifier="DDate" />
+                        <STYLES Alignment="Center" />
+                        <SPECIAL>
+                            <COL CanResize="0" PercentWidth="0" />
+                        </SPECIAL>
+                    </CONTROLPROPS>
+                </CONTROL>
+            </CHILDREN>
+        </CONTROL>
+        <CONTROL Name="SSHH_PPOO_00000200_Grid_Received" Type="Grid">
+            <CONTROLPROPS>
+                <LAYOUT>
+                    <SIZE WidthType="Auto" />
+                </LAYOUT>
+                <DATAACCESS StructureIdentifier="SSHH_PPOO_00000200_Received" />
+                <STYLES MergeRowsStyle="1" />
+                <OTHER LabelText="{1:36573}" Expand="Expanded">
+                    <C N="View">
+                        <P N="Structure" V="SSHH_PPOO_00000200_Received" />
+                        <P N="Table" V="[STR,SSHH_PPOO_00000200_Received,tbl]" />
+                        <P N="Record" V="[CELL,SSHH_PPOO_00000200_Received,RecID,-1,bv]" />
+                        <P N="RecordsQuery">
+                            <V>[STR,SSHH_PPOO_00000200_Received,rcsq]</V>
+                        </P>
+                        <P N="LowerFields">
+                            <V>[STR,SSHH_PPOO_00000200_Received,lowf]</V>
+                        </P>
+                        <P N="LowerCnds">
+                            <V>[STR,SSHH_PPOO_00000200_Received,lowcnd]</V>
+                        </P>
+                        <P N="LowerSec" V="[STR,SSHH_PPOO_00000200_Received,lowsec]" />
+                    </C>
+                </OTHER>
+                <SPECIAL>
+                    <GRD SelectAll="0" />
+                </SPECIAL>
+            </CONTROLPROPS>
+            <CHILDREN>
+                <CONTROL Name="SSHH_PPOO_00000200_Received_Grid_Order_Invoiced" Type="GridColumn">
+                    <CONTROLPROPS>
+                        <LAYOUT>
+                            <SIZE WidthValue="APP:LittleImagesColumnsWidth" />
+                        </LAYOUT>
+                        <DATAACCESS ColumnIdentifier="Invoiced" />
+                        <OTHER Image="./img/tbl/32255.png" />
+                        <SPECIAL>
+                            <COL Preserve="1" ColumnType="Check" CanResize="0" />
+                        </SPECIAL>
+                    </CONTROLPROPS>
+                </CONTROL>
+                <CONTROL Name="SSHH_PPOO_00000200_Received_Grid_Order_OrdRef" Type="GridColumn">
+                    <CONTROLPROPS>
+                        <DATAACCESS ColumnIdentifier="OrdRef" />
+                        <OTHER LabelText="{1:30257}" LabelTooltip="{1:30283}">
+                            <C N="OpenParent">
+                                <P N="Structure" V="SSHH_PPOO_00000200_Received" />
+                                <P N="ChildTable" V="[STR,SSHH_PPOO_00000200_Received,tbl]" />
+                                <P N="ChildField" V="OrdRef" />
+                                <P N="ChildRecord" V="[CELL,SSHH_PPOO_00000200_Received,RecID,-1,bv]" />
+                            </C>
+                        </OTHER>
+                        <SPECIAL>
+                            <COL PercentWidth="0" />
+                        </SPECIAL>
+                    </CONTROLPROPS>
+                </CONTROL>
+                <CONTROL Name="SSHH_PPOO_00000200_Received_Grid_Order_PrdRef" Type="GridColumn">
+                    <CONTROLPROPS>
+                        <LAYOUT>
+                            <SIZE WidthValue="APP:LongTextsColumnsWidth" />
+                        </LAYOUT>
+                        <DATAACCESS ColumnIdentifier="PrdRef" FormatString="{0:cell_PrdRef}{0:cell_PrdName##, #}" />
+                        <OTHER>
+                            <C N="OpenParent">
+                                <P N="Structure" V="SSHH_PPOO_00000200_Received" />
+                                <P N="ChildTable" V="[STR,SSHH_PPOO_00000200_Received,tbl]" />
+                                <P N="ChildField" V="PrdRef" />
+                                <P N="ChildRecord" V="[CELL,SSHH_PPOO_00000200_Received,RecID,-1,bv]" />
+                                <P N="Execute" V="[CELL,SSHH_PPOO_00000200_Received,PrdRef,-1,nev]" />
+                            </C>
+                        </OTHER>
+                    </CONTROLPROPS>
+                </CONTROL>
+                <CONTROL Name="SSHH_PPOO_00000200_Received_Grid_Order_Supplier" Type="GridColumn">
+                    <CONTROLPROPS>
+                        <LAYOUT>
+                            <SIZE WidthValue="APP:LongTextsColumnsWidth" />
+                        </LAYOUT>
+                        <DATAACCESS ColumnIdentifier="Supplier" FormatString="{0:cell_Supplier}{0:cell_SuppName##, #}" />
+                    </CONTROLPROPS>
+                </CONTROL>
+                <CONTROL Name="SSHH_PPOO_00000200_Received_Grid_Order_Quantity" Type="GridColumn">
+                    <CONTROLPROPS>
+                        <LAYOUT>
+                            <SIZE WidthValue="APP:DurationColumnsWidth" />
+                        </LAYOUT>
+                        <DATAACCESS ColumnIdentifier="Quantity" />
+                        <STYLES Alignment="Right" />
+                        <SPECIAL>
+                            <COL PercentWidth="0" />
+                        </SPECIAL>
+                    </CONTROLPROPS>
+                </CONTROL>
+                <CONTROL Name="SSHH_PPOO_00000200_Received_Grid_Order_RcvdQuantity" Type="GridColumn">
+                    <CONTROLPROPS>
+                        <LAYOUT>
+                            <SIZE WidthValue="APP:DurationColumnsWidth" />
+                        </LAYOUT>
+                        <DATAACCESS ColumnIdentifier="RcvdQuantity" />
+                        <STYLES Alignment="Right" />
+                        <OTHER LabelText="{1:30286}" />
+                        <SPECIAL>
+                            <COL PercentWidth="0" />
+                        </SPECIAL>
+                    </CONTROLPROPS>
+                </CONTROL>
+                <CONTROL Name="SSHH_PPOO_00000200_Received_Grid_Order_DDate" Type="GridColumn">
+                    <CONTROLPROPS>
+                        <LAYOUT>
+                            <SIZE WidthValue="APP:ShortDatesColumnsWidth" />
+                        </LAYOUT>
+                        <DATAACCESS ColumnIdentifier="DDate" />
+                        <STYLES Alignment="Center" />
+                        <OTHER LabelText="{1:34612}" LabelTooltip="{1:32548}" />
+                        <SPECIAL>
+                            <COL PercentWidth="0" />
+                        </SPECIAL>
+                    </CONTROLPROPS>
+                </CONTROL>
+            </CHILDREN>
+        </CONTROL>
+    </CHILDREN>
+</CONTROL>

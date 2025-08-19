@@ -1,0 +1,826 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="0" />
+    <DataSources isList="true" count="1">
+      <WORKCENTER_SCHEDULING_REPORT Ref="2" type="DataTableSource" isKey="true">
+        <Alias>WORKCENTER_SCHEDULING_REPORT</Alias>
+        <Columns isList="true" count="47">
+          <value>WrkRef,Centro_x0020_de_x0020_trabajo,System.String</value>
+          <value>WrkRef__Lab,Centro_x0020_de_x0020_trabajo_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>WorkCenterGroup,Grupo,System.String</value>
+          <value>WorkCenterGroup__Lab,Grupo_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>WorkCenterType,Work_x0020_Center_x0020_Type,System.Int16</value>
+          <value>WorkCenterType__Lab,Work_x0020_Center_x0020_Type_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>WorkCenterType__ScN,Work_x0020_Center_x0020_Type_x0020__x0028_Valor_x0029_,System.String</value>
+          <value>ReportType,System.Int16</value>
+          <value>ReportType__Lab,ReportType_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>ReportType__ScN,ReportType_x0020__x0028_Valor_x0029_,System.String</value>
+          <value>SDate,Fecha_x0020_inicio,System.DateTime</value>
+          <value>SDate__Lab,Fecha_x0020_inicio_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>SDate__ScN,Fecha_x0020_inicio_x0020__x0028_Valor_x0029_,System.String</value>
+          <value>SDate__LDt,Fecha_x0020_inicio_x0020__x0028_Fecha_x0020_larga_x0029_,System.String</value>
+          <value>SDate__SDt,Fecha_x0020_inicio_x0020__x0028_Fecha_x0020_corta_x0029_,System.String</value>
+          <value>EstimatedLoad,Estimated_x0020_load,System.Double</value>
+          <value>EstimatedLoad__Lab,Estimated_x0020_load_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>EstimatedLoad__ScN,Estimated_x0020_load_x0020__x0028_Valor_x0029_,System.String</value>
+          <value>EstimatedLoad__Dec,Estimated_x0020_load_x0020__x0028_Dígitos_x0020_decimales_x0029_,System.Int16</value>
+          <value>EstimatedLoad__Rnd,Estimated_x0020_load_x0020__x0028_Redondeado_x0029_,System.Int16</value>
+          <value>Capacity,Capacité_x0020_réelle,System.Double</value>
+          <value>Capacity__Lab,Capacité_x0020_réelle_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>Capacity__ScN,Capacité_x0020_réelle_x0020__x0028_Valor_x0029_,System.String</value>
+          <value>Capacity__Dec,Capacité_x0020_réelle_x0020__x0028_Dígitos_x0020_decimales_x0029_,System.Int16</value>
+          <value>Capacity__Rnd,Capacité_x0020_réelle_x0020__x0028_Redondeado_x0029_,System.Int16</value>
+          <value>FreeCapacity,Free_x0020_Capacity,System.Double</value>
+          <value>FreeCapacity__Lab,Free_x0020_Capacity_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>FreeCapacity__ScN,Free_x0020_Capacity_x0020__x0028_Valor_x0029_,System.String</value>
+          <value>FreeCapacity__Dec,Free_x0020_Capacity_x0020__x0028_Dígitos_x0020_decimales_x0029_,System.Int16</value>
+          <value>FreeCapacity__Rnd,Free_x0020_Capacity_x0020__x0028_Redondeado_x0029_,System.Int16</value>
+          <value>OverLoad,System.Double</value>
+          <value>OverLoad__Lab,OverLoad_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>OverLoad__ScN,OverLoad_x0020__x0028_Valor_x0029_,System.String</value>
+          <value>OverLoad__Dec,OverLoad_x0020__x0028_Dígitos_x0020_decimales_x0029_,System.Int16</value>
+          <value>OverLoad__Rnd,OverLoad_x0020__x0028_Redondeado_x0029_,System.Int16</value>
+          <value>RealLoad,Charge_x0020_de_x0020_travail_x0020_réelle,System.Double</value>
+          <value>RealLoad__Lab,Charge_x0020_de_x0020_travail_x0020_réelle_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>RealLoad__ScN,Charge_x0020_de_x0020_travail_x0020_réelle_x0020__x0028_Valor_x0029_,System.String</value>
+          <value>RealLoad__Dec,Charge_x0020_de_x0020_travail_x0020_réelle_x0020__x0028_Dígitos_x0020_decimales_x0029_,System.Int16</value>
+          <value>RealLoad__Rnd,Charge_x0020_de_x0020_travail_x0020_réelle_x0020__x0028_Redondeado_x0029_,System.Int16</value>
+          <value>Description,Descripción,System.String</value>
+          <value>Description__Lab,Descripción_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>Efficiency,Ratio_x0020_Charge_x0020__x002F__x0020_Capacité,System.Double</value>
+          <value>Efficiency__Lab,Ratio_x0020_Charge_x0020__x002F__x0020_Capacité_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>Efficiency__ScN,Ratio_x0020_Charge_x0020__x002F__x0020_Capacité_x0020__x0028_Valor_x0029_,System.String</value>
+          <value>Efficiency__Dec,Ratio_x0020_Charge_x0020__x002F__x0020_Capacité_x0020__x0028_Dígitos_x0020_decimales_x0029_,System.Int16</value>
+          <value>Efficiency__Rnd,Ratio_x0020_Charge_x0020__x002F__x0020_Capacité_x0020__x0028_Redondeado_x0029_,System.Int16</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>WORKCENTER_SCHEDULING_REPORT</Name>
+        <NameInSource>MMNN_MMOO_00000300_Workload_Scheduling.WORKCENTER_SCHEDULING_REPORT</NameInSource>
+      </WORKCENTER_SCHEDULING_REPORT>
+    </DataSources>
+    <Relations isList="true" count="0" />
+    <Report isRef="0" />
+    <Variables isList="true" count="11">
+      <value>,__Sys_DatePattern,__Sys_DatePattern,System.String,,False,False</value>
+      <value>,__Mss_33466,__Mss_33466,System.String,,False,False</value>
+      <value>,WorkCenterForFilter,WorkCenterForFilter,System.String,,False,False</value>
+      <value>Categoría</value>
+      <value>,__Mss_60002864,__Mss_60002864,System.String,,False,False</value>
+      <value>,boldTittle,boldTittle,System.Boolean,false,False,False</value>
+      <value>,tester,tester,System.String,,False,False</value>
+      <value>,__Mss_60002389,__Mss_60002389,System.String,,False,False</value>
+      <value>,__Mss_34965,__Mss_34965,System.String,,False,False</value>
+      <value>,__Mss_35939,__Mss_35939,System.String,,False,False</value>
+      <value>,__Mss_37395,__Mss_37395,System.String,,False,False</value>
+    </Variables>
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <ReportPage Ref="3" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="5">
+        <PageHeaderBand1 Ref="4" type="PageHeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0.2,7.49,0.51</ClientRectangle>
+          <Components isList="true" count="2">
+            <Text12 Ref="5" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,7.48,0.41</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,18,Bold</Font>
+              <Guid>024530dc93f0404c36ffac423b530729</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text12</Name>
+              <Page isRef="3" />
+              <Parent isRef="4" />
+              <Text>{__Mss_60002864}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text12>
+            <HorizontalLinePrimitive1 Ref="6" type="HorizontalLinePrimitive" isKey="true">
+              <ClientRectangle>0,0.4,7.5,0.01</ClientRectangle>
+              <Color>199, 213, 224</Color>
+              <EndCap Ref="7" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </EndCap>
+              <Name>HorizontalLinePrimitive1</Name>
+              <Page isRef="3" />
+              <Parent isRef="4" />
+              <Size>2</Size>
+              <StartCap Ref="8" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </StartCap>
+            </HorizontalLinePrimitive1>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>PageHeaderBand1</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+        </PageHeaderBand1>
+        <PageFooterBand1 Ref="9" type="PageFooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,10.44,7.49,0.47</ClientRectangle>
+          <Components isList="true" count="4">
+            <Text13 Ref="10" type="Text" isKey="true">
+              <Brush>White</Brush>
+              <ClientRectangle>0,0.28,1.42,0.16</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <Guid>eb45cb941741d7187230ac434fa5b8be</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text13</Name>
+              <Page isRef="3" />
+              <Parent isRef="9" />
+              <Text>{Time}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text13>
+            <Text14 Ref="11" type="Text" isKey="true">
+              <Brush>White</Brush>
+              <ClientRectangle>6.93,0.28,0.24,0.16</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <Guid>801d60bdc78851ab2e07ac43a1e3d3dc</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text14</Name>
+              <Page isRef="3" />
+              <Parent isRef="9" />
+              <Text>{PageNumber}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>SystemVariables</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text14>
+            <Text15 Ref="12" type="Text" isKey="true">
+              <Brush>White</Brush>
+              <ClientRectangle>7.24,0.28,0.24,0.16</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <Guid>388d0845de1ae648e14aac44e4b70107</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text15</Name>
+              <Page isRef="3" />
+              <Parent isRef="9" />
+              <Text>{TotalPageCount}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>SystemVariables</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text15>
+            <Text16 Ref="13" type="Text" isKey="true">
+              <Brush>White</Brush>
+              <ClientRectangle>7.17,0.28,0.08,0.16</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <Guid>7b86822ea619b9a1cb9fac45007f89ad</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text16</Name>
+              <Page isRef="3" />
+              <Parent isRef="9" />
+              <Text>/</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text16>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>PageFooterBand1</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+        </PageFooterBand1>
+        <GroupHeaderBand1 Ref="14" type="GroupHeaderBand" isKey="true">
+          <BeforePrintEvent>WorkCenterForFilter = WORKCENTER_SCHEDULING_REPORT.WrkRef ;</BeforePrintEvent>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,1.11,7.49,2.68</ClientRectangle>
+          <Components isList="true" count="3">
+            <Chart1 Ref="15" type="Stimulsoft.Report.Chart.StiChart" isKey="true">
+              <AllowApplyStyle>False</AllowApplyStyle>
+              <Area Ref="16" type="Stimulsoft.Report.Chart.StiStackedColumnArea" isKey="true">
+                <BorderColor>171, 172, 173</BorderColor>
+                <Brush>[255:255:255]</Brush>
+                <Chart isRef="15" />
+                <GridLinesHor Ref="17" type="Stimulsoft.Report.Chart.StiGridLinesHor" isKey="true">
+                  <Area isRef="16" />
+                  <Color>100, 105, 105, 105</Color>
+                  <MinorColor>100, 105, 105, 105</MinorColor>
+                </GridLinesHor>
+                <GridLinesHorRight Ref="18" type="Stimulsoft.Report.Chart.StiGridLinesHor" isKey="true">
+                  <Area isRef="16" />
+                  <Color>Silver</Color>
+                  <MinorColor>Gainsboro</MinorColor>
+                  <Visible>False</Visible>
+                </GridLinesHorRight>
+                <GridLinesVert Ref="19" type="Stimulsoft.Report.Chart.StiGridLinesVert" isKey="true">
+                  <Area isRef="16" />
+                  <Color>100, 105, 105, 105</Color>
+                  <MinorColor>100, 105, 105, 105</MinorColor>
+                </GridLinesVert>
+                <InterlacingHor Ref="20" type="Stimulsoft.Report.Chart.StiInterlacingHor" isKey="true">
+                  <Area isRef="16" />
+                  <InterlacedBrush>[10:155:155:155]</InterlacedBrush>
+                </InterlacingHor>
+                <InterlacingVert Ref="21" type="Stimulsoft.Report.Chart.StiInterlacingVert" isKey="true">
+                  <Area isRef="16" />
+                  <InterlacedBrush>[10:155:155:155]</InterlacedBrush>
+                </InterlacingVert>
+                <XAxis Ref="22" type="Stimulsoft.Report.Chart.StiXBottomAxis" isKey="true">
+                  <Area isRef="16" />
+                  <DateTimeStep Ref="23" type="Stimulsoft.Report.Chart.StiAxisDateTimeStep" isKey="true">
+                    <NumberOfValues>1</NumberOfValues>
+                  </DateTimeStep>
+                  <Interaction Ref="24" type="Stimulsoft.Report.Chart.StiAxisInteraction" isKey="true" />
+                  <Labels Ref="25" type="Stimulsoft.Report.Chart.StiAxisLabels" isKey="true">
+                    <Color>140, 140, 140</Color>
+                    <Font>Tahoma,8</Font>
+                  </Labels>
+                  <LineColor>140, 140, 140</LineColor>
+                  <Range Ref="26" type="Stimulsoft.Report.Chart.StiAxisRange" isKey="true" />
+                  <Ticks Ref="27" type="Stimulsoft.Report.Chart.StiAxisTicks" isKey="true" />
+                  <Title Ref="28" type="Stimulsoft.Report.Chart.StiAxisTitle" isKey="true">
+                    <Color>140, 140, 140</Color>
+                    <Direction>LeftToRight</Direction>
+                    <Font>Tahoma,12,Bold</Font>
+                  </Title>
+                </XAxis>
+                <XTopAxis Ref="29" type="Stimulsoft.Report.Chart.StiXTopAxis" isKey="true">
+                  <Area isRef="16" />
+                  <Interaction Ref="30" type="Stimulsoft.Report.Chart.StiAxisInteraction" isKey="true" />
+                  <Labels Ref="31" type="Stimulsoft.Report.Chart.StiAxisLabels" isKey="true">
+                    <Color>140, 140, 140</Color>
+                    <Font>Tahoma,8</Font>
+                  </Labels>
+                  <LineColor>140, 140, 140</LineColor>
+                  <Ticks Ref="32" type="Stimulsoft.Report.Chart.StiAxisTicks" isKey="true" />
+                  <Title Ref="33" type="Stimulsoft.Report.Chart.StiAxisTitle" isKey="true">
+                    <Color>140, 140, 140</Color>
+                    <Direction>LeftToRight</Direction>
+                    <Font>Tahoma,12,Bold</Font>
+                  </Title>
+                </XTopAxis>
+                <YAxis Ref="34" type="Stimulsoft.Report.Chart.StiYLeftAxis" isKey="true">
+                  <Area isRef="16" />
+                  <Interaction Ref="35" type="Stimulsoft.Report.Chart.StiAxisInteraction" isKey="true" />
+                  <Labels Ref="36" type="Stimulsoft.Report.Chart.StiAxisLabels" isKey="true">
+                    <Color>140, 140, 140</Color>
+                    <Font>Tahoma,8</Font>
+                  </Labels>
+                  <LineColor>140, 140, 140</LineColor>
+                  <Range Ref="37" type="Stimulsoft.Report.Chart.StiAxisRange" isKey="true" />
+                  <Ticks Ref="38" type="Stimulsoft.Report.Chart.StiAxisTicks" isKey="true" />
+                  <Title Ref="39" type="Stimulsoft.Report.Chart.StiAxisTitle" isKey="true">
+                    <Color>140, 140, 140</Color>
+                    <Direction>BottomToTop</Direction>
+                    <Font>Tahoma,12,Bold</Font>
+                  </Title>
+                </YAxis>
+                <YRightAxis Ref="40" type="Stimulsoft.Report.Chart.StiYRightAxis" isKey="true">
+                  <Area isRef="16" />
+                  <Interaction Ref="41" type="Stimulsoft.Report.Chart.StiAxisInteraction" isKey="true" />
+                  <Labels Ref="42" type="Stimulsoft.Report.Chart.StiAxisLabels" isKey="true">
+                    <Color>140, 140, 140</Color>
+                    <Font>Tahoma,8</Font>
+                    <TextAlignment>Left</TextAlignment>
+                  </Labels>
+                  <LineColor>140, 140, 140</LineColor>
+                  <Range Ref="43" type="Stimulsoft.Report.Chart.StiAxisRange" isKey="true" />
+                  <Ticks Ref="44" type="Stimulsoft.Report.Chart.StiAxisTicks" isKey="true" />
+                  <Title Ref="45" type="Stimulsoft.Report.Chart.StiAxisTitle" isKey="true">
+                    <Color>140, 140, 140</Color>
+                    <Direction>TopToBottom</Direction>
+                    <Font>Tahoma,12,Bold</Font>
+                  </Title>
+                </YRightAxis>
+              </Area>
+              <Brush>[255:255:255]</Brush>
+              <ClientRectangle>0,0.36,7.48,1.97</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <ConstantLines isList="true" count="0" />
+              <CustomStyleName />
+              <DataSourceName>WORKCENTER_SCHEDULING_REPORT</DataSourceName>
+              <Filters isList="true" count="1">
+                <value>_x007B__x0028_WorkCenterForFilter_x003D__x003D_WORKCENTER_SCHEDULING_REPORT.WrkRef_x0029__x007D_</value>
+              </Filters>
+              <Guid>6d5b33a88b244c84a0e7920a5dca6ae4</Guid>
+              <Legend Ref="46" type="Stimulsoft.Report.Chart.StiLegend" isKey="true">
+                <BorderColor>DimGray</BorderColor>
+                <Brush>[255:255:255]</Brush>
+                <Chart isRef="15" />
+                <Font>Arial,8</Font>
+                <LabelsColor>140, 140, 140</LabelsColor>
+                <MarkerSize>10, 10</MarkerSize>
+                <TitleColor>DimGray</TitleColor>
+                <TitleFont>Arial,14,Bold</TitleFont>
+                <Visible>False</Visible>
+              </Legend>
+              <Linked>True</Linked>
+              <Name>Chart1</Name>
+              <Page isRef="3" />
+              <Parent isRef="14" />
+              <Series isList="true" count="3">
+                <Item13 Ref="47" type="Stimulsoft.Report.Chart.StiStackedColumnSeries" isKey="true">
+                  <ArgumentDataColumn>WORKCENTER_SCHEDULING_REPORT.Description</ArgumentDataColumn>
+                  <BorderColor>Gray</BorderColor>
+                  <Brush>[95:133:179]</Brush>
+                  <BrushNegative>EmptyBrush</BrushNegative>
+                  <Chart isRef="15" />
+                  <Conditions isList="true" count="0" />
+                  <Filters isList="true" count="0" />
+                  <Format>N2</Format>
+                  <SeriesLabels Ref="48" type="Stimulsoft.Report.Chart.StiCenterAxisLabels" isKey="true">
+                    <BorderColor>140, 140, 140</BorderColor>
+                    <Brush>[255:255:255]</Brush>
+                    <Chart isRef="15" />
+                    <Font>Arial,7</Font>
+                    <LabelColor>90, 90, 90</LabelColor>
+                    <MarkerSize>8, 6</MarkerSize>
+                    <ValueTypeSeparator>-</ValueTypeSeparator>
+                    <Width>0</Width>
+                  </SeriesLabels>
+                  <ShowShadow>False</ShowShadow>
+                  <Title>Load</Title>
+                  <TopN Ref="49" type="Stimulsoft.Report.Chart.StiSeriesTopN" isKey="true" />
+                  <ValueDataColumn>WORKCENTER_SCHEDULING_REPORT.RealLoad</ValueDataColumn>
+                </Item13>
+                <Item14 Ref="50" type="Stimulsoft.Report.Chart.StiStackedColumnSeries" isKey="true">
+                  <ArgumentDataColumn>WORKCENTER_SCHEDULING_REPORT.Description</ArgumentDataColumn>
+                  <BorderColor>Gray</BorderColor>
+                  <Brush>[153:177:102]</Brush>
+                  <BrushNegative>EmptyBrush</BrushNegative>
+                  <Chart isRef="15" />
+                  <Conditions isList="true" count="0" />
+                  <Filters isList="true" count="0" />
+                  <Format>N2</Format>
+                  <SeriesLabels Ref="51" type="Stimulsoft.Report.Chart.StiCenterAxisLabels" isKey="true">
+                    <BorderColor>140, 140, 140</BorderColor>
+                    <Brush>[255:255:255]</Brush>
+                    <Chart isRef="15" />
+                    <Font>Arial,7</Font>
+                    <LabelColor>90, 90, 90</LabelColor>
+                    <MarkerSize>8, 6</MarkerSize>
+                    <ValueTypeSeparator>-</ValueTypeSeparator>
+                    <Width>0</Width>
+                  </SeriesLabels>
+                  <ShowShadow>False</ShowShadow>
+                  <Title>Free capacity</Title>
+                  <TopN Ref="52" type="Stimulsoft.Report.Chart.StiSeriesTopN" isKey="true" />
+                  <ValueDataColumn>WORKCENTER_SCHEDULING_REPORT.FreeCapacity</ValueDataColumn>
+                </Item14>
+                <Item15 Ref="53" type="Stimulsoft.Report.Chart.StiStackedColumnSeries" isKey="true">
+                  <ArgumentDataColumn>WORKCENTER_SCHEDULING_REPORT.Description</ArgumentDataColumn>
+                  <BorderColor>Gray</BorderColor>
+                  <Brush>[182:95:93]</Brush>
+                  <BrushNegative>EmptyBrush</BrushNegative>
+                  <Chart isRef="15" />
+                  <Conditions isList="true" count="0" />
+                  <Filters isList="true" count="0" />
+                  <Format>N2</Format>
+                  <SeriesLabels Ref="54" type="Stimulsoft.Report.Chart.StiCenterAxisLabels" isKey="true">
+                    <BorderColor>140, 140, 140</BorderColor>
+                    <Brush>[255:255:255]</Brush>
+                    <Chart isRef="15" />
+                    <Font>Arial,7</Font>
+                    <LabelColor>90, 90, 90</LabelColor>
+                    <MarkerSize>8, 6</MarkerSize>
+                    <ValueTypeSeparator>-</ValueTypeSeparator>
+                    <Width>0</Width>
+                  </SeriesLabels>
+                  <ShowShadow>False</ShowShadow>
+                  <Title>Overload</Title>
+                  <TopN Ref="55" type="Stimulsoft.Report.Chart.StiSeriesTopN" isKey="true" />
+                  <ValueDataColumn>WORKCENTER_SCHEDULING_REPORT.OverLoad</ValueDataColumn>
+                </Item15>
+              </Series>
+              <SeriesLabels Ref="56" type="Stimulsoft.Report.Chart.StiCenterAxisLabels" isKey="true">
+                <BorderColor>140, 140, 140</BorderColor>
+                <Brush>[255:255:255]</Brush>
+                <Chart isRef="15" />
+                <Font>Arial,7</Font>
+                <LabelColor>90, 90, 90</LabelColor>
+                <MarkerSize>8, 6</MarkerSize>
+                <PreventIntersection>True</PreventIntersection>
+                <TextAfter>h</TextAfter>
+                <ValueTypeSeparator>-</ValueTypeSeparator>
+                <Width>0</Width>
+              </SeriesLabels>
+              <SeriesLabelsConditions isList="true" count="0" />
+              <Sort isList="true" count="2">
+                <value>ASC</value>
+                <value>SDate</value>
+              </Sort>
+              <Strips isList="true" count="0" />
+              <Style Ref="57" type="Stimulsoft.Report.Chart.StiStyle25" isKey="true" />
+              <Table Ref="58" type="Stimulsoft.Report.Chart.StiChartTable" isKey="true">
+                <Font>Tahoma,8</Font>
+                <GridLineColor>105, 105, 105</GridLineColor>
+                <TextColor>140, 140, 140</TextColor>
+              </Table>
+              <Title Ref="59" type="Stimulsoft.Report.Chart.StiChartTitle" isKey="true">
+                <Brush>[140:140:140]</Brush>
+                <Font>Tahoma,12,Bold</Font>
+              </Title>
+            </Chart1>
+            <Text4 Ref="60" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0.09,7.48,0.41</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,12,Bold</Font>
+              <Guid>76e71efc11ee43daafd86bc5b16c09cb</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text4</Name>
+              <Page isRef="3" />
+              <Parent isRef="14" />
+              <Text>{WORKCENTER_SCHEDULING_REPORT.WrkRef}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text4>
+            <Panel1 Ref="61" type="Stimulsoft.Report.Components.StiPanel" isKey="true">
+              <Brush>[185:218:255]</Brush>
+              <ClientRectangle>0,2.39,7.5,0.3</ClientRectangle>
+              <Components isList="true" count="4">
+                <Text2 Ref="62" type="Text" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>2.15,0.08,1.42,0.16</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10,Bold</Font>
+                  <Guid>f8cc93e08f4943d2a9894ff85fcea91f</Guid>
+                  <HorAlignment>Center</HorAlignment>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text2</Name>
+                  <Page isRef="3" />
+                  <Parent isRef="61" />
+                  <Text>{__Mss_35939}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                </Text2>
+                <Text8 Ref="63" type="Text" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>3.56,0.08,1.73,0.16</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10,Bold</Font>
+                  <Guid>bfca2cd574ae4666a7a2276defff7131</Guid>
+                  <HorAlignment>Center</HorAlignment>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text8</Name>
+                  <Page isRef="3" />
+                  <Parent isRef="61" />
+                  <Text>{__Mss_37395}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                </Text8>
+                <Text3 Ref="64" type="Text" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>5.3,0.08,1.02,0.16</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10,Bold</Font>
+                  <Guid>4a8045caa848448db58c251b351df0c6</Guid>
+                  <HorAlignment>Center</HorAlignment>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text3</Name>
+                  <Page isRef="3" />
+                  <Parent isRef="61" />
+                  <Text>{__Mss_60002389}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                </Text3>
+                <Text11 Ref="65" type="Text" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>6.32,0.08,0.94,0.16</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10,Bold</Font>
+                  <Guid>05d1d7bdfc8f45264dd5ac353b48bb48</Guid>
+                  <HorAlignment>Center</HorAlignment>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text11</Name>
+                  <Page isRef="3" />
+                  <Parent isRef="61" />
+                  <Text>{__Mss_34965}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                </Text11>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <Linked>True</Linked>
+              <Locked>True</Locked>
+              <Name>Panel1</Name>
+              <Page isRef="3" />
+              <Parent isRef="14" />
+            </Panel1>
+          </Components>
+          <Condition>{WORKCENTER_SCHEDULING_REPORT.WorkCenterGroup} + " " + {WORKCENTER_SCHEDULING_REPORT.WrkRef}</Condition>
+          <Conditions isList="true" count="0" />
+          <Guid>16fcc5374e6541bfa6332a100865b53b</Guid>
+          <Name>GroupHeaderBand1</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+        </GroupHeaderBand1>
+        <WORKCENTER_SCHEDULING_REPORT_databand Ref="66" type="DataBand" isKey="true">
+          <BeforePrintEvent>DateTime date=Today;
+DateTime date2=WORKCENTER_SCHEDULING_REPORT.SDate;
+int x = (int)DateDiff(date, date2).TotalMinutes;
+tester = x.ToString();
+if (WORKCENTER_SCHEDULING_REPORT.ReportType==0){
+	if (x==0){
+		boldTittle = true;
+	}else{
+		boldTittle = false;
+	}
+}else{
+	if((0&lt;=x)&amp;&amp;(x&lt;11340)){
+		boldTittle = true;
+	}else{
+		boldTittle = false;
+	}
+}</BeforePrintEvent>
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,4.19,7.49,0.2</ClientRectangle>
+          <Components isList="true" count="1">
+            <Panel2 Ref="67" type="Stimulsoft.Report.Components.StiPanel" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,-0.09,7.4,0.3</ClientRectangle>
+              <Components isList="true" count="5">
+                <Text6 Ref="68" type="Text" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>2.15,0.12,1.42,0.16</ClientRectangle>
+                  <Conditions isList="true" count="1">
+                    <value>_x007B_boldTittle_x007D_,Black,Transparent,Arial_x002C_9.75_x002C_Bold,True,False,,,None</value>
+                  </Conditions>
+                  <Font>Arial,10</Font>
+                  <Guid>2da2691a514346908c92fbe1f14519d5</Guid>
+                  <HorAlignment>Center</HorAlignment>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text6</Name>
+                  <Page isRef="3" />
+                  <Parent isRef="67" />
+                  <Text>{Format("{0:N2}", WORKCENTER_SCHEDULING_REPORT.Capacity)}h</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text6>
+                <Text7 Ref="69" type="Text" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>6.32,0.12,0.94,0.16</ClientRectangle>
+                  <Conditions isList="true" count="2">
+                    <value>WORKCENTER_SCHEDULING_REPORT.OverLoad,GreaterThan,_x0030_,,Numeric,Red,Transparent,Arial_x002C_9.75,True,False,,,None</value>
+                    <value>WORKCENTER_SCHEDULING_REPORT.FreeCapacity,GreaterThan,_x0030_,,Numeric,ForestGreen,Transparent,Arial_x002C_9.75,True,False,,,None</value>
+                  </Conditions>
+                  <Font>Arial,10</Font>
+                  <Guid>3471eea770d843ce91909f172433781f</Guid>
+                  <HorAlignment>Center</HorAlignment>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text7</Name>
+                  <Page isRef="3" />
+                  <Parent isRef="67" />
+                  <Text>{Format("{0:N2}", WORKCENTER_SCHEDULING_REPORT.FreeCapacity-WORKCENTER_SCHEDULING_REPORT.OverLoad)}h</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text7>
+                <Text1 Ref="70" type="Text" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>3.56,0.12,1.73,0.16</ClientRectangle>
+                  <Conditions isList="true" count="1">
+                    <value>_x007B_boldTittle_x007D_,Black,Transparent,Arial_x002C_9.75_x002C_Bold,True,False,,,None</value>
+                  </Conditions>
+                  <Font>Arial,10</Font>
+                  <Guid>aeba6b9c54d640b2b9d1f780ec6828b5</Guid>
+                  <HorAlignment>Center</HorAlignment>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text1</Name>
+                  <Page isRef="3" />
+                  <Parent isRef="67" />
+                  <Text>{Format("{0:N2}", WORKCENTER_SCHEDULING_REPORT.EstimatedLoad)}h</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text1>
+                <Text9 Ref="71" type="Text" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>5.3,0.12,1.02,0.16</ClientRectangle>
+                  <Conditions isList="true" count="2">
+                    <value>WORKCENTER_SCHEDULING_REPORT.FreeCapacity,GreaterThan,_x0030_,,Numeric,ForestGreen,Transparent,Arial_x002C_9.75,True,False,,,None</value>
+                    <value>WORKCENTER_SCHEDULING_REPORT.OverLoad,GreaterThan,_x0030_,,Numeric,Red,Transparent,Arial_x002C_9.75,True,False,,,None</value>
+                  </Conditions>
+                  <Font>Arial,10</Font>
+                  <Guid>18fc3870338d4ff893ed51eb4c04635b</Guid>
+                  <HorAlignment>Center</HorAlignment>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text9</Name>
+                  <Page isRef="3" />
+                  <Parent isRef="67" />
+                  <Text>{IIF(WORKCENTER_SCHEDULING_REPORT.Capacity&gt;0,Format("{0:N0}", 
+(
+(WORKCENTER_SCHEDULING_REPORT.RealLoad+WORKCENTER_SCHEDULING_REPORT.OverLoad)
+/(WORKCENTER_SCHEDULING_REPORT.RealLoad+WORKCENTER_SCHEDULING_REPORT.FreeCapacity)
+)*100),0)}%</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text9>
+                <Panel3 Ref="72" type="Stimulsoft.Report.Components.StiPanel" isKey="true">
+                  <Brush>[185:218:255]</Brush>
+                  <ClientRectangle>0,0.1,1.7,0.2</ClientRectangle>
+                  <Components isList="true" count="1">
+                    <Text5 Ref="73" type="Text" isKey="true">
+                      <Brush>Transparent</Brush>
+                      <ClientRectangle>0.18,0.02,1.26,0.16</ClientRectangle>
+                      <Conditions isList="true" count="1">
+                        <value>_x007B_boldTittle_x007D_,Black,Transparent,Arial_x002C_9.75_x002C_Bold,True,False,,,None</value>
+                      </Conditions>
+                      <Font>Arial,10,Bold</Font>
+                      <Guid>e931cc6c67ab4044bacaffdf1cb34f4d</Guid>
+                      <HorAlignment>Center</HorAlignment>
+                      <Margins>0,0,0,0</Margins>
+                      <Name>Text5</Name>
+                      <Page isRef="3" />
+                      <Parent isRef="72" />
+                      <Text>{WORKCENTER_SCHEDULING_REPORT.Description}</Text>
+                      <TextBrush>Black</TextBrush>
+                      <Type>Expression</Type>
+                      <VertAlignment>Center</VertAlignment>
+                    </Text5>
+                  </Components>
+                  <Conditions isList="true" count="0" />
+                  <Name>Panel3</Name>
+                  <Page isRef="3" />
+                  <Parent isRef="67" />
+                </Panel3>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <Name>Panel2</Name>
+              <Page isRef="3" />
+              <Parent isRef="66" />
+            </Panel2>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DataSourceName>WORKCENTER_SCHEDULING_REPORT</DataSourceName>
+          <EvenStyle>DataEven</EvenStyle>
+          <Filters isList="true" count="0" />
+          <Guid>d2b38f8b18e84a5583ff7c1fa66b7e51</Guid>
+          <Linked>True</Linked>
+          <Locked>True</Locked>
+          <Name>WORKCENTER_SCHEDULING_REPORT_databand</Name>
+          <OddStyle>DataOdd</OddStyle>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <RightToLeft>True</RightToLeft>
+          <Sort isList="true" count="6">
+            <value>ASC</value>
+            <value>WorkCenterGroup</value>
+            <value>ASC</value>
+            <value>SDate</value>
+            <value>ASC</value>
+            <value>WorkCenterType</value>
+          </Sort>
+        </WORKCENTER_SCHEDULING_REPORT_databand>
+        <GroupFooterBand1 Ref="74" type="GroupFooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,4.79,7.49,0.28</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <Guid>3e8b8378d9df48a6b62d6b647fcc345d</Guid>
+          <Name>GroupFooterBand1</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+        </GroupFooterBand1>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Guid>797698cac3d54e97834e604296031f09</Guid>
+      <Margins>0.39,0.39,0.39,0.39</Margins>
+      <Name>ReportPage</Name>
+      <PageHeight>11.69</PageHeight>
+      <PageWidth>8.27</PageWidth>
+      <Report isRef="0" />
+      <Watermark Ref="75" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <Font>Arial,100</Font>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
+    </ReportPage>
+  </Pages>
+  <PrinterSettings Ref="76" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>MMNN_MMOO_00000300_Workload_Scheduling</ReportAlias>
+  <ReportAuthor>SYSADM</ReportAuthor>
+  <ReportChanged>3/6/2015 12:35:19 PM</ReportChanged>
+  <ReportCreated>2/27/2014 6:41:31 PM</ReportCreated>
+  <ReportDescription>Work centers load scheduling</ReportDescription>
+  <ReportFile />
+  <ReportGuid>151f7c5060fb069a1664eede480a9796</ReportGuid>
+  <ReportName>MMNN_MMOO_00000300_Workload_Scheduling</ReportName>
+  <ReportUnit>Inches</ReportUnit>
+  <ReportVersion>2013.2.1604</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    public class USR_WORK : Stimulsoft.Report.StiReport
+    {
+        public USR_WORK()        {
+            this.InitializeComponent();
+        }
+
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="7">
+    <Titles Ref="77" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>Bottom;[199:213:224];3;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Arial,22,Bold</Font>
+      <Name>Titles</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Titles>
+    <PageHeader Ref="78" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>Bottom;[199:213:224];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Verdana,9</Font>
+      <Name>PageHeader</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </PageHeader>
+    <PageFooter Ref="79" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>Top;[199:213:224];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Verdana,9</Font>
+      <Name>PageFooter</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </PageFooter>
+    <Headers Ref="80" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>All;[131:166:224];1;Solid;False;4;Black</Border>
+      <Brush>[185:218:255]</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Arial,11,Bold</Font>
+      <Name>Headers</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Headers>
+    <DataClean Ref="81" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Verdana,10</Font>
+      <Name>DataClean</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </DataClean>
+    <DataOdd Ref="82" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>All;[216:223:232];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Verdana,10</Font>
+      <Name>DataOdd</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </DataOdd>
+    <DataEven Ref="83" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>All;[216:223:232];1;Solid;False;4;Black</Border>
+      <Brush>[240:245:251]</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Verdana,10</Font>
+      <Name>DataEven</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </DataEven>
+  </Styles>
+</StiSerializer>

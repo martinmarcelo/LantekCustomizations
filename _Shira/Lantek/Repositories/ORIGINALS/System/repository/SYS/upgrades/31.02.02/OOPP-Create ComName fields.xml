@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<QUERIES xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\..\..\xsd\Queries\Queries.xsd">
+	<NEWFLD TblRef="OOPP_OOPP_00000200" FldRef="ComName" FldType="20" FldDefault="lnull" FldLength="255" />
+	<NEWFLD TblRef="OOPP_OOPP_00000300" FldRef="ComName" FldType="20" FldDefault="lnull" FldLength="255" />
+</QUERIES>

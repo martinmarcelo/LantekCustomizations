@@ -1,0 +1,124 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="_x0030_5_DIS_SSAA_SSOO_00000100_SaleOrderCostValuationSummary" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="_x0030_5_DIS_SSAA_SSOO_00000100_SaleOrderCostValuationSummary" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SSAA_SSOO_00000100">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="OrdRef" msdata:Caption="Referencia" type="xs:string" minOccurs="0" />
+              <xs:element name="OrdRef__Lab" msdata:Caption="Referencia (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="CusRef" msdata:Caption="Cliente" type="xs:string" minOccurs="0" />
+              <xs:element name="CusRef__Lab" msdata:Caption="Cliente (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="CusName" msdata:Caption="Nombre de cliente" type="xs:string" minOccurs="0" />
+              <xs:element name="CusName__Lab" msdata:Caption="Nombre de cliente (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Subtotal" type="xs:double" minOccurs="0" />
+              <xs:element name="Subtotal__Lab" msdata:Caption="Subtotal (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Subtotal__DBD" msdata:Caption="Subtotal (Base de datos)" type="xs:double" minOccurs="0" />
+              <xs:element name="Subtotal__Scr" msdata:Caption="Subtotal (Valor)" type="xs:string" minOccurs="0" />
+              <xs:element name="Subtotal__Dec" msdata:Caption="Subtotal (Dígitos decimales)" type="xs:short" minOccurs="0" />
+              <xs:element name="Subtotal__Rnd" msdata:Caption="Subtotal (Redondeado)" type="xs:short" minOccurs="0" />
+              <xs:element name="Subtotal__Sff" msdata:Caption="Subtotal (Sufijo)" type="xs:string" minOccurs="0" />
+              <xs:element name="Subtotal__Prf" msdata:Caption="Subtotal (Prefijo)" type="xs:string" minOccurs="0" />
+              <xs:element name="Subtotal__PrP" msdata:Caption="Subtotal (Prefijo positivo)" type="xs:string" minOccurs="0" />
+              <xs:element name="Subtotal__PrN" msdata:Caption="Subtotal (Prefijo negativo)" type="xs:string" minOccurs="0" />
+              <xs:element name="Subtotal__SfP" msdata:Caption="Subtotal (Sufijo positivo)" type="xs:string" minOccurs="0" />
+              <xs:element name="Subtotal__SfN" msdata:Caption="Subtotal (Sufijo negativo)" type="xs:string" minOccurs="0" />
+              <xs:element name="CurName" msdata:Caption="Moneda" type="xs:string" minOccurs="0" />
+              <xs:element name="CurName__Lab" msdata:Caption="Moneda (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="SYST_CCRR_00000100.CurName" msdata:Caption="Nombre" type="xs:string" minOccurs="0" />
+              <xs:element name="SYST_CCRR_00000100.CurName__Lab" msdata:Caption="Nombre (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="SSAA_SSOO_00000200.OrdRef" msdata:Caption="Pedido" type="xs:string" minOccurs="0" />
+              <xs:element name="SSAA_SSOO_00000200.OrdRef__Lab" msdata:Caption="Pedido (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="SSAA_SSOO_00000200.LineNum" msdata:Caption="Número de línea" type="xs:string" minOccurs="0" />
+              <xs:element name="SSAA_SSOO_00000200.LineNum__Lab" msdata:Caption="Número de línea (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="SSAA_SSOO_00000200.PrdName" msdata:Caption="Nombre" type="xs:string" minOccurs="0" />
+              <xs:element name="SSAA_SSOO_00000200.PrdName__Lab" msdata:Caption="Nombre (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="SSAA_SSOO_00000200.PrdRef" msdata:Caption="Artículo" type="xs:string" minOccurs="0" />
+              <xs:element name="SSAA_SSOO_00000200.PrdRef__Lab" msdata:Caption="Artículo (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="SSAA_SSOO_00000200.Quantity" msdata:Caption="Cantidad" type="xs:double" minOccurs="0" />
+              <xs:element name="SSAA_SSOO_00000200.Quantity__Lab" msdata:Caption="Cantidad (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="SSAA_SSOO_00000200.Quantity__DBD" msdata:Caption="Cantidad (Base de datos)" type="xs:double" minOccurs="0" />
+              <xs:element name="SSAA_SSOO_00000200.Quantity__Scr" msdata:Caption="Cantidad (Valor)" type="xs:string" minOccurs="0" />
+              <xs:element name="SSAA_SSOO_00000200.Quantity__Dec" msdata:Caption="Cantidad (Dígitos decimales)" type="xs:short" minOccurs="0" />
+              <xs:element name="SSAA_SSOO_00000200.Quantity__Rnd" msdata:Caption="Cantidad (Redondeado)" type="xs:short" minOccurs="0" />
+              <xs:element name="SSAA_SSOO_00000200.Quantity__Sff" msdata:Caption="Cantidad (Sufijo)" type="xs:string" minOccurs="0" />
+              <xs:element name="SSAA_SSOO_00000200.TPrice" msdata:Caption="Subtotal" type="xs:double" minOccurs="0" />
+              <xs:element name="SSAA_SSOO_00000200.TPrice__Lab" msdata:Caption="Subtotal (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="SSAA_SSOO_00000200.TPrice__DBD" msdata:Caption="Subtotal (Base de datos)" type="xs:double" minOccurs="0" />
+              <xs:element name="SSAA_SSOO_00000200.TPrice__Scr" msdata:Caption="Subtotal (Valor)" type="xs:string" minOccurs="0" />
+              <xs:element name="SSAA_SSOO_00000200.TPrice__Dec" msdata:Caption="Subtotal (Dígitos decimales)" type="xs:short" minOccurs="0" />
+              <xs:element name="SSAA_SSOO_00000200.TPrice__Rnd" msdata:Caption="Subtotal (Redondeado)" type="xs:short" minOccurs="0" />
+              <xs:element name="SSAA_SSOO_00000200.TPrice__Sff" msdata:Caption="Subtotal (Sufijo)" type="xs:string" minOccurs="0" />
+              <xs:element name="SSAA_SSOO_00000200.TPrice__Prf" msdata:Caption="Subtotal (Prefijo)" type="xs:string" minOccurs="0" />
+              <xs:element name="SSAA_SSOO_00000200.TPrice__PrP" msdata:Caption="Subtotal (Prefijo positivo)" type="xs:string" minOccurs="0" />
+              <xs:element name="SSAA_SSOO_00000200.TPrice__PrN" msdata:Caption="Subtotal (Prefijo negativo)" type="xs:string" minOccurs="0" />
+              <xs:element name="SSAA_SSOO_00000200.TPrice__SfP" msdata:Caption="Subtotal (Sufijo positivo)" type="xs:string" minOccurs="0" />
+              <xs:element name="SSAA_SSOO_00000200.TPrice__SfN" msdata:Caption="Subtotal (Sufijo negativo)" type="xs:string" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000100.MnORef" msdata:Caption="Orden de producción" type="xs:string" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000100.MnORef__Lab" msdata:Caption="Orden de producción (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000100.OrdRef" msdata:Caption="Elemento asociado" type="xs:string" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000100.OrdRef__Lab" msdata:Caption="Elemento asociado (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000100.OLineNum" msdata:Caption="Línea de pedido" type="xs:string" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000100.OLineNum__Lab" msdata:Caption="Línea de pedido (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.MnORef" msdata:Caption="Orden de producción" type="xs:string" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.MnORef__Lab" msdata:Caption="Orden de producción (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.OprID" msdata:Caption="Número de operación" type="xs:int" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.OprID__Lab" msdata:Caption="Número de operación (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.NumID" msdata:Caption="Número de línea" type="xs:int" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.NumID__Lab" msdata:Caption="Número de línea (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.CType" msdata:Caption="Tipo de consumo" type="xs:short" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.CType__Lab" msdata:Caption="Tipo de consumo (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.RawRef" msdata:Caption="Materia prima" type="xs:string" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.RawRef__Lab" msdata:Caption="Materia prima (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.RawName" msdata:Caption="Nombre de la materia prima" type="xs:string" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.RawName__Lab" msdata:Caption="Nombre de la materia prima (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.Description" msdata:Caption="Descripción" type="xs:string" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.Description__Lab" msdata:Caption="Descripción (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.StdQuan" msdata:Caption="Consumo estándar" type="xs:double" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.StdQuan__Lab" msdata:Caption="Consumo estándar (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.StdQuan__DBD" msdata:Caption="Consumo estándar (Base de datos)" type="xs:double" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.StdQuan__Scr" msdata:Caption="Consumo estándar (Valor)" type="xs:string" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.StdQuan__Dec" msdata:Caption="Consumo estándar (Dígitos decimales)" type="xs:short" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.StdQuan__Rnd" msdata:Caption="Consumo estándar (Redondeado)" type="xs:short" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.StdQuan__Sff" msdata:Caption="Consumo estándar (Sufijo)" type="xs:string" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.CurQuan" msdata:Caption="Consumo actual" type="xs:double" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.CurQuan__Lab" msdata:Caption="Consumo actual (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.CurQuan__DBD" msdata:Caption="Consumo actual (Base de datos)" type="xs:double" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.CurQuan__Scr" msdata:Caption="Consumo actual (Valor)" type="xs:string" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.CurQuan__Dec" msdata:Caption="Consumo actual (Dígitos decimales)" type="xs:short" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.CurQuan__Rnd" msdata:Caption="Consumo actual (Redondeado)" type="xs:short" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.CurQuan__Sff" msdata:Caption="Consumo actual (Sufijo)" type="xs:string" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.StdCostT" msdata:Caption="Coste estándar" type="xs:double" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.StdCostT__Lab" msdata:Caption="Coste estándar (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.StdCostT__DBD" msdata:Caption="Coste estándar (Base de datos)" type="xs:double" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.StdCostT__Scr" msdata:Caption="Coste estándar (Valor)" type="xs:string" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.StdCostT__Dec" msdata:Caption="Coste estándar (Dígitos decimales)" type="xs:short" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.StdCostT__Rnd" msdata:Caption="Coste estándar (Redondeado)" type="xs:short" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.StdCostT__Sff" msdata:Caption="Coste estándar (Sufijo)" type="xs:string" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.StdCostT__Prf" msdata:Caption="Coste estándar (Prefijo)" type="xs:string" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.StdCostT__PrP" msdata:Caption="Coste estándar (Prefijo positivo)" type="xs:string" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.StdCostT__PrN" msdata:Caption="Coste estándar (Prefijo negativo)" type="xs:string" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.StdCostT__SfP" msdata:Caption="Coste estándar (Sufijo positivo)" type="xs:string" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.StdCostT__SfN" msdata:Caption="Coste estándar (Sufijo negativo)" type="xs:string" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.CurCostT" msdata:Caption="Coste actual" type="xs:double" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.CurCostT__Lab" msdata:Caption="Coste actual (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.CurCostT__DBD" msdata:Caption="Coste actual (Base de datos)" type="xs:double" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.CurCostT__Scr" msdata:Caption="Coste actual (Valor)" type="xs:string" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.CurCostT__Dec" msdata:Caption="Coste actual (Dígitos decimales)" type="xs:short" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.CurCostT__Rnd" msdata:Caption="Coste actual (Redondeado)" type="xs:short" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.CurCostT__Sff" msdata:Caption="Coste actual (Sufijo)" type="xs:string" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.CurCostT__Prf" msdata:Caption="Coste actual (Prefijo)" type="xs:string" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.CurCostT__PrP" msdata:Caption="Coste actual (Prefijo positivo)" type="xs:string" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.CurCostT__PrN" msdata:Caption="Coste actual (Prefijo negativo)" type="xs:string" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.CurCostT__SfP" msdata:Caption="Coste actual (Sufijo positivo)" type="xs:string" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.CurCostT__SfN" msdata:Caption="Coste actual (Sufijo negativo)" type="xs:string" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.UntName" msdata:Caption="Unidad" type="xs:string" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000400.UntName__Lab" msdata:Caption="Unidad (Etiqueta)" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

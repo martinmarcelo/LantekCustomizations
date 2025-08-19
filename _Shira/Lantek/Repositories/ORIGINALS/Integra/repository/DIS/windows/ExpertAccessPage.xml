@@ -1,0 +1,906 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WINDOW Description="Expert access page%" MessageNumber="-1" Scheme="RRRR" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\..\xsd\Repository\Windows.xsd">
+    <CONTROLPROPS>
+        <LAYOUT>
+            <SIZE WidthType="Auto" HeightType="Auto" />
+        </LAYOUT>
+        <STYLES>
+            <NORMALSTYLE BackColor="APP:WindowsBackColor" BackImage="APP:WBack" BackImageType="RepeatX">
+                <BORDER BorderLineStyle="None" />
+            </NORMALSTYLE>
+        </STYLES>
+    </CONTROLPROPS>
+    <CHILDREN>
+        <CONTROL Name="ControlsCNT" Type="Container">
+            <CONTROLPROPS>
+                <LAYOUT Blocks="3">
+                    <SIZE WidthType="Auto" />
+                    <SPACING Type="Value" />
+                    <MARGINLEFT Type="Value" />
+                    <MARGINTOP Type="Value" Value="100" />
+                    <MARGINRIGHT Type="Value" />
+                    <MARGINBOTTOM Type="Value" />
+                    <BLOCKSPACING Type="Value" />
+                </LAYOUT>
+                <STYLES>
+                    <NORMALSTYLE BackColor="Transparent">
+                        <BORDER BorderLineStyle="None" />
+                    </NORMALSTYLE>
+                </STYLES>
+                <OTHER LabelPosition="None" />
+                <SPECIAL>
+                    <CNT ScrollingType="No" />
+                </SPECIAL>
+            </CONTROLPROPS>
+            <CHILDREN>
+                <CONTROL Name="LeftSpace" Type="Container">
+                    <CONTROLPROPS>
+                        <LAYOUT>
+                            <SIZE WidthType="Auto" />
+                        </LAYOUT>
+                        <STYLES>
+                            <NORMALSTYLE BackColor="Transparent">
+                                <BORDER BorderLineStyle="None" />
+                            </NORMALSTYLE>
+                        </STYLES>
+                        <OTHER LabelPosition="None" />
+                        <SPECIAL>
+                            <CNT ScrollingType="No" />
+                        </SPECIAL>
+                    </CONTROLPROPS>
+                </CONTROL>
+                <CONTROL Name="DataCNT" Type="Container">
+                    <CONTROLPROPS>
+                        <LAYOUT>
+                            <SPACING Value="0" />
+                            <MARGINLEFT Type="Value" Value="40" />
+                            <MARGINTOP Type="Value" Value="10" />
+                            <MARGINRIGHT Type="Value" Value="40" />
+                            <MARGINBOTTOM Type="Value" Value="10" />
+                        </LAYOUT>
+                        <STYLES>
+                            <NORMALSTYLE>
+                                <BORDER BorderLineStyle="None" />
+                            </NORMALSTYLE>
+                        </STYLES>
+                        <OTHER LabelPosition="None" />
+                        <SPECIAL>
+                            <CNT ScrollingType="No" />
+                        </SPECIAL>
+                    </CONTROLPROPS>
+                    <CHILDREN>
+                        <CONTROL Name="ProductLogo" Type="Image">
+                            <CONTROLPROPS>
+                                <LAYOUT>
+                                    <SIZE WidthType="Default" />
+                                    <MARGINLEFT Type="Value" />
+                                </LAYOUT>
+                                <STYLES>
+                                    <NORMALSTYLE>
+                                        <BORDER BorderLineStyle="None" />
+                                    </NORMALSTYLE>
+                                </STYLES>
+                                <OTHER LabelPosition="None" Text="{0:pbm2}" Image="./products/iSpaceBitmap2.gif" />
+                            </CONTROLPROPS>
+                        </CONTROL>
+                        <CONTROL Name="OUName" Type="Combo">
+                            <CONTROLPROPS>
+                                <LAYOUT ControlAlignment="Normal">
+                                    <SIZE WidthType="Value" WidthValue="300" />
+                                    <SPACING Value="0" />
+                                    <MARGINLEFT Type="Value" Value="10" />
+                                    <MARGINTOP Type="Value" Value="10" />
+                                    <MARGINRIGHT Type="Value" Value="10" />
+                                    <MARGINBOTTOM Type="Value" Value="10" />
+                                </LAYOUT>
+                                <STYLES>
+                                    <LABELSTYLE>
+                                        <BORDER BorderLineStyle="None" />
+                                        <FONT FontBold="true" FontSize="11" />
+                                    </LABELSTYLE>
+                                </STYLES>
+                                <OTHER LabelPosition="Top" LabelText="{1:210000369}" Text="0" ThrowsAction="Yes">
+                                    <VALUES>
+                                        <VALDSC ValNum="0" ValEnum="ment" ValDsc="ment" Value="0" />
+                                    </VALUES>
+                                    <C N="WinCall" />
+                                </OTHER>
+                                <SPECIAL>
+                                    <CNT ScrollingType="No" />
+                                </SPECIAL>
+                            </CONTROLPROPS>
+                        </CONTROL>
+                        <CONTROL Name="PortalsCNT" Type="Container">
+                            <CONTROLPROPS>
+                                <LAYOUT Blocks="2">
+                                    <SIZE WidthType="Value" WidthValue="600" />
+                                    <SPACING Value="0" />
+                                    <MARGINLEFT Type="Value" Value="10" />
+                                    <MARGINTOP Type="Value" />
+                                    <MARGINRIGHT Type="Value" Value="10" />
+                                    <MARGINBOTTOM Type="Value" Value="10" />
+                                </LAYOUT>
+                                <STYLES>
+                                    <NORMALSTYLE>
+                                        <BORDER BorderLineStyle="None" />
+                                    </NORMALSTYLE>
+                                </STYLES>
+                                <SPECIAL>
+                                    <CNT ScrollingType="No" />
+                                </SPECIAL>
+                            </CONTROLPROPS>
+                            <CHILDREN>
+                                <CONTROL Name="PortalsCNT1" Type="Container">
+                                    <CONTROLPROPS>
+                                        <LAYOUT>
+                                            <SIZE WidthType="Value" WidthValue="300" />
+                                            <SPACING Value="0" />
+                                            <MARGINLEFT Type="Value" Value="10" />
+                                            <MARGINTOP Type="Value" Value="10" />
+                                            <MARGINRIGHT Type="Value" Value="10" />
+                                            <MARGINBOTTOM Type="Value" Value="10" />
+                                        </LAYOUT>
+                                        <STYLES>
+                                            <NORMALSTYLE>
+                                                <BORDER BorderLineStyle="None" />
+                                            </NORMALSTYLE>
+                                        </STYLES>
+                                        <SPECIAL>
+                                            <CNT ScrollingType="No" />
+                                        </SPECIAL>
+                                    </CONTROLPROPS>
+                                    <CHILDREN>
+                                        <CONTROL Name="ExecutivePortalCNT" Type="Container">
+                                            <CONTROLPROPS>
+                                                <LAYOUT>
+                                                    <SPACING Value="0" />
+                                                    <MARGINLEFT Type="Value" />
+                                                    <MARGINTOP Type="Value" />
+                                                    <MARGINRIGHT Type="Value" />
+                                                    <MARGINBOTTOM Type="Value" />
+                                                </LAYOUT>
+                                                <STYLES>
+                                                    <NORMALSTYLE>
+                                                        <BORDER BorderLineStyle="None" />
+                                                    </NORMALSTYLE>
+                                                </STYLES>
+                                                <OTHER LabelPosition="None" />
+                                                <SPECIAL>
+                                                    <CNT ScrollingType="No" />
+                                                </SPECIAL>
+                                            </CONTROLPROPS>
+                                            <CHILDREN>
+                                                <CONTROL Name="ExecutivePortalImage" Type="Image">
+                                                    <CONTROLPROPS>
+                                                        <LAYOUT>
+                                                            <SIZE WidthType="Default" />
+                                                        </LAYOUT>
+                                                        <STYLES>
+                                                            <NORMALSTYLE>
+                                                                <BORDER BorderLineStyle="None" />
+                                                            </NORMALSTYLE>
+                                                        </STYLES>
+                                                        <OTHER LabelPosition="None" Text="./img/access/accounting.gif" />
+                                                    </CONTROLPROPS>
+                                                </CONTROL>
+                                                <CONTROL Name="ExecutivePortalCNT" Type="Container">
+                                                    <CONTROLPROPS>
+                                                        <LAYOUT Blocks="2">
+                                                            <SPACING Value="0" />
+                                                            <MARGINLEFT Type="Value" />
+                                                            <MARGINTOP Type="Value" />
+                                                            <MARGINRIGHT Type="Value" />
+                                                            <MARGINBOTTOM Type="Value" />
+                                                        </LAYOUT>
+                                                        <STYLES>
+                                                            <NORMALSTYLE>
+                                                                <BORDER BorderLineStyle="None" />
+                                                            </NORMALSTYLE>
+                                                        </STYLES>
+                                                        <OTHER LabelPosition="None" />
+                                                        <SPECIAL>
+                                                            <CNT ScrollingType="No" />
+                                                        </SPECIAL>
+                                                    </CONTROLPROPS>
+                                                    <CHILDREN>
+                                                        <CONTROL Name="ExecutivePortalLink" Type="Label">
+                                                            <CONTROLPROPS>
+                                                                <STYLES>
+                                                                    <NORMALSTYLE>
+                                                                        <FONT FontSize="11" />
+                                                                    </NORMALSTYLE>
+                                                                </STYLES>
+                                                                <OTHER Text="# Executive #" Tooltip="{1:210000370}" Image="">
+                                                                    <C N="LogIn" Stt="0">
+                                                                        <P N="Portal" V="EXECUTIVE" />
+                                                                        <P N="OrganizationalUnit" V="ment" />
+                                                                    </C>
+                                                                </OTHER>
+                                                            </CONTROLPROPS>
+                                                        </CONTROL>
+                                                        <CONTROL Name="ExecutivePortalDescription" Type="Label">
+                                                            <CONTROLPROPS>
+                                                                <STYLES>
+                                                                    <NORMALSTYLE>
+                                                                        <FONT FontSize="8" />
+                                                                    </NORMALSTYLE>
+                                                                </STYLES>
+                                                                <OTHER Text="# Access to all the modules #" Tooltip="{1:210000371}" Image="" />
+                                                            </CONTROLPROPS>
+                                                        </CONTROL>
+                                                    </CHILDREN>
+                                                </CONTROL>
+                                            </CHILDREN>
+                                        </CONTROL>
+                                    </CHILDREN>
+                                </CONTROL>
+                                <CONTROL Name="PortalsCNT2" Type="Container">
+                                    <CONTROLPROPS>
+                                        <LAYOUT>
+                                            <SIZE WidthType="Value" WidthValue="300" />
+                                            <SPACING Value="0" />
+                                            <MARGINLEFT Type="Value" Value="10" />
+                                            <MARGINTOP Type="Value" Value="10" />
+                                            <MARGINRIGHT Type="Value" Value="10" />
+                                            <MARGINBOTTOM Type="Value" Value="10" />
+                                        </LAYOUT>
+                                        <STYLES>
+                                            <NORMALSTYLE>
+                                                <BORDER BorderLineStyle="None" />
+                                            </NORMALSTYLE>
+                                        </STYLES>
+                                        <SPECIAL>
+                                            <CNT ScrollingType="No" />
+                                        </SPECIAL>
+                                    </CONTROLPROPS>
+                                    <CHILDREN>
+                                        <CONTROL Name="AdministrativePortalCNT" Type="Container">
+                                            <CONTROLPROPS>
+                                                <LAYOUT>
+                                                    <SPACING Value="0" />
+                                                    <MARGINLEFT Type="Value" />
+                                                    <MARGINTOP Type="Value" />
+                                                    <MARGINRIGHT Type="Value" />
+                                                    <MARGINBOTTOM Type="Value" />
+                                                </LAYOUT>
+                                                <STYLES>
+                                                    <NORMALSTYLE>
+                                                        <BORDER BorderLineStyle="None" />
+                                                    </NORMALSTYLE>
+                                                </STYLES>
+                                                <OTHER LabelPosition="None" />
+                                                <SPECIAL>
+                                                    <CNT ScrollingType="No" />
+                                                </SPECIAL>
+                                            </CONTROLPROPS>
+                                            <CHILDREN>
+                                                <CONTROL Name="AdministrativePortalImage" Type="Image">
+                                                    <CONTROLPROPS>
+                                                        <LAYOUT>
+                                                            <SIZE WidthType="Default" />
+                                                        </LAYOUT>
+                                                        <STYLES>
+                                                            <NORMALSTYLE>
+                                                                <BORDER BorderLineStyle="None" />
+                                                            </NORMALSTYLE>
+                                                        </STYLES>
+                                                        <OTHER LabelPosition="None" Text="./img/access/development.gif" />
+                                                    </CONTROLPROPS>
+                                                </CONTROL>
+                                                <CONTROL Name="AdministrativePortalCNT" Type="Container">
+                                                    <CONTROLPROPS>
+                                                        <LAYOUT Blocks="2">
+                                                            <SPACING Value="0" />
+                                                            <MARGINLEFT Type="Value" />
+                                                            <MARGINTOP Type="Value" />
+                                                            <MARGINRIGHT Type="Value" />
+                                                            <MARGINBOTTOM Type="Value" />
+                                                        </LAYOUT>
+                                                        <STYLES>
+                                                            <NORMALSTYLE>
+                                                                <BORDER BorderLineStyle="None" />
+                                                            </NORMALSTYLE>
+                                                        </STYLES>
+                                                        <OTHER LabelPosition="None" />
+                                                        <SPECIAL>
+                                                            <CNT ScrollingType="No" />
+                                                        </SPECIAL>
+                                                    </CONTROLPROPS>
+                                                    <CHILDREN>
+                                                        <CONTROL Name="AdministrativePortalLink" Type="Label">
+                                                            <CONTROLPROPS>
+                                                                <STYLES>
+                                                                    <NORMALSTYLE>
+                                                                        <FONT FontSize="11" />
+                                                                    </NORMALSTYLE>
+                                                                </STYLES>
+                                                                <OTHER Text="# Administrative #" Tooltip="{1:210000372}" Image="">
+                                                                    <C N="LogIn" Stt="0">
+                                                                        <P N="Portal" V="ADMINISTRATIVE" />
+                                                                        <P N="OrganizationalUnit" V="ment" />
+                                                                    </C>
+                                                                </OTHER>
+                                                            </CONTROLPROPS>
+                                                        </CONTROL>
+                                                        <CONTROL Name="AdministrativePortalDescription" Type="Label">
+                                                            <CONTROLPROPS>
+                                                                <STYLES>
+                                                                    <NORMALSTYLE>
+                                                                        <FONT FontSize="8" />
+                                                                    </NORMALSTYLE>
+                                                                </STYLES>
+                                                                <OTHER Text="# Accounting and human resources responsible#" Tooltip="{1:210000373}" Image="" />
+                                                            </CONTROLPROPS>
+                                                        </CONTROL>
+                                                    </CHILDREN>
+                                                </CONTROL>
+                                            </CHILDREN>
+                                        </CONTROL>
+                                    </CHILDREN>
+                                </CONTROL>
+                                <CONTROL Name="PortalsCNT3" Type="Container">
+                                    <CONTROLPROPS>
+                                        <LAYOUT>
+                                            <SIZE WidthType="Value" WidthValue="300" />
+                                            <SPACING Value="0" />
+                                            <MARGINLEFT Type="Value" Value="10" />
+                                            <MARGINTOP Type="Value" Value="10" />
+                                            <MARGINRIGHT Type="Value" Value="10" />
+                                            <MARGINBOTTOM Type="Value" Value="10" />
+                                        </LAYOUT>
+                                        <STYLES>
+                                            <NORMALSTYLE>
+                                                <BORDER BorderLineStyle="None" />
+                                            </NORMALSTYLE>
+                                        </STYLES>
+                                        <SPECIAL>
+                                            <CNT ScrollingType="No" />
+                                        </SPECIAL>
+                                    </CONTROLPROPS>
+                                    <CHILDREN>
+                                        <CONTROL Name="SalesPortalCNT" Type="Container">
+                                            <CONTROLPROPS>
+                                                <LAYOUT>
+                                                    <SPACING Value="0" />
+                                                    <MARGINLEFT Type="Value" />
+                                                    <MARGINTOP Type="Value" />
+                                                    <MARGINRIGHT Type="Value" />
+                                                    <MARGINBOTTOM Type="Value" />
+                                                </LAYOUT>
+                                                <STYLES>
+                                                    <NORMALSTYLE>
+                                                        <BORDER BorderLineStyle="None" />
+                                                    </NORMALSTYLE>
+                                                </STYLES>
+                                                <OTHER LabelPosition="None" />
+                                                <SPECIAL>
+                                                    <CNT ScrollingType="No" />
+                                                </SPECIAL>
+                                            </CONTROLPROPS>
+                                            <CHILDREN>
+                                                <CONTROL Name="SalesPortalImage" Type="Image">
+                                                    <CONTROLPROPS>
+                                                        <LAYOUT>
+                                                            <SIZE WidthType="Default" />
+                                                        </LAYOUT>
+                                                        <STYLES>
+                                                            <NORMALSTYLE>
+                                                                <BORDER BorderLineStyle="None" />
+                                                            </NORMALSTYLE>
+                                                        </STYLES>
+                                                        <OTHER LabelPosition="None" Text="./img/access/executive.gif" />
+                                                    </CONTROLPROPS>
+                                                </CONTROL>
+                                                <CONTROL Name="SalesPortalCNT" Type="Container">
+                                                    <CONTROLPROPS>
+                                                        <LAYOUT Blocks="2">
+                                                            <SPACING Value="0" />
+                                                            <MARGINLEFT Type="Value" />
+                                                            <MARGINTOP Type="Value" />
+                                                            <MARGINRIGHT Type="Value" />
+                                                            <MARGINBOTTOM Type="Value" />
+                                                        </LAYOUT>
+                                                        <STYLES>
+                                                            <NORMALSTYLE>
+                                                                <BORDER BorderLineStyle="None" />
+                                                            </NORMALSTYLE>
+                                                        </STYLES>
+                                                        <OTHER LabelPosition="None" />
+                                                        <SPECIAL>
+                                                            <CNT ScrollingType="No" />
+                                                        </SPECIAL>
+                                                    </CONTROLPROPS>
+                                                    <CHILDREN>
+                                                        <CONTROL Name="SalesPortalLink" Type="Label">
+                                                            <CONTROLPROPS>
+                                                                <STYLES>
+                                                                    <NORMALSTYLE>
+                                                                        <FONT FontSize="11" />
+                                                                    </NORMALSTYLE>
+                                                                </STYLES>
+                                                                <OTHER Text="# Sales #" Tooltip="{1:210000374}" Image="">
+                                                                    <C N="LogIn" Stt="0">
+                                                                        <P N="Portal" V="SALES" />
+                                                                        <P N="OrganizationalUnit" V="Administration" />
+                                                                    </C>
+                                                                </OTHER>
+                                                            </CONTROLPROPS>
+                                                        </CONTROL>
+                                                        <CONTROL Name="SalesPortalDescription" Type="Label">
+                                                            <CONTROLPROPS>
+                                                                <STYLES>
+                                                                    <NORMALSTYLE>
+                                                                        <FONT FontSize="8" />
+                                                                    </NORMALSTYLE>
+                                                                </STYLES>
+                                                                <OTHER Text="# Sales responsible #" Tooltip="{1:210000375}" Image="" />
+                                                            </CONTROLPROPS>
+                                                        </CONTROL>
+                                                    </CHILDREN>
+                                                </CONTROL>
+                                            </CHILDREN>
+                                        </CONTROL>
+                                    </CHILDREN>
+                                </CONTROL>
+                                <CONTROL Name="PortalsCNT4" Type="Container">
+                                    <CONTROLPROPS>
+                                        <LAYOUT>
+                                            <SIZE WidthType="Value" WidthValue="300" />
+                                            <SPACING Value="0" />
+                                            <MARGINLEFT Type="Value" Value="10" />
+                                            <MARGINTOP Type="Value" Value="10" />
+                                            <MARGINRIGHT Type="Value" Value="10" />
+                                            <MARGINBOTTOM Type="Value" Value="10" />
+                                        </LAYOUT>
+                                        <STYLES>
+                                            <NORMALSTYLE>
+                                                <BORDER BorderLineStyle="None" />
+                                            </NORMALSTYLE>
+                                        </STYLES>
+                                        <SPECIAL>
+                                            <CNT ScrollingType="No" />
+                                        </SPECIAL>
+                                    </CONTROLPROPS>
+                                    <CHILDREN>
+                                        <CONTROL Name="PurchasesPortalCNT" Type="Container">
+                                            <CONTROLPROPS>
+                                                <LAYOUT>
+                                                    <SPACING Value="0" />
+                                                    <MARGINLEFT Type="Value" />
+                                                    <MARGINTOP Type="Value" />
+                                                    <MARGINRIGHT Type="Value" />
+                                                    <MARGINBOTTOM Type="Value" />
+                                                </LAYOUT>
+                                                <STYLES>
+                                                    <NORMALSTYLE>
+                                                        <BORDER BorderLineStyle="None" />
+                                                    </NORMALSTYLE>
+                                                </STYLES>
+                                                <OTHER LabelPosition="None" />
+                                                <SPECIAL>
+                                                    <CNT ScrollingType="No" />
+                                                </SPECIAL>
+                                            </CONTROLPROPS>
+                                            <CHILDREN>
+                                                <CONTROL Name="PurchasesPortalImage" Type="Image">
+                                                    <CONTROLPROPS>
+                                                        <LAYOUT>
+                                                            <SIZE WidthType="Default" />
+                                                        </LAYOUT>
+                                                        <STYLES>
+                                                            <NORMALSTYLE>
+                                                                <BORDER BorderLineStyle="None" />
+                                                            </NORMALSTYLE>
+                                                        </STYLES>
+                                                        <OTHER LabelPosition="None" Text="./img/access/itgroup.gif" />
+                                                    </CONTROLPROPS>
+                                                </CONTROL>
+                                                <CONTROL Name="PurchasesPortalCNT" Type="Container">
+                                                    <CONTROLPROPS>
+                                                        <LAYOUT Blocks="2">
+                                                            <SPACING Value="0" />
+                                                            <MARGINLEFT Type="Value" />
+                                                            <MARGINTOP Type="Value" />
+                                                            <MARGINRIGHT Type="Value" />
+                                                            <MARGINBOTTOM Type="Value" />
+                                                        </LAYOUT>
+                                                        <STYLES>
+                                                            <NORMALSTYLE>
+                                                                <BORDER BorderLineStyle="None" />
+                                                            </NORMALSTYLE>
+                                                        </STYLES>
+                                                        <OTHER LabelPosition="None" />
+                                                        <SPECIAL>
+                                                            <CNT ScrollingType="No" />
+                                                        </SPECIAL>
+                                                    </CONTROLPROPS>
+                                                    <CHILDREN>
+                                                        <CONTROL Name="PurchasesPortalLink" Type="Label">
+                                                            <CONTROLPROPS>
+                                                                <STYLES>
+                                                                    <NORMALSTYLE>
+                                                                        <FONT FontSize="11" />
+                                                                    </NORMALSTYLE>
+                                                                </STYLES>
+                                                                <OTHER Text="# Purchases #" Tooltip="{1:210000376}" Image="">
+                                                                    <C N="LogIn" Stt="0">
+                                                                        <P N="Portal" V="PURCHASES" />
+                                                                        <P N="OrganizationalUnit" V="ment" />
+                                                                    </C>
+                                                                </OTHER>
+                                                            </CONTROLPROPS>
+                                                        </CONTROL>
+                                                        <CONTROL Name="PurchasesPortalDescription" Type="Label">
+                                                            <CONTROLPROPS>
+                                                                <STYLES>
+                                                                    <NORMALSTYLE>
+                                                                        <FONT FontSize="8" />
+                                                                    </NORMALSTYLE>
+                                                                </STYLES>
+                                                                <OTHER Text="# Purchases responsible #" Tooltip="{1:210000377}" Image="" />
+                                                            </CONTROLPROPS>
+                                                        </CONTROL>
+                                                    </CHILDREN>
+                                                </CONTROL>
+                                            </CHILDREN>
+                                        </CONTROL>
+                                    </CHILDREN>
+                                </CONTROL>
+                                <CONTROL Name="PortalsCNT5" Type="Container">
+                                    <CONTROLPROPS>
+                                        <LAYOUT ControlAlignment="Opposite">
+                                            <SIZE WidthType="Value" WidthValue="300" />
+                                            <SPACING Value="0" />
+                                            <MARGINLEFT Type="Value" Value="10" />
+                                            <MARGINTOP Type="Value" Value="10" />
+                                            <MARGINRIGHT Type="Value" Value="10" />
+                                            <MARGINBOTTOM Type="Value" Value="10" />
+                                        </LAYOUT>
+                                        <STYLES>
+                                            <NORMALSTYLE>
+                                                <BORDER BorderLineStyle="None" />
+                                            </NORMALSTYLE>
+                                        </STYLES>
+                                        <SPECIAL>
+                                            <CNT ScrollingType="No" />
+                                        </SPECIAL>
+                                    </CONTROLPROPS>
+                                    <CHILDREN>
+                                        <CONTROL Name="ManufacturingPortalCNT" Type="Container">
+                                            <CONTROLPROPS>
+                                                <LAYOUT Blocks="2">
+                                                    <SPACING Value="0" />
+                                                    <MARGINLEFT Type="Value" />
+                                                    <MARGINTOP Type="Value" />
+                                                    <MARGINRIGHT Type="Value" />
+                                                    <MARGINBOTTOM Type="Value" />
+                                                </LAYOUT>
+                                                <STYLES>
+                                                    <NORMALSTYLE>
+                                                        <BORDER BorderLineStyle="None" />
+                                                    </NORMALSTYLE>
+                                                </STYLES>
+                                                <OTHER LabelPosition="None" />
+                                                <SPECIAL>
+                                                    <CNT ScrollingType="No" />
+                                                </SPECIAL>
+                                            </CONTROLPROPS>
+                                            <CHILDREN>
+                                                <CONTROL Name="ManufacturingPortalImage" Type="Image">
+                                                    <CONTROLPROPS>
+                                                        <LAYOUT>
+                                                            <SIZE WidthType="Default" />
+                                                        </LAYOUT>
+                                                        <STYLES>
+                                                            <NORMALSTYLE>
+                                                                <BORDER BorderLineStyle="None" />
+                                                            </NORMALSTYLE>
+                                                        </STYLES>
+                                                        <OTHER LabelPosition="None" Text="./img/access/marketing.gif" />
+                                                    </CONTROLPROPS>
+                                                </CONTROL>
+                                                <CONTROL Name="ManufacturingPortalCNT" Type="Container">
+                                                    <CONTROLPROPS>
+                                                        <LAYOUT>
+                                                            <SPACING Value="0" />
+                                                            <MARGINLEFT Type="Value" />
+                                                            <MARGINTOP Type="Value" />
+                                                            <MARGINRIGHT Type="Value" />
+                                                            <MARGINBOTTOM Type="Value" />
+                                                        </LAYOUT>
+                                                        <STYLES>
+                                                            <NORMALSTYLE>
+                                                                <BORDER BorderLineStyle="None" />
+                                                            </NORMALSTYLE>
+                                                        </STYLES>
+                                                        <OTHER LabelPosition="None" />
+                                                        <SPECIAL>
+                                                            <CNT ScrollingType="No" />
+                                                        </SPECIAL>
+                                                    </CONTROLPROPS>
+                                                    <CHILDREN>
+                                                        <CONTROL Name="ManufacturingPortalLink" Type="Label">
+                                                            <CONTROLPROPS>
+                                                                <STYLES>
+                                                                    <NORMALSTYLE>
+                                                                        <FONT FontSize="11" />
+                                                                    </NORMALSTYLE>
+                                                                </STYLES>
+                                                                <OTHER Text="# Manufacturing #" Tooltip="{1:210000378}" Image="">
+                                                                    <C N="LogIn" Stt="0">
+                                                                        <P N="Portal" V="MANUFACTURING" />
+                                                                        <P N="OrganizationalUnit" V="ment" />
+                                                                    </C>
+                                                                </OTHER>
+                                                            </CONTROLPROPS>
+                                                        </CONTROL>
+                                                        <CONTROL Name="ManufacturingPortalDescription" Type="Label">
+                                                            <CONTROLPROPS>
+                                                                <LAYOUT ControlAlignment="Opposite" />
+                                                                <STYLES>
+                                                                    <NORMALSTYLE>
+                                                                        <FONT FontSize="8" />
+                                                                    </NORMALSTYLE>
+                                                                </STYLES>
+                                                                <OTHER Text="# Manufacturing responsible #" Tooltip="{1:210000379}" Image="" />
+                                                            </CONTROLPROPS>
+                                                        </CONTROL>
+                                                    </CHILDREN>
+                                                </CONTROL>
+                                            </CHILDREN>
+                                        </CONTROL>
+                                    </CHILDREN>
+                                </CONTROL>
+                                <CONTROL Name="PortalsCNT6" Type="Container">
+                                    <CONTROLPROPS>
+                                        <LAYOUT ControlAlignment="Opposite">
+                                            <SIZE WidthType="Value" WidthValue="300" />
+                                            <SPACING Value="0" />
+                                            <MARGINLEFT Type="Value" Value="10" />
+                                            <MARGINTOP Type="Value" Value="10" />
+                                            <MARGINRIGHT Type="Value" Value="10" />
+                                            <MARGINBOTTOM Type="Value" Value="10" />
+                                        </LAYOUT>
+                                        <STYLES>
+                                            <NORMALSTYLE>
+                                                <BORDER BorderLineStyle="None" />
+                                            </NORMALSTYLE>
+                                        </STYLES>
+                                        <SPECIAL>
+                                            <CNT ScrollingType="No" />
+                                        </SPECIAL>
+                                    </CONTROLPROPS>
+                                    <CHILDREN>
+                                        <CONTROL Name="WorkshopPortalCNT" Type="Container">
+                                            <CONTROLPROPS>
+                                                <LAYOUT Blocks="2">
+                                                    <SPACING Value="0" />
+                                                    <MARGINLEFT Type="Value" />
+                                                    <MARGINTOP Type="Value" />
+                                                    <MARGINRIGHT Type="Value" />
+                                                    <MARGINBOTTOM Type="Value" />
+                                                </LAYOUT>
+                                                <STYLES>
+                                                    <NORMALSTYLE>
+                                                        <BORDER BorderLineStyle="None" />
+                                                    </NORMALSTYLE>
+                                                </STYLES>
+                                                <OTHER LabelPosition="None" />
+                                                <SPECIAL>
+                                                    <CNT ScrollingType="No" />
+                                                </SPECIAL>
+                                            </CONTROLPROPS>
+                                            <CHILDREN>
+                                                <CONTROL Name="WorkshopPortalImage" Type="Image">
+                                                    <CONTROLPROPS>
+                                                        <LAYOUT>
+                                                            <SIZE WidthType="Default" />
+                                                        </LAYOUT>
+                                                        <STYLES>
+                                                            <NORMALSTYLE>
+                                                                <BORDER BorderLineStyle="None" />
+                                                            </NORMALSTYLE>
+                                                        </STYLES>
+                                                        <OTHER LabelPosition="None" Text="./img/access/orders.gif" />
+                                                    </CONTROLPROPS>
+                                                </CONTROL>
+                                                <CONTROL Name="WorkshopPortalCNT" Type="Container">
+                                                    <CONTROLPROPS>
+                                                        <LAYOUT>
+                                                            <SPACING Value="0" />
+                                                            <MARGINLEFT Type="Value" />
+                                                            <MARGINTOP Type="Value" />
+                                                            <MARGINRIGHT Type="Value" />
+                                                            <MARGINBOTTOM Type="Value" />
+                                                        </LAYOUT>
+                                                        <STYLES>
+                                                            <NORMALSTYLE>
+                                                                <BORDER BorderLineStyle="None" />
+                                                            </NORMALSTYLE>
+                                                        </STYLES>
+                                                        <OTHER LabelPosition="None" />
+                                                        <SPECIAL>
+                                                            <CNT ScrollingType="No" />
+                                                        </SPECIAL>
+                                                    </CONTROLPROPS>
+                                                    <CHILDREN>
+                                                        <CONTROL Name="WorkshopPortalLink" Type="Label">
+                                                            <CONTROLPROPS>
+                                                                <STYLES>
+                                                                    <NORMALSTYLE>
+                                                                        <FONT FontSize="11" />
+                                                                    </NORMALSTYLE>
+                                                                </STYLES>
+                                                                <OTHER Text="# Workshop #" Tooltip="{1:210000380}" Image="">
+                                                                    <C N="LogIn" Stt="0">
+                                                                        <P N="Portal" V="WORKSHOP" />
+                                                                        <P N="OrganizationalUnit" V="ment" />
+                                                                    </C>
+                                                                </OTHER>
+                                                            </CONTROLPROPS>
+                                                        </CONTROL>
+                                                        <CONTROL Name="WorkshopPortalDescription" Type="Label">
+                                                            <CONTROLPROPS>
+                                                                <LAYOUT ControlAlignment="Opposite" />
+                                                                <STYLES>
+                                                                    <NORMALSTYLE>
+                                                                        <FONT FontSize="8" />
+                                                                    </NORMALSTYLE>
+                                                                </STYLES>
+                                                                <OTHER Text="# Workshop responsible #" Tooltip="{1:210000381}" Image="" />
+                                                            </CONTROLPROPS>
+                                                        </CONTROL>
+                                                    </CHILDREN>
+                                                </CONTROL>
+                                            </CHILDREN>
+                                        </CONTROL>
+                                    </CHILDREN>
+                                </CONTROL>
+                                <CONTROL Name="PortalsCNT7" Type="Container">
+                                    <CONTROLPROPS>
+                                        <LAYOUT ControlAlignment="Opposite">
+                                            <SIZE WidthType="Value" WidthValue="300" />
+                                            <SPACING Value="0" />
+                                            <MARGINLEFT Type="Value" Value="10" />
+                                            <MARGINTOP Type="Value" Value="10" />
+                                            <MARGINRIGHT Type="Value" Value="10" />
+                                            <MARGINBOTTOM Type="Value" Value="10" />
+                                        </LAYOUT>
+                                        <STYLES>
+                                            <NORMALSTYLE>
+                                                <BORDER BorderLineStyle="None" />
+                                            </NORMALSTYLE>
+                                        </STYLES>
+                                        <SPECIAL>
+                                            <CNT ScrollingType="No" />
+                                        </SPECIAL>
+                                    </CONTROLPROPS>
+                                    <CHILDREN>
+                                        <CONTROL Name="SystemAdministratorPortalCNT" Type="Container">
+                                            <CONTROLPROPS>
+                                                <LAYOUT Blocks="2">
+                                                    <SPACING Value="0" />
+                                                    <MARGINLEFT Type="Value" />
+                                                    <MARGINTOP Type="Value" />
+                                                    <MARGINRIGHT Type="Value" />
+                                                    <MARGINBOTTOM Type="Value" />
+                                                </LAYOUT>
+                                                <STYLES>
+                                                    <NORMALSTYLE>
+                                                        <BORDER BorderLineStyle="None" />
+                                                    </NORMALSTYLE>
+                                                </STYLES>
+                                                <OTHER LabelPosition="None" />
+                                                <SPECIAL>
+                                                    <CNT ScrollingType="No" />
+                                                </SPECIAL>
+                                            </CONTROLPROPS>
+                                            <CHILDREN>
+                                                <CONTROL Name="SystemAdministratorPortalImage" Type="Image">
+                                                    <CONTROLPROPS>
+                                                        <LAYOUT>
+                                                            <SIZE WidthType="Default" />
+                                                        </LAYOUT>
+                                                        <STYLES>
+                                                            <NORMALSTYLE>
+                                                                <BORDER BorderLineStyle="None" />
+                                                            </NORMALSTYLE>
+                                                        </STYLES>
+                                                        <OTHER LabelPosition="None" Text="./img/access/support.gif" />
+                                                    </CONTROLPROPS>
+                                                </CONTROL>
+                                                <CONTROL Name="SystemAdministratorPortalCNT" Type="Container">
+                                                    <CONTROLPROPS>
+                                                        <LAYOUT>
+                                                            <SPACING Value="0" />
+                                                            <MARGINLEFT Type="Value" />
+                                                            <MARGINTOP Type="Value" />
+                                                            <MARGINRIGHT Type="Value" />
+                                                            <MARGINBOTTOM Type="Value" />
+                                                        </LAYOUT>
+                                                        <STYLES>
+                                                            <NORMALSTYLE>
+                                                                <BORDER BorderLineStyle="None" />
+                                                            </NORMALSTYLE>
+                                                        </STYLES>
+                                                        <OTHER LabelPosition="None" />
+                                                        <SPECIAL>
+                                                            <CNT ScrollingType="No" />
+                                                        </SPECIAL>
+                                                    </CONTROLPROPS>
+                                                    <CHILDREN>
+                                                        <CONTROL Name="SystemAdministrativePortalLink" Type="Label">
+                                                            <CONTROLPROPS>
+                                                                <STYLES>
+                                                                    <NORMALSTYLE>
+                                                                        <FONT FontSize="11" />
+                                                                    </NORMALSTYLE>
+                                                                </STYLES>
+                                                                <OTHER Text="# System administrative #" Tooltip="{1:210000382}" Image="">
+                                                                    <C N="LogIn" Stt="0">
+                                                                        <P N="Portal" V="SYSTEMADMINISTRATIVE" />
+                                                                        <P N="OrganizationalUnit" V="ment" />
+                                                                    </C>
+                                                                </OTHER>
+                                                            </CONTROLPROPS>
+                                                        </CONTROL>
+                                                        <CONTROL Name="SupportPortalDescription" Type="Label">
+                                                            <CONTROLPROPS>
+                                                                <LAYOUT ControlAlignment="Opposite" />
+                                                                <STYLES>
+                                                                    <NORMALSTYLE>
+                                                                        <FONT FontSize="8" />
+                                                                    </NORMALSTYLE>
+                                                                </STYLES>
+                                                                <OTHER Text="# System administrative responsible#" Tooltip="{1:210000383}" Image="" />
+                                                            </CONTROLPROPS>
+                                                        </CONTROL>
+                                                    </CHILDREN>
+                                                </CONTROL>
+                                            </CHILDREN>
+                                        </CONTROL>
+                                    </CHILDREN>
+                                </CONTROL>
+                            </CHILDREN>
+                       </CONTROL>
+                        <CONTROL Name="PoweredBy" Type="Image">
+                            <CONTROLPROPS>
+                                <LAYOUT ControlAlignment="Opposite">
+                                    <SIZE WidthType="Default" />
+                                    <MARGINLEFT Type="Value" />
+                                </LAYOUT>
+                                <STYLES>
+                                    <NORMALSTYLE>
+                                        <BORDER BorderLineStyle="None" />
+                                    </NORMALSTYLE>
+                                </STYLES>
+                                <OTHER LabelPosition="None" Text="./img/PoweredBy.gif" />
+                            </CONTROLPROPS>
+                        </CONTROL>
+                    </CHILDREN>
+                </CONTROL>
+                <CONTROL Name="RightSpace" Type="Container">
+                    <CONTROLPROPS>
+                        <LAYOUT>
+                            <SIZE WidthType="Auto" />
+                            <SPACING Value="0" />
+                            <MARGINLEFT Type="Value" />
+                            <MARGINTOP Type="Value" />
+                            <MARGINRIGHT Type="Value" />
+                            <MARGINBOTTOM Type="Value" />
+                        </LAYOUT>
+                        <STYLES>
+                            <NORMALSTYLE BackColor="Transparent">
+                                <BORDER BorderLineStyle="None" />
+                            </NORMALSTYLE>
+                        </STYLES>
+                        <OTHER LabelPosition="None" />
+                        <SPECIAL>
+                            <CNT ScrollingType="No" />
+                        </SPECIAL>
+                    </CONTROLPROPS>
+                </CONTROL>
+            </CHILDREN>
+        </CONTROL>
+    </CHILDREN>
+</WINDOW>

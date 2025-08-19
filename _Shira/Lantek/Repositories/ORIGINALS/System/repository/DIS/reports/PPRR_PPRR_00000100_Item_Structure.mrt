@@ -1,0 +1,488 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="0" />
+    <DataSources isList="true" count="1">
+      <PPRR_PPRR_00000100_PRODUCT_STRUCTURE Ref="2" type="DataTableSource" isKey="true">
+        <Alias>PPRR_PPRR_00000100_PRODUCT_STRUCTURE</Alias>
+        <Columns isList="true" count="72">
+          <value>TopParentRef,Conjunto,System.String</value>
+          <value>TopParentRef__Lab,Conjunto_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>TopParentName,Nombre_x0020_del_x0020_conjunto,System.String</value>
+          <value>TopParentName__Lab,Nombre_x0020_del_x0020_conjunto_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>NearParentRef,Componente,System.String</value>
+          <value>NearParentRef__Lab,Componente_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>NearParentName,Nombre_x0020_del_x0020_componente,System.String</value>
+          <value>NearParentName__Lab,Nombre_x0020_del_x0020_componente_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>PrdRef,Referencia,System.String</value>
+          <value>PrdRef__Lab,Referencia_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>PrdName,Nombre,System.String</value>
+          <value>PrdName__Lab,Nombre_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>Descrip,Descripción,System.String</value>
+          <value>Descrip__Lab,Descripción_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>Level,System.Int16</value>
+          <value>Level__Lab,Level_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>Level__ScN,Level_x0020__x0028_Valor_x0029_,System.String</value>
+          <value>Order,System.Int16</value>
+          <value>Order__Lab,Order_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>Order__ScN,Order_x0020__x0028_Valor_x0029_,System.String</value>
+          <value>Type,System.Int16</value>
+          <value>Type__Lab,Type_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>Type__ScN,Type_x0020__x0028_Valor_x0029_,System.String</value>
+          <value>MatRef,Material,System.String</value>
+          <value>MatRef__Lab,Material_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>Length,Longitud,System.Double</value>
+          <value>Length__Lab,Longitud_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>Length__DBD,Longitud_x0020__x0028_Base_x0020_de_x0020_datos_x0029_,System.Double</value>
+          <value>Length__Scr,Longitud_x0020__x0028_Valor_x0029_,System.String</value>
+          <value>Length__ScN,Longitud_x0020__x0028_Valor_x0029_,System.String</value>
+          <value>Length__Dec,Longitud_x0020__x0028_Dígitos_x0020_decimales_x0029_,System.Int16</value>
+          <value>Length__Rnd,Longitud_x0020__x0028_Redondeado_x0029_,System.Int16</value>
+          <value>Length__Sff,Longitud_x0020__x0028_Sufijo_x0029_,System.String</value>
+          <value>Width,Anchura,System.Double</value>
+          <value>Width__Lab,Anchura_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>Width__DBD,Anchura_x0020__x0028_Base_x0020_de_x0020_datos_x0029_,System.Double</value>
+          <value>Width__Scr,Anchura_x0020__x0028_Valor_x0029_,System.String</value>
+          <value>Width__ScN,Anchura_x0020__x0028_Valor_x0029_,System.String</value>
+          <value>Width__Dec,Anchura_x0020__x0028_Dígitos_x0020_decimales_x0029_,System.Int16</value>
+          <value>Width__Rnd,Anchura_x0020__x0028_Redondeado_x0029_,System.Int16</value>
+          <value>Width__Sff,Anchura_x0020__x0028_Sufijo_x0029_,System.String</value>
+          <value>Weight,Peso_x0020_externo,System.Double</value>
+          <value>Weight__Lab,Peso_x0020_externo_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>Weight__DBD,Peso_x0020_externo_x0020__x0028_Base_x0020_de_x0020_datos_x0029_,System.Double</value>
+          <value>Weight__Scr,Peso_x0020_externo_x0020__x0028_Valor_x0029_,System.String</value>
+          <value>Weight__ScN,Peso_x0020_externo_x0020__x0028_Valor_x0029_,System.String</value>
+          <value>Weight__Dec,Peso_x0020_externo_x0020__x0028_Dígitos_x0020_decimales_x0029_,System.Int16</value>
+          <value>Weight__Rnd,Peso_x0020_externo_x0020__x0028_Redondeado_x0029_,System.Int16</value>
+          <value>Weight__Sff,Peso_x0020_externo_x0020__x0028_Sufijo_x0029_,System.String</value>
+          <value>Thickness,Espesor,System.Double</value>
+          <value>Thickness__Lab,Espesor_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>Thickness__DBD,Espesor_x0020__x0028_Base_x0020_de_x0020_datos_x0029_,System.Double</value>
+          <value>Thickness__Scr,Espesor_x0020__x0028_Valor_x0029_,System.String</value>
+          <value>Thickness__ScN,Espesor_x0020__x0028_Valor_x0029_,System.String</value>
+          <value>Thickness__Dec,Espesor_x0020__x0028_Dígitos_x0020_decimales_x0029_,System.Int16</value>
+          <value>Thickness__Rnd,Espesor_x0020__x0028_Redondeado_x0029_,System.Int16</value>
+          <value>Thickness__Sff,Espesor_x0020__x0028_Sufijo_x0029_,System.String</value>
+          <value>FormatRef,Formato_x0020_de_x0020_perfil,System.String</value>
+          <value>FormatRef__Lab,Formato_x0020_de_x0020_perfil_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>Quantity,Cantidad,System.Double</value>
+          <value>Quantity__Lab,Cantidad_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>Quantity__ScN,Cantidad_x0020__x0028_Valor_x0029_,System.String</value>
+          <value>Quantity__Dec,Cantidad_x0020__x0028_Dígitos_x0020_decimales_x0029_,System.Int16</value>
+          <value>Quantity__Rnd,Cantidad_x0020__x0028_Redondeado_x0029_,System.Int16</value>
+          <value>TotalUnits,Cantidad_x0020_de_x0020_compra,System.Double</value>
+          <value>TotalUnits__Lab,Cantidad_x0020_de_x0020_compra_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>TotalUnits__ScN,Cantidad_x0020_de_x0020_compra_x0020__x0028_Valor_x0029_,System.String</value>
+          <value>TotalUnits__Dec,Cantidad_x0020_de_x0020_compra_x0020__x0028_Dígitos_x0020_decimales_x0029_,System.Int16</value>
+          <value>TotalUnits__Rnd,Cantidad_x0020_de_x0020_compra_x0020__x0028_Redondeado_x0029_,System.Int16</value>
+          <value>PClass,Clase,System.Int16</value>
+          <value>PClass__Lab,Clase_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>PClass__ScN,Clase_x0020__x0028_Valor_x0029_,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>PPRR_PPRR_00000100_PRODUCT_STRUCTURE</Name>
+        <NameInSource>PPRR_PPRR_00000100_Item_Structure.PPRR_PPRR_00000100_PRODUCT_STRUCTURE</NameInSource>
+      </PPRR_PPRR_00000100_PRODUCT_STRUCTURE>
+    </DataSources>
+    <Relations isList="true" count="0" />
+    <Report isRef="0" />
+    <Variables isList="true" count="4">
+      <value>,__Sys_DatePattern,__Sys_DatePattern,System.String,,False,False</value>
+      <value>,__Mss_33466,__Mss_33466,System.String,,False,False</value>
+      <value>,IndentValue,IndentValue,System.Double,_x0030_.5,False,False</value>
+      <value>,__Mss_32690,__Mss_32690,System.String,,False,False</value>
+    </Variables>
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <ReportPage Ref="3" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="10">
+        <PageHeaderBand Ref="4" type="PageHeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0.4,27.7,1.78</ClientRectangle>
+          <Components isList="true" count="1">
+            <Text10 Ref="5" type="Text" isKey="true">
+              <Border>Bottom;[199:213:224];3;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,27.69,1.52</ClientRectangle>
+              <ComponentStyle>Titles</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,22,Bold</Font>
+              <Guid>e29a494b42e1448b8283e8f4a82f62b6</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text10</Name>
+              <Page isRef="3" />
+              <Parent isRef="4" />
+              <Text>{__Mss_32690}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text10>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>PageHeaderBand</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <PrintOn>ExceptFirstPage</PrintOn>
+        </PageHeaderBand>
+        <PageFooterBand Ref="6" type="PageFooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,17.22,27.7,1.78</ClientRectangle>
+          <Components isList="true" count="2">
+            <TodayFooter Ref="7" type="Text" isKey="true">
+              <Border>Top;[199:213:224];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0.25,12.95,1.02</ClientRectangle>
+              <ComponentStyle>PageFooter</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Verdana,9</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>TodayFooter</Name>
+              <Page isRef="3" />
+              <Parent isRef="6" />
+              <Text>{String.Format("{0:"+__Sys_DatePattern+"}",Time)}</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </TodayFooter>
+            <PagesFooter Ref="8" type="Text" isKey="true">
+              <Border>Top;[199:213:224];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>12.7,0.25,14.99,1.02</ClientRectangle>
+              <ComponentStyle>PageFooter</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Verdana,9</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>PagesFooter</Name>
+              <Page isRef="3" />
+              <Parent isRef="6" />
+              <Text>{Replace(Replace(__Mss_33466,"@#PAGENUMBER#@",PageNumber),"@#TOTALPAGECOUNT#@",TotalPageCount)}</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </PagesFooter>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>PageFooterBand</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+        </PageFooterBand>
+        <TitleBand Ref="9" type="ReportTitleBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,2.98,27.7,1.78</ClientRectangle>
+          <Components isList="true" count="1">
+            <ReportTitle Ref="10" type="Text" isKey="true">
+              <Border>Bottom;[199:213:224];3;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,27.69,1.52</ClientRectangle>
+              <ComponentStyle>Titles</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,22,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>ReportTitle</Name>
+              <Page isRef="3" />
+              <Parent isRef="9" />
+              <Text>{__Mss_32690}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </ReportTitle>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>TitleBand</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+        </TitleBand>
+        <GroupHeaderBand1 Ref="11" type="GroupHeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,5.56,27.7,0.09</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Condition>{PPRR_PPRR_00000100_PRODUCT_STRUCTURE.TopParentRef}</Condition>
+          <Conditions isList="true" count="0" />
+          <Name>GroupHeaderBand1</Name>
+          <NewPageBefore>True</NewPageBefore>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <ResetPageNumber>True</ResetPageNumber>
+        </GroupHeaderBand1>
+        <HeaderBand1 Ref="12" type="HeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,6.45,27.7,0</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <Name>HeaderBand1</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+        </HeaderBand1>
+        <DataBand1 Ref="13" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,7.25,27.7,0</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <DataSourceName>PPRR_PPRR_00000100_PRODUCT_STRUCTURE</DataSourceName>
+          <Filters isList="true" count="0" />
+          <Name>DataBand1</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Sort isList="true" count="2">
+            <value>ASC</value>
+            <value>Order</value>
+          </Sort>
+        </DataBand1>
+        <ItemsBand Ref="14" type="ChildBand" isKey="true">
+          <BeforePrintEvent>if (PPRR_PPRR_00000100_PRODUCT_STRUCTURE.Type == 0){
+this.ItemsBand.Enabled = false;
+}</BeforePrintEvent>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,8.05,27.7,0.51</ClientRectangle>
+          <Components isList="true" count="1">
+            <Panel1 Ref="15" type="Stimulsoft.Report.Components.StiPanel" isKey="true">
+              <BeforePrintEvent>Double x = (PPRR_PPRR_00000100_PRODUCT_STRUCTURE.Level*IndentValue);
+Double y = this.Panel1.ClientRectangle.Y;
+Double Width = this.PageHeaderBand.ClientRectangle.Width - x;
+Double Height = this.Panel1.ClientRectangle.Height;
+this.Panel1.ClientRectangle = new Stimulsoft.Base.Drawing.RectangleD(x, y, Width, Height);</BeforePrintEvent>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,27.69,0.41</ClientRectangle>
+              <Components isList="true" count="1">
+                <Text6 Ref="16" type="Text" isKey="true">
+                  <AutoWidth>True</AutoWidth>
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>0,0,27.69,0.41</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10,Bold</Font>
+                  <Guid>1dbc83e35ba7c7306c4e048d310d7d70</Guid>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text6</Name>
+                  <Page isRef="3" />
+                  <Parent isRef="15" />
+                  <Text>{IIF((PPRR_PPRR_00000100_PRODUCT_STRUCTURE.PClass == 1) || 
+	 (PPRR_PPRR_00000100_PRODUCT_STRUCTURE.PClass == 50)||
+	 (PPRR_PPRR_00000100_PRODUCT_STRUCTURE.PClass == 52)||
+	 (PPRR_PPRR_00000100_PRODUCT_STRUCTURE.PClass == 53)||
+	 (PPRR_PPRR_00000100_PRODUCT_STRUCTURE.PClass == 54),
+		IIF(PPRR_PPRR_00000100_PRODUCT_STRUCTURE.Level == 0,"","("+PPRR_PPRR_00000100_PRODUCT_STRUCTURE.Quantity+") ")
+			+PPRR_PPRR_00000100_PRODUCT_STRUCTURE.PrdRef+","+PPRR_PPRR_00000100_PRODUCT_STRUCTURE.PrdName+" "+PPRR_PPRR_00000100_PRODUCT_STRUCTURE.Weight__Scr,
+		IIF((PPRR_PPRR_00000100_PRODUCT_STRUCTURE.PClass == 2) ||
+     		(PPRR_PPRR_00000100_PRODUCT_STRUCTURE.PClass == 3) ||
+     		(PPRR_PPRR_00000100_PRODUCT_STRUCTURE.PClass == 51)||
+     	    (PPRR_PPRR_00000100_PRODUCT_STRUCTURE.PClass &gt;= 55),
+				"("+PPRR_PPRR_00000100_PRODUCT_STRUCTURE.Quantity+") "+PPRR_PPRR_00000100_PRODUCT_STRUCTURE.PrdRef+", "+PPRR_PPRR_00000100_PRODUCT_STRUCTURE.PrdName+" "+
+				IIF(PPRR_PPRR_00000100_PRODUCT_STRUCTURE.PClass &gt;= 55,PPRR_PPRR_00000100_PRODUCT_STRUCTURE.Length__Scr+", "+PPRR_PPRR_00000100_PRODUCT_STRUCTURE.FormatRef,
+																	  PPRR_PPRR_00000100_PRODUCT_STRUCTURE.Length__Scr+" x "+PPRR_PPRR_00000100_PRODUCT_STRUCTURE.Width__Scr+"x "+PPRR_PPRR_00000100_PRODUCT_STRUCTURE.Thickness__Scr)
+				+", "+PPRR_PPRR_00000100_PRODUCT_STRUCTURE.MatRef+", "+PPRR_PPRR_00000100_PRODUCT_STRUCTURE.Weight__Scr,
+				"..."))}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Bottom</VertAlignment>
+                </Text6>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <Name>Panel1</Name>
+              <Page isRef="3" />
+              <Parent isRef="14" />
+            </Panel1>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>ItemsBand</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+        </ItemsBand>
+        <OperationsBand Ref="17" type="ChildBand" isKey="true">
+          <BeforePrintEvent>if (PPRR_PPRR_00000100_PRODUCT_STRUCTURE.Type == 1){
+this.OperationsBand.Enabled = false;
+}</BeforePrintEvent>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,9.36,27.7,0.61</ClientRectangle>
+          <Components isList="true" count="1">
+            <Panel2 Ref="18" type="Stimulsoft.Report.Components.StiPanel" isKey="true">
+              <BeforePrintEvent>Double x = 0.4+(PPRR_PPRR_00000100_PRODUCT_STRUCTURE.Level*IndentValue);
+Double y = this.Panel2.ClientRectangle.Y;
+Double Width = this.PageHeaderBand.ClientRectangle.Width - x;
+Double Height = this.Panel2.ClientRectangle.Height;
+this.Panel2.ClientRectangle = new Stimulsoft.Base.Drawing.RectangleD(x, y, Width, Height);</BeforePrintEvent>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,27.69,0.41</ClientRectangle>
+              <Components isList="true" count="1">
+                <Text7 Ref="19" type="Text" isKey="true">
+                  <AutoWidth>True</AutoWidth>
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>0.4,0,27.29,0.41</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10</Font>
+                  <Guid>dde986c260998dfb6e63048e4ca02448</Guid>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text7</Name>
+                  <Page isRef="3" />
+                  <Parent isRef="18" />
+                  <Text>- {PPRR_PPRR_00000100_PRODUCT_STRUCTURE.PrdRef}, {PPRR_PPRR_00000100_PRODUCT_STRUCTURE.PrdName}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text7>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <Name>Panel2</Name>
+              <Page isRef="3" />
+              <Parent isRef="17" />
+            </Panel2>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>OperationsBand</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+        </OperationsBand>
+        <FooterBand1 Ref="20" type="FooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,10.77,27.7,0</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <Name>FooterBand1</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+        </FooterBand1>
+        <GroupFooterBand1 Ref="21" type="GroupFooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,11.57,27.7,0.25</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <Name>GroupFooterBand1</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+        </GroupFooterBand1>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Guid>7478bf2aba904a0eabadd951c777d57e</Guid>
+      <Margins>1,1,1,1</Margins>
+      <Name>ReportPage</Name>
+      <Orientation>Landscape</Orientation>
+      <PageHeight>21</PageHeight>
+      <PageWidth>29.7</PageWidth>
+      <Report isRef="0" />
+      <Watermark Ref="22" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <Font>Arial,100</Font>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
+    </ReportPage>
+  </Pages>
+  <PrinterSettings Ref="23" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>PPRR_PPRR_00000100_Item_Structure</ReportAlias>
+  <ReportAuthor>SYSADM</ReportAuthor>
+  <ReportChanged>6/10/2019 10:16:50 AM</ReportChanged>
+  <ReportCreated>5/15/2014 6:00:53 PM</ReportCreated>
+  <ReportDescription>Item structure</ReportDescription>
+  <ReportFile />
+  <ReportGuid>9513178814f748361b1f407619ebe94c</ReportGuid>
+  <ReportName>PPRR_PPRR_00000100_Item_Structure</ReportName>
+  <ReportUnit>Centimeters</ReportUnit>
+  <ReportVersion>2013.2.1604</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    public class ssss : Stimulsoft.Report.StiReport
+    {
+        public ssss()        {
+            this.InitializeComponent();
+        }
+
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="7">
+    <Titles Ref="24" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>Bottom;[199:213:224];3;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Arial,22,Bold</Font>
+      <Name>Titles</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Titles>
+    <PageHeader Ref="25" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>Bottom;[199:213:224];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Verdana,9</Font>
+      <Name>PageHeader</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </PageHeader>
+    <PageFooter Ref="26" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>Top;[199:213:224];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Verdana,9</Font>
+      <Name>PageFooter</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </PageFooter>
+    <Headers Ref="27" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>All;[131:166:224];1;Solid;False;4;Black</Border>
+      <Brush>[185:218:255]</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Arial,11,Bold</Font>
+      <Name>Headers</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Headers>
+    <DataClean Ref="28" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Verdana,10</Font>
+      <Name>DataClean</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </DataClean>
+    <DataOdd Ref="29" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>All;[216:223:232];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Verdana,10</Font>
+      <Name>DataOdd</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </DataOdd>
+    <DataEven Ref="30" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>All;[216:223:232];1;Solid;False;4;Black</Border>
+      <Brush>[240:245:251]</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Verdana,10</Font>
+      <Name>DataEven</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </DataEven>
+  </Styles>
+</StiSerializer>

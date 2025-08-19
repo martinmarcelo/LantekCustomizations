@@ -1,0 +1,201 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="OOSS_ENDN_00000100_OutsourcingEntryDeliveryNote" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+  <xs:element name="OOSS_ENDN_00000100_OutsourcingEntryDeliveryNote" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Outsourcing_x0020_entry" msprop:Table="OOSS_ENDN_00000100">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DNRef" msdata:Caption="Reference" type="xs:string" minOccurs="0" />
+              <xs:element name="DNRef__Lab" msdata:Caption="Reference (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="SuppRef" msdata:Caption="Supplier" type="xs:string" minOccurs="0" />
+              <xs:element name="SuppRef__Lab" msdata:Caption="Supplier (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="SuppName" msdata:Caption="Supplier name" type="xs:string" minOccurs="0" />
+              <xs:element name="SuppName__Lab" msdata:Caption="Supplier name (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="CurName" msdata:Caption="Currency" type="xs:string" minOccurs="0" />
+              <xs:element name="CurName__Lab" msdata:Caption="Currency (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="EmpRef" msdata:Caption="Purchase responsible" type="xs:string" minOccurs="0" />
+              <xs:element name="EmpRef__Lab" msdata:Caption="Purchase responsible (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="Contact" msdata:Caption="Associated element identifier" type="xs:int" minOccurs="0" />
+              <xs:element name="Contact__Lab" msdata:Caption="Associated element identifier (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="Contact__ScN" msdata:Caption="Associated element identifier (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="ConSurname" msdata:Caption="Contact" type="xs:string" minOccurs="0" />
+              <xs:element name="ConSurname__Lab" msdata:Caption="Contact (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="OrdRef" msdata:Caption="Outsourcing order" type="xs:string" minOccurs="0" />
+              <xs:element name="OrdRef__Lab" msdata:Caption="Outsourcing order (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="Descrip" msdata:Caption="Comments" type="xs:string" minOccurs="0" />
+              <xs:element name="Descrip__Lab" msdata:Caption="Comments (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="CDate" msdata:Caption="Purchase date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="CDate__Lab" msdata:Caption="Purchase date (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="CDate__ScN" msdata:Caption="Purchase date (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="CDate__LDt" msdata:Caption="Purchase date (Long date)" type="xs:string" minOccurs="0" />
+              <xs:element name="CDate__SDt" msdata:Caption="Purchase date (Short date)" type="xs:string" minOccurs="0" />
+              <xs:element name="RDate" msdata:Caption="Reception date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="RDate__Lab" msdata:Caption="Reception date (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="RDate__ScN" msdata:Caption="Reception date (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="RDate__LDt" msdata:Caption="Reception date (Long date)" type="xs:string" minOccurs="0" />
+              <xs:element name="RDate__SDt" msdata:Caption="Reception date (Short date)" type="xs:string" minOccurs="0" />
+              <xs:element name="SupORef" msdata:Caption="Supplier order" type="xs:string" minOccurs="0" />
+              <xs:element name="SupORef__Lab" msdata:Caption="Supplier order (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalA" msdata:Caption="Total" type="xs:double" minOccurs="0" />
+              <xs:element name="TotalA__Lab" msdata:Caption="Total (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalA__DBD" msdata:Caption="Total (Database)" type="xs:double" minOccurs="0" />
+              <xs:element name="TotalA__Scr" msdata:Caption="Total (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalA__ScN" msdata:Caption="Total (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalA__Dec" msdata:Caption="Total (Decimal digits)" type="xs:short" minOccurs="0" />
+              <xs:element name="TotalA__Rnd" msdata:Caption="Total (Rounded)" type="xs:short" minOccurs="0" />
+              <xs:element name="TotalA__Sff" msdata:Caption="Total (Suffix)" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalA__Prf" msdata:Caption="Total (Prefix)" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalA__PrP" msdata:Caption="Total (Positive prefix)" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalA__PrN" msdata:Caption="Total (Negative prefix)" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalA__SfP" msdata:Caption="Total (Positive suffix)" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalA__SfN" msdata:Caption="Total (Negative suffix)" type="xs:string" minOccurs="0" />
+              <xs:element name="Supplier.ComRef" msdata:Caption="Reference" type="xs:string" minOccurs="0" />
+              <xs:element name="Supplier.ComRef__Lab" msdata:Caption="Reference (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="Supplier.LanName" msdata:Caption="Default language" type="xs:string" minOccurs="0" />
+              <xs:element name="Supplier.LanName__Lab" msdata:Caption="Default language (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="Supplier.ComName" msdata:Caption="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Supplier.ComName__Lab" msdata:Caption="Name (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="Supplier.Address1" msdata:Caption="Address 1" type="xs:string" minOccurs="0" />
+              <xs:element name="Supplier.Address1__Lab" msdata:Caption="Address 1 (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="Supplier.Address1__Add" msdata:Caption="Address 1 (Address)" type="xs:string" minOccurs="0" />
+              <xs:element name="Currency.CurName" msdata:Caption="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Currency.CurName__Lab" msdata:Caption="Name (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="Employee.EmpRef" msdata:Caption="Reference" type="xs:string" minOccurs="0" />
+              <xs:element name="Employee.EmpRef__Lab" msdata:Caption="Reference (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="Employee.WEMail" msdata:Caption="Work E-mail" type="xs:string" minOccurs="0" />
+              <xs:element name="Employee.WEMail__Lab" msdata:Caption="Work E-mail (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="Employee.WPhone" msdata:Caption="Work phone" type="xs:string" minOccurs="0" />
+              <xs:element name="Employee.WPhone__Lab" msdata:Caption="Work phone (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="Employee.EName" msdata:Caption="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Employee.EName__Lab" msdata:Caption="Name (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="Employee.ESurname1" msdata:Caption="Surname" type="xs:string" minOccurs="0" />
+              <xs:element name="Employee.ESurname1__Lab" msdata:Caption="Surname (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="Contact.RecID" msdata:Caption="Element identifier" type="xs:int" minOccurs="0" />
+              <xs:element name="Contact.RecID__Lab" msdata:Caption="Element identifier (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="Contact.RecID__ScN" msdata:Caption="Element identifier (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="Contact.ESurname1" msdata:Caption="Surname" type="xs:string" minOccurs="0" />
+              <xs:element name="Contact.ESurname1__Lab" msdata:Caption="Surname (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="Contact.ComRef" msdata:Caption="Company" type="xs:string" minOccurs="0" />
+              <xs:element name="Contact.ComRef__Lab" msdata:Caption="Company (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="Contact.ComName" msdata:Caption="Company name" type="xs:string" minOccurs="0" />
+              <xs:element name="Contact.ComName__Lab" msdata:Caption="Company name (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="Contact.EName" msdata:Caption="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Contact.EName__Lab" msdata:Caption="Name (Label)" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Outsourcing_x0020_entry_x0020_lines" msprop:Table="OOSS_ENDN_00000200">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DNRef" msdata:Caption="Delivery note" type="xs:string" minOccurs="0" />
+              <xs:element name="DNRef__Lab" msdata:Caption="Delivery note (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="LineNum" msdata:Caption="Line number" type="xs:string" minOccurs="0" />
+              <xs:element name="LineNum__Lab" msdata:Caption="Line number (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="Type" msdata:Caption="Element type" type="xs:short" minOccurs="0" />
+              <xs:element name="Type__Lab" msdata:Caption="Element type (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="Type__ScN" msdata:Caption="Element type (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="Quantity" type="xs:double" minOccurs="0" />
+              <xs:element name="Quantity__Lab" msdata:Caption="Quantity (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="Quantity__DBD" msdata:Caption="Quantity (Database)" type="xs:double" minOccurs="0" />
+              <xs:element name="Quantity__Scr" msdata:Caption="Quantity (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="Quantity__ScN" msdata:Caption="Quantity (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="Quantity__Dec" msdata:Caption="Quantity (Decimal digits)" type="xs:short" minOccurs="0" />
+              <xs:element name="Quantity__Rnd" msdata:Caption="Quantity (Rounded)" type="xs:short" minOccurs="0" />
+              <xs:element name="Quantity__Sff" msdata:Caption="Quantity (Suffix)" type="xs:string" minOccurs="0" />
+              <xs:element name="UntName" msdata:Caption="Unit" type="xs:string" minOccurs="0" />
+              <xs:element name="UntName__Lab" msdata:Caption="Unit (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="UCtName" msdata:Caption="Unit category" type="xs:string" minOccurs="0" />
+              <xs:element name="UCtName__Lab" msdata:Caption="Unit category (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="PrdRef" msdata:Caption="Item" type="xs:string" minOccurs="0" />
+              <xs:element name="PrdRef__Lab" msdata:Caption="Item (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="Weight" type="xs:double" minOccurs="0" />
+              <xs:element name="Weight__Lab" msdata:Caption="Weight (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="Weight__DBD" msdata:Caption="Weight (Database)" type="xs:double" minOccurs="0" />
+              <xs:element name="Weight__Scr" msdata:Caption="Weight (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="Weight__ScN" msdata:Caption="Weight (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="Weight__Dec" msdata:Caption="Weight (Decimal digits)" type="xs:short" minOccurs="0" />
+              <xs:element name="Weight__Rnd" msdata:Caption="Weight (Rounded)" type="xs:short" minOccurs="0" />
+              <xs:element name="Weight__Sff" msdata:Caption="Weight (Suffix)" type="xs:string" minOccurs="0" />
+              <xs:element name="OprRef" msdata:Caption="Operation" type="xs:string" minOccurs="0" />
+              <xs:element name="OprRef__Lab" msdata:Caption="Operation (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="MnORef" msdata:Caption="Production order" type="xs:string" minOccurs="0" />
+              <xs:element name="MnORef__Lab" msdata:Caption="Production order (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="PrdName" msdata:Caption="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="PrdName__Lab" msdata:Caption="Name (Label)" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Outsourcing_x0020_material_x0020_entry_x0020_lines" msprop:Table="OOSS_ENDN_00000200">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DNRef" msdata:Caption="Delivery note" type="xs:string" minOccurs="0" />
+              <xs:element name="DNRef__Lab" msdata:Caption="Delivery note (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="LineNum" msdata:Caption="Line number" type="xs:string" minOccurs="0" />
+              <xs:element name="LineNum__Lab" msdata:Caption="Line number (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="Type" msdata:Caption="Element type" type="xs:short" minOccurs="0" />
+              <xs:element name="Type__Lab" msdata:Caption="Element type (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="Type__ScN" msdata:Caption="Element type (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="Weight" type="xs:double" minOccurs="0" />
+              <xs:element name="Weight__Lab" msdata:Caption="Weight (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="Weight__DBD" msdata:Caption="Weight (Database)" type="xs:double" minOccurs="0" />
+              <xs:element name="Weight__Scr" msdata:Caption="Weight (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="Weight__ScN" msdata:Caption="Weight (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="Weight__Dec" msdata:Caption="Weight (Decimal digits)" type="xs:short" minOccurs="0" />
+              <xs:element name="Weight__Rnd" msdata:Caption="Weight (Rounded)" type="xs:short" minOccurs="0" />
+              <xs:element name="Weight__Sff" msdata:Caption="Weight (Suffix)" type="xs:string" minOccurs="0" />
+              <xs:element name="UPrice" msdata:Caption="Unit price" type="xs:double" minOccurs="0" />
+              <xs:element name="UPrice__Lab" msdata:Caption="Unit price (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="UPrice__DBD" msdata:Caption="Unit price (Database)" type="xs:double" minOccurs="0" />
+              <xs:element name="UPrice__Scr" msdata:Caption="Unit price (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="UPrice__ScN" msdata:Caption="Unit price (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="UPrice__Dec" msdata:Caption="Unit price (Decimal digits)" type="xs:short" minOccurs="0" />
+              <xs:element name="UPrice__Rnd" msdata:Caption="Unit price (Rounded)" type="xs:short" minOccurs="0" />
+              <xs:element name="UPrice__Sff" msdata:Caption="Unit price (Suffix)" type="xs:string" minOccurs="0" />
+              <xs:element name="UPrice__Prf" msdata:Caption="Unit price (Prefix)" type="xs:string" minOccurs="0" />
+              <xs:element name="UPrice__PrP" msdata:Caption="Unit price (Positive prefix)" type="xs:string" minOccurs="0" />
+              <xs:element name="UPrice__PrN" msdata:Caption="Unit price (Negative prefix)" type="xs:string" minOccurs="0" />
+              <xs:element name="UPrice__SfP" msdata:Caption="Unit price (Positive suffix)" type="xs:string" minOccurs="0" />
+              <xs:element name="UPrice__SfN" msdata:Caption="Unit price (Negative suffix)" type="xs:string" minOccurs="0" />
+              <xs:element name="TPrice" msdata:Caption="Total price" type="xs:double" minOccurs="0" />
+              <xs:element name="TPrice__Lab" msdata:Caption="Total price (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="TPrice__DBD" msdata:Caption="Total price (Database)" type="xs:double" minOccurs="0" />
+              <xs:element name="TPrice__Scr" msdata:Caption="Total price (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="TPrice__ScN" msdata:Caption="Total price (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="TPrice__Dec" msdata:Caption="Total price (Decimal digits)" type="xs:short" minOccurs="0" />
+              <xs:element name="TPrice__Rnd" msdata:Caption="Total price (Rounded)" type="xs:short" minOccurs="0" />
+              <xs:element name="TPrice__Sff" msdata:Caption="Total price (Suffix)" type="xs:string" minOccurs="0" />
+              <xs:element name="TPrice__Prf" msdata:Caption="Total price (Prefix)" type="xs:string" minOccurs="0" />
+              <xs:element name="TPrice__PrP" msdata:Caption="Total price (Positive prefix)" type="xs:string" minOccurs="0" />
+              <xs:element name="TPrice__PrN" msdata:Caption="Total price (Negative prefix)" type="xs:string" minOccurs="0" />
+              <xs:element name="TPrice__SfP" msdata:Caption="Total price (Positive suffix)" type="xs:string" minOccurs="0" />
+              <xs:element name="TPrice__SfN" msdata:Caption="Total price (Negative suffix)" type="xs:string" minOccurs="0" />
+              <xs:element name="PrdName" msdata:Caption="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="PrdName__Lab" msdata:Caption="Name (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="PrdRef" msdata:Caption="Item" type="xs:string" minOccurs="0" />
+              <xs:element name="PrdRef__Lab" msdata:Caption="Item (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="Quantity" type="xs:double" minOccurs="0" />
+              <xs:element name="Quantity__Lab" msdata:Caption="Quantity (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="Quantity__DBD" msdata:Caption="Quantity (Database)" type="xs:double" minOccurs="0" />
+              <xs:element name="Quantity__Scr" msdata:Caption="Quantity (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="Quantity__ScN" msdata:Caption="Quantity (Value)" type="xs:string" minOccurs="0" />
+              <xs:element name="Quantity__Dec" msdata:Caption="Quantity (Decimal digits)" type="xs:short" minOccurs="0" />
+              <xs:element name="Quantity__Rnd" msdata:Caption="Quantity (Rounded)" type="xs:short" minOccurs="0" />
+              <xs:element name="Quantity__Sff" msdata:Caption="Quantity (Suffix)" type="xs:string" minOccurs="0" />
+              <xs:element name="UntName" msdata:Caption="Unit" type="xs:string" minOccurs="0" />
+              <xs:element name="UntName__Lab" msdata:Caption="Unit (Label)" type="xs:string" minOccurs="0" />
+              <xs:element name="UCtName" msdata:Caption="Unit category" type="xs:string" minOccurs="0" />
+              <xs:element name="UCtName__Lab" msdata:Caption="Unit category (Label)" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="Outsourcing_x0020_entry_x0020_lines_child_Outsourcing_x0020_entry" msdata:parent="Outsourcing_x0020_entry" msdata:child="Outsourcing_x0020_entry_x0020_lines" msdata:parentkey="DNRef" msdata:childkey="DNRef" />
+      <msdata:Relationship name="Outsourcing_x0020_material_x0020_entry_x0020_lines_child_Outsourcing_x0020_entry" msdata:parent="Outsourcing_x0020_entry" msdata:child="Outsourcing_x0020_material_x0020_entry_x0020_lines" msdata:parentkey="DNRef" msdata:childkey="DNRef" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

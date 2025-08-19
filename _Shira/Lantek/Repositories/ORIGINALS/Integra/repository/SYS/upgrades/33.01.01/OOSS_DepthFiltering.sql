@@ -1,0 +1,45 @@
+-- @#LONGSCRIPT#@
+
+--Updates related to outsourcing.
+UPDATE PPBB_PPBB_00000100
+SET MainOriginFilter = ISNULL((
+							   SELECT TOP 1 SSAA_SSOO_00000100.OrdRef
+							   FROM OOSS_OOOO_00000200, SSAA_SSOO_00000100
+							   WHERE PPBB_PPBB_00000100.Reference = OOSS_OOOO_00000200.OrdRef AND 
+								     PPBB_PPBB_00000100.LineNum = OOSS_OOOO_00000200.LineNum AND
+									 PPBB_PPBB_00000100.Type = 7 AND 
+									 OOSS_OOOO_00000200.AssocElementType = 2 AND
+									 OOSS_OOOO_00000200.RecordID = SSAA_SSOO_00000100.RecID)
+							   , ''),
+	MainOriginTypeFilter = 2
+WHERE PPBB_PPBB_00000100.Reference <> '' AND PPBB_PPBB_00000100.Type = 7
+
+--Outsourcing delivery note
+UPDATE WWHH_MMVV_00000100
+SET MainOriginFilter = ISNULL((
+							   SELECT TOP 1 SSAA_SSOO_00000100.OrdRef
+							   FROM OOSS_OOOO_00000200, SSAA_SSOO_00000100, OOSS_EXDN_00000200
+							   WHERE WWHH_MMVV_00000100.Reference = OOSS_EXDN_00000200.DNRef AND 
+							         WWHH_MMVV_00000100.LineNum = OOSS_EXDN_00000200.LineNum AND 
+									 WWHH_MMVV_00000100.Category = 800 AND
+									 OOSS_EXDN_00000200.OrdRef = OOSS_OOOO_00000200.OrdRef AND
+									 OOSS_OOOO_00000200.AssocElementType = 2 AND
+									 OOSS_OOOO_00000200.RecordID = SSAA_SSOO_00000100.RecID
+							   ), ''),
+	MainOriginTypeFilter = 2
+WHERE WWHH_MMVV_00000100.Reference <> '' AND WWHH_MMVV_00000100.Category = 800
+
+--Outsourcing receipt
+UPDATE WWHH_MMVV_00000100
+SET MainOriginFilter = ISNULL((
+							   SELECT TOP 1 SSAA_SSOO_00000100.OrdRef
+							   FROM OOSS_OOOO_00000200, SSAA_SSOO_00000100, OOSS_ENDN_00000200
+							   WHERE WWHH_MMVV_00000100.Reference = OOSS_ENDN_00000200.DNRef AND 
+									 WWHH_MMVV_00000100.LineNum = OOSS_ENDN_00000200.LineNum AND 
+									 WWHH_MMVV_00000100.Category = 900 AND 
+									 OOSS_ENDN_00000200.OrdRef = OOSS_OOOO_00000200.OrdRef AND 
+									 OOSS_OOOO_00000200.AssocElementType = 2 AND 
+									 OOSS_OOOO_00000200.RecordID = SSAA_SSOO_00000100.RecID)
+							 , ''),
+	MainOriginTypeFilter = 2
+WHERE WWHH_MMVV_00000100.Reference <> '' AND WWHH_MMVV_00000100.Category = 900

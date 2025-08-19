@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TABLE SingularObject="ReturnOrderCreditNote" PluralObject="ReturnOrderCreditNotes" Image="./img/tbl/30189.png" SingularName="Credit Notes" SingularMessageNumber="34140" PluralName="Credit Notes" PluralMessageNumber="34140" Scheme="SSAA" IsReal="0" IsHandledBySecurity="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\..\xsd\Repository\Tables.xsd">
+    <FIELDS>
+        <FIELD Reference="OrdRef" Description="Return Order" MessageNumber="37478" Type="Text 40?"/>
+        <FIELD Reference="InvRef" Description="Reference" MessageNumber="30447" Type="Text 40?"/>
+        <FIELD Reference="TotalA" Description="Total amount" MessageNumber="30212" Type="Long real"/>
+        <FIELD Reference="CDate" Description="Invoice date" MessageNumber="30394" Type="Date"/>
+        <FIELD Reference="EDate" Description="Due date" MessageNumber="30799" Type="Date"/>     
+    </FIELDS>
+    <INDEXES>
+        <INDEX Reference="PK" Type="PK" Fields="OrdRef,InvRef" />
+    </INDEXES>
+    <RELATIONS>
+        <ASCHILD>
+            <ASCHILDREL OtherTable="SSAA_SSOO_00000100" OriginName="Return order (As Credit Note)" OriginMessageNumber="37478" OriginFields="OrdRef" DestinationName="Credit Notes" DestinationMessageNumber="34140" DestinationFields="OrdRef">
+                <FLAGS>
+                    <NOCNAVIG/>
+                </FLAGS>
+            </ASCHILDREL>
+            <ASCHILDREL OtherTable="SSAA_IINN_00000100" OriginName="Invoice" OriginMessageNumber="30189" OriginFields="InvRef" DestinationName="Credit Notes" DestinationMessageNumber="-1" DestinationFields="InvRef" >
+                <FLAGS>
+                    <NOCNAVIG/>
+                </FLAGS>
+            </ASCHILDREL>
+        </ASCHILD>
+    </RELATIONS>
+</TABLE>

@@ -1,0 +1,20 @@
+
+
+
+// 2D procedures.
+// -----------
+
+procedure CAM2DDXF(product, DXFFile, workCenter, material, thickness)
+begin
+	CallTypedStaticFunction("CAMServices2D.CAMServices2D,CAMServices2D", "CAM2DDXF", "Text,Text,Text,Text,LongReal", product, DXFFile, workCenter, material, thickness);
+end
+
+procedure CAM2DParametric(product, parametric, workCenter, material, thickness, parameters)
+begin
+	CallTypedStaticFunction("CAMServices2D.CAMServices2D,CAMServices2D", "CAM2DParametric", "Text,Text,Text,Text,LongReal,Text", product, parametric, workCenter, material, thickness, parameters);
+end
+
+procedure CAM2DDuct(product, din, workCenter, material, thickness, parameters)
+begin
+    CallTypedStaticFunction("CAMServices2D.CAMServices2D,CAMServices2D", "CAM2DDuct", "Text,Integer,Text,Text,LongReal,Text", product, din, workCenter, material, thickness, parameters);
+end

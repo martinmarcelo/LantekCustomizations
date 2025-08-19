@@ -1,0 +1,87 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="PPRR_PPRR_00000100_Item_Structure" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="PPRR_PPRR_00000100_Item_Structure" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PPRR_PPRR_00000100_PRODUCT_STRUCTURE">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TopParentRef" msdata:Caption="Conjunto" type="xs:string" minOccurs="0" />
+              <xs:element name="TopParentRef__Lab" msdata:Caption="Conjunto (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="TopParentName" msdata:Caption="Nombre del conjunto" type="xs:string" minOccurs="0" />
+              <xs:element name="TopParentName__Lab" msdata:Caption="Nombre del conjunto (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="NearParentRef" msdata:Caption="Componente" type="xs:string" minOccurs="0" />
+              <xs:element name="NearParentRef__Lab" msdata:Caption="Componente (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="NearParentName" msdata:Caption="Nombre del componente" type="xs:string" minOccurs="0" />
+              <xs:element name="NearParentName__Lab" msdata:Caption="Nombre del componente (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="PrdRef" msdata:Caption="Referencia" type="xs:string" minOccurs="0" />
+              <xs:element name="PrdRef__Lab" msdata:Caption="Referencia (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="PrdName" msdata:Caption="Nombre" type="xs:string" minOccurs="0" />
+              <xs:element name="PrdName__Lab" msdata:Caption="Nombre (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Descrip" msdata:Caption="Descripción" type="xs:string" minOccurs="0" />
+              <xs:element name="Descrip__Lab" msdata:Caption="Descripción (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Level" type="xs:short" minOccurs="0" />
+              <xs:element name="Level__Lab" msdata:Caption="Level (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Level__ScN" msdata:Caption="Level (Valor)" type="xs:string" minOccurs="0" />
+              <xs:element name="Order" type="xs:short" minOccurs="0" />
+              <xs:element name="Order__Lab" msdata:Caption="Order (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Order__ScN" msdata:Caption="Order (Valor)" type="xs:string" minOccurs="0" />
+              <xs:element name="Type" type="xs:short" minOccurs="0" />
+              <xs:element name="Type__Lab" msdata:Caption="Type (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Type__ScN" msdata:Caption="Type (Valor)" type="xs:string" minOccurs="0" />
+              <xs:element name="MatRef" msdata:Caption="Material" type="xs:string" minOccurs="0" />
+              <xs:element name="MatRef__Lab" msdata:Caption="Material (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Length" msdata:Caption="Longitud" type="xs:double" minOccurs="0" />
+              <xs:element name="Length__Lab" msdata:Caption="Longitud (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Length__DBD" msdata:Caption="Longitud (Base de datos)" type="xs:double" minOccurs="0" />
+              <xs:element name="Length__Scr" msdata:Caption="Longitud (Valor)" type="xs:string" minOccurs="0" />
+              <xs:element name="Length__ScN" msdata:Caption="Longitud (Valor)" type="xs:string" minOccurs="0" />
+              <xs:element name="Length__Dec" msdata:Caption="Longitud (Dígitos decimales)" type="xs:short" minOccurs="0" />
+              <xs:element name="Length__Rnd" msdata:Caption="Longitud (Redondeado)" type="xs:short" minOccurs="0" />
+              <xs:element name="Length__Sff" msdata:Caption="Longitud (Sufijo)" type="xs:string" minOccurs="0" />
+              <xs:element name="Width" msdata:Caption="Anchura" type="xs:double" minOccurs="0" />
+              <xs:element name="Width__Lab" msdata:Caption="Anchura (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Width__DBD" msdata:Caption="Anchura (Base de datos)" type="xs:double" minOccurs="0" />
+              <xs:element name="Width__Scr" msdata:Caption="Anchura (Valor)" type="xs:string" minOccurs="0" />
+              <xs:element name="Width__ScN" msdata:Caption="Anchura (Valor)" type="xs:string" minOccurs="0" />
+              <xs:element name="Width__Dec" msdata:Caption="Anchura (Dígitos decimales)" type="xs:short" minOccurs="0" />
+              <xs:element name="Width__Rnd" msdata:Caption="Anchura (Redondeado)" type="xs:short" minOccurs="0" />
+              <xs:element name="Width__Sff" msdata:Caption="Anchura (Sufijo)" type="xs:string" minOccurs="0" />
+              <xs:element name="Weight" msdata:Caption="Peso externo" type="xs:double" minOccurs="0" />
+              <xs:element name="Weight__Lab" msdata:Caption="Peso externo (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Weight__DBD" msdata:Caption="Peso externo (Base de datos)" type="xs:double" minOccurs="0" />
+              <xs:element name="Weight__Scr" msdata:Caption="Peso externo (Valor)" type="xs:string" minOccurs="0" />
+              <xs:element name="Weight__ScN" msdata:Caption="Peso externo (Valor)" type="xs:string" minOccurs="0" />
+              <xs:element name="Weight__Dec" msdata:Caption="Peso externo (Dígitos decimales)" type="xs:short" minOccurs="0" />
+              <xs:element name="Weight__Rnd" msdata:Caption="Peso externo (Redondeado)" type="xs:short" minOccurs="0" />
+              <xs:element name="Weight__Sff" msdata:Caption="Peso externo (Sufijo)" type="xs:string" minOccurs="0" />
+              <xs:element name="Thickness" msdata:Caption="Espesor" type="xs:double" minOccurs="0" />
+              <xs:element name="Thickness__Lab" msdata:Caption="Espesor (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Thickness__DBD" msdata:Caption="Espesor (Base de datos)" type="xs:double" minOccurs="0" />
+              <xs:element name="Thickness__Scr" msdata:Caption="Espesor (Valor)" type="xs:string" minOccurs="0" />
+              <xs:element name="Thickness__ScN" msdata:Caption="Espesor (Valor)" type="xs:string" minOccurs="0" />
+              <xs:element name="Thickness__Dec" msdata:Caption="Espesor (Dígitos decimales)" type="xs:short" minOccurs="0" />
+              <xs:element name="Thickness__Rnd" msdata:Caption="Espesor (Redondeado)" type="xs:short" minOccurs="0" />
+              <xs:element name="Thickness__Sff" msdata:Caption="Espesor (Sufijo)" type="xs:string" minOccurs="0" />
+              <xs:element name="FormatRef" msdata:Caption="Formato de perfil" type="xs:string" minOccurs="0" />
+              <xs:element name="FormatRef__Lab" msdata:Caption="Formato de perfil (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Quantity" msdata:Caption="Cantidad" type="xs:double" minOccurs="0" />
+              <xs:element name="Quantity__Lab" msdata:Caption="Cantidad (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Quantity__ScN" msdata:Caption="Cantidad (Valor)" type="xs:string" minOccurs="0" />
+              <xs:element name="Quantity__Dec" msdata:Caption="Cantidad (Dígitos decimales)" type="xs:short" minOccurs="0" />
+              <xs:element name="Quantity__Rnd" msdata:Caption="Cantidad (Redondeado)" type="xs:short" minOccurs="0" />
+              <xs:element name="TotalUnits" msdata:Caption="Cantidad de compra" type="xs:double" minOccurs="0" />
+              <xs:element name="TotalUnits__Lab" msdata:Caption="Cantidad de compra (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalUnits__ScN" msdata:Caption="Cantidad de compra (Valor)" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalUnits__Dec" msdata:Caption="Cantidad de compra (Dígitos decimales)" type="xs:short" minOccurs="0" />
+              <xs:element name="TotalUnits__Rnd" msdata:Caption="Cantidad de compra (Redondeado)" type="xs:short" minOccurs="0" />
+              <xs:element name="PClass" msdata:Caption="Clase" type="xs:short" minOccurs="0" />
+              <xs:element name="PClass__Lab" msdata:Caption="Clase (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="PClass__ScN" msdata:Caption="Clase (Valor)" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

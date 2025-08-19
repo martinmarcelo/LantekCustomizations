@@ -1,0 +1,1026 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="0" />
+    <DataSources isList="true" count="2">
+      <Warehouses Ref="2" type="DataTableSource" isKey="true">
+        <Alias>Warehouses</Alias>
+        <Columns isList="true" count="4">
+          <value>WrhRef,Referencia,System.String</value>
+          <value>WrhRef__Lab,Referencia_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>WrhName,Nombre,System.String</value>
+          <value>WrhName__Lab,Nombre_x0020__x0028_Etiqueta_x0029_,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Warehouses</Name>
+        <NameInSource>WWHH_WWHH_00000100_Warehouse.Warehouses</NameInSource>
+      </Warehouses>
+      <Warehouse_x0020_movements Ref="3" type="DataTableSource" isKey="true">
+        <Alias>Warehouse movements</Alias>
+        <Columns isList="true" count="55">
+          <value>MovDate,Fecha,System.DateTime</value>
+          <value>MovDate__Lab,Fecha_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>MovDate__LDt,Fecha_x0020__x0028_Fecha_x0020_larga_x0029_,System.String</value>
+          <value>MovDate__SDt,Fecha_x0020__x0028_Fecha_x0020_corta_x0029_,System.String</value>
+          <value>Category,Categoría,System.Int16</value>
+          <value>Category__Lab,Categoría_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>Type,Tipo,System.Int16</value>
+          <value>Type__Lab,Tipo_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>Reference,Elemento_x0020_asociado,System.String</value>
+          <value>Reference__Lab,Elemento_x0020_asociado_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>PrdRef,Artículo,System.String</value>
+          <value>PrdRef__Lab,Artículo_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>WrhRef,Almacén,System.String</value>
+          <value>WrhRef__Lab,Almacén_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>RecID,Identificador_x0020_del_x0020_elemento,System.Int32</value>
+          <value>RecID__Lab,Identificador_x0020_del_x0020_elemento_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>Canceled,Cancelado,System.Boolean</value>
+          <value>Canceled__Lab,Cancelado_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>Canceled__ScN,Cancelado_x0020__x0028_Valor_x0029_,System.String</value>
+          <value>LocRef,Ubicación,System.String</value>
+          <value>LocRef__Lab,Ubicación_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>MovementQ,Cantidad,System.Double</value>
+          <value>MovementQ__Lab,Cantidad_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>MovementQ__DBD,Cantidad_x0020__x0028_Base_x0020_de_x0020_datos_x0029_,System.Double</value>
+          <value>MovementQ__Scr,Cantidad_x0020__x0028_Valor_x0029_,System.String</value>
+          <value>MovementQ__Dec,Cantidad_x0020__x0028_Dígitos_x0020_decimales_x0029_,System.Int16</value>
+          <value>MovementQ__Rnd,Cantidad_x0020__x0028_Redondeado_x0029_,System.Int16</value>
+          <value>MovementQ__Sff,Cantidad_x0020__x0028_Sufijo_x0029_,System.String</value>
+          <value>TCost,Coste_x0020_total,System.Double</value>
+          <value>TCost__Lab,Coste_x0020_total_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>TCost__DBD,Coste_x0020_total_x0020__x0028_Base_x0020_de_x0020_datos_x0029_,System.Double</value>
+          <value>TCost__Scr,Coste_x0020_total_x0020__x0028_Valor_x0029_,System.String</value>
+          <value>TCost__Dec,Coste_x0020_total_x0020__x0028_Dígitos_x0020_decimales_x0029_,System.Int16</value>
+          <value>TCost__Rnd,Coste_x0020_total_x0020__x0028_Redondeado_x0029_,System.Int16</value>
+          <value>TCost__Sff,Coste_x0020_total_x0020__x0028_Sufijo_x0029_,System.String</value>
+          <value>PrdName,Nombre_x0020_del_x0020_artículo,System.String</value>
+          <value>PrdName__Lab,Nombre_x0020_del_x0020_artículo_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>UCtName,Categoría_x0020_de_x0020_unidades,System.String</value>
+          <value>UCtName__Lab,Categoría_x0020_de_x0020_unidades_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>UntName,Unidad,System.String</value>
+          <value>UntName__Lab,Unidad_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>Item.PrdRef,Referencia,System.String</value>
+          <value>Item.PrdRef__Lab,Referencia_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>Item.PrdName,Nombre,System.String</value>
+          <value>Item.PrdName__Lab,Nombre_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>Item.UCtName,Categoría_x0020_de_x0020_unidades,System.String</value>
+          <value>Item.UCtName__Lab,Categoría_x0020_de_x0020_unidades_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>Item.UntName,Unidad,System.String</value>
+          <value>Item.UntName__Lab,Unidad_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>Unit_x0020_category.UCtName,Nombre,System.String</value>
+          <value>Unit_x0020_category.UCtName__Lab,Nombre_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>Unit.UntName,Nombre,System.String</value>
+          <value>Unit.UntName__Lab,Nombre_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>Unit.UCtName,Categoría,System.String</value>
+          <value>Unit.UCtName__Lab,Categoría_x0020__x0028_Etiqueta_x0029_,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Warehouse movements</Name>
+        <NameInSource>WWHH_WWHH_00000100_Warehouse.Warehouse movements</NameInSource>
+      </Warehouse_x0020_movements>
+    </DataSources>
+    <Relations isList="true" count="1">
+      <Warehouses Ref="4" type="DataRelation" isKey="true">
+        <Alias>Warehouses</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>WrhRef</value>
+        </ChildColumns>
+        <ChildSource isRef="3" />
+        <Dictionary isRef="1" />
+        <Name>Warehouses</Name>
+        <NameInSource>Warehouse movements</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>WrhRef</value>
+        </ParentColumns>
+        <ParentSource isRef="2" />
+      </Warehouses>
+    </Relations>
+    <Report isRef="0" />
+    <Variables isList="true" count="48">
+      <value>,__EntImage,__EntImage,Entreprise_x0020_logo_x0020_image,System.String,,False,False,False</value>
+      <value>,__EntDsc,__EntDsc,Entreprise_x0020_name,System.String,,False,False,False</value>
+      <value>,__EntAddress,__EntAddress,Entreprise_x0020_address,System.String,,False,False,False</value>
+      <value>,__EntVATNum,__EntVATNum,Entreprise_x0020_VAT_x0020_number,System.String,,False,False,False</value>
+      <value>,__EntPhone,__EntPhone,Entreprise_x0020_phone_x0020_number,System.String,,False,False,False</value>
+      <value>,__EntFax,__EntFax,Entreprise_x0020_fax_x0020_number,System.String,,False,False,False</value>
+      <value>,__EntEMail,__EntEMail,Entreprise_x0020_email_x0020_address,System.String,,False,False,False</value>
+      <value>,__EntWeb,__EntWeb,Entreprise_x0020_web_x0020_site,System.String,,False,False,False</value>
+      <value>,__Sys_DatePattern,__Sys_DatePattern,System.String,,False,False</value>
+      <value>,__Mss_30077,__Mss_30077,System.String,,False,False</value>
+      <value>,__Mss_33466,__Mss_33466,System.String,,False,False</value>
+      <value>,__Mss_30212,__Mss_30212,System.String,,False,False</value>
+      <value>,__Mss_30944,__Mss_30944,System.String,,False,False</value>
+      <value>,__Mss_31400,__Mss_31400,System.String,,False,False</value>
+      <value>,__Mss_31405,__Mss_31405,System.String,,False,False</value>
+      <value>,__Mss_31431,__Mss_31431,System.String,,False,False</value>
+      <value>,__Mss_31432,__Mss_31432,System.String,,False,False</value>
+      <value>,__Mss_31429,__Mss_31429,System.String,,False,False</value>
+      <value>,__Mss_31422,__Mss_31422,System.String,,False,False</value>
+      <value>,__Mss_30127,__Mss_30127,System.String,,False,False</value>
+      <value>,__Mss_30903,__Mss_30903,System.String,,False,False</value>
+      <value>,__Mss_32806,__Mss_32806,System.String,,False,False</value>
+      <value>,__Mss_30154,__Mss_30154,System.String,,False,False</value>
+      <value>,__Mss_30609,__Mss_30609,System.String,,False,False</value>
+      <value>,__Mss_33086,__Mss_33086,System.String,,False,False</value>
+      <value>,__Mss_35484,__Mss_35484,System.String,,False,False</value>
+      <value>,__Mss_35483,__Mss_35483,System.String,,False,False</value>
+      <value>,__Mss_60000380,__Mss_60000380,System.String,,False,False</value>
+      <value>,__Mss_316,__Mss_316,System.String,,False,False</value>
+      <value>,__Mss_270,__Mss_270,System.String,,False,False</value>
+      <value>,__Mss_241,__Mss_241,System.String,,False,False</value>
+      <value>,__Mss_237,__Mss_237,System.String,,False,False</value>
+      <value>,__Mss_318,__Mss_318,System.String,,False,False</value>
+      <value>,__Dsc_Category,__Dsc_Category,System.String,_x007B_WWHH_MMVV_00000100.Category_x007D_,False,False</value>
+      <value>,__Dsc_Loc,__Dsc_Loc,System.String,_x007B_WWHH_MMVV_00000100.LocRef_x007D_,False,False</value>
+      <value>,__Dsc_MovDate,__Dsc_MovDate,System.String,_x007B_WWHH_MMVV_00000100.MovDate_x007D_,True,False</value>
+      <value>,__Dsc_StockQ,__Dsc_StockQ,System.String,_x007B_WWHH_MMVV_00000100.MovementQ_x007D_,False,False</value>
+      <value>,__Dsc_TCost,__Dsc_TCost,System.String,_x007B_WWHH_MMVV_00000100.TCost_x007D_,False,False</value>
+      <value>,__Dsc_Type,__Dsc_Type,System.String,_x007B_WWHH_MMVV_00000100.Type_x007D_,False,False</value>
+      <value>,ForWarehouse,ForWarehouse,System.String,IIF_x0028_Warehouses.WrhName_x0020__x0021__x003D__x0020__x0022__x0022__x002C__x0020_Warehouses.WrhRef_x0020__x002B__x0020__x0022__x0020__x007C__x0020__x0022__x0020__x002B__x0020_Warehouses.WrhName_x002C__x0020_Warehouses.WrhRef_x0029_.ToString_x0028__x0029_,True,True</value>
+      <value>,ForItem,ForItem,System.String,IIF_x0028_Warehouse_movements.PrdName_x0020__x0021__x003D__x0020__x0022__x0022__x002C__x0020_Warehouse_movements.PrdRef_x0020__x002B__x0020__x0022__x0020__x007C__x0020__x0022__x0020__x002B__x0020_Warehouse_movements.PrdName_x002C__x0020_Warehouse_movements.PrdRef_x0029_.ToString_x0028__x0029_,True,True</value>
+      <value>,ForPage,ForPage,System.String,,False,False</value>
+      <value>,ForType,ForType,System.String,Switch_x0028_Warehouse_movements.Type_x0020__x003D__x003D__x0020_1_x002C__x0020___Mss_31431_x002C__x0020_Warehouse_movements.Type_x0020__x003D__x003D__x0020_2_x002C__x0020___Mss_31432_x0029_.ToString_x0028__x0029_,True,True</value>
+      <value>,ForMove,ForMove,System.String,IIF_x0028_Warehouse_movements.Canceled_x0020__x003D__x003D__x0020_false_x0020__x0026__x0026__x0020_Warehouse_movements.Type_x0020__x003D__x003D__x0020_2_x002C__x0020__x0022_-_x0022__x0020__x002B__x0020_Warehouse_movements.MovementQ_x002C__x0020_Warehouse_movements.MovementQ_x0029_.ToString_x0028__x0029_,True,True</value>
+      <value>,ForCost,ForCost,System.String,IIF_x0028_Warehouse_movements.Canceled_x0020__x003D__x003D__x0020_false_x0020__x0026__x0026__x0020_Warehouse_movements.Type_x0020__x003D__x003D__x0020_2_x002C__x0020__x0022_-_x0022__x0020__x002B__x0020_Warehouse_movements.TCost_x002C__x0020_Warehouse_movements.TCost_x0029_.ToString_x0028__x0029_,True,True</value>
+      <value>,ForCategory,ForCategory,System.String,Switch_x0028__x000D__x000A_Warehouse_movements.Category_x0020__x003D__x003D__x0020_0_x002C__x0020___Mss_31429_x002C__x0020__x000D__x000A_Warehouse_movements.Category_x0020__x003D__x003D__x0020_100_x002C__x0020___Mss_31422_x002C__x000D__x000A_Warehouse_movements.Category_x0020__x003D__x003D__x0020_200_x002C__x0020___Mss_30127_x002C__x000D__x000A_Warehouse_movements.Category_x0020__x003D__x003D__x0020_300_x002C__x0020___Mss_30903_x002C__x000D__x000A_Warehouse_movements.Category_x0020__x003D__x003D__x0020_400_x002C__x0020___Mss_32806_x002C__x000D__x000A_Warehouse_movements.Category_x0020__x003D__x003D__x0020_500_x002C__x0020___Mss_30154_x002C__x000D__x000A_Warehouse_movements.Category_x0020__x003D__x003D__x0020_600_x002C__x0020___Mss_30609_x002C__x000D__x000A_Warehouse_movements.Category_x0020__x003D__x003D__x0020_700_x002C__x0020___Mss_33086_x002C__x000D__x000A_Warehouse_movements.Category_x0020__x003D__x003D__x0020_800_x002C__x0020___Mss_35484_x002C__x000D__x000A_Warehouse_movements.Category_x0020__x003D__x003D__x0020_900_x002C__x0020___Mss_35483_x002C__x000D__x000A_Warehouse_movements.Category_x0020__x003D__x003D__x0020_1000_x002C__x0020___Mss_60000380_x000D__x000A__x0029_.ToString_x0028__x0029_,True,True</value>
+      <value>,ForUnit,ForUnit,System.String,IIF_x0028_Warehouse_movements.UCtName_x0020__x003D__x003D__x0020__x0022_WGH_x0022__x002C__x0020_Warehouse_movements.UntName_x002C__x0020__x0022__x0022__x0029_.ToString_x0028__x0029_,True,True</value>
+      <value>,ForTotalCost,ForTotalCost,System.Double,,False,False</value>
+    </Variables>
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <ReportPage Ref="5" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="8">
+        <PageHeaderBand1 Ref="6" type="PageHeaderBand" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0.4,19,1.6</ClientRectangle>
+          <Components isList="true" count="3">
+            <Text1 Ref="7" type="Text" isKey="true">
+              <Border>Left;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>0,0.4,13.6,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,18,Bold</Font>
+              <Guid>2e66cca8ae59473ebde7eabb28b534e4</Guid>
+              <Linked>True</Linked>
+              <Margins>6,0,0,0</Margins>
+              <Name>Text1</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>{__Mss_31405}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text1>
+            <Text22 Ref="8" type="Text" isKey="true">
+              <Border>Right;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>13.6,0.4,5.4,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <Guid>76fec267926c489581a6b8c6c4dea0e8</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Linked>True</Linked>
+              <Margins>0,6,0,0</Margins>
+              <Name>Text22</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>{ForPage = Replace(Replace(__Mss_33466, "@#PAGENUMBER#@", PageNumber),  "@#TOTALPAGECOUNT#@", TotalPageCount)}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text22>
+            <Text23 Ref="9" type="Text" isKey="true">
+              <Border>Right;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>13.6,0.8,5.4,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <Guid>dc96a63009084db697455e9ccace9adc</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Linked>True</Linked>
+              <Margins>0,6,0,0</Margins>
+              <Name>Text23</Name>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <Text>{Today}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="10" type="DateFormat" isKey="true" />
+              <Type>Expression</Type>
+            </Text23>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Guid>b5c5a3d9258e4a809c0d2a41ffb0c6e8</Guid>
+          <Linked>True</Linked>
+          <Name>PageHeaderBand1</Name>
+          <Page isRef="5" />
+          <Parent isRef="5" />
+        </PageHeaderBand1>
+        <DataBand1 Ref="11" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,2.8,19,0</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <DataRelationName isNull="true" />
+          <DataSourceName>Warehouses</DataSourceName>
+          <Filters isList="true" count="0" />
+          <Guid>1f6913c6f68b4252a3c5fd98e18a94c0</Guid>
+          <Linked>True</Linked>
+          <Name>DataBand1</Name>
+          <Page isRef="5" />
+          <Parent isRef="5" />
+          <ResetPageNumber>True</ResetPageNumber>
+          <Sort isList="true" count="0" />
+        </DataBand1>
+        <HeaderBand1 Ref="12" type="HeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,3.6,19,0</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <Linked>True</Linked>
+          <Name>HeaderBand1</Name>
+          <Page isRef="5" />
+          <Parent isRef="5" />
+        </HeaderBand1>
+        <ChildBand1 Ref="13" type="ChildBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,4.4,19,1.6</ClientRectangle>
+          <Components isList="true" count="1">
+            <Panel2 Ref="14" type="Stimulsoft.Report.Components.StiPanel" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,0.4,19,0.8</ClientRectangle>
+              <Components isList="true" count="1">
+                <Text3 Ref="15" type="Text" isKey="true">
+                  <Border>All;Black;1;Solid;False;4;Black</Border>
+                  <Brush>[0:90:129]</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>0,0,19,0.8</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,12,Bold</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>92a60888307d4f7d88bb134de01ac493</Guid>
+                  <Linked>True</Linked>
+                  <Margins>12,0,0,0</Margins>
+                  <Name>Text3</Name>
+                  <Page isRef="5" />
+                  <Parent isRef="14" />
+                  <Text>{ForWarehouse}</Text>
+                  <TextBrush>White</TextBrush>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text3>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <Guid>f924da07b772413e8e0d9fdbfae98882</Guid>
+              <Linked>True</Linked>
+              <Name>Panel2</Name>
+              <Page isRef="5" />
+              <Parent isRef="13" />
+            </Panel2>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Linked>True</Linked>
+          <Name>ChildBand1</Name>
+          <Page isRef="5" />
+          <Parent isRef="5" />
+        </ChildBand1>
+        <GroupHeaderBand1 Ref="16" type="GroupHeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,6.8,19,1.8</ClientRectangle>
+          <Components isList="true" count="3">
+            <Panel6 Ref="17" type="Stimulsoft.Report.Components.StiPanel" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0.2,0,18.6,0.6</ClientRectangle>
+              <Components isList="true" count="1">
+                <Text2 Ref="18" type="Text" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>0,0,18.6,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>e62e110f3ab54b27813a0fe1b7cd0f6c</Guid>
+                  <Linked>True</Linked>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text2</Name>
+                  <Page isRef="5" />
+                  <Parent isRef="17" />
+                  <Text>{__Mss_30077} : {ForItem}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text2>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <Guid>a49c938791d7428c8865d95e8dd13b61</Guid>
+              <Linked>True</Linked>
+              <Name>Panel6</Name>
+              <Page isRef="5" />
+              <Parent isRef="16" />
+            </Panel6>
+            <Panel4 Ref="19" type="Stimulsoft.Report.Components.StiPanel" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0.2,1.2,18.6,0.6</ClientRectangle>
+              <Components isList="true" count="6">
+                <Text9 Ref="20" type="Text" isKey="true">
+                  <Border>Top, Bottom;Black;1;Solid;False;4;Black</Border>
+                  <Brush>[0:90:129]</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>12.8,0,2.6,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10,Bold</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>2ef9258183354552a1902f92fa525501</Guid>
+                  <HorAlignment>Right</HorAlignment>
+                  <Linked>True</Linked>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text9</Name>
+                  <Page isRef="5" />
+                  <Parent isRef="19" />
+                  <Text>{__Dsc_StockQ}</Text>
+                  <TextBrush>White</TextBrush>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text9>
+                <Text10 Ref="21" type="Text" isKey="true">
+                  <Border>Top, Bottom;Black;1;Solid;False;4;Black</Border>
+                  <Brush>[0:90:129]</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>3.2,0,2,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10,Bold</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>c58668d4f1a24fb6ac40fdf09085abc9</Guid>
+                  <Linked>True</Linked>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text10</Name>
+                  <Page isRef="5" />
+                  <Parent isRef="19" />
+                  <Text>{__Dsc_Type}</Text>
+                  <TextBrush>White</TextBrush>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text10>
+                <Text16 Ref="22" type="Text" isKey="true">
+                  <Border>Top, Bottom;Black;1;Solid;False;4;Black</Border>
+                  <Brush>[0:90:129]</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>8.4,0,4.4,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10,Bold</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>76d9421516b840febcbc39d6e9aad8a0</Guid>
+                  <Linked>True</Linked>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text16</Name>
+                  <Page isRef="5" />
+                  <Parent isRef="19" />
+                  <Text>{__Dsc_Loc}</Text>
+                  <TextBrush>White</TextBrush>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text16>
+                <Text8 Ref="23" type="Text" isKey="true">
+                  <Border>Top, Right, Bottom;Black;1;Solid;False;4;Black</Border>
+                  <Brush>[0:90:129]</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>15.4,0,3.2,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10,Bold</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>8b2862b39fb6407cb4fd3ca8339121d4</Guid>
+                  <HorAlignment>Right</HorAlignment>
+                  <Linked>True</Linked>
+                  <Margins>0,8,0,0</Margins>
+                  <Name>Text8</Name>
+                  <Page isRef="5" />
+                  <Parent isRef="19" />
+                  <Text>{__Dsc_TCost}</Text>
+                  <TextBrush>White</TextBrush>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text8>
+                <Text21 Ref="24" type="Text" isKey="true">
+                  <Border>Top, Bottom;Black;1;Solid;False;4;Black</Border>
+                  <Brush>[0:90:129]</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>5.2,0,3.2,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10,Bold</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>9c939df742c44dc3ad2c05a9b0dfe57c</Guid>
+                  <Linked>True</Linked>
+                  <Margins>6,0,0,0</Margins>
+                  <Name>Text21</Name>
+                  <Page isRef="5" />
+                  <Parent isRef="19" />
+                  <Text>{__Dsc_Category}</Text>
+                  <TextBrush>White</TextBrush>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text21>
+                <Text17 Ref="25" type="Text" isKey="true">
+                  <Border>Top, Bottom;Black;1;Solid;False;4;Black</Border>
+                  <Brush>[0:90:129]</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>0,0,3.2,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10,Bold</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>84a8727f276f4cf7812105c2862b6bca</Guid>
+                  <Linked>True</Linked>
+                  <Margins>6,0,0,0</Margins>
+                  <Name>Text17</Name>
+                  <Page isRef="5" />
+                  <Parent isRef="19" />
+                  <Text>{__Dsc_MovDate}</Text>
+                  <TextBrush>White</TextBrush>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text17>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <Guid>78e8629438094745ab0ec0501ae31d61</Guid>
+              <Linked>True</Linked>
+              <Name>Panel4</Name>
+              <Page isRef="5" />
+              <Parent isRef="16" />
+            </Panel4>
+            <Panel1 Ref="26" type="Stimulsoft.Report.Components.StiPanel" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0.2,0.6,18.6,0.6</ClientRectangle>
+              <Components isList="true" count="1">
+                <Text15 Ref="27" type="Text" isKey="true">
+                  <Border>All;Black;1;Solid;False;4;Black</Border>
+                  <Brush>Transparent</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>0,0,18.6,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>37bde19db6d8410981ccad1ef98f2854</Guid>
+                  <Linked>True</Linked>
+                  <Margins>6,0,0,0</Margins>
+                  <Name>Text15</Name>
+                  <Page isRef="5" />
+                  <Parent isRef="26" />
+                  <Text>{__Mss_31405}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text15>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <Guid>8afd18ba109e46378ba348d48d3e0d8d</Guid>
+              <Linked>True</Linked>
+              <Name>Panel1</Name>
+              <Page isRef="5" />
+              <Parent isRef="16" />
+            </Panel1>
+          </Components>
+          <Condition>{Warehouse_movements.Item_PrdRef}</Condition>
+          <Conditions isList="true" count="0" />
+          <Guid>7dc4e1136abc4c31809b659f24361aac</Guid>
+          <Linked>True</Linked>
+          <Name>GroupHeaderBand1</Name>
+          <Page isRef="5" />
+          <Parent isRef="5" />
+          <PrintOnAllPages>True</PrintOnAllPages>
+        </GroupHeaderBand1>
+        <DataBand2 Ref="28" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,9.4,19,1</ClientRectangle>
+          <Components isList="true" count="1">
+            <Panel3 Ref="29" type="Stimulsoft.Report.Components.StiPanel" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0.2,0.2,18.6,0.6</ClientRectangle>
+              <Components isList="true" count="7">
+                <Text5 Ref="30" type="Text" isKey="true">
+                  <Brush>[214:224:236]</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>3.2,0,2,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>1425adfb4efd4828aaf6d32ea90042a6</Guid>
+                  <Linked>True</Linked>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text5</Name>
+                  <Page isRef="5" />
+                  <Parent isRef="29" />
+                  <Text>{ForType}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text5>
+                <Text6 Ref="31" type="Text" isKey="true">
+                  <Brush>[214:224:236]</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>8.4,0,4.4,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>4ffa879e230144ed9eb4bc34ca397064</Guid>
+                  <Linked>True</Linked>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text6</Name>
+                  <Page isRef="5" />
+                  <Parent isRef="29" />
+                  <Text>{Warehouse_movements.LocRef}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text6>
+                <Text7 Ref="32" type="Text" isKey="true">
+                  <Brush>[214:224:236]</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>12.8,0,2,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>367d8fcbb5e0414ab4f3152ad6431019</Guid>
+                  <HorAlignment>Right</HorAlignment>
+                  <Linked>True</Linked>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text7</Name>
+                  <Page isRef="5" />
+                  <Parent isRef="29" />
+                  <Text>{Format("{0:N2}", ForMove)}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text7>
+                <Text11 Ref="33" type="Text" isKey="true">
+                  <Brush>[214:224:236]</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>15.4,0,3.2,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>eb65907c425e4af48bf7e563b9c2127d</Guid>
+                  <HorAlignment>Right</HorAlignment>
+                  <Linked>True</Linked>
+                  <Margins>0,6,0,0</Margins>
+                  <Name>Text11</Name>
+                  <Page isRef="5" />
+                  <Parent isRef="29" />
+                  <Text>{Format("{0:N2}", ForCost)}{Warehouse_movements.TCost__Sff}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <TextFormat Ref="34" type="NumberFormat" isKey="true">
+                    <DecimalSeparator>,</DecimalSeparator>
+                    <GroupSeparator>.</GroupSeparator>
+                    <NegativePattern>1</NegativePattern>
+                  </TextFormat>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text11>
+                <Text24 Ref="35" type="Text" isKey="true">
+                  <Brush>[214:224:236]</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>5.2,0,3.2,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>99da6efed2ff495dbdef22b07cec6715</Guid>
+                  <Linked>True</Linked>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text24</Name>
+                  <Page isRef="5" />
+                  <Parent isRef="29" />
+                  <Text>{ForCategory}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text24>
+                <Text4 Ref="36" type="Text" isKey="true">
+                  <Brush>[214:224:236]</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>0,0,3.2,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>595947620b024510a0b630941b2778a6</Guid>
+                  <Linked>True</Linked>
+                  <Margins>6,0,0,0</Margins>
+                  <Name>Text4</Name>
+                  <Page isRef="5" />
+                  <Parent isRef="29" />
+                  <Text>{Warehouse_movements.MovDate__SDt}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text4>
+                <Text12 Ref="37" type="Text" isKey="true">
+                  <Brush>[214:224:236]</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>14.8,0,0.6,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>ec8f42f9329346a4a9bf57946550b301</Guid>
+                  <Linked>True</Linked>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text12</Name>
+                  <Page isRef="5" />
+                  <Parent isRef="29" />
+                  <Text>{ForUnit}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text12>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <Guid>318287f765f74fe698919118fc5bf98c</Guid>
+              <Linked>True</Linked>
+              <Name>Panel3</Name>
+              <Page isRef="5" />
+              <Parent isRef="28" />
+            </Panel3>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DataRelationName>Warehouse movements</DataRelationName>
+          <DataSourceName>Warehouse movements</DataSourceName>
+          <Filters isList="true" count="0" />
+          <Guid>28726adc6ad145ea840da77f58c57f28</Guid>
+          <Linked>True</Linked>
+          <MasterComponent isRef="11" />
+          <Name>DataBand2</Name>
+          <Page isRef="5" />
+          <Parent isRef="5" />
+          <Sort isList="true" count="0" />
+        </DataBand2>
+        <GroupFooterBand1 Ref="38" type="GroupFooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,11.2,19,1.4</ClientRectangle>
+          <Components isList="true" count="2">
+            <Panel5 Ref="39" type="Stimulsoft.Report.Components.StiPanel" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>9.2,0.2,9.6,0.6</ClientRectangle>
+              <Components isList="true" count="4">
+                <Text26 Ref="40" type="Text" isKey="true">
+                  <Border>Top, Bottom;Black;1;Solid;False;4;Black</Border>
+                  <Brush>[214:224:236]</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>3.8,0,2,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10,Bold</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>97baf90068594fbb9ca3ad985ee64768</Guid>
+                  <HorAlignment>Right</HorAlignment>
+                  <Linked>True</Linked>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text26</Name>
+                  <Page isRef="5" />
+                  <Parent isRef="39" />
+                  <Text>{Format("{0:N2}", IIF(Warehouse_movements.UCtName == "WGH", Sum(DataBand2, ForMove).ToString("#.###"), Sum(DataBand2, ForMove).ToString("#").ToString()))}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <TextFormat Ref="41" type="NumberFormat" isKey="true">
+                    <DecimalSeparator>,</DecimalSeparator>
+                    <GroupSeparator>.</GroupSeparator>
+                    <NegativePattern>1</NegativePattern>
+                  </TextFormat>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text26>
+                <Text13 Ref="42" type="Text" isKey="true">
+                  <Border>Top, Right, Bottom;Black;1;Solid;False;4;Black</Border>
+                  <Brush>[214:224:236]</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>5.8,0,0.6,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10,Bold</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>8dd17c505f4048e7b71ae44c402395cb</Guid>
+                  <Linked>True</Linked>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text13</Name>
+                  <Page isRef="5" />
+                  <Parent isRef="39" />
+                  <Text>{ForUnit}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text13>
+                <Text27 Ref="43" type="Text" isKey="true">
+                  <Border>Top, Left, Bottom;Black;1;Solid;False;4;Black</Border>
+                  <Brush>[0:90:129]</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>0,0,3.8,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10,Bold</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>3ad78cd1e0ae4c2b8b15a7bf27eebec4</Guid>
+                  <Linked>True</Linked>
+                  <Margins>6,0,0,0</Margins>
+                  <Name>Text27</Name>
+                  <Page isRef="5" />
+                  <Parent isRef="39" />
+                  <Text>{__Mss_30212}</Text>
+                  <TextBrush>White</TextBrush>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text27>
+                <Text25 Ref="44" type="Text" isKey="true">
+                  <Border>Top, Right, Bottom;Black;1;Solid;False;4;Black</Border>
+                  <Brush>[214:224:236]</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>6.4,0,3.2,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10,Bold</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>f811aa2aecff48a391a13e16e5bcf6f6</Guid>
+                  <HorAlignment>Right</HorAlignment>
+                  <Linked>True</Linked>
+                  <Margins>0,7.2,0,0</Margins>
+                  <Name>Text25</Name>
+                  <Page isRef="5" />
+                  <Parent isRef="39" />
+                  <Text>{Sum(DataBand2, ForCost)}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <TextFormat Ref="45" type="CurrencyFormat" isKey="true">
+                    <DecimalSeparator>,</DecimalSeparator>
+                    <GroupSeparator>.</GroupSeparator>
+                    <NegativePattern>8</NegativePattern>
+                    <PositivePattern>3</PositivePattern>
+                    <Symbol>€</Symbol>
+                  </TextFormat>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text25>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <Linked>True</Linked>
+              <Name>Panel5</Name>
+              <Page isRef="5" />
+              <Parent isRef="38" />
+            </Panel5>
+            <Text14 Ref="46" type="Text" isKey="true">
+              <Border>Top, Bottom;Black;1;Solid;False;4;Black</Border>
+              <Brush>[214:224:236]</Brush>
+              <ClientRectangle>0.8,0.2,8.6,0</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <Guid>a945337591454d7a92d616ac755209f2</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Linked>True</Linked>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text14</Name>
+              <Page isRef="5" />
+              <Parent isRef="38" />
+              <Text>{ForTotalCost = ForTotalCost + double.Parse(ForCost)}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text14>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Linked>True</Linked>
+          <Name>GroupFooterBand1</Name>
+          <Page isRef="5" />
+          <Parent isRef="5" />
+        </GroupFooterBand1>
+        <FooterBand2 Ref="47" type="FooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,13.4,19,1.6</ClientRectangle>
+          <Components isList="true" count="1">
+            <Panel7 Ref="48" type="Stimulsoft.Report.Components.StiPanel" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>9.2,0.2,9.6,0.6</ClientRectangle>
+              <Components isList="true" count="2">
+                <Text20 Ref="49" type="Text" isKey="true">
+                  <Border>All;Black;1;Solid;False;4;Black</Border>
+                  <Brush>[214:224:236]</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>3.8,0,5.8,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,12,Bold</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>59884b93b0ee43258af62fd4388f3a11</Guid>
+                  <HorAlignment>Center</HorAlignment>
+                  <Linked>True</Linked>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text20</Name>
+                  <Page isRef="5" />
+                  <Parent isRef="48" />
+                  <Text>{ForTotalCost}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <TextFormat Ref="50" type="CurrencyFormat" isKey="true">
+                    <DecimalSeparator>,</DecimalSeparator>
+                    <GroupSeparator>.</GroupSeparator>
+                    <NegativePattern>8</NegativePattern>
+                    <PositivePattern>3</PositivePattern>
+                    <Symbol>€</Symbol>
+                  </TextFormat>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text20>
+                <Text19 Ref="51" type="Text" isKey="true">
+                  <Border>All;Black;1;Solid;False;4;Black</Border>
+                  <Brush>[0:90:129]</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>0,0,3.8,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,12,Bold</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>29916534abe545c1b9791feabeaf29ad</Guid>
+                  <Linked>True</Linked>
+                  <Margins>6,0,0,0</Margins>
+                  <Name>Text19</Name>
+                  <Page isRef="5" />
+                  <Parent isRef="48" />
+                  <Text>{__Mss_30212} {Warehouses.WrhRef}</Text>
+                  <TextBrush>White</TextBrush>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text19>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <Linked>True</Linked>
+              <Name>Panel7</Name>
+              <Page isRef="5" />
+              <Parent isRef="47" />
+            </Panel7>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Guid>1f9a9917927e448cb094e14f9f3e012d</Guid>
+          <Linked>True</Linked>
+          <Name>FooterBand2</Name>
+          <NewPageAfter>True</NewPageAfter>
+          <Page isRef="5" />
+          <Parent isRef="5" />
+        </FooterBand2>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Guid>09e0dd9635174649b18f023a9029b6b3</Guid>
+      <Margins>1,1,1,1</Margins>
+      <Name>ReportPage</Name>
+      <PageHeight>29.7</PageHeight>
+      <PageWidth>21</PageWidth>
+      <Report isRef="0" />
+      <Watermark Ref="52" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <Font>Arial,100</Font>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
+    </ReportPage>
+  </Pages>
+  <PrinterSettings Ref="53" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>WWHH_WWHH_00000100_Warehouse</ReportAlias>
+  <ReportAuthor>SYSADM</ReportAuthor>
+  <ReportChanged>8/7/2013 1:53:12 PM</ReportChanged>
+  <ReportCreated>11/26/2012 12:37:23 PM</ReportCreated>
+  <ReportDescription>{1:31405#Warehouse movements}</ReportDescription>
+  <ReportFile>C:/Development/Integra/Desarrollo/Installation_manager/repository/SYS/reports/WWHH_WWHH_00000100_Warehouse.mrt</ReportFile>
+  <ReportGuid>ca6d69145dbf4b69a590cd4393a236fe</ReportGuid>
+  <ReportName>WWHH_WWHH_00000100_Warehouse</ReportName>
+  <ReportUnit>Centimeters</ReportUnit>
+  <ReportVersion>2013.2.1604</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    public class WWHH_WWHH_00000100_Warehouse : Stimulsoft.Report.StiReport
+    {
+        public WWHH_WWHH_00000100_Warehouse()        {
+            this.InitializeComponent();
+        }
+
+		public string FormatQuantity(double quantity, string quantityCategory, string weightUnit) {
+			if (quantityCategory.Equals("WGH"))
+				return quantity &gt;= 1000.0 ? String.Format("{0:0,0.000}", quantity) + " " + weightUnit : String.Format("{0:0.000}", quantity) + " " + weightUnit;
+			else
+				return String.Format("{0:0,0}", quantity);
+		}
+		
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}
+</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="7">
+    <Titles Ref="54" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>Bottom;[199:213:224];3;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Arial,22,Bold</Font>
+      <Name>Titles</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Titles>
+    <PageHeader Ref="55" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>Bottom;[199:213:224];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Verdana,9</Font>
+      <Name>PageHeader</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </PageHeader>
+    <PageFooter Ref="56" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>Top;[199:213:224];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Verdana,9</Font>
+      <Name>PageFooter</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </PageFooter>
+    <Headers Ref="57" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>All;[131:166:224];1;Solid;False;4;Black</Border>
+      <Brush>[185:218:255]</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Arial,11,Bold</Font>
+      <Name>Headers</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Headers>
+    <DataClean Ref="58" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Verdana,10</Font>
+      <Name>DataClean</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </DataClean>
+    <DataOdd Ref="59" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>All;[216:223:232];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Verdana,10</Font>
+      <Name>DataOdd</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </DataOdd>
+    <DataEven Ref="60" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>All;[216:223:232];1;Solid;False;4;Black</Border>
+      <Brush>[245:245:245]</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Verdana,10</Font>
+      <Name>DataEven</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </DataEven>
+  </Styles>
+</StiSerializer>

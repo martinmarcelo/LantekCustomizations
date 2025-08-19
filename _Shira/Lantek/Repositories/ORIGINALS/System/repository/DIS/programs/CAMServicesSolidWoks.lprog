@@ -1,0 +1,20 @@
+
+
+
+// SolidWorks procedures.
+// -----------
+
+procedure CAMSolidWorks(inFile, outFile, outFileFormat, parameters)
+begin
+	CallTypedStaticFunction("CAMServicesSolidWorks.CAMServicesSolidWorks,CAMServicesSolidWorks", "CAMSolidWorks", "Text,Text,Text,Text", inFile, outFile, outFileFormat, parameters);
+end
+
+procedure CAM2DSolidWorks(inFile, parameters, product, workCenter, material, thickness)
+begin
+	CallTypedStaticFunction("CAMServicesSolidWorks.CAMServicesSolidWorks,CAMServicesSolidWorks", "CAM2DSolidWorks", "Text,Text,Text,Text,Text,LongReal", inFile, parameters, product, workCenter, material, thickness);
+end
+
+procedure CAM3DSolidWorks(inFile, parameters, product, workCenter, material)
+begin
+    CallTypedStaticFunction("CAMServicesSolidWorks.CAMServicesSolidWorks,CAMServicesSolidWorks", "CAM3DSolidWorks", "Text,Text,Text,Text,Text", inFile, parameters, product, workCenter, material);
+end

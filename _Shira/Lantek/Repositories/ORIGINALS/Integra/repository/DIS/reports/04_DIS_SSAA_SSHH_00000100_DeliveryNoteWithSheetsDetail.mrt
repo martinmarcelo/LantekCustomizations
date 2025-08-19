@@ -1,0 +1,1790 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="0" />
+    <DataSources isList="true" count="6">
+      <Delivery_x0020_Notes Ref="2" type="DataTableSource" isKey="true">
+        <Alias>Delivery Notes</Alias>
+        <Columns isList="true" count="96">
+          <value>ShpRef,Reference,System.String</value>
+          <value>ShpRef__Lab,Reference_x0020__x0028_Label_x0029_,System.String</value>
+          <value>OrdRef,Order,System.String</value>
+          <value>OrdRef__Lab,Order_x0020__x0028_Label_x0029_,System.String</value>
+          <value>CusRef,Customer,System.String</value>
+          <value>CusRef__Lab,Customer_x0020__x0028_Label_x0029_,System.String</value>
+          <value>CusName,Customer_x0020_name,System.String</value>
+          <value>CusName__Lab,Customer_x0020_name_x0020__x0028_Label_x0029_,System.String</value>
+          <value>CurName,Currency,System.String</value>
+          <value>CurName__Lab,Currency_x0020__x0028_Label_x0029_,System.String</value>
+          <value>EmpRef,Sales_x0020_Person,System.String</value>
+          <value>EmpRef__Lab,Sales_x0020_Person_x0020__x0028_Label_x0029_,System.String</value>
+          <value>Contact,Associated_x0020_element_x0020_identifier,System.Int32</value>
+          <value>Contact__Lab,Associated_x0020_element_x0020_identifier_x0020__x0028_Label_x0029_,System.String</value>
+          <value>Contact__ScN,Associated_x0020_element_x0020_identifier_x0020__x0028_Value_x0029_,System.String</value>
+          <value>ConSurname1,Contact,System.String</value>
+          <value>ConSurname1__Lab,Contact_x0020__x0028_Label_x0029_,System.String</value>
+          <value>CusORef,Customer_x0020_order,System.String</value>
+          <value>CusORef__Lab,Customer_x0020_order_x0020__x0028_Label_x0029_,System.String</value>
+          <value>CrtDate,Creation_x0020_date,System.DateTime</value>
+          <value>CrtDate__Lab,Creation_x0020_date_x0020__x0028_Label_x0029_,System.String</value>
+          <value>CrtDate__ScN,Creation_x0020_date_x0020__x0028_Value_x0029_,System.String</value>
+          <value>CrtDate__LDt,Creation_x0020_date_x0020__x0028_Long_x0020_date_x0029_,System.String</value>
+          <value>CrtDate__MDt,Creation_x0020_date_x0020__x0028_Medium_x0020_date_x0029_,System.String</value>
+          <value>CrtDate__SDt,Creation_x0020_date_x0020__x0028_Short_x0020_date_x0029_,System.String</value>
+          <value>CDate,Creation_x0020_date,System.DateTime</value>
+          <value>CDate__Lab,Creation_x0020_date_x0020__x0028_Label_x0029_,System.String</value>
+          <value>CDate__ScN,Creation_x0020_date_x0020__x0028_Value_x0029_,System.String</value>
+          <value>CDate__LDt,Creation_x0020_date_x0020__x0028_Long_x0020_date_x0029_,System.String</value>
+          <value>CDate__SDt,Creation_x0020_date_x0020__x0028_Short_x0020_date_x0029_,System.String</value>
+          <value>CarName,Carrier_x0020_name,System.String</value>
+          <value>CarName__Lab,Carrier_x0020_name_x0020__x0028_Label_x0029_,System.String</value>
+          <value>CarRef,Carrier,System.String</value>
+          <value>CarRef__Lab,Carrier_x0020__x0028_Label_x0029_,System.String</value>
+          <value>DDate,Shipment_x0020_date,System.DateTime</value>
+          <value>DDate__Lab,Shipment_x0020_date_x0020__x0028_Label_x0029_,System.String</value>
+          <value>DDate__ScN,Shipment_x0020_date_x0020__x0028_Value_x0029_,System.String</value>
+          <value>DDate__LDt,Shipment_x0020_date_x0020__x0028_Long_x0020_date_x0029_,System.String</value>
+          <value>DDate__SDt,Shipment_x0020_date_x0020__x0028_Short_x0020_date_x0029_,System.String</value>
+          <value>Descrip,Comments,System.String</value>
+          <value>Descrip__Lab,Comments_x0020__x0028_Label_x0029_,System.String</value>
+          <value>NumPack,Number_x0020_of_x0020_packages,System.Int32</value>
+          <value>NumPack__Lab,Number_x0020_of_x0020_packages_x0020__x0028_Label_x0029_,System.String</value>
+          <value>NumPack__ScN,Number_x0020_of_x0020_packages_x0020__x0028_Value_x0029_,System.String</value>
+          <value>SAddress1,Address_x0020_1,System.String</value>
+          <value>SAddress1__Lab,Address_x0020_1_x0020__x0028_Label_x0029_,System.String</value>
+          <value>SAddress1__Add,Address_x0020_1_x0020__x0028_Address_x0029_,System.String</value>
+          <value>SAddress2,Address_x0020_2,System.String</value>
+          <value>SAddress2__Lab,Address_x0020_2_x0020__x0028_Label_x0029_,System.String</value>
+          <value>SAddress3,Address_x0020_3,System.String</value>
+          <value>SAddress3__Lab,Address_x0020_3_x0020__x0028_Label_x0029_,System.String</value>
+          <value>SCity,City,System.String</value>
+          <value>SCity__Lab,City_x0020__x0028_Label_x0029_,System.String</value>
+          <value>SCouName,Country,System.String</value>
+          <value>SCouName__Lab,Country_x0020__x0028_Label_x0029_,System.String</value>
+          <value>PFees,Paid_x0020_fees,System.Boolean</value>
+          <value>PFees__Lab,Paid_x0020_fees_x0020__x0028_Label_x0029_,System.String</value>
+          <value>PFees__ScN,Paid_x0020_fees_x0020__x0028_Value_x0029_,System.String</value>
+          <value>SState,State,System.String</value>
+          <value>SState__Lab,State_x0020__x0028_Label_x0029_,System.String</value>
+          <value>SType,Type,System.String</value>
+          <value>SType__Lab,Type_x0020__x0028_Label_x0029_,System.String</value>
+          <value>SZipCode,Zip_x0020_Code,System.String</value>
+          <value>SZipCode__Lab,Zip_x0020_Code_x0020__x0028_Label_x0029_,System.String</value>
+          <value>ToInvoice,Ready_x0020_to_x0020_invoice,System.Boolean</value>
+          <value>ToInvoice__Lab,Ready_x0020_to_x0020_invoice_x0020__x0028_Label_x0029_,System.String</value>
+          <value>ToInvoice__ScN,Ready_x0020_to_x0020_invoice_x0020__x0028_Value_x0029_,System.String</value>
+          <value>Customer.ComRef,Reference,System.String</value>
+          <value>Customer.ComRef__Lab,Reference_x0020__x0028_Label_x0029_,System.String</value>
+          <value>Customer.LanName,Default_x0020_language,System.String</value>
+          <value>Customer.LanName__Lab,Default_x0020_language_x0020__x0028_Label_x0029_,System.String</value>
+          <value>Customer.ComName,Name,System.String</value>
+          <value>Customer.ComName__Lab,Name_x0020__x0028_Label_x0029_,System.String</value>
+          <value>Currency.CurName,Name,System.String</value>
+          <value>Currency.CurName__Lab,Name_x0020__x0028_Label_x0029_,System.String</value>
+          <value>Employee.EmpRef,Reference,System.String</value>
+          <value>Employee.EmpRef__Lab,Reference_x0020__x0028_Label_x0029_,System.String</value>
+          <value>Employee.WEMail,Work_x0020_E-mail,System.String</value>
+          <value>Employee.WEMail__Lab,Work_x0020_E-mail_x0020__x0028_Label_x0029_,System.String</value>
+          <value>Employee.WPhone,Work_x0020_phone,System.String</value>
+          <value>Employee.WPhone__Lab,Work_x0020_phone_x0020__x0028_Label_x0029_,System.String</value>
+          <value>Employee.EName,Name,System.String</value>
+          <value>Employee.EName__Lab,Name_x0020__x0028_Label_x0029_,System.String</value>
+          <value>Employee.ESurname1,Surname,System.String</value>
+          <value>Employee.ESurname1__Lab,Surname_x0020__x0028_Label_x0029_,System.String</value>
+          <value>Contact.RecID,Element_x0020_identifier,System.Int32</value>
+          <value>Contact.RecID__Lab,Element_x0020_identifier_x0020__x0028_Label_x0029_,System.String</value>
+          <value>Contact.RecID__ScN,Element_x0020_identifier_x0020__x0028_Value_x0029_,System.String</value>
+          <value>Contact.ComRef,Company,System.String</value>
+          <value>Contact.ComRef__Lab,Company_x0020__x0028_Label_x0029_,System.String</value>
+          <value>Contact.ESurname1,Surname,System.String</value>
+          <value>Contact.ESurname1__Lab,Surname_x0020__x0028_Label_x0029_,System.String</value>
+          <value>Contact.ComName,Company_x0020_name,System.String</value>
+          <value>Contact.ComName__Lab,Company_x0020_name_x0020__x0028_Label_x0029_,System.String</value>
+          <value>Contact.EName,Name,System.String</value>
+          <value>Contact.EName__Lab,Name_x0020__x0028_Label_x0029_,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Delivery Notes</Name>
+        <NameInSource>04_DIS_SSAA_SSHH_00000100_DeliveryNoteWithSheetsDetail.Delivery Notes</NameInSource>
+      </Delivery_x0020_Notes>
+      <Delivery_x0020_note_x0020_lines Ref="3" type="DataTableSource" isKey="true">
+        <Alias>Delivery note lines</Alias>
+        <Columns isList="true" count="36">
+          <value>ShpRef,Delivery_x0020_note,System.String</value>
+          <value>ShpRef__Lab,Delivery_x0020_note_x0020__x0028_Label_x0029_,System.String</value>
+          <value>LineNum,Line_x0020_number,System.String</value>
+          <value>LineNum__Lab,Line_x0020_number_x0020__x0028_Label_x0029_,System.String</value>
+          <value>PrdRef,Item,System.String</value>
+          <value>PrdRef__Lab,Item_x0020__x0028_Label_x0029_,System.String</value>
+          <value>DIS_WGHUntName,Weight_x0020_unit,System.String</value>
+          <value>DIS_WGHUntName__Lab,Weight_x0020_unit_x0020__x0028_Label_x0029_,System.String</value>
+          <value>DIS_WGHUCtName,Weight_x0020_unit_x0020_category,System.String</value>
+          <value>DIS_WGHUCtName__Lab,Weight_x0020_unit_x0020_category_x0020__x0028_Label_x0029_,System.String</value>
+          <value>DIS_QUANUntName,Quantity_x0020_unit,System.String</value>
+          <value>DIS_QUANUntName__Lab,Quantity_x0020_unit_x0020__x0028_Label_x0029_,System.String</value>
+          <value>DIS_QUANUCtName,Quantity_x0020_unit_x0020_category,System.String</value>
+          <value>DIS_QUANUCtName__Lab,Quantity_x0020_unit_x0020_category_x0020__x0028_Label_x0029_,System.String</value>
+          <value>LineNumOrg,Origin_x0020_line_x0020_number,System.String</value>
+          <value>LineNumOrg__Lab,Origin_x0020_line_x0020_number_x0020__x0028_Label_x0029_,System.String</value>
+          <value>PrdName,Name,System.String</value>
+          <value>PrdName__Lab,Name_x0020__x0028_Label_x0029_,System.String</value>
+          <value>Quantity,System.Double</value>
+          <value>Quantity__Lab,Quantity_x0020__x0028_Label_x0029_,System.String</value>
+          <value>Quantity__DBD,Quantity_x0020__x0028_Database_x0029_,System.Double</value>
+          <value>Quantity__Scr,Quantity_x0020__x0028_Value_x0029_,System.String</value>
+          <value>Quantity__ScN,Quantity_x0020__x0028_Value_x0029_,System.String</value>
+          <value>Quantity__Dec,Quantity_x0020__x0028_Decimal_x0020_digits_x0029_,System.Int16</value>
+          <value>Quantity__Rnd,Quantity_x0020__x0028_Rounded_x0029_,System.Int16</value>
+          <value>Quantity__Sff,Quantity_x0020__x0028_Suffix_x0029_,System.String</value>
+          <value>Weight,System.Double</value>
+          <value>Weight__Lab,Weight_x0020__x0028_Label_x0029_,System.String</value>
+          <value>Weight__DBD,Weight_x0020__x0028_Database_x0029_,System.Double</value>
+          <value>Weight__Scr,Weight_x0020__x0028_Value_x0029_,System.String</value>
+          <value>Weight__ScN,Weight_x0020__x0028_Value_x0029_,System.String</value>
+          <value>Weight__Dec,Weight_x0020__x0028_Decimal_x0020_digits_x0029_,System.Int16</value>
+          <value>Weight__Rnd,Weight_x0020__x0028_Rounded_x0029_,System.Int16</value>
+          <value>Weight__Sff,Weight_x0020__x0028_Suffix_x0029_,System.String</value>
+          <value>OrdRef,Sale_x0020_order,System.String</value>
+          <value>OrdRef__Lab,Sale_x0020_order_x0020__x0028_Label_x0029_,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Delivery note lines</Name>
+        <NameInSource>04_DIS_SSAA_SSHH_00000100_DeliveryNoteWithSheetsDetail.Delivery note lines</NameInSource>
+      </Delivery_x0020_note_x0020_lines>
+      <Operations Ref="4" type="DataTableSource" isKey="true">
+        <Alias>Operations</Alias>
+        <Columns isList="true" count="13">
+          <value>MnORef,Production_x0020_order,System.String</value>
+          <value>MnORef__Lab,Production_x0020_order_x0020__x0028_Label_x0029_,System.String</value>
+          <value>OprID,Operation_x0020_number,System.Int32</value>
+          <value>OprID__Lab,Operation_x0020_number_x0020__x0028_Label_x0029_,System.String</value>
+          <value>OprID__ScN,Operation_x0020_number_x0020__x0028_Value_x0029_,System.String</value>
+          <value>OrdRef,Associated_x0020_element,System.String</value>
+          <value>OrdRef__Lab,Associated_x0020_element_x0020__x0028_Label_x0029_,System.String</value>
+          <value>DIS_JobRef,Job,System.String</value>
+          <value>DIS_JobRef__Lab,Job_x0020__x0028_Label_x0029_,System.String</value>
+          <value>PrdRefDst,Item,System.String</value>
+          <value>PrdRefDst__Lab,Item_x0020__x0028_Label_x0029_,System.String</value>
+          <value>PrdRef,Base_x0020_item,System.String</value>
+          <value>PrdRef__Lab,Base_x0020_item_x0020__x0028_Label_x0029_,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Operations</Name>
+        <NameInSource>04_DIS_SSAA_SSHH_00000100_DeliveryNoteWithSheetsDetail.Operations</NameInSource>
+      </Operations>
+      <Nestings Ref="5" type="DataTableSource" isKey="true">
+        <Alias>Nestings</Alias>
+        <Columns isList="true" count="9">
+          <value>NstRef,Nesting,System.String</value>
+          <value>NstRef__Lab,Nesting_x0020__x0028_Label_x0029_,System.String</value>
+          <value>MnORef,Production_x0020_order,System.String</value>
+          <value>MnORef__Lab,Production_x0020_order_x0020__x0028_Label_x0029_,System.String</value>
+          <value>OprID,Operation_x0020_number,System.Int32</value>
+          <value>OprID__Lab,Operation_x0020_number_x0020__x0028_Label_x0029_,System.String</value>
+          <value>OprID__ScN,Operation_x0020_number_x0020__x0028_Value_x0029_,System.String</value>
+          <value>PrdRefDst,Item,System.String</value>
+          <value>PrdRefDst__Lab,Item_x0020__x0028_Label_x0029_,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Nestings</Name>
+        <NameInSource>04_DIS_SSAA_SSHH_00000100_DeliveryNoteWithSheetsDetail.Nestings</NameInSource>
+      </Nestings>
+      <Warehouse_x0020_movements Ref="6" type="DataTableSource" isKey="true">
+        <Alias>Warehouse movements</Alias>
+        <Columns isList="true" count="78">
+          <value>MovDate,Date,System.DateTime</value>
+          <value>MovDate__Lab,Date_x0020__x0028_Label_x0029_,System.String</value>
+          <value>MovDate__ScN,Date_x0020__x0028_Value_x0029_,System.String</value>
+          <value>MovDate__LDt,Date_x0020__x0028_Long_x0020_date_x0029_,System.String</value>
+          <value>MovDate__SDt,Date_x0020__x0028_Short_x0020_date_x0029_,System.String</value>
+          <value>Category,System.Int16</value>
+          <value>Category__Lab,Category_x0020__x0028_Label_x0029_,System.String</value>
+          <value>Category__ScN,Category_x0020__x0028_Value_x0029_,System.String</value>
+          <value>Type,System.Int16</value>
+          <value>Type__Lab,Type_x0020__x0028_Label_x0029_,System.String</value>
+          <value>Type__ScN,Type_x0020__x0028_Value_x0029_,System.String</value>
+          <value>Reference,Associated_x0020_element,System.String</value>
+          <value>Reference__Lab,Associated_x0020_element_x0020__x0028_Label_x0029_,System.String</value>
+          <value>PrdRef,Item,System.String</value>
+          <value>PrdRef__Lab,Item_x0020__x0028_Label_x0029_,System.String</value>
+          <value>WrhRef,Warehouse,System.String</value>
+          <value>WrhRef__Lab,Warehouse_x0020__x0028_Label_x0029_,System.String</value>
+          <value>RecID,Element_x0020_identifier,System.Int32</value>
+          <value>RecID__Lab,Element_x0020_identifier_x0020__x0028_Label_x0029_,System.String</value>
+          <value>RecID__ScN,Element_x0020_identifier_x0020__x0028_Value_x0029_,System.String</value>
+          <value>GLS_BatchNo,Tracking_x0020_number,System.String</value>
+          <value>GLS_BatchNo__Lab,Tracking_x0020_number_x0020__x0028_Label_x0029_,System.String</value>
+          <value>PrdName,Item_x0020_name,System.String</value>
+          <value>PrdName__Lab,Item_x0020_name_x0020__x0028_Label_x0029_,System.String</value>
+          <value>UCtName,Unit_x0020_category,System.String</value>
+          <value>UCtName__Lab,Unit_x0020_category_x0020__x0028_Label_x0029_,System.String</value>
+          <value>ILineNum,Line_x0020_number,System.Int32</value>
+          <value>ILineNum__Lab,Line_x0020_number_x0020__x0028_Label_x0029_,System.String</value>
+          <value>ILineNum__ScN,Line_x0020_number_x0020__x0028_Value_x0029_,System.String</value>
+          <value>LineNum,Line_x0020_number,System.String</value>
+          <value>LineNum__Lab,Line_x0020_number_x0020__x0028_Label_x0029_,System.String</value>
+          <value>Tracking_x0020_numbers.BatchNo,Tracking_x0020_number,System.String</value>
+          <value>Tracking_x0020_numbers.BatchNo__Lab,Tracking_x0020_number_x0020__x0028_Label_x0029_,System.String</value>
+          <value>Tracking_x0020_numbers.DIS_CastingNo,Casting_x0020_number,System.String</value>
+          <value>Tracking_x0020_numbers.DIS_CastingNo__Lab,Casting_x0020_number_x0020__x0028_Label_x0029_,System.String</value>
+          <value>Item.PrdRef,Reference,System.String</value>
+          <value>Item.PrdRef__Lab,Reference_x0020__x0028_Label_x0029_,System.String</value>
+          <value>Item.PrdName,Name,System.String</value>
+          <value>Item.PrdName__Lab,Name_x0020__x0028_Label_x0029_,System.String</value>
+          <value>Item.UCtName,Unit_x0020_category,System.String</value>
+          <value>Item.UCtName__Lab,Unit_x0020_category_x0020__x0028_Label_x0029_,System.String</value>
+          <value>Item.DIS_Thickness,Thickness,System.Double</value>
+          <value>Item.DIS_Thickness__Lab,Thickness_x0020__x0028_Label_x0029_,System.String</value>
+          <value>Item.DIS_Thickness__DBD,Thickness_x0020__x0028_Database_x0029_,System.Double</value>
+          <value>Item.DIS_Thickness__Scr,Thickness_x0020__x0028_Value_x0029_,System.String</value>
+          <value>Item.DIS_Thickness__ScN,Thickness_x0020__x0028_Value_x0029_,System.String</value>
+          <value>Item.DIS_Thickness__Dec,Thickness_x0020__x0028_Decimal_x0020_digits_x0029_,System.Int16</value>
+          <value>Item.DIS_Thickness__Rnd,Thickness_x0020__x0028_Rounded_x0029_,System.Int16</value>
+          <value>Item.DIS_Thickness__Sff,Thickness_x0020__x0028_Suffix_x0029_,System.String</value>
+          <value>Item.DIS_MatRef,Material,System.String</value>
+          <value>Item.DIS_MatRef__Lab,Material_x0020__x0028_Label_x0029_,System.String</value>
+          <value>Item.DIS_Length,Length,System.Double</value>
+          <value>Item.DIS_Length__Lab,Length_x0020__x0028_Label_x0029_,System.String</value>
+          <value>Item.DIS_Length__DBD,Length_x0020__x0028_Database_x0029_,System.Double</value>
+          <value>Item.DIS_Length__Scr,Length_x0020__x0028_Value_x0029_,System.String</value>
+          <value>Item.DIS_Length__ScN,Length_x0020__x0028_Value_x0029_,System.String</value>
+          <value>Item.DIS_Length__Dec,Length_x0020__x0028_Decimal_x0020_digits_x0029_,System.Int16</value>
+          <value>Item.DIS_Length__Rnd,Length_x0020__x0028_Rounded_x0029_,System.Int16</value>
+          <value>Item.DIS_Length__Sff,Length_x0020__x0028_Suffix_x0029_,System.String</value>
+          <value>Item.DIS_Area,Area,System.Double</value>
+          <value>Item.DIS_Area__Lab,Area_x0020__x0028_Label_x0029_,System.String</value>
+          <value>Item.DIS_Area__DBD,Area_x0020__x0028_Database_x0029_,System.Double</value>
+          <value>Item.DIS_Area__Scr,Area_x0020__x0028_Value_x0029_,System.String</value>
+          <value>Item.DIS_Area__ScN,Area_x0020__x0028_Value_x0029_,System.String</value>
+          <value>Item.DIS_Area__Dec,Area_x0020__x0028_Decimal_x0020_digits_x0029_,System.Int16</value>
+          <value>Item.DIS_Area__Rnd,Area_x0020__x0028_Rounded_x0029_,System.Int16</value>
+          <value>Item.DIS_Area__Sff,Area_x0020__x0028_Suffix_x0029_,System.String</value>
+          <value>Item.DIS_Width,Width,System.Double</value>
+          <value>Item.DIS_Width__Lab,Width_x0020__x0028_Label_x0029_,System.String</value>
+          <value>Item.DIS_Width__DBD,Width_x0020__x0028_Database_x0029_,System.Double</value>
+          <value>Item.DIS_Width__Scr,Width_x0020__x0028_Value_x0029_,System.String</value>
+          <value>Item.DIS_Width__ScN,Width_x0020__x0028_Value_x0029_,System.String</value>
+          <value>Item.DIS_Width__Dec,Width_x0020__x0028_Decimal_x0020_digits_x0029_,System.Int16</value>
+          <value>Item.DIS_Width__Rnd,Width_x0020__x0028_Rounded_x0029_,System.Int16</value>
+          <value>Item.DIS_Width__Sff,Width_x0020__x0028_Suffix_x0029_,System.String</value>
+          <value>Item.Image,Image,System.String</value>
+          <value>Item.Image__Lab,Image_x0020__x0028_Label_x0029_,System.String</value>
+          <value>Item.Image__DBD,Image_x0020__x0028_Database_x0029_,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Warehouse movements</Name>
+        <NameInSource>04_DIS_SSAA_SSHH_00000100_DeliveryNoteWithSheetsDetail.Warehouse movements</NameInSource>
+      </Warehouse_x0020_movements>
+      <Configuration_x0020_parameters Ref="7" type="DataTableSource" isKey="true">
+        <Alias>Configuration parameters</Alias>
+        <Columns isList="true" count="9">
+          <value>EType,For_x0020_whom_x003F_,System.Int16</value>
+          <value>EType__Lab,For_x0020_whom_x003F__x0020__x0028_Label_x0029_,System.String</value>
+          <value>EType__ScN,For_x0020_whom_x003F__x0020__x0028_Value_x0029_,System.String</value>
+          <value>EName,Element,System.String</value>
+          <value>EName__Lab,Element_x0020__x0028_Label_x0029_,System.String</value>
+          <value>ParName,Name,System.String</value>
+          <value>ParName__Lab,Name_x0020__x0028_Label_x0029_,System.String</value>
+          <value>ParValue,Value,System.String</value>
+          <value>ParValue__Lab,Value_x0020__x0028_Label_x0029_,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Configuration parameters</Name>
+        <NameInSource>04_DIS_SSAA_SSHH_00000100_DeliveryNoteWithSheetsDetail.Configuration parameters</NameInSource>
+      </Configuration_x0020_parameters>
+    </DataSources>
+    <Relations isList="true" count="4">
+      <Delivery_x0020_Notes Ref="8" type="DataRelation" isKey="true">
+        <Alias>Delivery Notes</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>ShpRef</value>
+        </ChildColumns>
+        <ChildSource isRef="3" />
+        <Dictionary isRef="1" />
+        <Name>Delivery Notes</Name>
+        <NameInSource>Lines</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>ShpRef</value>
+        </ParentColumns>
+        <ParentSource isRef="2" />
+      </Delivery_x0020_Notes>
+      <Delivery_x0020_Notes Ref="9" type="DataRelation" isKey="true">
+        <Alias>Delivery Notes</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>OrdRef</value>
+        </ChildColumns>
+        <ChildSource isRef="4" />
+        <Dictionary isRef="1" />
+        <Name>Delivery Notes</Name>
+        <NameInSource>Operations_child_Delivery Notes</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>OrdRef</value>
+        </ParentColumns>
+        <ParentSource isRef="2" />
+      </Delivery_x0020_Notes>
+      <Operations Ref="10" type="DataRelation" isKey="true">
+        <Alias>Operations</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>OprID</value>
+        </ChildColumns>
+        <ChildSource isRef="5" />
+        <Dictionary isRef="1" />
+        <Name>Operations</Name>
+        <NameInSource>Nestings_child_Operations</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>OprID</value>
+        </ParentColumns>
+        <ParentSource isRef="4" />
+      </Operations>
+      <Nestings Ref="11" type="DataRelation" isKey="true">
+        <Alias>Nestings</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>LineNum</value>
+        </ChildColumns>
+        <ChildSource isRef="6" />
+        <Dictionary isRef="1" />
+        <Name>Nestings</Name>
+        <NameInSource>Warehouse movements_child_Nestings</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>NstRef</value>
+        </ParentColumns>
+        <ParentSource isRef="5" />
+      </Nestings>
+    </Relations>
+    <Report isRef="0" />
+    <Variables isList="true" count="45">
+      <value>,__Sys_DatePattern,__Sys_DatePattern,System.String,,False,False</value>
+      <value>,__Mss_33466,__Mss_33466,System.String,,False,False</value>
+      <value>,__EntImage,__EntImage,System.String,,False,False</value>
+      <value>,__EntDsc,__EntDsc,System.String,,False,False</value>
+      <value>,__EntAddress,__EntAddress,System.String,,False,False</value>
+      <value>,__EntVATNum,__EntVATNum,System.String,,False,False</value>
+      <value>,__EntPhone,__EntPhone,System.String,,False,False</value>
+      <value>,__EntFax,__EntFax,System.String,,False,False</value>
+      <value>,__EntEMail,__EntEMail,System.String,,False,False</value>
+      <value>,__EntWeb,__EntWeb,System.String,,False,False</value>
+      <value>,__Mss_30187,__Mss_30187,System.String,,False,False</value>
+      <value>,__Dsc_SType,__Dsc_SType,System.String,_x007B_SSAA_SSHH_00000100.SType_x007D_,False,False</value>
+      <value>,__Dsc_OrdRef,__Dsc_OrdRef,System.String,_x007B_SSAA_SSHH_00000100.OrdRef_x007D_,False,False</value>
+      <value>,__Dsc_ToInvoice,__Dsc_ToInvoice,System.String,_x007B_SSAA_SSHH_00000100.ToInvoice_x007D_,False,False</value>
+      <value>,__Mss_30136,__Mss_30136,System.String,,False,False</value>
+      <value>,__Dsc_NumPack,__Dsc_NumPack,System.String,_x007B_SSAA_SSHH_00000100.NumPack_x007D_,False,False</value>
+      <value>,__Dsc_PFees,__Dsc_PFees,System.String,_x007B_SSAA_SSHH_00000100.PFees_x007D_,False,False</value>
+      <value>,__Dsc_DDate,__Dsc_DDate,System.String,_x007B_SSAA_SSHH_00000100.DDate_x007D_,False,False</value>
+      <value>,__Dsc_CDate,__Dsc_CDate,System.String,_x007B_SSAA_SSHH_00000100.CDate_x007D_,False,False</value>
+      <value>,__Dsc_ShpRef,__Dsc_ShpRef,System.String,_x007B_SSAA_SSHH_00000100.ShpRef_x007D_,False,False</value>
+      <value>,__Mss_316,__Mss_316,System.String,,False,False</value>
+      <value>,__Mss_270,__Mss_270,System.String,,False,False</value>
+      <value>,__Mss_241,__Mss_241,System.String,,False,False</value>
+      <value>,__Mss_237,__Mss_237,System.String,,False,False</value>
+      <value>,__Mss_318,__Mss_318,System.String,,False,False</value>
+      <value>,ForPor,ForPor,System.String,IIF_x0028_Delivery_Notes.PFees_x0020__x003D__x003D__x0020_true_x002C__x0020___Mss_425_x002C__x0020___Mss_426_x0029_.ToString_x0028__x0029_,True,True</value>
+      <value>,__Mss_426,__Mss_426,System.String,,False,False</value>
+      <value>,__Mss_425,__Mss_425,System.String,,False,False</value>
+      <value>,ForCheckImage,ForCheckImage,System.Boolean,false,False,False</value>
+      <value>,__Dsc_Quantity,__Dsc_Quantity,System.String,_x007B_SSAA_SSHH_00000200.Quantity_x007D_,False,False</value>
+      <value>,__Dsc_PrdName,__Dsc_PrdName,System.String,_x007B_SSAA_SSHH_00000200.PrdName_x007D_,False,False</value>
+      <value>,__Mss_30149,__Mss_30149,System.String,,False,False</value>
+      <value>,ForProdName,ForProdName,System.String,IIF_x0028_Delivery_note_lines.PrdName_x0020__x0021__x003D__x0020__x0022__x0022__x002C__x0020_Delivery_note_lines.PrdRef_x0020__x002B__x0020__x0022__x002C__x0020__x0022__x0020__x002B__x0020_Delivery_note_lines.PrdName_x002C__x0020_Delivery_note_lines.PrdRef_x0029_.ToString_x0028__x0029_,True,True</value>
+      <value>,ForPage,ForPage,System.String,,False,False</value>
+      <value>,__Dsc_UPrice,__Dsc_UPrice,System.String,_x007B_SSAA_SSHH_00000200.UPrice_x007D_,False,False</value>
+      <value>,__Dsc_TPrice,__Dsc_TPrice,System.String,_x007B_SSAA_SSHH_00000200.TPrice_x007D_,False,False</value>
+      <value>,__Mss_60001292,__Mss_60001292,System.String,,False,False</value>
+      <value>,__Mss_30447,__Mss_30447,System.String,,False,False</value>
+      <value>,__Mss_33037,__Mss_33037,System.String,,False,False</value>
+      <value>,__Mss_60000942,__Mss_60000942,System.String,,False,False</value>
+      <value>,__Mss_30497,__Mss_30497,System.String,,False,False</value>
+      <value>,__Mss_60000522,__Mss_60000522,System.String,,False,False</value>
+      <value>,ForSize,ForSize,System.String,Warehouse_movements.Item_DIS_Length__Scr_x0020__x002B__x0020__x0022__x0020_x_x0020__x0022__x0020__x002B__x0020_Warehouse_movements.Item_DIS_Width__Scr_x0020__x002B__x0020__x0022__x0020_x_x0020__x0022__x0020__x002B__x0020_Warehouse_movements.Item_DIS_Thickness__Scr,True,True</value>
+      <value>,__Dsc_Descrip,__Dsc_Descrip,System.String,_x007B_SSAA_SSHH_00000100.Descrip_x007D_,False,False</value>
+      <value>,__Mss_30905,__Mss_30905,System.String,,False,False</value>
+    </Variables>
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <MetaTags isList="true" count="0" />
+  <NumberOfPass>DoublePass</NumberOfPass>
+  <Pages isList="true" count="1">
+    <ReportPage Ref="12" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="16">
+        <PageFooterBand Ref="13" type="PageFooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,52.2,19,3.2</ClientRectangle>
+          <Components isList="true" count="14">
+            <Text68 Ref="14" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.4,1,6.2,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10</Font>
+              <Guid>721d7e7f24f742ecaf3f63a2079212e1</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text68</Name>
+              <Page isRef="12" />
+              <Parent isRef="13" />
+              <Text>{__EntDsc}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text68>
+            <Text69 Ref="15" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.4,1.6,6.2,1</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10</Font>
+              <Guid>bfe61486e1694514b00411ae0ad75eb8</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text69</Name>
+              <Page isRef="12" />
+              <Parent isRef="13" />
+              <Text>{__EntAddress}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text69>
+            <Text72 Ref="16" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>7,2.2,1.8,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10</Font>
+              <Guid>c5c7e9efd9ee44a49fba07f420660303</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text72</Name>
+              <Page isRef="12" />
+              <Parent isRef="13" />
+              <Text>{__Mss_241}:</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text72>
+            <Text73 Ref="17" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>9,1,2.8,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10</Font>
+              <Guid>df6dd95f164d48939700f26d998d68bc</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text73</Name>
+              <Page isRef="12" />
+              <Parent isRef="13" />
+              <Text>{__EntVATNum}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text73>
+            <Text74 Ref="18" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>9,1.6,2.8,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10</Font>
+              <Guid>df2bd606f43c484abb27b4e40620008f</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text74</Name>
+              <Page isRef="12" />
+              <Parent isRef="13" />
+              <Text>{__EntPhone}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text74>
+            <Text75 Ref="19" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>9,2.2,2.8,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10</Font>
+              <Guid>b2e03664b7394cc7bfc772169c7bba7a</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text75</Name>
+              <Page isRef="12" />
+              <Parent isRef="13" />
+              <Text>{__EntFax}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text75>
+            <Text76 Ref="20" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>12.2,1,2.8,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10</Font>
+              <Guid>0b9eb8ed0acb4c4cae212cfcd661ac85</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text76</Name>
+              <Page isRef="12" />
+              <Parent isRef="13" />
+              <Text>{__Mss_237}:</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text76>
+            <Text77 Ref="21" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>12.2,1.6,2.8,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10</Font>
+              <Guid>e9f01f5b09ff4fdb9d9b50def9b0b196</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text77</Name>
+              <Page isRef="12" />
+              <Parent isRef="13" />
+              <Text>{__Mss_318}:</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text77>
+            <Text79 Ref="22" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>15.2,1,3.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10</Font>
+              <Guid>ee23864469d3474aab400fc17b3e47b6</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text79</Name>
+              <Page isRef="12" />
+              <Parent isRef="13" />
+              <Text>{__EntEMail}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text79>
+            <Text80 Ref="23" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>15.2,1.6,3.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10</Font>
+              <Guid>7d7f6727ea7d41aca710f21f919bdaa0</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text80</Name>
+              <Page isRef="12" />
+              <Parent isRef="13" />
+              <Text>{__EntWeb}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text80>
+            <Text53 Ref="24" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>7,1,1.8,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10</Font>
+              <Guid>bb4d51956c2c4317bf60e72315af2a9d</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text53</Name>
+              <Page isRef="12" />
+              <Parent isRef="13" />
+              <Text>{__Mss_316}:</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text53>
+            <Text51 Ref="25" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>7,1.6,1.8,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10</Font>
+              <Guid>be4f107d74ff4ee8be5f2bf3b49929a0</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text51</Name>
+              <Page isRef="12" />
+              <Parent isRef="13" />
+              <Text>{__Mss_270}:</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text51>
+            <Text82 Ref="26" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>13.2,0.2,5.2,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,8</Font>
+              <Guid>42785ba29eb8476fb24015fae76fb5ba</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text82</Name>
+              <Page isRef="12" />
+              <Parent isRef="13" />
+              <Text>{ForPage = Replace(Replace(__Mss_33466, "@#PAGENUMBER#@", PageNumber),  "@#TOTALPAGECOUNT#@", TotalPageCount)}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text82>
+            <HorizontalLinePrimitive1 Ref="27" type="HorizontalLinePrimitive" isKey="true">
+              <ClientRectangle>0,0.7,19,0.0254</ClientRectangle>
+              <Color>Black</Color>
+              <EndCap Ref="28" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </EndCap>
+              <Name>HorizontalLinePrimitive1</Name>
+              <Page isRef="12" />
+              <Parent isRef="13" />
+              <StartCap Ref="29" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </StartCap>
+            </HorizontalLinePrimitive1>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>PageFooterBand</Name>
+          <Page isRef="12" />
+          <Parent isRef="12" />
+        </PageFooterBand>
+        <DeliveryNote Ref="30" type="DataBand" isKey="true">
+          <AfterPrintEvent>ForCheckImage = CheckReportImageParameter(ForCheckImage, Configuration_parameters.ParName, Configuration_parameters.ParValue)</AfterPrintEvent>
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,0.4,19,8</ClientRectangle>
+          <Components isList="true" count="30">
+            <Image1 Ref="31" type="Image" isKey="true">
+              <AspectRatio>True</AspectRatio>
+              <Border>None;[199:213:224];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.2,0.6,2.6,2.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <ImageURL>{__EntImage}</ImageURL>
+              <Name>Image1</Name>
+              <Page isRef="12" />
+              <Parent isRef="30" />
+              <Stretch>True</Stretch>
+            </Image1>
+            <Text1 Ref="32" type="Text" isKey="true">
+              <Border>None;[199:213:224];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>3.2,0.8,4.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10,Bold</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text1</Name>
+              <Page isRef="12" />
+              <Parent isRef="30" />
+              <Text>{__EntDsc}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text1>
+            <Text2 Ref="33" type="Text" isKey="true">
+              <Border>None;[199:213:224];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>3,1.4,5,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text2</Name>
+              <Page isRef="12" />
+              <Parent isRef="30" />
+              <Text>{Delivery_Notes.Employee_EName__Lab}:</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text2>
+            <Text3 Ref="34" type="Text" isKey="true">
+              <Border>None;[199:213:224];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>3,1.8,5,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text3</Name>
+              <Page isRef="12" />
+              <Parent isRef="30" />
+              <Text>{Delivery_Notes.Employee_WPhone__Lab}:</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text3>
+            <Text4 Ref="35" type="Text" isKey="true">
+              <Border>None;[199:213:224];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>3,2.2,5,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text4</Name>
+              <Page isRef="12" />
+              <Parent isRef="30" />
+              <Text>{Delivery_Notes.Employee_WEMail__Lab}:</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text4>
+            <Text5 Ref="36" type="Text" isKey="true">
+              <Border>None;[199:213:224];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>8.2,1.4,10.4,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text5</Name>
+              <Page isRef="12" />
+              <Parent isRef="30" />
+              <Text>{IIF(Delivery_Notes.Employee_EName == "",Delivery_Notes.Employee_EmpRef,IIF(Delivery_Notes.Employee_ESurname1 == "",Delivery_Notes.Employee_EName, Delivery_Notes.Employee_EName + " " + Delivery_Notes.Employee_ESurname1 ))}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text5>
+            <Text6 Ref="37" type="Text" isKey="true">
+              <Border>None;[199:213:224];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>8.2,1.8,10.4,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text6</Name>
+              <Page isRef="12" />
+              <Parent isRef="30" />
+              <Text>{Delivery_Notes.Employee_WPhone}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text6>
+            <Text7 Ref="38" type="Text" isKey="true">
+              <Border>None;[199:213:224];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>8.2,2.2,10.4,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text7</Name>
+              <Page isRef="12" />
+              <Parent isRef="30" />
+              <Text>{Delivery_Notes.Employee_WEMail}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text7>
+            <Text8 Ref="39" type="Text" isKey="true">
+              <Border>None;[199:213:224];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>11.2,3.8,7.4,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text8</Name>
+              <Page isRef="12" />
+              <Parent isRef="30" />
+              <Text>{Delivery_Notes.CusName}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text8>
+            <Text9 Ref="40" type="Text" isKey="true">
+              <Border>None;[199:213:224];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>11.4,5,7.2,2.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text9</Name>
+              <Page isRef="12" />
+              <Parent isRef="30" />
+              <Text>{Delivery_Notes.SAddress1__Add}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+            </Text9>
+            <Text10 Ref="41" type="Text" isKey="true">
+              <Border>None;[199:213:224];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>11.4,4.4,7.2,0.6</ClientRectangle>
+              <Conditions isList="true" count="1">
+                <value>_x007B_Delivery_Notes.CusName_x0020__x003D__x003D__x0022__x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+              </Conditions>
+              <Font>Calibri Light,10</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text10</Name>
+              <Page isRef="12" />
+              <Parent isRef="30" />
+              <Text>{Delivery_Notes.ConSurname1__Lab}: {IIF(Delivery_Notes.Contact_EName == "", Delivery_Notes.Contact_ESurname1, Delivery_Notes.Contact_EName + " " + Delivery_Notes.Contact_ESurname1)}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text10>
+            <Text11 Ref="42" type="Text" isKey="true">
+              <Border>None;[199:213:224];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>8.8,0.4,8.8,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,18,Bold</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text11</Name>
+              <Page isRef="12" />
+              <Parent isRef="30" />
+              <Text>{__Mss_30187}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text11>
+            <Text13 Ref="43" type="Text" isKey="true">
+              <Border>None;[199:213:224];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.8,5,3.8,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10,Bold</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text13</Name>
+              <Page isRef="12" />
+              <Parent isRef="30" />
+              <Text>{__Dsc_OrdRef}:</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text13>
+            <Text14 Ref="44" type="Text" isKey="true">
+              <Border>None;[199:213:224];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.8,5.4,3.8,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10,Bold</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text14</Name>
+              <Page isRef="12" />
+              <Parent isRef="30" />
+              <Text>{Delivery_Notes.CusORef__Lab}:</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text14>
+            <Text15 Ref="45" type="Text" isKey="true">
+              <Border>None;[199:213:224];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.8,6,3.8,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10,Bold</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text15</Name>
+              <Page isRef="12" />
+              <Parent isRef="30" />
+              <Text>{__Dsc_ToInvoice}:</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text15>
+            <Text16 Ref="46" type="Text" isKey="true">
+              <Border>None;[199:213:224];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.8,6.4,3.8,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10,Bold</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text16</Name>
+              <Page isRef="12" />
+              <Parent isRef="30" />
+              <Text>{__Mss_30136}:</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text16>
+            <Text17 Ref="47" type="Text" isKey="true">
+              <Border>None;[199:213:224];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.8,6.8,3.8,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10,Bold</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text17</Name>
+              <Page isRef="12" />
+              <Parent isRef="30" />
+              <Text>{__Dsc_NumPack}:</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text17>
+            <Text18 Ref="48" type="Text" isKey="true">
+              <Border>None;[199:213:224];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.8,7.2,3.8,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10,Bold</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text18</Name>
+              <Page isRef="12" />
+              <Parent isRef="30" />
+              <Text>{__Dsc_PFees}:</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text18>
+            <Text19 Ref="49" type="Text" isKey="true">
+              <Border>None;[199:213:224];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>5.8,7.2,3,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text19</Name>
+              <Page isRef="12" />
+              <Parent isRef="30" />
+              <Text>{ForPor}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text19>
+            <Text20 Ref="50" type="Text" isKey="true">
+              <Border>None;[199:213:224];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>5.8,6.8,3,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text20</Name>
+              <Page isRef="12" />
+              <Parent isRef="30" />
+              <Text>{Delivery_Notes.NumPack}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text20>
+            <Text21 Ref="51" type="Text" isKey="true">
+              <Border>None;[199:213:224];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>5.8,6.4,3,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text21</Name>
+              <Page isRef="12" />
+              <Parent isRef="30" />
+              <Text>{IIF(Delivery_Notes.CarName == "", Delivery_Notes.CarRef, Delivery_Notes.CarRef + ", " + Delivery_Notes.CarName).ToString()}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text21>
+            <Text22 Ref="52" type="Text" isKey="true">
+              <Border>None;[199:213:224];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>5.8,6,3,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text22</Name>
+              <Page isRef="12" />
+              <Parent isRef="30" />
+              <Text>{Delivery_Notes.ToInvoice__ScN}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text22>
+            <Text23 Ref="53" type="Text" isKey="true">
+              <Border>None;[199:213:224];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>5.8,5.4,3,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text23</Name>
+              <Page isRef="12" />
+              <Parent isRef="30" />
+              <Text>{Delivery_Notes.CusORef}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text23>
+            <Text24 Ref="54" type="Text" isKey="true">
+              <Border>None;[199:213:224];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>5.8,5,3,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text24</Name>
+              <Page isRef="12" />
+              <Parent isRef="30" />
+              <Text>{Delivery_Notes.OrdRef}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text24>
+            <Text26 Ref="55" type="Text" isKey="true">
+              <Border>None;[199:213:224];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.8,3.6,3.8,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10,Bold</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text26</Name>
+              <Page isRef="12" />
+              <Parent isRef="30" />
+              <Text>{__Dsc_ShpRef}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text26>
+            <Text27 Ref="56" type="Text" isKey="true">
+              <Border>None;[199:213:224];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.8,4,3.8,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10,Bold</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text27</Name>
+              <Page isRef="12" />
+              <Parent isRef="30" />
+              <Text>{__Dsc_CDate}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text27>
+            <Text28 Ref="57" type="Text" isKey="true">
+              <Border>None;[199:213:224];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.8,4.4,3.8,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10,Bold</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text28</Name>
+              <Page isRef="12" />
+              <Parent isRef="30" />
+              <Text>{__Dsc_DDate}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text28>
+            <Text29 Ref="58" type="Text" isKey="true">
+              <Border>None;[199:213:224];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>5.8,3.6,3,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text29</Name>
+              <Page isRef="12" />
+              <Parent isRef="30" />
+              <Text>{Delivery_Notes.ShpRef}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+            </Text29>
+            <Text30 Ref="59" type="Text" isKey="true">
+              <Border>None;[199:213:224];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>5.8,4,3,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text30</Name>
+              <Page isRef="12" />
+              <Parent isRef="30" />
+              <Text>{Delivery_Notes.CDate__SDt}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+            </Text30>
+            <Text31 Ref="60" type="Text" isKey="true">
+              <Border>None;[199:213:224];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>5.8,4.4,3,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text31</Name>
+              <Page isRef="12" />
+              <Parent isRef="30" />
+              <Text>{Delivery_Notes.DDate__SDt}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+            </Text31>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DataRelationName isNull="true" />
+          <DataSourceName>Delivery Notes</DataSourceName>
+          <Filters isList="true" count="0" />
+          <Name>DeliveryNote</Name>
+          <Page isRef="12" />
+          <Parent isRef="12" />
+          <PrintIfDetailEmpty>True</PrintIfDetailEmpty>
+          <Sort isList="true" count="0" />
+        </DeliveryNote>
+        <LinesHeader Ref="61" type="HeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,9.2,19,0</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <Name>LinesHeader</Name>
+          <Page isRef="12" />
+          <Parent isRef="12" />
+        </LinesHeader>
+        <LinesHeaderNOimage Ref="62" type="ChildBand" isKey="true">
+          <Brush>[216:216:216]</Brush>
+          <ClientRectangle>0,10,19,0.6</ClientRectangle>
+          <Components isList="true" count="4">
+            <Text32 Ref="63" type="Text" isKey="true">
+              <Border>None;[199:213:224];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,1.6,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text32</Name>
+              <Page isRef="12" />
+              <Parent isRef="62" />
+              <Text>#</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text32>
+            <Text33 Ref="64" type="Text" isKey="true">
+              <Border>None;[199:213:224];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.6,0,1.6,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text33</Name>
+              <Page isRef="12" />
+              <Parent isRef="62" />
+              <Text>{__Dsc_Quantity}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text33>
+            <Text34 Ref="65" type="Text" isKey="true">
+              <Border>None;[199:213:224];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>3.2,0,13,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text34</Name>
+              <Page isRef="12" />
+              <Parent isRef="62" />
+              <Text>{__Dsc_PrdName}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text34>
+            <Text35 Ref="66" type="Text" isKey="true">
+              <Border>None;[199:213:224];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>16.2,0,2.6,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10,Bold</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text35</Name>
+              <Page isRef="12" />
+              <Parent isRef="62" />
+              <Text>{__Mss_30149}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text35>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>LinesHeaderNOimage</Name>
+          <Page isRef="12" />
+          <Parent isRef="12" />
+        </LinesHeaderNOimage>
+        <DeliveryNoteLines Ref="67" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,11.4,19,0</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <DataRelationName>Lines</DataRelationName>
+          <DataSourceName>Delivery note lines</DataSourceName>
+          <Filters isList="true" count="0" />
+          <MasterComponent isRef="30" />
+          <Name>DeliveryNoteLines</Name>
+          <Page isRef="12" />
+          <Parent isRef="12" />
+          <PrintIfDetailEmpty>True</PrintIfDetailEmpty>
+          <Sort isList="true" count="2">
+            <value>ASC</value>
+            <value>LineNum</value>
+          </Sort>
+        </DeliveryNoteLines>
+        <LinesNOImage Ref="68" type="ChildBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,12.2,19,1.2</ClientRectangle>
+          <Components isList="true" count="5">
+            <Text40 Ref="69" type="Text" isKey="true">
+              <Border>None;[199:213:224];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0.2,1.4,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text40</Name>
+              <Page isRef="12" />
+              <Parent isRef="68" />
+              <Text>{Delivery_note_lines.LineNum}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text40>
+            <Text43 Ref="70" type="Text" isKey="true">
+              <Border>None;[199:213:224];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.2,0.2,2,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10</Font>
+              <Guid>9b2afbc77df94730bbe1de61550d5e51</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text43</Name>
+              <Page isRef="12" />
+              <Parent isRef="68" />
+              <Text>{Delivery_note_lines.Quantity__Scr}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text43>
+            <Text47 Ref="71" type="Text" isKey="true">
+              <Border>None;[199:213:224];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>3.2,0.2,13,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10</Font>
+              <Guid>ed79f9dc848a43c8ae9eb96540437869</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text47</Name>
+              <Page isRef="12" />
+              <Parent isRef="68" />
+              <Text>{ForProdName}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text47>
+            <Text39 Ref="72" type="Text" isKey="true">
+              <Border>None;[199:213:224];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>16.2,0.2,2.6,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10</Font>
+              <Guid>d3e653d41f5145cd88f444d58257ae13</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text39</Name>
+              <Page isRef="12" />
+              <Parent isRef="68" />
+              <Text>{Delivery_note_lines.Weight__Scr}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text39>
+            <HorizontalLinePrimitive3 Ref="73" type="HorizontalLinePrimitive" isKey="true">
+              <ClientRectangle>0.2,1.2,18.8,0.0254</ClientRectangle>
+              <Color>216, 216, 216</Color>
+              <EndCap Ref="74" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </EndCap>
+              <Name>HorizontalLinePrimitive3</Name>
+              <Page isRef="12" />
+              <Parent isRef="68" />
+              <StartCap Ref="75" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </StartCap>
+            </HorizontalLinePrimitive3>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>LinesNOImage</Name>
+          <Page isRef="12" />
+          <Parent isRef="12" />
+        </LinesNOImage>
+        <FooterBand1 Ref="76" type="FooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,14.2,19,0</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <Name>FooterBand1</Name>
+          <Page isRef="12" />
+          <Parent isRef="12" />
+        </FooterBand1>
+        <DataBand1 Ref="77" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,15,19,0</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <DataRelationName>Operations_child_Delivery Notes</DataRelationName>
+          <DataSourceName>Operations</DataSourceName>
+          <Filters isList="true" count="0" />
+          <MasterComponent isRef="30" />
+          <Name>DataBand1</Name>
+          <Page isRef="12" />
+          <Parent isRef="12" />
+          <PrintIfDetailEmpty>True</PrintIfDetailEmpty>
+          <Sort isList="true" count="0" />
+        </DataBand1>
+        <DataBand4 Ref="78" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,15.8,19,0</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <DataRelationName>Nestings_child_Operations</DataRelationName>
+          <DataSourceName>Nestings</DataSourceName>
+          <Filters isList="true" count="0" />
+          <MasterComponent isRef="77" />
+          <Name>DataBand4</Name>
+          <Page isRef="12" />
+          <Parent isRef="12" />
+          <PrintIfDetailEmpty>True</PrintIfDetailEmpty>
+          <Sort isList="true" count="0" />
+        </DataBand4>
+        <HeaderBand1 Ref="79" type="HeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,16.6,19,1.4</ClientRectangle>
+          <Components isList="true" count="6">
+            <Text37 Ref="80" type="Text" isKey="true">
+              <Border>None;[199:213:224];1;Solid;False;4;Black</Border>
+              <Brush>[230:230:230]</Brush>
+              <ClientRectangle>0.4,0.8,3.4,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10,Bold</Font>
+              <Margins>8,0,0,0</Margins>
+              <Name>Text37</Name>
+              <Page isRef="12" />
+              <Parent isRef="79" />
+              <Text>{__Mss_30447}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text37>
+            <Text38 Ref="81" type="Text" isKey="true">
+              <Border>None;[199:213:224];1;Solid;False;4;Black</Border>
+              <Brush>[230:230:230]</Brush>
+              <ClientRectangle>3.8,0.8,3.6,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text38</Name>
+              <Page isRef="12" />
+              <Parent isRef="79" />
+              <Text>{__Mss_33037}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text38>
+            <Text41 Ref="82" type="Text" isKey="true">
+              <Border>None;[199:213:224];1;Solid;False;4;Black</Border>
+              <Brush>[230:230:230]</Brush>
+              <ClientRectangle>7.4,0.8,4.2,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text41</Name>
+              <Page isRef="12" />
+              <Parent isRef="79" />
+              <Text>{__Mss_60000942}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text41>
+            <Text42 Ref="83" type="Text" isKey="true">
+              <Border>None;[199:213:224];1;Solid;False;4;Black</Border>
+              <Brush>[230:230:230]</Brush>
+              <ClientRectangle>11.6,0.8,3.8,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text42</Name>
+              <Page isRef="12" />
+              <Parent isRef="79" />
+              <Text>{__Mss_30497}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text42>
+            <Text44 Ref="84" type="Text" isKey="true">
+              <Border>None;[199:213:224];1;Solid;False;4;Black</Border>
+              <Brush>[230:230:230]</Brush>
+              <ClientRectangle>15.4,0.8,3.2,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10,Bold</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,10,0,0</Margins>
+              <Name>Text44</Name>
+              <Page isRef="12" />
+              <Parent isRef="79" />
+              <Text>{__Mss_60000522}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text44>
+            <Text36 Ref="85" type="Text" isKey="true">
+              <Border>None;[199:213:224];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.4,0.2,3.2,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text36</Name>
+              <Page isRef="12" />
+              <Parent isRef="79" />
+              <Text>{__Mss_60001292}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text36>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>HeaderBand1</Name>
+          <Page isRef="12" />
+          <Parent isRef="12" />
+          <PrintIfEmpty>True</PrintIfEmpty>
+        </HeaderBand1>
+        <GroupHeaderBand1 Ref="86" type="GroupHeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <CanShrink>True</CanShrink>
+          <ClientRectangle>0,18.8,19,0.6</ClientRectangle>
+          <Components isList="true" count="6">
+            <Text48 Ref="87" type="Text" isKey="true">
+              <Border>None;[199:213:224];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.6,0,3.2,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text48</Name>
+              <Page isRef="12" />
+              <Parent isRef="86" />
+              <Text>{Warehouse_movements.PrdRef}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text48>
+            <Text50 Ref="88" type="Text" isKey="true">
+              <Border>None;[199:213:224];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>3.8,0,3.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text50</Name>
+              <Page isRef="12" />
+              <Parent isRef="86" />
+              <Text>{Warehouse_movements.Tracking_numbers_BatchNo}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text50>
+            <Text45 Ref="89" type="Text" isKey="true">
+              <Border>None;[199:213:224];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>7.4,0,4.2,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text45</Name>
+              <Page isRef="12" />
+              <Parent isRef="86" />
+              <Text>{Warehouse_movements.Tracking_numbers_DIS_CastingNo}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text45>
+            <Text46 Ref="90" type="Text" isKey="true">
+              <Border>None;[199:213:224];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>11.6,0,3.8,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text46</Name>
+              <Page isRef="12" />
+              <Parent isRef="86" />
+              <Text>{ForSize}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+            </Text46>
+            <Text49 Ref="91" type="Text" isKey="true">
+              <Border>None;[199:213:224];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>15.4,0,3.2,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,10,0,0</Margins>
+              <Name>Text49</Name>
+              <Page isRef="12" />
+              <Parent isRef="86" />
+              <Text>{Warehouse_movements.Item_DIS_MatRef}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text49>
+            <HorizontalLinePrimitive2 Ref="92" type="HorizontalLinePrimitive" isKey="true">
+              <ClientRectangle>0.6,0.6,17.8,0.0254</ClientRectangle>
+              <Color>230, 230, 230</Color>
+              <EndCap Ref="93" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </EndCap>
+              <Name>HorizontalLinePrimitive2</Name>
+              <Page isRef="12" />
+              <Parent isRef="86" />
+              <StartCap Ref="94" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </StartCap>
+              <Style>Dash</Style>
+            </HorizontalLinePrimitive2>
+          </Components>
+          <Condition>{Warehouse_movements.PrdRef }+ {Warehouse_movements.Tracking_numbers_BatchNo} + {Warehouse_movements.Tracking_numbers_DIS_CastingNo} + {Warehouse_movements.Reference}</Condition>
+          <Conditions isList="true" count="0" />
+          <Name>GroupHeaderBand1</Name>
+          <Page isRef="12" />
+          <Parent isRef="12" />
+        </GroupHeaderBand1>
+        <DataBand2 Ref="95" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,20.2,19,0</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <DataRelationName>Warehouse movements_child_Operations</DataRelationName>
+          <DataSourceName>Warehouse movements</DataSourceName>
+          <Filters isList="true" count="0" />
+          <MasterComponent isRef="30" />
+          <Name>DataBand2</Name>
+          <Page isRef="12" />
+          <Parent isRef="12" />
+          <Sort isList="true" count="0" />
+        </DataBand2>
+        <GroupFooterBand1 Ref="96" type="GroupFooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,21,19,0</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <Name>GroupFooterBand1</Name>
+          <Page isRef="12" />
+          <Parent isRef="12" />
+        </GroupFooterBand1>
+        <DataBand3 Ref="97" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,21.8,19,0</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <DataRelationName>Lines</DataRelationName>
+          <DataSourceName>Delivery note lines</DataSourceName>
+          <Filters isList="true" count="0" />
+          <MasterComponent isRef="30" />
+          <Name>DataBand3</Name>
+          <Page isRef="12" />
+          <Parent isRef="12" />
+          <Sort isList="true" count="0" />
+        </DataBand3>
+        <FooterBand2 Ref="98" type="FooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <CanShrink>True</CanShrink>
+          <ClientRectangle>0,22.6,19,3</ClientRectangle>
+          <Components isList="true" count="2">
+            <Text52 Ref="99" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1,0.4,4.4,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10,Bold| Underline</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text52</Name>
+              <Page isRef="12" />
+              <Parent isRef="98" />
+              <Text>{__Dsc_Descrip}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text52>
+            <Text54 Ref="100" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <CanShrink>True</CanShrink>
+              <ClientRectangle>1.4,0.8,17.4,2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text54</Name>
+              <Page isRef="12" />
+              <Parent isRef="98" />
+              <Text>{Delivery_Notes.Descrip}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>DataColumn</Type>
+            </Text54>
+          </Components>
+          <Conditions isList="true" count="1">
+            <value>_x007B_Delivery_Notes.Descrip_x0020__x003D__x003D__x0020__x0022__x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None</value>
+          </Conditions>
+          <Name>FooterBand2</Name>
+          <Page isRef="12" />
+          <Parent isRef="12" />
+        </FooterBand2>
+        <FooterBand3 Ref="101" type="FooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,26.4,19,3</ClientRectangle>
+          <Components isList="true" count="1">
+            <Text55 Ref="102" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>11,0.4,7.2,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10,Bold| Underline</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text55</Name>
+              <Page isRef="12" />
+              <Parent isRef="101" />
+              <Text>{__Mss_30905}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text55>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>FooterBand3</Name>
+          <NewPageAfter>True</NewPageAfter>
+          <Page isRef="12" />
+          <Parent isRef="12" />
+          <PrintAtBottom>True</PrintAtBottom>
+        </FooterBand3>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Guid>4709aaf344c3474d939448364cb87193</Guid>
+      <LargeHeight>True</LargeHeight>
+      <LargeHeightFactor>2</LargeHeightFactor>
+      <Margins>1,1,1,1</Margins>
+      <Name>ReportPage</Name>
+      <PageHeight>29.7</PageHeight>
+      <PageWidth>21</PageWidth>
+      <Report isRef="0" />
+      <Watermark Ref="103" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <Font>Arial,100</Font>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
+    </ReportPage>
+  </Pages>
+  <PrinterSettings Ref="104" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>04_DIS_SSAA_SSHH_00000100_DeliveryNoteWithSheetsDetail</ReportAlias>
+  <ReportAuthor>SYSADM</ReportAuthor>
+  <ReportChanged>2/20/2018 9:48:10 AM</ReportChanged>
+  <ReportCreated>12/26/2016 4:14:08 PM</ReportCreated>
+  <ReportDescription>Delivery note with sheets detail</ReportDescription>
+  <ReportFile />
+  <ReportGuid>648e31c70d81455c9382e546148e3499</ReportGuid>
+  <ReportName>04_DIS_SSAA_SSHH_00000100_DeliveryNoteWithSheetsDetail</ReportName>
+  <ReportUnit>Centimeters</ReportUnit>
+  <ReportVersion>2013.2.1604</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    public class n01_SSAA_SSHH_00000100_DeliveryNote : Stimulsoft.Report.StiReport
+    {
+        public n01_SSAA_SSHH_00000100_DeliveryNote()        {
+            this.InitializeComponent();
+        }
+		
+		private const string APPLY_VAT_PARAMETER = "SYS_SAM_ApplyTaxToFinancial";
+		private const string USE_PRODUCT_IMAGES = "DIS_SAM_ReportImage";
+
+		public bool CheckReportImageParameter(bool alreadyChecked, string parName, string parValue) {
+			if (alreadyChecked) return true;
+			else return (parName.Equals(USE_PRODUCT_IMAGES) &amp;&amp; (parValue == "1"));
+		}
+
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="7">
+    <Titles Ref="105" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>Bottom;[199:213:224];3;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Arial,22,Bold</Font>
+      <Name>Titles</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Titles>
+    <PageHeader Ref="106" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>Bottom;[199:213:224];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Verdana,9</Font>
+      <Name>PageHeader</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </PageHeader>
+    <PageFooter Ref="107" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>Top;[199:213:224];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Verdana,9</Font>
+      <Name>PageFooter</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </PageFooter>
+    <Headers Ref="108" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>All;[131:166:224];1;Solid;False;4;Black</Border>
+      <Brush>[185:218:255]</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Arial,11,Bold</Font>
+      <Name>Headers</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Headers>
+    <DataClean Ref="109" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Verdana,10</Font>
+      <Name>DataClean</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </DataClean>
+    <DataOdd Ref="110" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>All;[216:223:232];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Verdana,10</Font>
+      <Name>DataOdd</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </DataOdd>
+    <DataEven Ref="111" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>All;[216:223:232];1;Solid;False;4;Black</Border>
+      <Brush>[240:245:251]</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Verdana,10</Font>
+      <Name>DataEven</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </DataEven>
+  </Styles>
+</StiSerializer>

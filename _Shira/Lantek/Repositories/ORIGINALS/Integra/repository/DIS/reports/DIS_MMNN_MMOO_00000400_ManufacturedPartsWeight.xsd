@@ -1,0 +1,46 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="DIS_MMNN_MMOO_00000400_ManufacturedPartsWeight" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="DIS_MMNN_MMOO_00000400_ManufacturedPartsWeight" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="MMNN_MMOO_00000400">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CurQuan" msdata:Caption="Consumo actual" type="xs:double" minOccurs="0" />
+              <xs:element name="CurQuan__Lab" msdata:Caption="Consumo actual (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="CurQuan__DBD" msdata:Caption="Consumo actual (Base de datos)" type="xs:double" minOccurs="0" />
+              <xs:element name="CurQuan__Scr" msdata:Caption="Consumo actual (Valor)" type="xs:string" minOccurs="0" />
+              <xs:element name="CurQuan__ScN" msdata:Caption="Consumo actual (Valor)" type="xs:string" minOccurs="0" />
+              <xs:element name="CurQuan__Dec" msdata:Caption="Consumo actual (Dígitos decimales)" type="xs:short" minOccurs="0" />
+              <xs:element name="CurQuan__Rnd" msdata:Caption="Consumo actual (Redondeado)" type="xs:short" minOccurs="0" />
+              <xs:element name="CurQuan__Sff" msdata:Caption="Consumo actual (Sufijo)" type="xs:string" minOccurs="0" />
+              <xs:element name="CType" msdata:Caption="Tipo de consumo" type="xs:short" minOccurs="0" />
+              <xs:element name="CType__Lab" msdata:Caption="Tipo de consumo (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="CType__ScN" msdata:Caption="Tipo de consumo (Valor)" type="xs:string" minOccurs="0" />
+              <xs:element name="UntName" msdata:Caption="Unidad" type="xs:string" minOccurs="0" />
+              <xs:element name="UntName__Lab" msdata:Caption="Unidad (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="UCtName" msdata:Caption="Categoría de unidades" type="xs:string" minOccurs="0" />
+              <xs:element name="UCtName__Lab" msdata:Caption="Categoría de unidades (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="RawRef" msdata:Caption="Materia prima" type="xs:string" minOccurs="0" />
+              <xs:element name="RawRef__Lab" msdata:Caption="Materia prima (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000100.CusRef" msdata:Caption="Cliente" type="xs:string" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000100.CusRef__Lab" msdata:Caption="Cliente (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000300.WrkRef" msdata:Caption="Centro de trabajo" type="xs:string" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000300.WrkRef__Lab" msdata:Caption="Centro de trabajo (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000300.DIS_MatRef" msdata:Caption="Material" type="xs:string" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000300.DIS_MatRef__Lab" msdata:Caption="Material (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000300.DIS_Thickness" msdata:Caption="Espesor" type="xs:double" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000300.DIS_Thickness__Lab" msdata:Caption="Espesor (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000300.DIS_Thickness__DBD" msdata:Caption="Espesor (Base de datos)" type="xs:double" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000300.DIS_Thickness__Scr" msdata:Caption="Espesor (Valor)" type="xs:string" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000300.DIS_Thickness__ScN" msdata:Caption="Espesor (Valor)" type="xs:string" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000300.DIS_Thickness__Dec" msdata:Caption="Espesor (Dígitos decimales)" type="xs:short" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000300.DIS_Thickness__Rnd" msdata:Caption="Espesor (Redondeado)" type="xs:short" minOccurs="0" />
+              <xs:element name="MMNN_MMOO_00000300.DIS_Thickness__Sff" msdata:Caption="Espesor (Sufijo)" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

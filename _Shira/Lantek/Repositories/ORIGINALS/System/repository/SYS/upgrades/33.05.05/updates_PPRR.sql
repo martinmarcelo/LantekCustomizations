@@ -1,0 +1,3 @@
+
+UPDATE PPRR_PPRR_00000100 SET PrcMethod = 0 WHERE PrcMethod = 1
+UPDATE PPRR_PPRR_00000100 SET PrcMethod = 1 WHERE PrcMethod = 3 OR PrcMethod = 2

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CONTROL Name="MMNN_MMOO_00000300_LostPartsManagement" Type="MenuNode">
+    <CONTROLPROPS>
+        <DATAACCESS StructureIdentifier="MMNN_MMOO_00000300" />
+        <OTHER Text="{1:38048}" Image="" />
+    </CONTROLPROPS>
+    <CHILDREN>
+        <CONTROL Name="UndoLostQuantity" Type="MenuOption">
+            <CONTROLPROPS>
+                <OTHER Text="{1:38039}" Image="./img/cmd/UndoLostQuantities.svg">
+                    <C N="OpenWindow" TEx="Lantek.SYSLayer.Applications.Executors.Manufacturing.OpenManageOperationLostPartsExecutor,SYS_apps" TTs="MMNN_MMOO_00000300,00011000">
+                        <P N="Name" V="LOST_PARTS_MANAGEMENT" />
+                        <P N="Records" V="[GRDsel,MMNN_MMOO_00000300_Grid]" />
+                        <P N="SelectAll" V="[GRDselall,MMNN_MMOO_00000300_Grid]" />
+                        <P N="RecordsQuery">
+                            <V>[STR,MMNN_MMOO_00000300,rcsq]</V>
+                        </P>
+                        <P N="Structure" V="MMNN_MMOO_00000300" />
+                        <P N="NewWindow" V="0" />
+                        <P N="ProductionOrderReference" V="[CELL,MMNN_MMOO_00000100,MnORef,-1,bv]" />
+                        <P N="UndoLostQuantity" V="1" />
+                        <P N="ReworkLostQuantity" V="0" />
+                        <P N="WindowProperties" V="type=modal,toolbar=no,menubar=no,location=no,status=no,scrollbars=yes" />
+                    </C>
+                </OTHER>
+            </CONTROLPROPS>
+        </CONTROL>
+        <CONTROL Name="ReworkCurrentOperation" Type="MenuOption">
+            <CONTROLPROPS>
+                <OTHER Text="{1:38038}" Image="./img/cmd/ReworkLostQuantities.svg">
+                    <C N="OpenWindow" TEx="Lantek.SYSLayer.Applications.Executors.Manufacturing.OpenManageOperationLostPartsExecutor,SYS_apps" TTs="MMNN_MMOO_00000300,00011000">
+                        <P N="Name" V="LOST_PARTS_MANAGEMENT" />
+                        <P N="Records" V="[GRDsel,MMNN_MMOO_00000300_Grid]" />
+                        <P N="SelectAll" V="[GRDselall,MMNN_MMOO_00000300_Grid]" />
+                        <P N="RecordsQuery">
+                            <V>[STR,MMNN_MMOO_00000300,rcsq]</V>
+                        </P>
+                        <P N="Structure" V="MMNN_MMOO_00000300" />
+                        <P N="NewWindow" V="0" />
+                        <P N="ProductionOrderReference" V="[CELL,MMNN_MMOO_00000100,MnORef,-1,bv]" />
+                        <P N="UndoLostQuantity" V="0" />
+                        <P N="ReworkLostQuantity" V="1" />
+                        <P N="WindowProperties" V="type=modal,toolbar=no,menubar=no,location=no,status=no,scrollbars=yes" />
+                    </C>
+                </OTHER>
+            </CONTROLPROPS>
+        </CONTROL>
+    </CHILDREN>
+</CONTROL>

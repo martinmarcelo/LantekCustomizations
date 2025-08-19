@@ -1,0 +1,248 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="WWPP_WWOO_00000100_Maintenance" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+  <xs:element name="WWPP_WWOO_00000100_Maintenance" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="WorkOrder" msprop:Table="WWPP_WWOO_00000100">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="OrdRef" msdata:Caption="Referencia" type="xs:string" minOccurs="0" />
+              <xs:element name="OrdRef__Lab" msdata:Caption="Referencia (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="RecID" msdata:Caption="Identificador del elemento" type="xs:int" minOccurs="0" />
+              <xs:element name="RecID__Lab" msdata:Caption="Identificador del elemento (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="AssRef" msdata:Caption="Activo" type="xs:string" minOccurs="0" />
+              <xs:element name="AssRef__Lab" msdata:Caption="Activo (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Quantity" msdata:Caption="Cantidad" type="xs:double" minOccurs="0" />
+              <xs:element name="Quantity__Lab" msdata:Caption="Cantidad (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Quantity__DBD" msdata:Caption="Cantidad (Base de datos)" type="xs:double" minOccurs="0" />
+              <xs:element name="Quantity__Scr" msdata:Caption="Cantidad (Valor)" type="xs:string" minOccurs="0" />
+              <xs:element name="Quantity__Dec" msdata:Caption="Cantidad (Dígitos decimales)" type="xs:short" minOccurs="0" />
+              <xs:element name="Quantity__Rnd" msdata:Caption="Cantidad (Redondeado)" type="xs:short" minOccurs="0" />
+              <xs:element name="Quantity__Sff" msdata:Caption="Cantidad (Sufijo)" type="xs:string" minOccurs="0" />
+              <xs:element name="UCtName" msdata:Caption="Categoría de unidades" type="xs:string" minOccurs="0" />
+              <xs:element name="UCtName__Lab" msdata:Caption="Categoría de unidades (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="EstimatedEDate" msdata:Caption="Fin estimado" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="EstimatedEDate__Lab" msdata:Caption="Fin estimado (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="EstimatedEDate__LDt" msdata:Caption="Fin estimado (Fecha larga)" type="xs:string" minOccurs="0" />
+              <xs:element name="EstimatedEDate__SDt" msdata:Caption="Fin estimado (Fecha corta)" type="xs:string" minOccurs="0" />
+              <xs:element name="EstimatedSDate" msdata:Caption="Inicio estimado" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="EstimatedSDate__Lab" msdata:Caption="Inicio estimado (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="EstimatedSDate__LDt" msdata:Caption="Inicio estimado (Fecha larga)" type="xs:string" minOccurs="0" />
+              <xs:element name="EstimatedSDate__SDt" msdata:Caption="Inicio estimado (Fecha corta)" type="xs:string" minOccurs="0" />
+              <xs:element name="RequiredDate" msdata:Caption="Fecha requerida" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="RequiredDate__Lab" msdata:Caption="Fecha requerida (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="RequiredDate__LDt" msdata:Caption="Fecha requerida (Fecha larga)" type="xs:string" minOccurs="0" />
+              <xs:element name="RequiredDate__SDt" msdata:Caption="Fecha requerida (Fecha corta)" type="xs:string" minOccurs="0" />
+              <xs:element name="UntName" msdata:Caption="Unidad" type="xs:string" minOccurs="0" />
+              <xs:element name="UntName__Lab" msdata:Caption="Unidad (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Responsible" msdata:Caption="Responsable" type="xs:string" minOccurs="0" />
+              <xs:element name="Responsible__Lab" msdata:Caption="Responsable (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="CusRef" msdata:Caption="Cliente" type="xs:string" minOccurs="0" />
+              <xs:element name="CusRef__Lab" msdata:Caption="Cliente (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Description" msdata:Caption="Descripción" type="xs:string" minOccurs="0" />
+              <xs:element name="Description__Lab" msdata:Caption="Descripción (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="OrdName" msdata:Caption="Nombre" type="xs:string" minOccurs="0" />
+              <xs:element name="OrdName__Lab" msdata:Caption="Nombre (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Type" msdata:Caption="Tipo" type="xs:short" minOccurs="0" />
+              <xs:element name="Type__Lab" msdata:Caption="Tipo (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Employee.EmpRef" msdata:Caption="Referencia" type="xs:string" minOccurs="0" />
+              <xs:element name="Employee.EmpRef__Lab" msdata:Caption="Referencia (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Employee.EName" msdata:Caption="Nombre" type="xs:string" minOccurs="0" />
+              <xs:element name="Employee.EName__Lab" msdata:Caption="Nombre (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Employee.ESurname1" msdata:Caption="Primer apellido" type="xs:string" minOccurs="0" />
+              <xs:element name="Employee.ESurname1__Lab" msdata:Caption="Primer apellido (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Employee.ESurname2" msdata:Caption="Segundo apellido" type="xs:string" minOccurs="0" />
+              <xs:element name="Employee.ESurname2__Lab" msdata:Caption="Segundo apellido (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Customer.ComRef" msdata:Caption="Referencia" type="xs:string" minOccurs="0" />
+              <xs:element name="Customer.ComRef__Lab" msdata:Caption="Referencia (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Customer.SAddress1" msdata:Caption="Dirección de envío 1" type="xs:string" minOccurs="0" />
+              <xs:element name="Customer.SAddress1__Lab" msdata:Caption="Dirección de envío 1 (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Customer.SAddress2" msdata:Caption="Dirección de envío 2" type="xs:string" minOccurs="0" />
+              <xs:element name="Customer.SAddress2__Lab" msdata:Caption="Dirección de envío 2 (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Customer.SAddress3" msdata:Caption="Dirección de envío 3" type="xs:string" minOccurs="0" />
+              <xs:element name="Customer.SAddress3__Lab" msdata:Caption="Dirección de envío 3 (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Customer.State" msdata:Caption="Provincia" type="xs:string" minOccurs="0" />
+              <xs:element name="Customer.State__Lab" msdata:Caption="Provincia (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Customer.CouName" msdata:Caption="País" type="xs:string" minOccurs="0" />
+              <xs:element name="Customer.CouName__Lab" msdata:Caption="País (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Customer.ZipCode" msdata:Caption="Código postal" type="xs:string" minOccurs="0" />
+              <xs:element name="Customer.ZipCode__Lab" msdata:Caption="Código postal (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Customer.City" msdata:Caption="Ciudad" type="xs:string" minOccurs="0" />
+              <xs:element name="Customer.City__Lab" msdata:Caption="Ciudad (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Customer.ComName" msdata:Caption="Nombre" type="xs:string" minOccurs="0" />
+              <xs:element name="Customer.ComName__Lab" msdata:Caption="Nombre (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Customer.Address1" msdata:Caption="Dirección 1" type="xs:string" minOccurs="0" />
+              <xs:element name="Customer.Address1__Lab" msdata:Caption="Dirección 1 (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Customer.Address1__Add" msdata:Caption="Dirección 1 (Dirección)" type="xs:string" minOccurs="0" />
+              <xs:element name="Customer.Address2" msdata:Caption="Dirección 2" type="xs:string" minOccurs="0" />
+              <xs:element name="Customer.Address2__Lab" msdata:Caption="Dirección 2 (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Customer.Address3" msdata:Caption="Dirección 3" type="xs:string" minOccurs="0" />
+              <xs:element name="Customer.Address3__Lab" msdata:Caption="Dirección 3 (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Asset.AssRef" msdata:Caption="Referencia" type="xs:string" minOccurs="0" />
+              <xs:element name="Asset.AssRef__Lab" msdata:Caption="Referencia (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Asset.AssName" msdata:Caption="Nombre" type="xs:string" minOccurs="0" />
+              <xs:element name="Asset.AssName__Lab" msdata:Caption="Nombre (Etiqueta)" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="MaintenanceLines" msprop:Table="MNTN_MNTN_00000200">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="OriginTable" msdata:Caption="Tabla" type="xs:string" minOccurs="0" />
+              <xs:element name="OriginTable__Lab" msdata:Caption="Tabla (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="OriginID" msdata:Caption="Identificador de elemento asociado" type="xs:int" minOccurs="0" />
+              <xs:element name="OriginID__Lab" msdata:Caption="Identificador de elemento asociado (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="LineNum" msdata:Caption="Número de línea" type="xs:int" minOccurs="0" />
+              <xs:element name="LineNum__Lab" msdata:Caption="Número de línea (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Activity" msdata:Caption="Actividad" type="xs:string" minOccurs="0" />
+              <xs:element name="Activity__Lab" msdata:Caption="Actividad (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Time" msdata:Caption="Tiempo estimado" type="xs:double" minOccurs="0" />
+              <xs:element name="Time__Lab" msdata:Caption="Tiempo estimado (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Time__Dec" msdata:Caption="Tiempo estimado (Dígitos decimales)" type="xs:short" minOccurs="0" />
+              <xs:element name="Time__Rnd" msdata:Caption="Tiempo estimado (Redondeado)" type="xs:short" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ReadingParameters" msprop:Table="MNTN_RRPP_00000100">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="OriginTable" msdata:Caption="Tabla" type="xs:string" minOccurs="0" />
+              <xs:element name="OriginTable__Lab" msdata:Caption="Tabla (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="OriginID" msdata:Caption="Identificador de elemento asociado" type="xs:int" minOccurs="0" />
+              <xs:element name="OriginID__Lab" msdata:Caption="Identificador de elemento asociado (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="PName" msdata:Caption="Nombre" type="xs:string" minOccurs="0" />
+              <xs:element name="PName__Lab" msdata:Caption="Nombre (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="MinValue" msdata:Caption="Valor mínimo" type="xs:double" minOccurs="0" />
+              <xs:element name="MinValue__Lab" msdata:Caption="Valor mínimo (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="MinValue__DBD" msdata:Caption="Valor mínimo (Base de datos)" type="xs:double" minOccurs="0" />
+              <xs:element name="MinValue__Scr" msdata:Caption="Valor mínimo (Valor)" type="xs:string" minOccurs="0" />
+              <xs:element name="MinValue__Dec" msdata:Caption="Valor mínimo (Dígitos decimales)" type="xs:short" minOccurs="0" />
+              <xs:element name="MinValue__Rnd" msdata:Caption="Valor mínimo (Redondeado)" type="xs:short" minOccurs="0" />
+              <xs:element name="MinValue__Sff" msdata:Caption="Valor mínimo (Sufijo)" type="xs:string" minOccurs="0" />
+              <xs:element name="MaxValue" msdata:Caption="Valor máximo" type="xs:double" minOccurs="0" />
+              <xs:element name="MaxValue__Lab" msdata:Caption="Valor máximo (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="MaxValue__DBD" msdata:Caption="Valor máximo (Base de datos)" type="xs:double" minOccurs="0" />
+              <xs:element name="MaxValue__Scr" msdata:Caption="Valor máximo (Valor)" type="xs:string" minOccurs="0" />
+              <xs:element name="MaxValue__Dec" msdata:Caption="Valor máximo (Dígitos decimales)" type="xs:short" minOccurs="0" />
+              <xs:element name="MaxValue__Rnd" msdata:Caption="Valor máximo (Redondeado)" type="xs:short" minOccurs="0" />
+              <xs:element name="MaxValue__Sff" msdata:Caption="Valor máximo (Sufijo)" type="xs:string" minOccurs="0" />
+              <xs:element name="RValue" msdata:Caption="Valor" type="xs:double" minOccurs="0" />
+              <xs:element name="RValue__Lab" msdata:Caption="Valor (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="RValue__DBD" msdata:Caption="Valor (Base de datos)" type="xs:double" minOccurs="0" />
+              <xs:element name="RValue__Scr" msdata:Caption="Valor (Valor)" type="xs:string" minOccurs="0" />
+              <xs:element name="RValue__Dec" msdata:Caption="Valor (Dígitos decimales)" type="xs:short" minOccurs="0" />
+              <xs:element name="RValue__Rnd" msdata:Caption="Valor (Redondeado)" type="xs:short" minOccurs="0" />
+              <xs:element name="RValue__Sff" msdata:Caption="Valor (Sufijo)" type="xs:string" minOccurs="0" />
+              <xs:element name="UCtName" msdata:Caption="Categoría de unidades" type="xs:string" minOccurs="0" />
+              <xs:element name="UCtName__Lab" msdata:Caption="Categoría de unidades (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="UntName" msdata:Caption="Unidad" type="xs:string" minOccurs="0" />
+              <xs:element name="UntName__Lab" msdata:Caption="Unidad (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="LastDate" msdata:Caption="Fecha de modificación" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="LastDate__Lab" msdata:Caption="Fecha de modificación (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="LastDate__LDt" msdata:Caption="Fecha de modificación (Fecha larga)" type="xs:string" minOccurs="0" />
+              <xs:element name="LastDate__MDt" msdata:Caption="Fecha de modificación (Fecha media)" type="xs:string" minOccurs="0" />
+              <xs:element name="LastDate__SDt" msdata:Caption="Fecha de modificación (Fecha corta)" type="xs:string" minOccurs="0" />
+              <xs:element name="CrtDate" msdata:Caption="Fecha de creación" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="CrtDate__Lab" msdata:Caption="Fecha de creación (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="CrtDate__LDt" msdata:Caption="Fecha de creación (Fecha larga)" type="xs:string" minOccurs="0" />
+              <xs:element name="CrtDate__MDt" msdata:Caption="Fecha de creación (Fecha media)" type="xs:string" minOccurs="0" />
+              <xs:element name="CrtDate__SDt" msdata:Caption="Fecha de creación (Fecha corta)" type="xs:string" minOccurs="0" />
+              <xs:element name="MsDate" msdata:Caption="Fecha" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="MsDate__Lab" msdata:Caption="Fecha (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="MsDate__LDt" msdata:Caption="Fecha (Fecha larga)" type="xs:string" minOccurs="0" />
+              <xs:element name="MsDate__SDt" msdata:Caption="Fecha (Fecha corta)" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Hours" msprop:Table="TTSS_TTSS_00000100">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TblRef" msdata:Caption="Tabla relacionada" type="xs:string" minOccurs="0" />
+              <xs:element name="TblRef__Lab" msdata:Caption="Tabla relacionada (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="RecordID" msdata:Caption="Identificador de elemento asociado" type="xs:int" minOccurs="0" />
+              <xs:element name="RecordID__Lab" msdata:Caption="Identificador de elemento asociado (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Type" msdata:Caption="Tipo" type="xs:short" minOccurs="0" />
+              <xs:element name="Type__Lab" msdata:Caption="Tipo (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="LineNum" msdata:Caption="Número de línea" type="xs:int" minOccurs="0" />
+              <xs:element name="LineNum__Lab" msdata:Caption="Número de línea (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="RsRef" msdata:Caption="Recurso" type="xs:string" minOccurs="0" />
+              <xs:element name="RsRef__Lab" msdata:Caption="Recurso (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="EmpRef" msdata:Caption="Empleado" type="xs:string" minOccurs="0" />
+              <xs:element name="EmpRef__Lab" msdata:Caption="Empleado (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="TSheetSDate" msdata:Caption="Fecha descargo" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TSheetSDate__Lab" msdata:Caption="Fecha descargo (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="TSheetSDate__LDt" msdata:Caption="Fecha descargo (Fecha larga)" type="xs:string" minOccurs="0" />
+              <xs:element name="TSheetSDate__MDt" msdata:Caption="Fecha descargo (Fecha media)" type="xs:string" minOccurs="0" />
+              <xs:element name="TSheetSDate__SDt" msdata:Caption="Fecha descargo (Fecha corta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Quantity" msdata:Caption="Cantidad" type="xs:double" minOccurs="0" />
+              <xs:element name="Quantity__Lab" msdata:Caption="Cantidad (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Quantity__DBD" msdata:Caption="Cantidad (Base de datos)" type="xs:double" minOccurs="0" />
+              <xs:element name="Quantity__Scr" msdata:Caption="Cantidad (Valor)" type="xs:string" minOccurs="0" />
+              <xs:element name="Quantity__Dec" msdata:Caption="Cantidad (Dígitos decimales)" type="xs:short" minOccurs="0" />
+              <xs:element name="Quantity__Rnd" msdata:Caption="Cantidad (Redondeado)" type="xs:short" minOccurs="0" />
+              <xs:element name="Quantity__Sff" msdata:Caption="Cantidad (Sufijo)" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="BillOfMaterial" msprop:Table="WWPP_WWOO_00000200">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="OrdRef" msdata:Caption="Referencia" type="xs:string" minOccurs="0" />
+              <xs:element name="OrdRef__Lab" msdata:Caption="Referencia (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="NComp" msdata:Caption="Núm. comp." type="xs:int" minOccurs="0" />
+              <xs:element name="NComp__Lab" msdata:Caption="Núm. comp. (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Component" msdata:Caption="Elemento" type="xs:string" minOccurs="0" />
+              <xs:element name="Component__Lab" msdata:Caption="Elemento (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Quantity" msdata:Caption="Cantidad" type="xs:double" minOccurs="0" />
+              <xs:element name="Quantity__Lab" msdata:Caption="Cantidad (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Quantity__DBD" msdata:Caption="Cantidad (Base de datos)" type="xs:double" minOccurs="0" />
+              <xs:element name="Quantity__Scr" msdata:Caption="Cantidad (Valor)" type="xs:string" minOccurs="0" />
+              <xs:element name="Quantity__Dec" msdata:Caption="Cantidad (Dígitos decimales)" type="xs:short" minOccurs="0" />
+              <xs:element name="Quantity__Rnd" msdata:Caption="Cantidad (Redondeado)" type="xs:short" minOccurs="0" />
+              <xs:element name="Quantity__Sff" msdata:Caption="Cantidad (Sufijo)" type="xs:string" minOccurs="0" />
+              <xs:element name="RealQuantity" msdata:Caption="Cantidad real" type="xs:double" minOccurs="0" />
+              <xs:element name="RealQuantity__Lab" msdata:Caption="Cantidad real (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="RealQuantity__Dec" msdata:Caption="Cantidad real (Dígitos decimales)" type="xs:short" minOccurs="0" />
+              <xs:element name="RealQuantity__Rnd" msdata:Caption="Cantidad real (Redondeado)" type="xs:short" minOccurs="0" />
+              <xs:element name="VisibleQuantity" msdata:Caption="Cantidad a visualizar" type="xs:double" minOccurs="0" />
+              <xs:element name="VisibleQuantity__Lab" msdata:Caption="Cantidad a visualizar (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="VisibleQuantity__DBD" msdata:Caption="Cantidad a visualizar (Base de datos)" type="xs:double" minOccurs="0" />
+              <xs:element name="VisibleQuantity__Scr" msdata:Caption="Cantidad a visualizar (Valor)" type="xs:string" minOccurs="0" />
+              <xs:element name="VisibleQuantity__Dec" msdata:Caption="Cantidad a visualizar (Dígitos decimales)" type="xs:short" minOccurs="0" />
+              <xs:element name="VisibleQuantity__Rnd" msdata:Caption="Cantidad a visualizar (Redondeado)" type="xs:short" minOccurs="0" />
+              <xs:element name="VisibleQuantity__Sff" msdata:Caption="Cantidad a visualizar (Sufijo)" type="xs:string" minOccurs="0" />
+              <xs:element name="UntName" msdata:Caption="Unidad" type="xs:string" minOccurs="0" />
+              <xs:element name="UntName__Lab" msdata:Caption="Unidad (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="CompType" msdata:Caption="Tipo" type="xs:short" minOccurs="0" />
+              <xs:element name="CompType__Lab" msdata:Caption="Tipo (Etiqueta)" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1">
+      <xs:selector xpath=".//WorkOrder" />
+      <xs:field xpath="RecID" />
+    </xs:unique>
+    <xs:unique name="Constraint2">
+      <xs:selector xpath=".//WorkOrder" />
+      <xs:field xpath="OrdRef" />
+    </xs:unique>
+    <xs:keyref name="Work_x0020_orders_x0020_BOM" refer="Constraint2">
+      <xs:selector xpath=".//BillOfMaterial" />
+      <xs:field xpath="OrdRef" />
+    </xs:keyref>
+    <xs:keyref name="Time_x0020_sheets" refer="Constraint1">
+      <xs:selector xpath=".//Hours" />
+      <xs:field xpath="RecordID" />
+    </xs:keyref>
+    <xs:keyref name="Reading_x0020_parameters" refer="Constraint1">
+      <xs:selector xpath=".//ReadingParameters" />
+      <xs:field xpath="OriginID" />
+    </xs:keyref>
+    <xs:keyref name="Maintenance_x0020_lines" refer="Constraint1">
+      <xs:selector xpath=".//MaintenanceLines" />
+      <xs:field xpath="OriginID" />
+    </xs:keyref>
+  </xs:element>
+</xs:schema>

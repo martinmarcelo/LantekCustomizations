@@ -1,0 +1,34 @@
+-- @#LONGSCRIPT#@
+
+--Updates related to outsourcing
+--Outsourcing shipment
+UPDATE GLS_IITT_IITT_00000200
+SET GLS_IITT_IITT_00000200.MainOriginFilter = ISNULL((
+													  SELECT TOP 1 SSAA_SSOO_00000100.OrdRef
+													  FROM SSAA_SSOO_00000100, OOSS_OOOO_00000200, OOSS_EXDN_00000200
+													  WHERE OOSS_EXDN_00000200.OrdRef = OOSS_OOOO_00000200.OrdRef AND
+														    OOSS_EXDN_00000200.OrdLineNum = OOSS_OOOO_00000200.LineNum AND 
+															OOSS_OOOO_00000200.RecordID = SSAA_SSOO_00000100.RecID AND
+															OOSS_OOOO_00000200.AssocElementType = 2 AND
+															OOSS_EXDN_00000200.DNRef = GLS_IITT_IITT_00000200.Reference AND
+															OOSS_EXDN_00000200.LineNum = GLS_IITT_IITT_00000200.LineNum AND 
+															GLS_IITT_IITT_00000200.Category = 58)
+													, ''),
+	GLS_IITT_IITT_00000200.MainOriginTypeFilter = 2
+WHERE GLS_IITT_IITT_00000200.Reference <> '' AND GLS_IITT_IITT_00000200.Category = 58
+
+--Outsourcing receipt
+UPDATE GLS_IITT_IITT_00000200
+SET GLS_IITT_IITT_00000200.MainOriginFilter = ISNULL((
+													  SELECT TOP 1 SSAA_SSOO_00000100.OrdRef
+													  FROM SSAA_SSOO_00000100, OOSS_OOOO_00000200, OOSS_ENDN_00000200
+													  WHERE OOSS_ENDN_00000200.OrdRef = OOSS_OOOO_00000200.OrdRef AND
+													        OOSS_ENDN_00000200.OrdLineNum = OOSS_OOOO_00000200.LineNum AND
+															OOSS_OOOO_00000200.RecordID = SSAA_SSOO_00000100.RecID AND
+															OOSS_OOOO_00000200.AssocElementType = 2  AND 
+															OOSS_ENDN_00000200.DNRef = GLS_IITT_IITT_00000200.Reference AND
+  					 									    OOSS_ENDN_00000200.LineNum = GLS_IITT_IITT_00000200.LineNum AND 
+															GLS_IITT_IITT_00000200.Category = 59)
+												     , ''),
+	GLS_IITT_IITT_00000200.MainOriginTypeFilter = 2
+WHERE GLS_IITT_IITT_00000200.Reference <> '' AND GLS_IITT_IITT_00000200.Category = 59

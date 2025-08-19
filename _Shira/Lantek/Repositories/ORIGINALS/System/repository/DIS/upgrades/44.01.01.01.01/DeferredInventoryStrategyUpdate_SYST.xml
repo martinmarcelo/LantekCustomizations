@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<QUERIES xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\..\..\xsd\Queries\Queries.xsd">
+
+    <INSERT TblRef="SYST_QQEE_00000200">
+        <FIELDVALUE FldRef="QueueName" FldType="20" FldValue="Update inventory strategy" />
+        <FIELDVALUE FldRef="MsgNum" FldType="80" FldValue="60003604" />
+    </INSERT>
+
+</QUERIES>

@@ -1,0 +1,8 @@
+﻿<TABLE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\..\xsd\Repository\Tables.xsd">
+    <ACTIONS>
+        <ADACTIONS>
+            <ADACTION Reference="MMNN_MMOO_00000300_SHERLOCK" ClassType="Lantek360.Applications.MES.Integration.AutomaticData.Manufacturing.ProductionOrderOperationADAction_Lantek360,Lantek360.Applications.MES.Integration" Scheme="MMNN" DeleteByCycle="1" />
+            <ADACTION Reference="MMNN_MMOO_00000300_DIS_MMNN" IsActive="0" />
+        </ADACTIONS>
+    </ACTIONS>
+</TABLE>

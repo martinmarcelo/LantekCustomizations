@@ -1,0 +1,88 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="WWHH_WWHH_00000100_Warehouse" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+  <xs:element name="WWHH_WWHH_00000100_Warehouse" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Warehouses" msprop:Table="WWHH_WWHH_00000100">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="WrhRef" msdata:Caption="Referencia" type="xs:string" minOccurs="0" />
+              <xs:element name="WrhRef__Lab" msdata:Caption="Referencia (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="WrhName" msdata:Caption="Nombre" type="xs:string" minOccurs="0" />
+              <xs:element name="WrhName__Lab" msdata:Caption="Nombre (Etiqueta)" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Warehouse_x0020_movements" msprop:Table="WWHH_MMVV_00000100">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MovDate" msdata:Caption="Fecha" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="MovDate__Lab" msdata:Caption="Fecha (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="MovDate__LDt" msdata:Caption="Fecha (Fecha larga)" type="xs:string" minOccurs="0" />
+              <xs:element name="MovDate__SDt" msdata:Caption="Fecha (Fecha corta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Category" msdata:Caption="Categoría" type="xs:short" minOccurs="0" />
+              <xs:element name="Category__Lab" msdata:Caption="Categoría (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Type" msdata:Caption="Tipo" type="xs:short" minOccurs="0" />
+              <xs:element name="Type__Lab" msdata:Caption="Tipo (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Reference" msdata:Caption="Elemento asociado" type="xs:string" minOccurs="0" />
+              <xs:element name="Reference__Lab" msdata:Caption="Elemento asociado (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="PrdRef" msdata:Caption="Artículo" type="xs:string" minOccurs="0" />
+              <xs:element name="PrdRef__Lab" msdata:Caption="Artículo (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="WrhRef" msdata:Caption="Almacén" type="xs:string" minOccurs="0" />
+              <xs:element name="WrhRef__Lab" msdata:Caption="Almacén (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="RecID" msdata:Caption="Identificador del elemento" type="xs:int" minOccurs="0" />
+              <xs:element name="RecID__Lab" msdata:Caption="Identificador del elemento (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Canceled" msdata:Caption="Cancelado" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Canceled__Lab" msdata:Caption="Cancelado (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Canceled__ScN" msdata:Caption="Cancelado (Valor)" type="xs:string" minOccurs="0" />
+              <xs:element name="LocRef" msdata:Caption="Ubicación" type="xs:string" minOccurs="0" />
+              <xs:element name="LocRef__Lab" msdata:Caption="Ubicación (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="MovementQ" msdata:Caption="Cantidad" type="xs:double" minOccurs="0" />
+              <xs:element name="MovementQ__Lab" msdata:Caption="Cantidad (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="MovementQ__DBD" msdata:Caption="Cantidad (Base de datos)" type="xs:double" minOccurs="0" />
+              <xs:element name="MovementQ__Scr" msdata:Caption="Cantidad (Valor)" type="xs:string" minOccurs="0" />
+              <xs:element name="MovementQ__Dec" msdata:Caption="Cantidad (Dígitos decimales)" type="xs:short" minOccurs="0" />
+              <xs:element name="MovementQ__Rnd" msdata:Caption="Cantidad (Redondeado)" type="xs:short" minOccurs="0" />
+              <xs:element name="MovementQ__Sff" msdata:Caption="Cantidad (Sufijo)" type="xs:string" minOccurs="0" />
+              <xs:element name="TCost" msdata:Caption="Coste total" type="xs:double" minOccurs="0" />
+              <xs:element name="TCost__Lab" msdata:Caption="Coste total (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="TCost__DBD" msdata:Caption="Coste total (Base de datos)" type="xs:double" minOccurs="0" />
+              <xs:element name="TCost__Scr" msdata:Caption="Coste total (Valor)" type="xs:string" minOccurs="0" />
+              <xs:element name="TCost__Dec" msdata:Caption="Coste total (Dígitos decimales)" type="xs:short" minOccurs="0" />
+              <xs:element name="TCost__Rnd" msdata:Caption="Coste total (Redondeado)" type="xs:short" minOccurs="0" />
+              <xs:element name="TCost__Sff" msdata:Caption="Coste total (Sufijo)" type="xs:string" minOccurs="0" />
+              <xs:element name="PrdName" msdata:Caption="Nombre del artículo" type="xs:string" minOccurs="0" />
+              <xs:element name="PrdName__Lab" msdata:Caption="Nombre del artículo (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="UCtName" msdata:Caption="Categoría de unidades" type="xs:string" minOccurs="0" />
+              <xs:element name="UCtName__Lab" msdata:Caption="Categoría de unidades (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="UntName" msdata:Caption="Unidad" type="xs:string" minOccurs="0" />
+              <xs:element name="UntName__Lab" msdata:Caption="Unidad (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Item.PrdRef" msdata:Caption="Referencia" type="xs:string" minOccurs="0" />
+              <xs:element name="Item.PrdRef__Lab" msdata:Caption="Referencia (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Item.PrdName" msdata:Caption="Nombre" type="xs:string" minOccurs="0" />
+              <xs:element name="Item.PrdName__Lab" msdata:Caption="Nombre (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Item.UCtName" msdata:Caption="Categoría de unidades" type="xs:string" minOccurs="0" />
+              <xs:element name="Item.UCtName__Lab" msdata:Caption="Categoría de unidades (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Item.UntName" msdata:Caption="Unidad" type="xs:string" minOccurs="0" />
+              <xs:element name="Item.UntName__Lab" msdata:Caption="Unidad (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Unit_x0020_category.UCtName" msdata:Caption="Nombre" type="xs:string" minOccurs="0" />
+              <xs:element name="Unit_x0020_category.UCtName__Lab" msdata:Caption="Nombre (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Unit.UntName" msdata:Caption="Nombre" type="xs:string" minOccurs="0" />
+              <xs:element name="Unit.UntName__Lab" msdata:Caption="Nombre (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Unit.UCtName" msdata:Caption="Categoría" type="xs:string" minOccurs="0" />
+              <xs:element name="Unit.UCtName__Lab" msdata:Caption="Categoría (Etiqueta)" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1">
+      <xs:selector xpath=".//Warehouses" />
+      <xs:field xpath="WrhRef" />
+    </xs:unique>
+    <xs:keyref name="Warehouse_x0020_movements" refer="Constraint1">
+      <xs:selector xpath=".//Warehouse_x0020_movements" />
+      <xs:field xpath="WrhRef" />
+    </xs:keyref>
+  </xs:element>
+</xs:schema>

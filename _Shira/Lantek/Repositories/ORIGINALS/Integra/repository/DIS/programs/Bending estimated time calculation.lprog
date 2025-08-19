@@ -1,0 +1,59 @@
+// ******************************************************************************************
+// Bending estimated time calculation.
+//
+// Input arguments:
+//     - PPRR_PPRR_00000100@Prd_Ref;
+//     - MMNN_OOPP_00000100@WrkRef;
+//     - MMNN_OOPP_00000100@CGroup;
+//     - MMNN_OOPP_00000100@DIS_OprTimeSetup;
+//     - PPRR_PPRR_00000100@DIS_SimpleBends;
+//     - PPRR_PPRR_00000100@DIS_SpecialBends;
+//     - PPRR_PPRR_00000100@DIS_BendingToolChanges;
+//     - PPRR_PPRR_00000100@DIS_BendingRotations;
+//     - @#MATERIAL#@; special variable  
+//     - @#THICKNESS#@; special variable
+//
+// Output parameters:
+//     - EstimatedOperationTime: estimated time (h)
+//
+//
+// ******************************************************************************************
+
+include "CommonUtilities";
+
+
+begin    
+    declare input
+        PPRR_PPRR_00000100@PrdRef;
+        MMNN_OOPP_00000100@WrkRef;
+        MMNN_OOPP_00000100@CGroup;
+        MMNN_OOPP_00000100@DIS_OprTimeSetup;
+        PPRR_PPRR_00000100@DIS_SimpleBends;
+        PPRR_PPRR_00000100@DIS_SpecialBends;
+        PPRR_PPRR_00000100@DIS_BendingToolChanges;
+        PPRR_PPRR_00000100@DIS_BendingRotations;
+        @#MATERIAL#@;
+        @#THICKNESS#@;
+    end
+
+    declare output
+        EstimatedOperationTime;
+    end
+
+    declare
+        FoldingTimesList;
+    end
+
+    object = CreateObject("Lantek.DISLayer_Integra.Applications.ManualData.Manufacturing.OperationTimeTableMDAction,DIS_Integra_apps");
+    EstimatedOperationTime= 0.0;
+    
+    if (not IsNull(object)) then         
+        FoldingTimesList=CallTypedFunction(object, "GetBendingEstimatedTimes","Text,Text,Text,Text,Text,LongReal", MMNN_OOPP_00000100@DIS_OprTimeSetup,PPRR_PPRR_00000100@PrdRef, MMNN_OOPP_00000100@WrkRef, MMNN_OOPP_00000100@CGroup, @#MATERIAL#@, @#THICKNESS#@);
+        SimpleBendTime = ListGetValue(FoldingTimesList, 0);
+        SpecialBendTime = ListGetValue(FoldingTimesList, 1);
+        RotationTime = ListGetValue(FoldingTimesList, 2);
+        ToolChangeTime = ListGetValue(FoldingTimesList, 3);
+        EstimatedOperationTime = ((SimpleBendTime * PPRR_PPRR_00000100@DIS_SimpleBends) + (SpecialBendTime * PPRR_PPRR_00000100@DIS_SpecialBends) + (RotationTime * PPRR_PPRR_00000100@DIS_BendingRotations) + (ToolChangeTime * PPRR_PPRR_00000100@DIS_BendingToolChanges))/3600;   
+    end;
+
+end

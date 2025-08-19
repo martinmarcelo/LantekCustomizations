@@ -1,0 +1,79 @@
+<CONTROL Name="SSHH_PPOO_00000300_Grid" Type="Grid" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\..\xsd\Repository\Controls.xsd">
+    <CONTROLPROPS>
+        <LAYOUT>
+            <SIZE WidthType="Auto" />
+        </LAYOUT>
+        <DATAACCESS StructureIdentifier="SSHH_PPOO_00000300" />
+        <STYLES MergeRowsStyle="1" />
+        <OTHER LabelText="{1:34425}" />
+        <SPECIAL>
+            <GRD PhonesFormatString="{0:cell_PrdRef}{0:cell_PrdName##, #}{0:cell_GLS_Var1##, #}{0:cell_Quantity##: #}" SelectAll="0" />
+        </SPECIAL>
+    </CONTROLPROPS>
+    <CHILDREN>
+        <CONTROL Name="SSHH_PPOO_00000300_Grid_Type" Type="GridColumn">
+            <CONTROLPROPS>
+                <LAYOUT>
+                    <SIZE WidthValue="APP:LittleImagesColumnsWidth" />
+                </LAYOUT>
+                <DATAACCESS ColumnIdentifier="Type" />
+                <OTHER LabelText="{1:93}" Image="./img/col/Type.png" />
+                <SPECIAL>
+                    <COL ColumnType="Combo" CanResize="0" />
+                </SPECIAL>
+            </CONTROLPROPS>
+        </CONTROL>
+        <CONTROL Name="SSHH_PPOO_00000300_Grid_Reference" Type="GridColumn">
+            <CONTROLPROPS>
+                <LAYOUT>
+                    <SIZE WidthValue="APP:ReferencesColumnsWidth" />
+                </LAYOUT>
+                <DATAACCESS ColumnIdentifier="Reference" FormatString="{0:cell_CompleteOrigin}{0:cell_OriginName##, #}" />
+                <OTHER Expand="Expanded">
+                    <C N="OpenParent">
+                        <P N="Structure" V="SSHH_PPOO_00000300" />
+                        <P N="ChildTable" V="[STR,SSHH_PPOO_00000300,tbl]" />
+                        <P N="ChildField" V="Reference" />
+                        <P N="ChildRecord" V="[CELL,SSHH_PPOO_00000300,RecID,-1,bv]" />
+                    </C>
+                </OTHER>
+            </CONTROLPROPS>
+        </CONTROL>
+        <CONTROL Name="SSHH_PPOO_00000300_Grid_Product" Type="GridColumn">
+            <CONTROLPROPS>
+                <LAYOUT>
+                    <SIZE WidthValue="APP:ShortTextsColumnsWidth" />
+                </LAYOUT>
+                <DATAACCESS ColumnIdentifier="PrdRef" FormatString="{0:cell_PrdRef}{0:cell_PrdName##, #}{0:cell_GLS_Var1##, #}" />
+                <OTHER>
+                    <C N="OpenParent">
+                        <P N="Structure" V="SSHH_PPOO_00000300" />
+                        <P N="ChildTable" V="[STR,SSHH_PPOO_00000300,tbl]" />
+                        <P N="ChildField" V="PrdRef" />
+                        <P N="ChildRecord" V="[CELL,SSHH_PPOO_00000300,RecID,-1,bv]" />
+                    </C>
+                </OTHER>
+            </CONTROLPROPS>
+        </CONTROL>
+        <CONTROL Name="SSHH_PPOO_00000300_Grid_Warehouse" Type="GridColumn">
+            <CONTROLPROPS>
+                <LAYOUT>
+                    <SIZE WidthValue="APP:ReferencesColumnsWidth" />
+                </LAYOUT>
+                <DATAACCESS ColumnIdentifier="WrhRef" />
+            </CONTROLPROPS>
+        </CONTROL>
+        <CONTROL Name="SSHH_PPOO_00000300_Grid_RequiredQuantity" Type="GridColumn">
+            <CONTROLPROPS>
+                <LAYOUT>
+                    <SIZE WidthType="Value" WidthValue="APP:ShortNumbersColumnsWidth" />
+                </LAYOUT>
+                <DATAACCESS ColumnIdentifier="Quantity" />
+                <STYLES Alignment="Right" />
+                <SPECIAL>
+                    <COL PercentWidth="0" />
+                </SPECIAL>
+            </CONTROLPROPS>
+        </CONTROL>
+    </CHILDREN>
+</CONTROL>

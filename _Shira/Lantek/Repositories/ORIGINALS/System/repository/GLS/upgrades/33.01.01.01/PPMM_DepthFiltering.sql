@@ -1,0 +1,108 @@
+-- @#LONGSCRIPT#@
+
+--Updates related to projects
+
+--Project
+UPDATE GLS_IITT_IITT_00000200
+SET GLS_IITT_IITT_00000200.MainOriginFilter = GLS_IITT_IITT_00000200.Reference,
+	GLS_IITT_IITT_00000200.MainOriginNameFilter = ISNULL((
+														  SELECT TOP 1 PPMM_PPMM_00000100.Project
+														  FROM PPMM_PPMM_00000100
+														  WHERE GLS_IITT_IITT_00000200.Reference = PPMM_PPMM_00000100.PrjRef AND 
+															    GLS_IITT_IITT_00000200.Category = 20)
+													 , ''),
+	GLS_IITT_IITT_00000200.MainOriginTypeFilter = 1
+WHERE GLS_IITT_IITT_00000200.Reference <> '' AND GLS_IITT_IITT_00000200.Category = 20
+
+
+--Purchase order
+UPDATE GLS_IITT_IITT_00000200
+SET GLS_IITT_IITT_00000200.MainOriginFilter= ISNULL((
+													 SELECT TOP 1 PPMM_PPMM_00000100.PrjRef
+													 FROM PPMM_PPMM_00000100, SSHH_PPOO_00000200
+													 WHERE SSHH_PPOO_00000200.RecordID = PPMM_PPMM_00000100.RecID AND
+														   SSHH_PPOO_00000200.AssocElementType = 1 AND
+														   GLS_IITT_IITT_00000200.Reference = SSHH_PPOO_00000200.OrdRef	AND
+														   GLS_IITT_IITT_00000200.ILineNum = SSHH_PPOO_00000200.LineNum	AND 
+														   GLS_IITT_IITT_00000200.Category = 53)
+													 , ''),
+	GLS_IITT_IITT_00000200.MainOriginNameFilter = ISNULL((
+														  SELECT TOP 1 PPMM_PPMM_00000100.Project
+														  FROM PPMM_PPMM_00000100, SSHH_PPOO_00000200
+														  WHERE SSHH_PPOO_00000200.RecordID = PPMM_PPMM_00000100.RecID AND
+																SSHH_PPOO_00000200.AssocElementType = 1 AND
+																GLS_IITT_IITT_00000200.Reference = SSHH_PPOO_00000200.OrdRef AND
+																GLS_IITT_IITT_00000200.ILineNum = SSHH_PPOO_00000200.LineNum AND GLS_IITT_IITT_00000200.Category = 53)
+													     , ''),
+	GLS_IITT_IITT_00000200.MainOriginTypeFilter = 1
+WHERE GLS_IITT_IITT_00000200.Reference <> '' AND GLS_IITT_IITT_00000200.Category = 53
+
+UPDATE GLS_IITT_IITT_00000200
+SET GLS_IITT_IITT_00000200.MainOriginFilter= ISNULL((
+													SELECT TOP 1 PPMM_PPMM_00000200.PrjRef
+													FROM PPMM_PPMM_00000200, SSHH_PPOO_00000200
+													WHERE SSHH_PPOO_00000200.RecordID = PPMM_PPMM_00000200.RecID AND
+													      SSHH_PPOO_00000200.AssocElementType = 2 AND
+														  GLS_IITT_IITT_00000200.Reference = SSHH_PPOO_00000200.OrdRef AND
+														  GLS_IITT_IITT_00000200.ILineNum = SSHH_PPOO_00000200.LineNum AND
+														  GLS_IITT_IITT_00000200.Category = 53)
+												, ''),
+	GLS_IITT_IITT_00000200.MainOriginNameFilter = ISNULL((
+														  SELECT TOP 1 PPMM_PPMM_00000100.Project
+														  FROM PPMM_PPMM_00000100, PPMM_PPMM_00000200, SSHH_PPOO_00000200
+														  WHERE PPMM_PPMM_00000100.PrjRef = PPMM_PPMM_00000200.PrjRef AND 
+																SSHH_PPOO_00000200.RecordID = PPMM_PPMM_00000200.RecID AND
+																SSHH_PPOO_00000200.AssocElementType = 2 AND
+																GLS_IITT_IITT_00000200.Reference = SSHH_PPOO_00000200.OrdRef AND
+																GLS_IITT_IITT_00000200.ILineNum = SSHH_PPOO_00000200.LineNum AND
+																GLS_IITT_IITT_00000200.Category = 53)
+													  , ''),
+	GLS_IITT_IITT_00000200.MainOriginTypeFilter = 1
+WHERE GLS_IITT_IITT_00000200.Reference <> '' AND GLS_IITT_IITT_00000200.Category = 53
+
+
+--Receipt
+UPDATE GLS_IITT_IITT_00000200
+SET GLS_IITT_IITT_00000200.MainOriginFilter= ISNULL((
+													 SELECT TOP 1 PPMM_PPMM_00000100.PrjRef
+													 FROM PPMM_PPMM_00000100, SSHH_SSHH_00000200
+													 WHERE SSHH_SSHH_00000200.RecordID = PPMM_PPMM_00000100.RecID AND
+														   SSHH_SSHH_00000200.AssocElementType = 1 AND 
+														   GLS_IITT_IITT_00000200.Reference = SSHH_SSHH_00000200.ShpRef AND
+														   GLS_IITT_IITT_00000200.ILineNum = SSHH_SSHH_00000200.LineNum AND
+														   GLS_IITT_IITT_00000200.Category = 55)
+												   , ''),
+	GLS_IITT_IITT_00000200.MainOriginNameFilter = ISNULL((
+														  SELECT TOP 1 PPMM_PPMM_00000100.Project
+														  FROM PPMM_PPMM_00000100, SSHH_SSHH_00000200
+														  WHERE SSHH_SSHH_00000200.RecordID = PPMM_PPMM_00000100.RecID  AND 
+																SSHH_SSHH_00000200.AssocElementType = 1 AND 
+																GLS_IITT_IITT_00000200.Reference = SSHH_SSHH_00000200.ShpRef AND
+																GLS_IITT_IITT_00000200.ILineNum = SSHH_SSHH_00000200.LineNum AND
+																GLS_IITT_IITT_00000200.Category = 53)
+														  , ''),
+	GLS_IITT_IITT_00000200.MainOriginTypeFilter = 1
+WHERE GLS_IITT_IITT_00000200.Reference <> '' AND GLS_IITT_IITT_00000200.Category = 55
+
+UPDATE GLS_IITT_IITT_00000200
+SET GLS_IITT_IITT_00000200.MainOriginFilter= ISNULL((
+													 SELECT TOP 1 PPMM_PPMM_00000200.PrjRef
+													 FROM PPMM_PPMM_00000200, SSHH_SSHH_00000200
+													 WHERE SSHH_SSHH_00000200.RecordID = PPMM_PPMM_00000200.RecID AND 
+														   SSHH_SSHH_00000200.AssocElementType = 2 AND 
+														   GLS_IITT_IITT_00000200.Reference = SSHH_SSHH_00000200.ShpRef	AND 
+														   GLS_IITT_IITT_00000200.ILineNum = SSHH_SSHH_00000200.LineNum	 AND
+														   GLS_IITT_IITT_00000200.Category = 55)
+												, ''),
+	GLS_IITT_IITT_00000200.MainOriginNameFilter = ISNULL((
+														  SELECT TOP 1 PPMM_PPMM_00000100.Project
+														  FROM PPMM_PPMM_00000100, PPMM_PPMM_00000200, SSHH_SSHH_00000200
+														  WHERE PPMM_PPMM_00000100.PrjRef = PPMM_PPMM_00000200.PrjRef AND
+																SSHH_SSHH_00000200.RecordID = PPMM_PPMM_00000200.RecID  AND 
+																SSHH_SSHH_00000200.AssocElementType = 2 AND 
+																GLS_IITT_IITT_00000200.Reference = SSHH_SSHH_00000200.ShpRef AND
+																GLS_IITT_IITT_00000200.ILineNum = SSHH_SSHH_00000200.LineNum AND
+																GLS_IITT_IITT_00000200.Category = 53)
+														 , ''),
+	GLS_IITT_IITT_00000200.MainOriginTypeFilter = 1
+WHERE GLS_IITT_IITT_00000200.Reference <> '' AND GLS_IITT_IITT_00000200.Category = 55

@@ -1,0 +1,43 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="DIS_WWPP_WWOO_00000100_WorkOrderValidation" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+  <xs:element name="DIS_WWPP_WWOO_00000100_WorkOrderValidation" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Work_x0020_orders" msprop:Table="WWPP_WWOO_00000100">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="OrdRef" msdata:Caption="Referencia" type="xs:string" minOccurs="0" />
+              <xs:element name="OrdRef__Lab" msdata:Caption="Referencia (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="RecID" msdata:Caption="Identificador del elemento" type="xs:int" minOccurs="0" />
+              <xs:element name="RecID__Lab" msdata:Caption="Identificador del elemento (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="OrdName" msdata:Caption="Nombre" type="xs:string" minOccurs="0" />
+              <xs:element name="OrdName__Lab" msdata:Caption="Nombre (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="OriginOrder" msdata:Caption="Paquete de trabajo" type="xs:string" minOccurs="0" />
+              <xs:element name="OriginOrder__Lab" msdata:Caption="Paquete de trabajo (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Status" msdata:Caption="Estado" type="xs:short" minOccurs="0" />
+              <xs:element name="Status__Lab" msdata:Caption="Estado (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Type" msdata:Caption="Tipo" type="xs:short" minOccurs="0" />
+              <xs:element name="Type__Lab" msdata:Caption="Tipo (Etiqueta)" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Resource_x0020_Assignment" msprop:Table="RRSS_AASS_00000100">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TblRef" msdata:Caption="Tabla relacionada" type="xs:string" minOccurs="0" />
+              <xs:element name="TblRef__Lab" msdata:Caption="Tabla relacionada (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="RecordID" msdata:Caption="Identificador de elemento asociado" type="xs:int" minOccurs="0" />
+              <xs:element name="RecordID__Lab" msdata:Caption="Identificador de elemento asociado (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="RsRef" msdata:Caption="Recurso" type="xs:string" minOccurs="0" />
+              <xs:element name="RsRef__Lab" msdata:Caption="Recurso (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="EstimatedTime" msdata:Caption="Tiempo estimado" type="xs:double" minOccurs="0" />
+              <xs:element name="EstimatedTime__Lab" msdata:Caption="Tiempo estimado (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="EstimatedTime__Dec" msdata:Caption="Tiempo estimado (Dígitos decimales)" type="xs:short" minOccurs="0" />
+              <xs:element name="EstimatedTime__Rnd" msdata:Caption="Tiempo estimado (Redondeado)" type="xs:short" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

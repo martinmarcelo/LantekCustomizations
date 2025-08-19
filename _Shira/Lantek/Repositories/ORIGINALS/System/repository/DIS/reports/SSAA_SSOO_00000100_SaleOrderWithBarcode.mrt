@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="0" />
+    <DataSources isList="true" count="1">
+      <SSAA_SSOO_00000100 Ref="2" type="DataTableSource" isKey="true">
+        <Alias>SSAA_SSOO_00000100</Alias>
+        <Columns isList="true" count="7">
+          <value>OrdRef,Reference,System.String</value>
+          <value>OrdRef__Lab,Reference_x0020__x0028_Label_x0029_,System.String</value>
+          <value>RecID,Element_x0020_identifier,System.Int32</value>
+          <value>RecID__Lab,Element_x0020_identifier_x0020__x0028_Label_x0029_,System.String</value>
+          <value>RecID__ScN,Element_x0020_identifier_x0020__x0028_Value_x0029_,System.String</value>
+          <value>CusName,Customer_x0020_name,System.String</value>
+          <value>CusName__Lab,Customer_x0020_name_x0020__x0028_Label_x0029_,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>SSAA_SSOO_00000100</Name>
+        <NameInSource>SSAA_SSOO_00000100_SaleOrderWithBarcode.SSAA_SSOO_00000100</NameInSource>
+      </SSAA_SSOO_00000100>
+    </DataSources>
+    <Relations isList="true" count="0" />
+    <Report isRef="0" />
+    <Variables isList="true" count="8">
+      <value>,__Sys_DatePattern,__Sys_DatePattern,System.String,,False,False</value>
+      <value>,__Mss_33466,__Mss_33466,System.String,,False,False</value>
+      <value>,Barcode,Barcode,System.String,_x0022_SO_x0023__x0022__x0020__x002B__x0020_SSAA_SSOO_00000100.RecID,True,True</value>
+      <value>,__Dsc_Reference,__Dsc_Reference,System.String,_x007B_SSAA_SSOO_00000100.OrdRef_x007D_,False,False</value>
+      <value>,__Mss_30007,__Mss_30007,System.String,,False,False</value>
+      <value>,ForPage,ForPage,System.String,,False,False</value>
+      <value>,__Dsc_Customer,__Dsc_Customer,System.String,_x007B_SSAA_SSOO_00000100.CusName_x007D_,False,False</value>
+      <value>,__Mss_60003218,__Mss_60003218,System.String,,False,False</value>
+    </Variables>
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <ReportPage Ref="3" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="4">
+        <PageFooterBand1 Ref="4" type="PageFooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,24.54,19.59,1.4</ClientRectangle>
+          <Components isList="true" count="2">
+            <Text82 Ref="5" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>13.2,0.6,5.2,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,8</Font>
+              <Guid>539d6fc8707449dbbac0f89202f73577</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text82</Name>
+              <Page isRef="3" />
+              <Parent isRef="4" />
+              <Text>{ForPage = Replace(Replace(__Mss_33466, "@#PAGENUMBER#@", PageNumber),  "@#TOTALPAGECOUNT#@", TotalPageCount)}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text82>
+            <HorizontalLinePrimitive5 Ref="6" type="HorizontalLinePrimitive" isKey="true">
+              <ClientRectangle>0,0.4,19.6,0.0254</ClientRectangle>
+              <Color>Black</Color>
+              <EndCap Ref="7" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </EndCap>
+              <Guid>17c02c22ee92493badddc853064d1cd3</Guid>
+              <Name>HorizontalLinePrimitive5</Name>
+              <Page isRef="3" />
+              <Parent isRef="4" />
+              <StartCap Ref="8" type="Cap" isKey="true">
+                <Color>Black</Color>
+              </StartCap>
+            </HorizontalLinePrimitive5>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Guid>967cd63824c048779337d454ffc05113</Guid>
+          <Name>PageFooterBand1</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+        </PageFooterBand1>
+        <ReportTitleBand1 Ref="9" type="ReportTitleBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0,19.59,1.2</ClientRectangle>
+          <Components isList="true" count="1">
+            <Text7 Ref="10" type="Text" isKey="true">
+              <Border>Bottom;[199:213:224];3;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,19.6,1</ClientRectangle>
+              <ComponentStyle>Titles</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,22,Bold</Font>
+              <Guid>e239ee9197e0eb12b8f5051fc622bbc8</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text7</Name>
+              <Page isRef="3" />
+              <Parent isRef="9" />
+              <Text>{__Mss_60003218}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text7>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Guid>9c8bfc2b1fff454652d3051fc6223706</Guid>
+          <Name>ReportTitleBand1</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+        </ReportTitleBand1>
+        <HeaderBand1 Ref="11" type="HeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,1.2,19.59,0.6</ClientRectangle>
+          <Components isList="true" count="4">
+            <Text27 Ref="12" type="Text" isKey="true">
+              <Brush>[216:216:216]</Brush>
+              <ClientRectangle>7.8,0,4.6,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10,Bold</Font>
+              <Guid>0bb433f216934493ab1f1095884a777f</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text27</Name>
+              <Page isRef="3" />
+              <Parent isRef="11" />
+              <Text>{__Dsc_Reference}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text27>
+            <Text3 Ref="13" type="Text" isKey="true">
+              <Brush>[216:216:216]</Brush>
+              <ClientRectangle>0.4,0,7.4,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10,Bold</Font>
+              <Guid>581b526ff02643d296f33f903a0b05b7</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text3</Name>
+              <Page isRef="3" />
+              <Parent isRef="11" />
+              <Text>{__Mss_30007}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text3>
+            <Text6 Ref="14" type="Text" isKey="true">
+              <Brush>[216:216:216]</Brush>
+              <ClientRectangle>0,0,0.4,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10,Bold</Font>
+              <Guid>5a760cb5310e41e39dca6b09d28ba6d6</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text6</Name>
+              <Page isRef="3" />
+              <Parent isRef="11" />
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text6>
+            <Text5 Ref="15" type="Text" isKey="true">
+              <Brush>[216:216:216]</Brush>
+              <ClientRectangle>12.4,0,7.2,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10,Bold</Font>
+              <Guid>2b4251030c4c41b380747e0a2b5e079a</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text5</Name>
+              <Page isRef="3" />
+              <Parent isRef="11" />
+              <Text>{__Dsc_Customer}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text5>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>HeaderBand1</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+        </HeaderBand1>
+        <DataBand1 Ref="16" type="DataBand" isKey="true">
+          <Border>Bottom;LightGray;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,1.8,19.59,2.6</ClientRectangle>
+          <Components isList="true" count="3">
+            <Text1 Ref="17" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>7.8,0.8,4.6,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text1</Name>
+              <Page isRef="3" />
+              <Parent isRef="16" />
+              <Text>{SSAA_SSOO_00000100.OrdRef}</Text>
+              <TextBrush>Black</TextBrush>
+            </Text1>
+            <BarCode1 Ref="18" type="Stimulsoft.Report.BarCodes.StiBarCode" isKey="true">
+              <AutoScale>True</AutoScale>
+              <BackColor>White</BackColor>
+              <BarCodeType Ref="19" type="Stimulsoft.Report.BarCodes.StiCode128AutoBarCodeType" isKey="true" />
+              <ClientRectangle>0.4,0.4,7.4,1.8</ClientRectangle>
+              <Code>{Barcode}</Code>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,8,Regular,Pixel</Font>
+              <ForeColor>Black</ForeColor>
+              <Name>BarCode1</Name>
+              <Page isRef="3" />
+              <Parent isRef="16" />
+            </BarCode1>
+            <Text4 Ref="20" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>12.4,0.8,7.2,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,10</Font>
+              <Guid>a837d1e9125c4a4b94369ada932a5806</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text4</Name>
+              <Page isRef="3" />
+              <Parent isRef="16" />
+              <Text>{SSAA_SSOO_00000100.CusName}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text4>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DataSourceName>SSAA_SSOO_00000100</DataSourceName>
+          <Filters isList="true" count="0" />
+          <Name>DataBand1</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Sort isList="true" count="0" />
+        </DataBand1>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Guid>712cc30a6dc24004b91de525cf2c068a</Guid>
+      <Margins>1,1,1,1</Margins>
+      <Name>ReportPage</Name>
+      <PageHeight>27.94</PageHeight>
+      <PageWidth>21.59</PageWidth>
+      <PaperSize>Letter</PaperSize>
+      <Report isRef="0" />
+      <Watermark Ref="21" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <Font>Arial,100</Font>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
+    </ReportPage>
+  </Pages>
+  <PrinterSettings Ref="22" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>SSAA_SSOO_00000100_SaleOrderWithBarcode</ReportAlias>
+  <ReportAuthor>SYSADM</ReportAuthor>
+  <ReportChanged>3/8/2018 5:44:02 PM</ReportChanged>
+  <ReportCreated>10/3/2016 12:06:38 PM</ReportCreated>
+  <ReportDescription>Sale order with bar code</ReportDescription>
+  <ReportFile>C:/Lantek/Lantek2018x64/System/Common/repository/DIS/reports/SSAA_SSOO_00000100_SaleOrderWithBarcode.mrt</ReportFile>
+  <ReportGuid>c767bb08d16c4df9b7f59e0104378b36</ReportGuid>
+  <ReportName>SSAA_SSOO_00000100_SaleOrderWithBarcode</ReportName>
+  <ReportUnit>Centimeters</ReportUnit>
+  <ReportVersion>2013.2.1604</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    public class Sale_order_for_barcode : Stimulsoft.Report.StiReport
+    {
+        public Sale_order_for_barcode()        {
+            this.InitializeComponent();
+        }
+
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="7">
+    <Titles Ref="23" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>Bottom;[199:213:224];3;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Calibri Light,22,Bold</Font>
+      <Name>Titles</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Titles>
+    <PageHeader Ref="24" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>Bottom;[199:213:224];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Verdana,9</Font>
+      <Name>PageHeader</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </PageHeader>
+    <PageFooter Ref="25" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>Top;[199:213:224];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Verdana,9</Font>
+      <Name>PageFooter</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </PageFooter>
+    <Headers Ref="26" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>All;[131:166:224];1;Solid;False;4;Black</Border>
+      <Brush>[185:218:255]</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Arial,11,Bold</Font>
+      <Name>Headers</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Headers>
+    <DataClean Ref="27" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Verdana,10</Font>
+      <Name>DataClean</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </DataClean>
+    <DataOdd Ref="28" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>All;[216:223:232];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Verdana,10</Font>
+      <Name>DataOdd</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </DataOdd>
+    <DataEven Ref="29" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>All;[216:223:232];1;Solid;False;4;Black</Border>
+      <Brush>[240:245:251]</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Verdana,10</Font>
+      <Name>DataEven</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </DataEven>
+  </Styles>
+</StiSerializer>

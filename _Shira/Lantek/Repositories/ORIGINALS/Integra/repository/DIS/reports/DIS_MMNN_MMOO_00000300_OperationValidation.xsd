@@ -1,0 +1,82 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="DIS_MMNN_MMOO_00000300_OperationValidation" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="DIS_MMNN_MMOO_00000300_OperationValidation" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="MMNN_MMOO_00000300">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MnORef" msdata:Caption="Orden de producción" type="xs:string" minOccurs="0" />
+              <xs:element name="MnORef__Lab" msdata:Caption="Orden de producción (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="OprID" msdata:Caption="Número de operación" type="xs:int" minOccurs="0" />
+              <xs:element name="OprID__Lab" msdata:Caption="Número de operación (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="PrdRefDst" msdata:Caption="Artículo" type="xs:string" minOccurs="0" />
+              <xs:element name="PrdRefDst__Lab" msdata:Caption="Artículo (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="PrdNameDst" msdata:Caption="Nombre del artículo" type="xs:string" minOccurs="0" />
+              <xs:element name="PrdNameDst__Lab" msdata:Caption="Nombre del artículo (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="NextOprID" msdata:Caption="Siguiente operación" type="xs:int" minOccurs="0" />
+              <xs:element name="NextOprID__Lab" msdata:Caption="Siguiente operación (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="WrkRef" msdata:Caption="Centro de trabajo" type="xs:string" minOccurs="0" />
+              <xs:element name="WrkRef__Lab" msdata:Caption="Centro de trabajo (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="OprRef" msdata:Caption="Operación" type="xs:string" minOccurs="0" />
+              <xs:element name="OprRef__Lab" msdata:Caption="Operación (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Quantity" msdata:Caption="Cantidad" type="xs:double" minOccurs="0" />
+              <xs:element name="Quantity__Lab" msdata:Caption="Cantidad (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Quantity__DBD" msdata:Caption="Cantidad (Base de datos)" type="xs:double" minOccurs="0" />
+              <xs:element name="Quantity__Scr" msdata:Caption="Cantidad (Valor)" type="xs:string" minOccurs="0" />
+              <xs:element name="Quantity__Dec" msdata:Caption="Cantidad (Dígitos decimales)" type="xs:short" minOccurs="0" />
+              <xs:element name="Quantity__Rnd" msdata:Caption="Cantidad (Redondeado)" type="xs:short" minOccurs="0" />
+              <xs:element name="Quantity__Sff" msdata:Caption="Cantidad (Sufijo)" type="xs:string" minOccurs="0" />
+              <xs:element name="StdTime" msdata:Caption="Tiempo estimado" type="xs:double" minOccurs="0" />
+              <xs:element name="StdTime__Lab" msdata:Caption="Tiempo estimado (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="StdTime__Dec" msdata:Caption="Tiempo estimado (Dígitos decimales)" type="xs:short" minOccurs="0" />
+              <xs:element name="StdTime__Rnd" msdata:Caption="Tiempo estimado (Redondeado)" type="xs:short" minOccurs="0" />
+              <xs:element name="DIS_Is2DSOp" msdata:Caption="Pieza de chapa" type="xs:boolean" minOccurs="0" />
+              <xs:element name="DIS_Is2DSOp__Lab" msdata:Caption="Pieza de chapa (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="DIS_Is2DSOp__ScN" msdata:Caption="Pieza de chapa (Valor)" type="xs:string" minOccurs="0" />
+              <xs:element name="DIS_Is3DSOp" msdata:Caption="Pieza 3D" type="xs:boolean" minOccurs="0" />
+              <xs:element name="DIS_Is3DSOp__Lab" msdata:Caption="Pieza 3D (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="DIS_Is3DSOp__ScN" msdata:Caption="Pieza 3D (Valor)" type="xs:string" minOccurs="0" />
+              <xs:element name="RecState" msdata:Caption="Estado del elemento" type="xs:short" minOccurs="0" />
+              <xs:element name="RecState__Lab" msdata:Caption="Estado del elemento (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="CrtDate" msdata:Caption="Fecha de creación" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="CrtDate__Lab" msdata:Caption="Fecha de creación (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="CrtDate__LDt" msdata:Caption="Fecha de creación (Fecha larga)" type="xs:string" minOccurs="0" />
+              <xs:element name="CrtDate__MDt" msdata:Caption="Fecha de creación (Fecha media)" type="xs:string" minOccurs="0" />
+              <xs:element name="CrtDate__SDt" msdata:Caption="Fecha de creación (Fecha corta)" type="xs:string" minOccurs="0" />
+              <xs:element name="LastDate" msdata:Caption="Fecha de modificación" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="LastDate__Lab" msdata:Caption="Fecha de modificación (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="LastDate__LDt" msdata:Caption="Fecha de modificación (Fecha larga)" type="xs:string" minOccurs="0" />
+              <xs:element name="LastDate__MDt" msdata:Caption="Fecha de modificación (Fecha media)" type="xs:string" minOccurs="0" />
+              <xs:element name="LastDate__SDt" msdata:Caption="Fecha de modificación (Fecha corta)" type="xs:string" minOccurs="0" />
+              <xs:element name="CrtUser" msdata:Caption="Creado por" type="xs:string" minOccurs="0" />
+              <xs:element name="CrtUser__Lab" msdata:Caption="Creado por (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="LastUser" msdata:Caption="Modificado por" type="xs:string" minOccurs="0" />
+              <xs:element name="LastUser__Lab" msdata:Caption="Modificado por (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Owner" msdata:Caption="Propietario" type="xs:string" minOccurs="0" />
+              <xs:element name="Owner__Lab" msdata:Caption="Propietario (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="RecEnt" msdata:Caption="Empresa del elemento" type="xs:string" minOccurs="0" />
+              <xs:element name="RecEnt__Lab" msdata:Caption="Empresa del elemento (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="RecOU" msdata:Caption="Unidad organizativa del elemento" type="xs:string" minOccurs="0" />
+              <xs:element name="RecOU__Lab" msdata:Caption="Unidad organizativa del elemento (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="RecSec" msdata:Caption="Seguridad" type="xs:int" minOccurs="0" />
+              <xs:element name="RecSec__Lab" msdata:Caption="Seguridad (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="CntID" msdata:Caption="Identificador de contenido" type="xs:int" minOccurs="0" />
+              <xs:element name="CntID__Lab" msdata:Caption="Identificador de contenido (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="RecID" msdata:Caption="Identificador del elemento" type="xs:int" minOccurs="0" />
+              <xs:element name="RecID__Lab" msdata:Caption="Identificador del elemento (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="NextWrkRef" msdata:Caption="Centro de trabajo" type="xs:string" minOccurs="0" />
+              <xs:element name="NextWrkRef__Lab" msdata:Caption="Centro de trabajo (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="NextOprRef" msdata:Caption="Operación" type="xs:string" minOccurs="0" />
+              <xs:element name="NextOprRef__Lab" msdata:Caption="Operación (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="PreviousWrkRef" msdata:Caption="Centro de trabajo" type="xs:string" minOccurs="0" />
+              <xs:element name="PreviousWrkRef__Lab" msdata:Caption="Centro de trabajo (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="PreviousOprRef" msdata:Caption="Operación" type="xs:string" minOccurs="0" />
+              <xs:element name="PreviousOprRef__Lab" msdata:Caption="Operación (Etiqueta)" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

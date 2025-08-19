@@ -1,0 +1,1735 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="0" />
+    <DataSources isList="true" count="4">
+      <Sale_x0020_order Ref="2" type="DataTableSource" isKey="true">
+        <Alias>Sale order</Alias>
+        <Columns isList="true" count="22">
+          <value>OrdRef,Referencia,System.String</value>
+          <value>OrdRef__Lab,Referencia_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>CusRef,Cliente,System.String</value>
+          <value>CusRef__Lab,Cliente_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>CusName,Nombre_x0020_de_x0020_cliente,System.String</value>
+          <value>CusName__Lab,Nombre_x0020_de_x0020_cliente_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>Subtotal,System.Double</value>
+          <value>Subtotal__Lab,Subtotal_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>Subtotal__DBD,Subtotal_x0020__x0028_Base_x0020_de_x0020_datos_x0029_,System.Double</value>
+          <value>Subtotal__Scr,Subtotal_x0020__x0028_Valor_x0029_,System.String</value>
+          <value>Subtotal__Dec,Subtotal_x0020__x0028_Dígitos_x0020_decimales_x0029_,System.Int16</value>
+          <value>Subtotal__Rnd,Subtotal_x0020__x0028_Redondeado_x0029_,System.Int16</value>
+          <value>Subtotal__Sff,Subtotal_x0020__x0028_Sufijo_x0029_,System.String</value>
+          <value>Subtotal__Prf,Subtotal_x0020__x0028_Prefijo_x0029_,System.String</value>
+          <value>Subtotal__PrP,Subtotal_x0020__x0028_Prefijo_x0020_positivo_x0029_,System.String</value>
+          <value>Subtotal__PrN,Subtotal_x0020__x0028_Prefijo_x0020_negativo_x0029_,System.String</value>
+          <value>Subtotal__SfP,Subtotal_x0020__x0028_Sufijo_x0020_positivo_x0029_,System.String</value>
+          <value>Subtotal__SfN,Subtotal_x0020__x0028_Sufijo_x0020_negativo_x0029_,System.String</value>
+          <value>CurName,Moneda,System.String</value>
+          <value>CurName__Lab,Moneda_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>Currency.CurName,Nombre,System.String</value>
+          <value>Currency.CurName__Lab,Nombre_x0020__x0028_Etiqueta_x0029_,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Sale order</Name>
+        <NameInSource>04_DIS_SSAA_SSOO_00000100_SaleOrderCostValuation.Sale order</NameInSource>
+      </Sale_x0020_order>
+      <Sale_x0020_order_x0020_lines Ref="3" type="DataTableSource" isKey="true">
+        <Alias>Sale order lines</Alias>
+        <Columns isList="true" count="27">
+          <value>OrdRef,Pedido,System.String</value>
+          <value>OrdRef__Lab,Pedido_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>LineNum,Número_x0020_de_x0020_línea,System.String</value>
+          <value>LineNum__Lab,Número_x0020_de_x0020_línea_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>PrdName,Nombre,System.String</value>
+          <value>PrdName__Lab,Nombre_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>PrdRef,Artículo,System.String</value>
+          <value>PrdRef__Lab,Artículo_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>Quantity,Cantidad,System.Double</value>
+          <value>Quantity__Lab,Cantidad_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>Quantity__DBD,Cantidad_x0020__x0028_Base_x0020_de_x0020_datos_x0029_,System.Double</value>
+          <value>Quantity__Scr,Cantidad_x0020__x0028_Valor_x0029_,System.String</value>
+          <value>Quantity__Dec,Cantidad_x0020__x0028_Dígitos_x0020_decimales_x0029_,System.Int16</value>
+          <value>Quantity__Rnd,Cantidad_x0020__x0028_Redondeado_x0029_,System.Int16</value>
+          <value>Quantity__Sff,Cantidad_x0020__x0028_Sufijo_x0029_,System.String</value>
+          <value>TPrice,Subtotal,System.Double</value>
+          <value>TPrice__Lab,Subtotal_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>TPrice__DBD,Subtotal_x0020__x0028_Base_x0020_de_x0020_datos_x0029_,System.Double</value>
+          <value>TPrice__Scr,Subtotal_x0020__x0028_Valor_x0029_,System.String</value>
+          <value>TPrice__Dec,Subtotal_x0020__x0028_Dígitos_x0020_decimales_x0029_,System.Int16</value>
+          <value>TPrice__Rnd,Subtotal_x0020__x0028_Redondeado_x0029_,System.Int16</value>
+          <value>TPrice__Sff,Subtotal_x0020__x0028_Sufijo_x0029_,System.String</value>
+          <value>TPrice__Prf,Subtotal_x0020__x0028_Prefijo_x0029_,System.String</value>
+          <value>TPrice__PrP,Subtotal_x0020__x0028_Prefijo_x0020_positivo_x0029_,System.String</value>
+          <value>TPrice__PrN,Subtotal_x0020__x0028_Prefijo_x0020_negativo_x0029_,System.String</value>
+          <value>TPrice__SfP,Subtotal_x0020__x0028_Sufijo_x0020_positivo_x0029_,System.String</value>
+          <value>TPrice__SfN,Subtotal_x0020__x0028_Sufijo_x0020_negativo_x0029_,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Sale order lines</Name>
+        <NameInSource>04_DIS_SSAA_SSOO_00000100_SaleOrderCostValuation.Sale order lines</NameInSource>
+      </Sale_x0020_order_x0020_lines>
+      <Production_x0020_orders Ref="4" type="DataTableSource" isKey="true">
+        <Alias>Production orders</Alias>
+        <Columns isList="true" count="6">
+          <value>MnORef,Orden_x0020_de_x0020_producción,System.String</value>
+          <value>MnORef__Lab,Orden_x0020_de_x0020_producción_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>OrdRef,Elemento_x0020_asociado,System.String</value>
+          <value>OrdRef__Lab,Elemento_x0020_asociado_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>OLineNum,Línea_x0020_de_x0020_pedido,System.String</value>
+          <value>OLineNum__Lab,Línea_x0020_de_x0020_pedido_x0020__x0028_Etiqueta_x0029_,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Production orders</Name>
+        <NameInSource>04_DIS_SSAA_SSOO_00000100_SaleOrderCostValuation.Production orders</NameInSource>
+      </Production_x0020_orders>
+      <Production_x0020_costs Ref="5" type="DataTableSource" isKey="true">
+        <Alias>Production costs</Alias>
+        <Columns isList="true" count="50">
+          <value>MnORef,Orden_x0020_de_x0020_producción,System.String</value>
+          <value>MnORef__Lab,Orden_x0020_de_x0020_producción_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>OprID,Número_x0020_de_x0020_operación,System.Int32</value>
+          <value>OprID__Lab,Número_x0020_de_x0020_operación_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>NumID,Número_x0020_de_x0020_línea,System.Int32</value>
+          <value>NumID__Lab,Número_x0020_de_x0020_línea_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>CType,Tipo_x0020_de_x0020_consumo,System.Int16</value>
+          <value>CType__Lab,Tipo_x0020_de_x0020_consumo_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>RawRef,Materia_x0020_prima,System.String</value>
+          <value>RawRef__Lab,Materia_x0020_prima_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>RawName,Nombre_x0020_de_x0020_la_x0020_materia_x0020_prima,System.String</value>
+          <value>RawName__Lab,Nombre_x0020_de_x0020_la_x0020_materia_x0020_prima_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>Description,Descripción,System.String</value>
+          <value>Description__Lab,Descripción_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>StdQuan,Consumo_x0020_estándar,System.Double</value>
+          <value>StdQuan__Lab,Consumo_x0020_estándar_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>StdQuan__DBD,Consumo_x0020_estándar_x0020__x0028_Base_x0020_de_x0020_datos_x0029_,System.Double</value>
+          <value>StdQuan__Scr,Consumo_x0020_estándar_x0020__x0028_Valor_x0029_,System.String</value>
+          <value>StdQuan__Dec,Consumo_x0020_estándar_x0020__x0028_Dígitos_x0020_decimales_x0029_,System.Int16</value>
+          <value>StdQuan__Rnd,Consumo_x0020_estándar_x0020__x0028_Redondeado_x0029_,System.Int16</value>
+          <value>StdQuan__Sff,Consumo_x0020_estándar_x0020__x0028_Sufijo_x0029_,System.String</value>
+          <value>CurQuan,Consumo_x0020_actual,System.Double</value>
+          <value>CurQuan__Lab,Consumo_x0020_actual_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>CurQuan__DBD,Consumo_x0020_actual_x0020__x0028_Base_x0020_de_x0020_datos_x0029_,System.Double</value>
+          <value>CurQuan__Scr,Consumo_x0020_actual_x0020__x0028_Valor_x0029_,System.String</value>
+          <value>CurQuan__Dec,Consumo_x0020_actual_x0020__x0028_Dígitos_x0020_decimales_x0029_,System.Int16</value>
+          <value>CurQuan__Rnd,Consumo_x0020_actual_x0020__x0028_Redondeado_x0029_,System.Int16</value>
+          <value>CurQuan__Sff,Consumo_x0020_actual_x0020__x0028_Sufijo_x0029_,System.String</value>
+          <value>StdCostT,Coste_x0020_estándar,System.Double</value>
+          <value>StdCostT__Lab,Coste_x0020_estándar_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>StdCostT__DBD,Coste_x0020_estándar_x0020__x0028_Base_x0020_de_x0020_datos_x0029_,System.Double</value>
+          <value>StdCostT__Scr,Coste_x0020_estándar_x0020__x0028_Valor_x0029_,System.String</value>
+          <value>StdCostT__Dec,Coste_x0020_estándar_x0020__x0028_Dígitos_x0020_decimales_x0029_,System.Int16</value>
+          <value>StdCostT__Rnd,Coste_x0020_estándar_x0020__x0028_Redondeado_x0029_,System.Int16</value>
+          <value>StdCostT__Sff,Coste_x0020_estándar_x0020__x0028_Sufijo_x0029_,System.String</value>
+          <value>CurCostT,Coste_x0020_actual,System.Double</value>
+          <value>CurCostT__Lab,Coste_x0020_actual_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>CurCostT__DBD,Coste_x0020_actual_x0020__x0028_Base_x0020_de_x0020_datos_x0029_,System.Double</value>
+          <value>CurCostT__Scr,Coste_x0020_actual_x0020__x0028_Valor_x0029_,System.String</value>
+          <value>CurCostT__Dec,Coste_x0020_actual_x0020__x0028_Dígitos_x0020_decimales_x0029_,System.Int16</value>
+          <value>CurCostT__Rnd,Coste_x0020_actual_x0020__x0028_Redondeado_x0029_,System.Int16</value>
+          <value>CurCostT__Sff,Coste_x0020_actual_x0020__x0028_Sufijo_x0029_,System.String</value>
+          <value>UntName,Unidad,System.String</value>
+          <value>UntName__Lab,Unidad_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>Operations.MnORef,Orden_x0020_de_x0020_producción,System.String</value>
+          <value>Operations.MnORef__Lab,Orden_x0020_de_x0020_producción_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>Operations.OprID,Número_x0020_de_x0020_operación,System.Int32</value>
+          <value>Operations.OprID__Lab,Número_x0020_de_x0020_operación_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>Operations.WrkRef,Centro_x0020_de_x0020_trabajo,System.String</value>
+          <value>Operations.WrkRef__Lab,Centro_x0020_de_x0020_trabajo_x0020__x0028_Etiqueta_x0029_,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Production costs</Name>
+        <NameInSource>04_DIS_SSAA_SSOO_00000100_SaleOrderCostValuation.Production costs</NameInSource>
+      </Production_x0020_costs>
+    </DataSources>
+    <Relations isList="true" count="3">
+      <Sale_x0020_order Ref="6" type="DataRelation" isKey="true">
+        <Alias>Sale order</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>OrdRef</value>
+        </ChildColumns>
+        <ChildSource isRef="3" />
+        <Dictionary isRef="1" />
+        <Name>Sale order</Name>
+        <NameInSource>Lines</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>OrdRef</value>
+        </ParentColumns>
+        <ParentSource isRef="2" />
+      </Sale_x0020_order>
+      <Sale_x0020_order_x0020_lines Ref="7" type="DataRelation" isKey="true">
+        <Alias>Sale order lines</Alias>
+        <ChildColumns isList="true" count="2">
+          <value>OrdRef</value>
+          <value>OLineNum</value>
+        </ChildColumns>
+        <ChildSource isRef="4" />
+        <Dictionary isRef="1" />
+        <Name>Sale order lines</Name>
+        <NameInSource>Production orders</NameInSource>
+        <ParentColumns isList="true" count="2">
+          <value>OrdRef</value>
+          <value>LineNum</value>
+        </ParentColumns>
+        <ParentSource isRef="3" />
+      </Sale_x0020_order_x0020_lines>
+      <Production_x0020_orders Ref="8" type="DataRelation" isKey="true">
+        <Alias>Production orders</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>MnORef</value>
+        </ChildColumns>
+        <ChildSource isRef="5" />
+        <Dictionary isRef="1" />
+        <Name>Production orders</Name>
+        <NameInSource>Production costs</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>MnORef</value>
+        </ParentColumns>
+        <ParentSource isRef="4" />
+      </Production_x0020_orders>
+    </Relations>
+    <Report isRef="0" />
+    <Variables isList="true" count="41">
+      <value>,__Mss_30609,__Mss_30609,System.String,,False,False</value>
+      <value>,__Mss_30004,__Mss_30004,System.String,,False,False</value>
+      <value>,__Mss_30468,__Mss_30468,System.String,,False,False</value>
+      <value>,__Mss_30077,__Mss_30077,System.String,,False,False</value>
+      <value>,__Mss_30056,__Mss_30056,System.String,,False,False</value>
+      <value>,__Mss_30023,__Mss_30023,System.String,,False,False</value>
+      <value>,__Mss_30156,__Mss_30156,System.String,,False,False</value>
+      <value>,__Mss_30236,__Mss_30236,System.String,,False,False</value>
+      <value>,__Mss_30448,__Mss_30448,System.String,,False,False</value>
+      <value>,__Mss_30481,__Mss_30481,System.String,,False,False</value>
+      <value>,__Mss_31100,__Mss_31100,System.String,,False,False</value>
+      <value>,__Mss_31323,__Mss_31323,System.String,,False,False</value>
+      <value>,__Mss_31324,__Mss_31324,System.String,,False,False</value>
+      <value>,__Mss_31897,__Mss_31897,System.String,,False,False</value>
+      <value>,__Mss_31902,__Mss_31902,System.String,,False,False</value>
+      <value>,__Mss_31903,__Mss_31903,System.String,,False,False</value>
+      <value>,__Mss_32657,__Mss_32657,System.String,,False,False</value>
+      <value>,__Mss_33466,__Mss_33466,System.String,,False,False</value>
+      <value>,__Mss_33614,__Mss_33614,System.String,,False,False</value>
+      <value>,__Mss_33615,__Mss_33615,System.String,,False,False</value>
+      <value>,__Mss_60000504,__Mss_60000504,System.String,,False,False</value>
+      <value>,__Mss_60000522,__Mss_60000522,System.String,,False,False</value>
+      <value>,__Mss_60000618,__Mss_60000618,System.String,,False,False</value>
+      <value>,__Mss_60000662,__Mss_60000662,System.String,,False,False</value>
+      <value>,__Mss_60000711,__Mss_60000711,System.String,,False,False</value>
+      <value>,__Mss_60001257,__Mss_60001257,System.String,,False,False</value>
+      <value>,ForPage,ForPage,System.String,,False,False</value>
+      <value>,ForOrder,ForOrder,System.String,IIF_x0028_Sale_order.CusName.ToString_x0028__x0029__x0020__x0021__x003D__x0020__x0022__x0022__x002C__x0020___Mss_30023_x0020__x002B__x0020__x0022_:_x0020__x0022__x0020__x002B__x0020_Sale_order.CusRef.ToString_x0028__x0029__x0020__x002B__x0020__x0022__x0020__x007C__x0020__x0022__x0020__x002B__x0020_Sale_order.CusName.ToString_x0028__x0029__x002C__x0020___Mss_30023_x0020__x002B__x0020__x0022_:_x0020__x0022__x0020__x002B__x0020_Sale_order.CusRef.ToString_x0028__x0029__x0029_.ToString_x0028__x0029_,True,True</value>
+      <value>,ForOrderLine,ForOrderLine,System.String,IIF_x0028_Sale_order_lines.PrdName.ToString_x0028__x0029__x0020__x0021__x003D__x0020__x0022__x0022__x002C__x0020__x0022__x0023__x0020__x0022__x0020__x002B__x0020_Sale_order_lines.LineNum.ToString_x0028__x0029__x0020__x002B__x0020__x0022_:_x0020__x0022__x0020__x002B__x0020_Sale_order_lines.Quantity__Scr_x0020__x002B__x0020__x0022__x0020_x_x0020__x0022__x0020__x002B__x0020_Sale_order_lines.PrdRef.ToString_x0028__x0029__x0020__x002B__x0020__x0022__x0020_-_x0020__x0022__x0020__x002B__x0020_Sale_order_lines.PrdName.ToString_x0028__x0029__x002C__x0020__x0020__x0022__x0023__x0020__x0022__x0020__x002B__x0020_Sale_order_lines.LineNum.ToString_x0028__x0029__x0020__x002B__x0020__x0022_:_x0020__x0022__x0020__x002B__x0020_Sale_order_lines.Quantity__Scr_x0020__x002B__x0020__x0022__x0020_x_x0020__x0022__x0020__x002B__x0020_Sale_order_lines.PrdRef.ToString_x0028__x0029__x0029_.ToString_x0028__x0029_,True,True</value>
+      <value>,ForConsumptionType,ForConsumptionType,System.String,Switch_x0028_Production_costs.CType_x0020__x003D__x003D__x0020_0_x002C__x0020___Mss_30609_x002C__x0020_Production_costs.CType_x0020__x003D__x003D__x0020_1_x002C__x0020___Mss_30004_x002C__x0020_Production_costs.CType_x0020__x003D__x003D__x0020_2_x002C__x0020___Mss_30468_x002C__x0020_Production_costs.CType_x0020__x003D__x003D__x0020_4_x002C__x0020___Mss_30077_x002C__x0020_Production_costs.CType_x0020__x003D__x003D__x0020_5_x002C__x0020___Mss_30156_x002C__x0020_Production_costs.CType_x0020__x003D__x003D__x0020_6_x002C__x0020___Mss_30481_x002C__x0020_Production_costs.CType_x0020__x003D__x003D__x0020_100_x002C__x0020___Mss_30056_x0029_.ToString_x0028__x0029_,True,True</value>
+      <value>,ForName,ForName,System.String,Switch_x0028_Production_costs.CType_x0020__x003D__x003D__x0020_0_x002C__x0020_Production_costs.Operations_WrkRef_x002C__x0020_Production_costs.CType_x0020__x003D__x003D__x0020_1_x002C__x0020__x0022__x0020_-_x0020__x0022__x002C__x0020_Production_costs.CType_x0020__x003D__x003D__x0020_2_x002C__x0020_Production_costs.RawRef_x002C__x0020_Production_costs.CType_x0020__x003D__x003D__x0020_4_x002C__x0020_Production_costs.RawRef_x0020__x002B__x0020__x0022__x0020__x007C__x0020__x0022__x0020__x002B__x0020_Production_costs.RawName_x002C__x0020_Production_costs.CType_x0020__x003D__x003D__x0020_5_x002C__x0020_Production_costs.Operations_WrkRef_x002C__x0020_Production_costs.CType_x0020__x003D__x003D__x0020_6_x002C__x0020_Production_costs.Description_x002C__x0020_Production_costs.CType_x0020__x003D__x003D__x0020_100_x002C__x0020_Production_costs.RawRef_x0029_.ToString_x0028__x0029_,True,True</value>
+      <value>,ForAccumulatedStdCost,ForAccumulatedStdCost,System.Double,,False,False</value>
+      <value>,ForAccumulatedCurCost,ForAccumulatedCurCost,System.Double,,False,False</value>
+      <value>,ForStdQuantity,ForStdQuantity,System.String,IIF_x0028__x0028__x0028_Production_costs.CType_x0020__x003D__x003D__x0020_100_x0029__x0020__x0026__x0026__x0020__x0028___UsrUnitSystem_x0020__x003D__x003D__x0020__x0022_IMP_x0022__x0029__x0029__x002C_FormatQuantity_x0028_Production_costs.StdQuan_x002C__x0020__x0022_lb_x0022__x0029__x002C__x000D__x000A_IIF_x0028__x0028_Production_costs.UntName_x0020__x003D__x003D__x0020__x0022_h_x0022__x0029__x002C__x0020__x0028__x0028_int_x0029_TimeSpan.FromHours_x0028_Production_costs.StdQuan_x0029_.TotalHours_x0029_.ToString_x0028__x0022_00_x0022__x0029__x0020__x002B__x0020__x0022_:_x0022__x0020__x002B__x0020_TimeSpan.FromHours_x0028_Production_costs.StdQuan_x0029_.Minutes.ToString_x0028__x0022_00_x0022__x0029__x0020__x002B__x0020__x0022_:_x0022__x0020__x002B__x0020_TimeSpan.FromHours_x0028_Production_costs.StdQuan_x0029_.Seconds.ToString_x0028__x0022_00_x0022__x0029__x002C_FormatQuantity_x0028_Production_costs.StdQuan_x002C__x0020_Production_costs.UntName_x0029__x0029__x0029_.ToString_x0028__x0029__x000D__x000A__x000D__x000A_,True,True</value>
+      <value>,ForDev,ForDev,System.Object,_x0028_ForAccumulatedStdCost_x0020_-_x0020_ForAccumulatedCurCost_x0029_,True,True</value>
+      <value>,ForCurQuantity,ForCurQuantity,System.String,IIF_x0028__x0028__x0028_Production_costs.CType_x0020__x003D__x003D__x0020_100_x0029__x0020__x0026__x0026__x0020__x0028___UsrUnitSystem_x0020__x003D__x003D__x0020__x0022_IMP_x0022__x0029__x0029__x002C_FormatQuantity_x0028_Production_costs.CurQuan_x002C__x0020__x0022_lb_x0022__x0029__x002C__x000D__x000A_IIF_x0028__x0028_Production_costs.UntName_x0020__x003D__x003D__x0020__x0022_h_x0022__x0029__x002C__x0028__x0028_int_x0029_TimeSpan.FromHours_x0028_Production_costs.CurQuan_x0029_.TotalHours_x0029_.ToString_x0028__x0022_00_x0022__x0029__x0020__x002B__x0020__x0022_:_x0022__x0020__x002B__x0020_TimeSpan.FromHours_x0028_Production_costs.CurQuan_x0029_.Minutes.ToString_x0028__x0022_00_x0022__x0029__x0020__x002B__x0020__x0022_:_x0022__x0020__x002B__x0020_TimeSpan.FromHours_x0028_Production_costs.CurQuan_x0029_.Seconds.ToString_x0028__x0022_00_x0022__x0029__x002C_FormatQuantity_x0028_Production_costs.CurQuan_x002C__x0020_Production_costs.UntName_x0029__x0029__x0029_.ToString_x0028__x0029__x000D__x000A__x000D__x000A_,True,True</value>
+      <value>,ForTotalStdCost,ForTotalStdCost,System.Double,,False,False</value>
+      <value>,ForTotalCurCost,ForTotalCurCost,System.Double,,False,False</value>
+      <value>,ForTotalDev,ForTotalDev,System.Double,ForTotalStdCost_x0020_-_x0020_ForTotalCurCost,True,True</value>
+      <value>,ForPartialDevi,ForPartialDevi,System.Double,Production_costs.StdCostT_x0020_-_x0020_Production_costs.CurCostT,True,True</value>
+      <value>,__UsrUnitSystem,__UsrUnitSystem,System.String,,True,False</value>
+    </Variables>
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <ReportPage Ref="9" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="15">
+        <PageHeaderBand1 Ref="10" type="PageHeaderBand" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0.4,27.7,1.6</ClientRectangle>
+          <Components isList="true" count="3">
+            <Text1 Ref="11" type="Text" isKey="true">
+              <Brush>White</Brush>
+              <ClientRectangle>0.2,0.4,22,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,18,Bold</Font>
+              <Linked>True</Linked>
+              <Margins>6,0,0,0</Margins>
+              <Name>Text1</Name>
+              <Page isRef="9" />
+              <Parent isRef="10" />
+              <Text>{__Mss_60001257}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text1>
+            <Text2 Ref="12" type="Text" isKey="true">
+              <Brush>White</Brush>
+              <ClientRectangle>22.2,0.4,5.4,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Linked>True</Linked>
+              <Margins>0,6,0,0</Margins>
+              <Name>Text2</Name>
+              <Page isRef="9" />
+              <Parent isRef="10" />
+              <Text>{ForPage = Replace(Replace(__Mss_33466, "@#PAGENUMBER#@", PageNumber),  "@#TOTALPAGECOUNT#@", TotalPageCount)}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text2>
+            <Text3 Ref="13" type="Text" isKey="true">
+              <Brush>White</Brush>
+              <ClientRectangle>22.2,0.8,5.4,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <Guid>1d558c1e7abc49249da93f4f01300ad4</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Linked>True</Linked>
+              <Margins>0,6,0,0</Margins>
+              <Name>Text3</Name>
+              <Page isRef="9" />
+              <Parent isRef="10" />
+              <Text>{Today}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="14" type="DateFormat" isKey="true" />
+              <Type>Expression</Type>
+            </Text3>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Linked>True</Linked>
+          <Name>PageHeaderBand1</Name>
+          <Page isRef="9" />
+          <Parent isRef="9" />
+        </PageHeaderBand1>
+        <HeaderBand1 Ref="15" type="HeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,2.8,27.7,0.4</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <Linked>True</Linked>
+          <Name>HeaderBand1</Name>
+          <Page isRef="9" />
+          <Parent isRef="9" />
+        </HeaderBand1>
+        <DataBand1 Ref="16" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,4,27.7,0</ClientRectangle>
+          <Components isList="true" count="2">
+            <Text33 Ref="17" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.4,0,11.4,0</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text33</Name>
+              <Page isRef="9" />
+              <Parent isRef="16" />
+              <Text>reset total current {ForTotalCurCost = 0}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text33>
+            <Text34 Ref="18" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>15.4,0,8.2,0</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text34</Name>
+              <Page isRef="9" />
+              <Parent isRef="16" />
+              <Text>reset total standard {ForTotalStdCost = 0}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text34>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DataRelationName isNull="true" />
+          <DataSourceName>Sale order</DataSourceName>
+          <Filters isList="true" count="0" />
+          <Linked>True</Linked>
+          <Name>DataBand1</Name>
+          <Page isRef="9" />
+          <Parent isRef="9" />
+          <ResetPageNumber>True</ResetPageNumber>
+          <Sort isList="true" count="0" />
+        </DataBand1>
+        <ChildBand1 Ref="19" type="ChildBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,4.8,27.7,1</ClientRectangle>
+          <Components isList="true" count="1">
+            <Panel1 Ref="20" type="Stimulsoft.Report.Components.StiPanel" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,0,27.7,1</ClientRectangle>
+              <Components isList="true" count="2">
+                <Text4 Ref="21" type="Text" isKey="true">
+                  <Border>Top, Bottom;Black;1;Solid;False;4;Black</Border>
+                  <Brush>[0:90:129]</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>0,0,10.2,1</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,14,Bold</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Linked>True</Linked>
+                  <Margins>24,0,0,0</Margins>
+                  <Name>Text4</Name>
+                  <Page isRef="9" />
+                  <Parent isRef="20" />
+                  <Text>{Sale_order.OrdRef}</Text>
+                  <TextBrush>White</TextBrush>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text4>
+                <Text5 Ref="22" type="Text" isKey="true">
+                  <Border>Top, Bottom;Black;1;Solid;False;4;Black</Border>
+                  <Brush>[0:90:129]</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>10.2,0,17.5,1</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,14,Bold</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>6457d570381149488691d0043d6712f5</Guid>
+                  <Linked>True</Linked>
+                  <Margins>12,0,0,0</Margins>
+                  <Name>Text5</Name>
+                  <Page isRef="9" />
+                  <Parent isRef="20" />
+                  <Text>{ForOrder}</Text>
+                  <TextBrush>White</TextBrush>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text5>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <Linked>True</Linked>
+              <Name>Panel1</Name>
+              <Page isRef="9" />
+              <Parent isRef="19" />
+            </Panel1>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Linked>True</Linked>
+          <Name>ChildBand1</Name>
+          <Page isRef="9" />
+          <Parent isRef="9" />
+        </ChildBand1>
+        <HeaderBand2 Ref="23" type="HeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,6.6,27.7,0</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <Linked>True</Linked>
+          <Name>HeaderBand2</Name>
+          <Page isRef="9" />
+          <Parent isRef="9" />
+        </HeaderBand2>
+        <DataBand2 Ref="24" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,7.4,27.7,0</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <DataRelationName>Lines</DataRelationName>
+          <DataSourceName>Sale order lines</DataSourceName>
+          <Filters isList="true" count="0" />
+          <Linked>True</Linked>
+          <MasterComponent isRef="16" />
+          <Name>DataBand2</Name>
+          <Page isRef="9" />
+          <Parent isRef="9" />
+          <Sort isList="true" count="0" />
+        </DataBand2>
+        <ChildBand2 Ref="25" type="ChildBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,8.2,27.7,1.4</ClientRectangle>
+          <Components isList="true" count="1">
+            <Panel2 Ref="26" type="Stimulsoft.Report.Components.StiPanel" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,0.4,27.7,0.8</ClientRectangle>
+              <Components isList="true" count="1">
+                <Text6 Ref="27" type="Text" isKey="true">
+                  <Border>Top, Bottom;Black;1;Solid;False;4;Black</Border>
+                  <Brush>[0:90:129]</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>0.6,0,27.1,0.8</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,12,Bold</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>04c0a8d7feb5404aa98d2ac05bccecae</Guid>
+                  <Linked>True</Linked>
+                  <Margins>24,0,0,0</Margins>
+                  <Name>Text6</Name>
+                  <Page isRef="9" />
+                  <Parent isRef="26" />
+                  <Text>{ForOrderLine}</Text>
+                  <TextBrush>White</TextBrush>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text6>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <Guid>02205a66bdcf4c109f77d47d78d6eaf5</Guid>
+              <Linked>True</Linked>
+              <Name>Panel2</Name>
+              <Page isRef="9" />
+              <Parent isRef="25" />
+            </Panel2>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Linked>True</Linked>
+          <Name>ChildBand2</Name>
+          <Page isRef="9" />
+          <Parent isRef="9" />
+        </ChildBand2>
+        <FooterBand2 Ref="28" type="FooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,10.4,27.7,0</ClientRectangle>
+          <Components isList="true" count="2">
+            <ResetAccStdCost Ref="29" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.4,0,7,0</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <Guid>0aa43c1852344aa3813c5bb84a6b23fe</Guid>
+              <Linked>True</Linked>
+              <Margins>0,0,0,0</Margins>
+              <Name>ResetAccStdCost</Name>
+              <Page isRef="9" />
+              <Parent isRef="28" />
+              <Text>{ForAccumulatedStdCost = 0}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </ResetAccStdCost>
+            <ResetAccCurCost Ref="30" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>8.4,0,7,0</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <Guid>79bbab96597348a29970fbf021bcc7aa</Guid>
+              <Linked>True</Linked>
+              <Margins>0,0,0,0</Margins>
+              <Name>ResetAccCurCost</Name>
+              <Page isRef="9" />
+              <Parent isRef="28" />
+              <Text>{ForAccumulatedCurCost = 0}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </ResetAccCurCost>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Linked>True</Linked>
+          <Name>FooterBand2</Name>
+          <Page isRef="9" />
+          <Parent isRef="9" />
+        </FooterBand2>
+        <FooterBand3 Ref="31" type="FooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,11.2,27.7,2.8</ClientRectangle>
+          <Components isList="true" count="4">
+            <Panel8 Ref="32" type="Stimulsoft.Report.Components.StiPanel" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>15.2,0.8,12.4,0.6</ClientRectangle>
+              <Components isList="true" count="4">
+                <Text35 Ref="33" type="Text" isKey="true">
+                  <Border>All;Black;1;Solid;False;4;Black</Border>
+                  <Brush>Transparent</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>6.5,0,3.1,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10,Bold</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>23d7a3c967604dbb82467f137837fb67</Guid>
+                  <HorAlignment>Right</HorAlignment>
+                  <Linked>True</Linked>
+                  <Margins>0,8,0,0</Margins>
+                  <Name>Text35</Name>
+                  <Page isRef="9" />
+                  <Parent isRef="32" />
+                  <Text>{ForTotalCurCost}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <TextFormat Ref="34" type="CurrencyFormat" isKey="true">
+                    <DecimalSeparator>,</DecimalSeparator>
+                    <GroupSeparator>.</GroupSeparator>
+                    <NegativePattern>8</NegativePattern>
+                    <PositivePattern>3</PositivePattern>
+                    <Symbol>€</Symbol>
+                  </TextFormat>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text35>
+                <Text36 Ref="35" type="Text" isKey="true">
+                  <Border>All;Black;1;Solid;False;4;Black</Border>
+                  <Brush>Transparent</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>9.6,0,2.9,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10,Bold</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>f16dbfa10e354ade90c7e1313d3f6b98</Guid>
+                  <HorAlignment>Right</HorAlignment>
+                  <Linked>True</Linked>
+                  <Margins>0,6,0,0</Margins>
+                  <Name>Text36</Name>
+                  <Page isRef="9" />
+                  <Parent isRef="32" />
+                  <Text>{ForTotalDev}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <TextFormat Ref="36" type="CurrencyFormat" isKey="true">
+                    <DecimalSeparator>,</DecimalSeparator>
+                    <GroupSeparator>.</GroupSeparator>
+                    <NegativePattern>8</NegativePattern>
+                    <PositivePattern>3</PositivePattern>
+                    <Symbol>€</Symbol>
+                  </TextFormat>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text36>
+                <Text37 Ref="37" type="Text" isKey="true">
+                  <Border>All;Black;1;Solid;False;4;Black</Border>
+                  <Brush>[0:90:129]</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>0.1,0,3.1,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10,Bold</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>408d16e732c347dcbb4d7bf4ea01774f</Guid>
+                  <HorAlignment>Right</HorAlignment>
+                  <Linked>True</Linked>
+                  <Margins>0,6,0,0</Margins>
+                  <Name>Text37</Name>
+                  <Page isRef="9" />
+                  <Parent isRef="32" />
+                  <Text>{__Mss_33615}</Text>
+                  <TextBrush>White</TextBrush>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text37>
+                <Text38 Ref="38" type="Text" isKey="true">
+                  <Border>All;Black;1;Solid;False;4;Black</Border>
+                  <Brush>Transparent</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>3.2,0,3.3,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10,Bold</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>0fcbcd60a95e4c37b586a6f5ec5446c8</Guid>
+                  <HorAlignment>Right</HorAlignment>
+                  <Linked>True</Linked>
+                  <Margins>0,8,0,0</Margins>
+                  <Name>Text38</Name>
+                  <Page isRef="9" />
+                  <Parent isRef="32" />
+                  <Text>{ForTotalStdCost}</Text>
+                  <TextBrush>[0:0:0]</TextBrush>
+                  <TextFormat Ref="39" type="CurrencyFormat" isKey="true">
+                    <DecimalSeparator>,</DecimalSeparator>
+                    <GroupSeparator>.</GroupSeparator>
+                    <NegativePattern>8</NegativePattern>
+                    <PositivePattern>3</PositivePattern>
+                    <Symbol>€</Symbol>
+                  </TextFormat>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text38>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <Guid>cbe0311e2d984da789c72bdb5ca23822</Guid>
+              <Linked>True</Linked>
+              <Name>Panel8</Name>
+              <Page isRef="9" />
+              <Parent isRef="31" />
+            </Panel8>
+            <Panel9 Ref="40" type="Stimulsoft.Report.Components.StiPanel" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>18.4,1.4,6.2,0.6</ClientRectangle>
+              <Components isList="true" count="2">
+                <Text39 Ref="41" type="Text" isKey="true">
+                  <Border>All;Black;1;Solid;False;4;Black</Border>
+                  <Brush>Transparent</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>0,0,3.3,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10,Bold</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>e9f0b15fd35342888a28dc4ff1f3089e</Guid>
+                  <HorAlignment>Center</HorAlignment>
+                  <Linked>True</Linked>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text39</Name>
+                  <Page isRef="9" />
+                  <Parent isRef="40" />
+                  <Text>{__Mss_32657}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text39>
+                <Text40 Ref="42" type="Text" isKey="true">
+                  <Border>All;Black;1;Solid;False;4;Black</Border>
+                  <Brush>Transparent</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>3.3,0,3.1,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10,Bold</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>c1e9bb80bc3446d09b74ecbbdfa0e978</Guid>
+                  <HorAlignment>Right</HorAlignment>
+                  <Linked>True</Linked>
+                  <Margins>0,8,0,0</Margins>
+                  <Name>Text40</Name>
+                  <Page isRef="9" />
+                  <Parent isRef="40" />
+                  <Text>{Sale_order.Subtotal}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <TextFormat Ref="43" type="CurrencyFormat" isKey="true">
+                    <DecimalSeparator>,</DecimalSeparator>
+                    <GroupSeparator>.</GroupSeparator>
+                    <NegativePattern>8</NegativePattern>
+                    <PositivePattern>3</PositivePattern>
+                    <Symbol>€</Symbol>
+                  </TextFormat>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text40>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <Guid>2ae95a6479f7425b9d18e92d990827fc</Guid>
+              <Linked>True</Linked>
+              <Name>Panel9</Name>
+              <Page isRef="9" />
+              <Parent isRef="31" />
+            </Panel9>
+            <Panel11 Ref="44" type="Stimulsoft.Report.Components.StiPanel" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>18.4,0.2,9.3,0.6</ClientRectangle>
+              <Components isList="true" count="3">
+                <Text43 Ref="45" type="Text" isKey="true">
+                  <Border>Top, Left, Bottom;Black;1;Solid;False;4;Black</Border>
+                  <Brush>[0:90:129]</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>0,0,3.3,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10,Bold</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>d56ea2a6a779466cb3dd980a010b44a8</Guid>
+                  <HorAlignment>Right</HorAlignment>
+                  <Linked>True</Linked>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text43</Name>
+                  <Page isRef="9" />
+                  <Parent isRef="44" />
+                  <Text>{__Mss_31323}</Text>
+                  <TextBrush>White</TextBrush>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text43>
+                <Text44 Ref="46" type="Text" isKey="true">
+                  <Border>Top, Bottom;Black;1;Solid;False;4;Black</Border>
+                  <Brush>[0:90:129]</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>3.2,0,3.2,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10,Bold</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>886cbb0338444f23b2a2096ffad84286</Guid>
+                  <HorAlignment>Right</HorAlignment>
+                  <Linked>True</Linked>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text44</Name>
+                  <Page isRef="9" />
+                  <Parent isRef="44" />
+                  <Text>{__Mss_31324}</Text>
+                  <TextBrush>White</TextBrush>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text44>
+                <Text45 Ref="47" type="Text" isKey="true">
+                  <Border>Top, Right, Bottom;Black;1;Solid;False;4;Black</Border>
+                  <Brush>[0:90:129]</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>6.4,0,2.9,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10,Bold</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>111454c40a4540bdae1fe14ce982e635</Guid>
+                  <HorAlignment>Right</HorAlignment>
+                  <Linked>True</Linked>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text45</Name>
+                  <Page isRef="9" />
+                  <Parent isRef="44" />
+                  <Text>{__Mss_31100}</Text>
+                  <TextBrush>White</TextBrush>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text45>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <Guid>538d50696ad74507923b10c432bcc1cc</Guid>
+              <Linked>True</Linked>
+              <Name>Panel11</Name>
+              <Page isRef="9" />
+              <Parent isRef="31" />
+            </Panel11>
+            <Panel10 Ref="48" type="Stimulsoft.Report.Components.StiPanel" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>18.4,2,6.2,0.6</ClientRectangle>
+              <Components isList="true" count="2">
+                <Text41 Ref="49" type="Text" isKey="true">
+                  <Border>All;Black;1;Solid;False;4;Black</Border>
+                  <Brush>Transparent</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>0,0,3.3,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10,Bold</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>e5084cecbb1b40e2a23be38815eb075f</Guid>
+                  <HorAlignment>Center</HorAlignment>
+                  <Linked>True</Linked>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text41</Name>
+                  <Page isRef="9" />
+                  <Parent isRef="48" />
+                  <Text>{__Mss_30236}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text41>
+                <Text42 Ref="50" type="Text" isKey="true">
+                  <Border>All;Black;1;Solid;False;4;Black</Border>
+                  <Brush>Transparent</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>3.3,0,3.1,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10,Bold</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>c280f511382d4880989e2c4edc83d699</Guid>
+                  <HorAlignment>Right</HorAlignment>
+                  <Linked>True</Linked>
+                  <Margins>0,8,0,0</Margins>
+                  <Name>Text42</Name>
+                  <Page isRef="9" />
+                  <Parent isRef="48" />
+                  <Text>{Sale_order.Subtotal - ForTotalCurCost}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <TextFormat Ref="51" type="CurrencyFormat" isKey="true">
+                    <DecimalSeparator>,</DecimalSeparator>
+                    <GroupSeparator>.</GroupSeparator>
+                    <NegativePattern>8</NegativePattern>
+                    <PositivePattern>3</PositivePattern>
+                    <Symbol>€</Symbol>
+                  </TextFormat>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text42>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <Guid>534db72b12e146b88c691fe041e92c26</Guid>
+              <Linked>True</Linked>
+              <Name>Panel10</Name>
+              <Page isRef="9" />
+              <Parent isRef="31" />
+            </Panel10>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Guid>3b6fec6884e4467d9068c17eb56c4215</Guid>
+          <Linked>True</Linked>
+          <Name>FooterBand3</Name>
+          <NewPageAfter>True</NewPageAfter>
+          <Page isRef="9" />
+          <Parent isRef="9" />
+        </FooterBand3>
+        <HeaderBand3 Ref="52" type="HeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,14.8,27.7,1</ClientRectangle>
+          <Components isList="true" count="1">
+            <Panel3 Ref="53" type="Stimulsoft.Report.Components.StiPanel" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,0.2,27.7,0.6</ClientRectangle>
+              <Components isList="true" count="7">
+                <Text7 Ref="54" type="Text" isKey="true">
+                  <Border>Top, Bottom;Black;1;Solid;False;4;Black</Border>
+                  <Brush>[0:90:129]</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>1.2,0,3.7,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10,Bold</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>9016b7fc5b494113a6f62a402425b5e8</Guid>
+                  <Linked>True</Linked>
+                  <Margins>24,0,0,0</Margins>
+                  <Name>Text7</Name>
+                  <Page isRef="9" />
+                  <Parent isRef="53" />
+                  <Text>{__Mss_31897}</Text>
+                  <TextBrush>White</TextBrush>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text7>
+                <Text8 Ref="55" type="Text" isKey="true">
+                  <Border>Top, Bottom;Black;1;Solid;False;4;Black</Border>
+                  <Brush>[0:90:129]</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>4.9,0,7.3,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10,Bold</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>79c1c2e8ce834f0fadae053c0d40ba70</Guid>
+                  <Linked>True</Linked>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text8</Name>
+                  <Page isRef="9" />
+                  <Parent isRef="53" />
+                  <Text>{__Mss_30448}</Text>
+                  <TextBrush>White</TextBrush>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text8>
+                <Text9 Ref="56" type="Text" isKey="true">
+                  <Border>Top, Bottom;Black;1;Solid;False;4;Black</Border>
+                  <Brush>[0:90:129]</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>12.2,0,3.1,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10,Bold</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>73719d5d0b074803882e2db2e9ab292c</Guid>
+                  <HorAlignment>Right</HorAlignment>
+                  <Linked>True</Linked>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text9</Name>
+                  <Page isRef="9" />
+                  <Parent isRef="53" />
+                  <Text>{__Mss_31902}</Text>
+                  <TextBrush>White</TextBrush>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text9>
+                <Text10 Ref="57" type="Text" isKey="true">
+                  <Border>Top, Bottom;Black;1;Solid;False;4;Black</Border>
+                  <Brush>[0:90:129]</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>15.3,0,3.1,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10,Bold</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>bbe4181a3d364394b4f7c4d8d44dc768</Guid>
+                  <HorAlignment>Right</HorAlignment>
+                  <Linked>True</Linked>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text10</Name>
+                  <Page isRef="9" />
+                  <Parent isRef="53" />
+                  <Text>{__Mss_31903}</Text>
+                  <TextBrush>White</TextBrush>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text10>
+                <Text11 Ref="58" type="Text" isKey="true">
+                  <Border>Top, Bottom;Black;1;Solid;False;4;Black</Border>
+                  <Brush>[0:90:129]</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>18.4,0,3.1,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10,Bold</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>d5e88e6b26b849cda43550dd4eaad746</Guid>
+                  <HorAlignment>Right</HorAlignment>
+                  <Linked>True</Linked>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text11</Name>
+                  <Page isRef="9" />
+                  <Parent isRef="53" />
+                  <Text>{__Mss_31323}</Text>
+                  <TextBrush>White</TextBrush>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text11>
+                <Text12 Ref="59" type="Text" isKey="true">
+                  <Border>Top, Bottom;Black;1;Solid;False;4;Black</Border>
+                  <Brush>[0:90:129]</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>21.5,0,3.1,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10,Bold</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>5bded34e251c4895bcde5372738738a0</Guid>
+                  <HorAlignment>Right</HorAlignment>
+                  <Linked>True</Linked>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text12</Name>
+                  <Page isRef="9" />
+                  <Parent isRef="53" />
+                  <Text>{__Mss_31324}</Text>
+                  <TextBrush>White</TextBrush>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text12>
+                <Text13 Ref="60" type="Text" isKey="true">
+                  <Border>Top, Bottom;Black;1;Solid;False;4;Black</Border>
+                  <Brush>[0:90:129]</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>24.6,0,3.1,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10,Bold</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>7b43d49fd29247b58acf823bce8825cc</Guid>
+                  <HorAlignment>Right</HorAlignment>
+                  <Linked>True</Linked>
+                  <Margins>0,6,0,0</Margins>
+                  <Name>Text13</Name>
+                  <Page isRef="9" />
+                  <Parent isRef="53" />
+                  <Text>{__Mss_31100}</Text>
+                  <TextBrush>White</TextBrush>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text13>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <Linked>True</Linked>
+              <Name>Panel3</Name>
+              <Page isRef="9" />
+              <Parent isRef="52" />
+            </Panel3>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Linked>True</Linked>
+          <Name>HeaderBand3</Name>
+          <Page isRef="9" />
+          <Parent isRef="9" />
+        </HeaderBand3>
+        <DataBand4 Ref="61" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,16.6,27.7,0</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <DataRelationName>Production orders</DataRelationName>
+          <DataSourceName>Production orders</DataSourceName>
+          <Filters isList="true" count="0" />
+          <Linked>True</Linked>
+          <MasterComponent isRef="24" />
+          <Name>DataBand4</Name>
+          <Page isRef="9" />
+          <Parent isRef="9" />
+          <Sort isList="true" count="0" />
+        </DataBand4>
+        <DataBand3 Ref="62" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,17.4,27.7,0</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <DataRelationName>Production costs</DataRelationName>
+          <DataSourceName>Production costs</DataSourceName>
+          <Filters isList="true" count="0" />
+          <Linked>True</Linked>
+          <MasterComponent isRef="61" />
+          <Name>DataBand3</Name>
+          <Page isRef="9" />
+          <Parent isRef="9" />
+          <Sort isList="true" count="0" />
+        </DataBand3>
+        <ChildBand3 Ref="63" type="ChildBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,18.2,27.7,1</ClientRectangle>
+          <Components isList="true" count="3">
+            <Panel4 Ref="64" type="Stimulsoft.Report.Components.StiPanel" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,0.2,27.7,0.6</ClientRectangle>
+              <Components isList="true" count="7">
+                <Text14 Ref="65" type="Text" isKey="true">
+                  <Brush>[214:224:236]</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>1.2,0,3.7,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>209c3a955a2d48d28144938ac32c22eb</Guid>
+                  <Linked>True</Linked>
+                  <Margins>24,0,0,0</Margins>
+                  <Name>Text14</Name>
+                  <Page isRef="9" />
+                  <Parent isRef="64" />
+                  <Text>{ForConsumptionType}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text14>
+                <Text15 Ref="66" type="Text" isKey="true">
+                  <Brush>[214:224:236]</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>4.9,0,7.3,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>6a543683a095418688cf3a8c733512d1</Guid>
+                  <Linked>True</Linked>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text15</Name>
+                  <Page isRef="9" />
+                  <Parent isRef="64" />
+                  <Text>{ForName}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text15>
+                <Text16 Ref="67" type="Text" isKey="true">
+                  <Brush>[214:224:236]</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>12.2,0,3.1,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>e1278a4cdf774c03adb6a840fedf417d</Guid>
+                  <HorAlignment>Right</HorAlignment>
+                  <Linked>True</Linked>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text16</Name>
+                  <Page isRef="9" />
+                  <Parent isRef="64" />
+                  <Text>{ForStdQuantity}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text16>
+                <Text17 Ref="68" type="Text" isKey="true">
+                  <Brush>[214:224:236]</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>15.3,0,3.1,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>cb68299e09e74e19887453ef453c04dc</Guid>
+                  <HorAlignment>Right</HorAlignment>
+                  <Linked>True</Linked>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text17</Name>
+                  <Page isRef="9" />
+                  <Parent isRef="64" />
+                  <Text>{ForCurQuantity}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text17>
+                <Text18 Ref="69" type="Text" isKey="true">
+                  <Brush>[214:224:236]</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>18.4,0,3.1,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>f1b53589aeeb479e9a09dab1e5137630</Guid>
+                  <HorAlignment>Right</HorAlignment>
+                  <Linked>True</Linked>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text18</Name>
+                  <Page isRef="9" />
+                  <Parent isRef="64" />
+                  <Text>{Production_costs.StdCostT__Scr}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <TextFormat Ref="70" type="CurrencyFormat" isKey="true">
+                    <DecimalSeparator>,</DecimalSeparator>
+                    <GroupSeparator>.</GroupSeparator>
+                    <NegativePattern>8</NegativePattern>
+                    <PositivePattern>3</PositivePattern>
+                    <Symbol>€</Symbol>
+                  </TextFormat>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text18>
+                <Text19 Ref="71" type="Text" isKey="true">
+                  <Brush>[214:224:236]</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>21.5,0,3.1,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>8dcf62323d9449a2bad8bd6f46cd2445</Guid>
+                  <HorAlignment>Right</HorAlignment>
+                  <Linked>True</Linked>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text19</Name>
+                  <Page isRef="9" />
+                  <Parent isRef="64" />
+                  <Text>{Production_costs.CurCostT__Scr}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <TextFormat Ref="72" type="CurrencyFormat" isKey="true">
+                    <DecimalSeparator>,</DecimalSeparator>
+                    <GroupSeparator>.</GroupSeparator>
+                    <NegativePattern>8</NegativePattern>
+                    <PositivePattern>3</PositivePattern>
+                    <Symbol>€</Symbol>
+                  </TextFormat>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text19>
+                <Text20 Ref="73" type="Text" isKey="true">
+                  <Brush>[214:224:236]</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>24.6,0,3.1,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>889bb7c000f14209a60e5d8ff41eed6d</Guid>
+                  <HorAlignment>Right</HorAlignment>
+                  <Linked>True</Linked>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text20</Name>
+                  <Page isRef="9" />
+                  <Parent isRef="64" />
+                  <Text>{ForPartialDevi}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <TextFormat Ref="74" type="CurrencyFormat" isKey="true">
+                    <DecimalSeparator>,</DecimalSeparator>
+                    <GroupSeparator>.</GroupSeparator>
+                    <NegativePattern>8</NegativePattern>
+                    <PositivePattern>3</PositivePattern>
+                    <Symbol>€</Symbol>
+                  </TextFormat>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text20>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <Guid>1b9aa87e866641008805821a223c5943</Guid>
+              <Linked>True</Linked>
+              <Name>Panel4</Name>
+              <Page isRef="9" />
+              <Parent isRef="63" />
+            </Panel4>
+            <Text22 Ref="75" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>11.2,0,12.6,0</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <Guid>c91fb0bd7a3346ac931eb617766f381a</Guid>
+              <Linked>True</Linked>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text22</Name>
+              <Page isRef="9" />
+              <Parent isRef="63" />
+              <Text>{ForAccumulatedCurCost = ForAccumulatedCurCost + Production_costs.CurCostT}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text22>
+            <Text21 Ref="76" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.2,0,11,0</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <Linked>True</Linked>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text21</Name>
+              <Page isRef="9" />
+              <Parent isRef="63" />
+              <Text>{ForAccumulatedStdCost = ForAccumulatedStdCost + Production_costs.StdCostT}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text21>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Linked>True</Linked>
+          <Name>ChildBand3</Name>
+          <Page isRef="9" />
+          <Parent isRef="9" />
+        </ChildBand3>
+        <FooterBand1 Ref="77" type="FooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,20,27.7,2.2</ClientRectangle>
+          <Components isList="true" count="5">
+            <Panel5 Ref="78" type="Stimulsoft.Report.Components.StiPanel" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>15.2,0.2,12.5,0.6</ClientRectangle>
+              <Components isList="true" count="4">
+                <Text27 Ref="79" type="Text" isKey="true">
+                  <Border>All;Black;1;Solid;False;4;Black</Border>
+                  <Brush>Transparent</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>6.5,0,3.1,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10,Bold</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>05d3a27e751d41a8b812dddd7d2489a9</Guid>
+                  <HorAlignment>Right</HorAlignment>
+                  <Linked>True</Linked>
+                  <Margins>0,8,0,0</Margins>
+                  <Name>Text27</Name>
+                  <Page isRef="9" />
+                  <Parent isRef="78" />
+                  <Text>{ForAccumulatedCurCost}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <TextFormat Ref="80" type="CurrencyFormat" isKey="true">
+                    <DecimalSeparator>,</DecimalSeparator>
+                    <GroupSeparator>.</GroupSeparator>
+                    <NegativePattern>8</NegativePattern>
+                    <PositivePattern>3</PositivePattern>
+                    <Symbol>€</Symbol>
+                  </TextFormat>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text27>
+                <Text28 Ref="81" type="Text" isKey="true">
+                  <Border>All;Black;1;Solid;False;4;Black</Border>
+                  <Brush>Transparent</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>9.6,0,2.9,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10,Bold</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>4e5fde62793e467895f7af9017e9ba70</Guid>
+                  <HorAlignment>Right</HorAlignment>
+                  <Linked>True</Linked>
+                  <Margins>0,6,0,0</Margins>
+                  <Name>Text28</Name>
+                  <Page isRef="9" />
+                  <Parent isRef="78" />
+                  <Text>{ForDev}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <TextFormat Ref="82" type="CurrencyFormat" isKey="true">
+                    <DecimalSeparator>,</DecimalSeparator>
+                    <GroupSeparator>.</GroupSeparator>
+                    <NegativePattern>8</NegativePattern>
+                    <PositivePattern>3</PositivePattern>
+                    <Symbol>€</Symbol>
+                  </TextFormat>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text28>
+                <Text25 Ref="83" type="Text" isKey="true">
+                  <Border>Top, Bottom;Black;1;Solid;False;4;Black</Border>
+                  <Brush>[0:90:129]</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>0.1,0,3.1,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10,Bold</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>57f4defafb5349c38c3c95f89e799838</Guid>
+                  <HorAlignment>Right</HorAlignment>
+                  <Linked>True</Linked>
+                  <Margins>0,6,0,0</Margins>
+                  <Name>Text25</Name>
+                  <Page isRef="9" />
+                  <Parent isRef="78" />
+                  <Text>{__Mss_33614}</Text>
+                  <TextBrush>White</TextBrush>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text25>
+                <Text26 Ref="84" type="Text" isKey="true">
+                  <Border>All;Black;1;Solid;False;4;Black</Border>
+                  <Brush>Transparent</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>3.2,0,3.3,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10,Bold</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>148bcb787ab64f34bc28e4318bbd6f34</Guid>
+                  <HorAlignment>Right</HorAlignment>
+                  <Linked>True</Linked>
+                  <Margins>0,8,0,0</Margins>
+                  <Name>Text26</Name>
+                  <Page isRef="9" />
+                  <Parent isRef="78" />
+                  <Text>{ForAccumulatedStdCost}</Text>
+                  <TextBrush>[0:0:0]</TextBrush>
+                  <TextFormat Ref="85" type="CurrencyFormat" isKey="true">
+                    <DecimalSeparator>,</DecimalSeparator>
+                    <GroupSeparator>.</GroupSeparator>
+                    <NegativePattern>8</NegativePattern>
+                    <PositivePattern>3</PositivePattern>
+                    <Symbol>€</Symbol>
+                  </TextFormat>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text26>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <Guid>88fd02b601c44ad38fa8a50a0f19d931</Guid>
+              <Linked>True</Linked>
+              <Name>Panel5</Name>
+              <Page isRef="9" />
+              <Parent isRef="77" />
+            </Panel5>
+            <Panel6 Ref="86" type="Stimulsoft.Report.Components.StiPanel" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>18.4,0.8,6.2,0.6</ClientRectangle>
+              <Components isList="true" count="2">
+                <Text29 Ref="87" type="Text" isKey="true">
+                  <Border>All;Black;1;Solid;False;4;Black</Border>
+                  <Brush>Transparent</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>0,0,3.3,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10,Bold</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>a23b95b437b24e369b6734dac3b6cd93</Guid>
+                  <HorAlignment>Center</HorAlignment>
+                  <Linked>True</Linked>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text29</Name>
+                  <Page isRef="9" />
+                  <Parent isRef="86" />
+                  <Text>{__Mss_32657}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text29>
+                <Text30 Ref="88" type="Text" isKey="true">
+                  <Border>All;Black;1;Solid;False;4;Black</Border>
+                  <Brush>Transparent</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>3.3,0,3.1,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10,Bold</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>6dc7622afde14ebe9d53482b5b6557a0</Guid>
+                  <HorAlignment>Right</HorAlignment>
+                  <Linked>True</Linked>
+                  <Margins>0,8,0,0</Margins>
+                  <Name>Text30</Name>
+                  <Page isRef="9" />
+                  <Parent isRef="86" />
+                  <Text>{Sale_order_lines.TPrice}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <TextFormat Ref="89" type="CurrencyFormat" isKey="true">
+                    <DecimalSeparator>,</DecimalSeparator>
+                    <GroupSeparator>.</GroupSeparator>
+                    <NegativePattern>8</NegativePattern>
+                    <PositivePattern>3</PositivePattern>
+                    <Symbol>€</Symbol>
+                  </TextFormat>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text30>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <Guid>7dd9fec66407480286bae7d03c290b63</Guid>
+              <Linked>True</Linked>
+              <Name>Panel6</Name>
+              <Page isRef="9" />
+              <Parent isRef="77" />
+            </Panel6>
+            <Panel7 Ref="90" type="Stimulsoft.Report.Components.StiPanel" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>18.4,1.4,6.2,0.6</ClientRectangle>
+              <Components isList="true" count="2">
+                <Text31 Ref="91" type="Text" isKey="true">
+                  <Border>All;Black;1;Solid;False;4;Black</Border>
+                  <Brush>Transparent</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>0,0,3.3,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10,Bold</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>f43f9d6e130048e8acb048e87ad8c385</Guid>
+                  <HorAlignment>Center</HorAlignment>
+                  <Linked>True</Linked>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text31</Name>
+                  <Page isRef="9" />
+                  <Parent isRef="90" />
+                  <Text>{__Mss_30236}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text31>
+                <Text32 Ref="92" type="Text" isKey="true">
+                  <Border>All;Black;1;Solid;False;4;Black</Border>
+                  <Brush>Transparent</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>3.3,0,3.1,0.6</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10,Bold</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>91a19a7178d747e489b5407aeb3bbeeb</Guid>
+                  <HorAlignment>Right</HorAlignment>
+                  <Linked>True</Linked>
+                  <Margins>0,8,0,0</Margins>
+                  <Name>Text32</Name>
+                  <Page isRef="9" />
+                  <Parent isRef="90" />
+                  <Text>{Sale_order_lines.TPrice - ForAccumulatedCurCost}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <TextFormat Ref="93" type="CurrencyFormat" isKey="true">
+                    <DecimalSeparator>,</DecimalSeparator>
+                    <GroupSeparator>.</GroupSeparator>
+                    <NegativePattern>8</NegativePattern>
+                    <PositivePattern>3</PositivePattern>
+                    <Symbol>€</Symbol>
+                  </TextFormat>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text32>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <Guid>ff03d73a8e014309b64d5a0322437533</Guid>
+              <Linked>True</Linked>
+              <Name>Panel7</Name>
+              <Page isRef="9" />
+              <Parent isRef="77" />
+            </Panel7>
+            <Text23 Ref="94" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.4,0.2,10.4,0</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <Guid>6cbcf6fee12e431cbc423b29212075fb</Guid>
+              <Linked>True</Linked>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text23</Name>
+              <Page isRef="9" />
+              <Parent isRef="77" />
+              <Text>{ForTotalStdCost = ForTotalStdCost + ForAccumulatedStdCost}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text23>
+            <Text24 Ref="95" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.4,0,10.4,0</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <Guid>70fb00be6dd240a38ec4e2bd3ee0fc5c</Guid>
+              <Linked>True</Linked>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text24</Name>
+              <Page isRef="9" />
+              <Parent isRef="77" />
+              <Text>{ForTotalCurCost = ForTotalCurCost + ForAccumulatedCurCost}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text24>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Guid>66af000f66964c9fa37310c0c3cb88d1</Guid>
+          <Linked>True</Linked>
+          <Name>FooterBand1</Name>
+          <Page isRef="9" />
+          <Parent isRef="9" />
+        </FooterBand1>
+        <FooterBand4 Ref="96" type="FooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,23,27.7,0</ClientRectangle>
+          <Components isList="true" count="2">
+            <Text52 Ref="97" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>10,0,15.2,0</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,14,Bold</Font>
+              <Linked>True</Linked>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text52</Name>
+              <Page isRef="9" />
+              <Parent isRef="96" />
+              <Text>Reset accumulated std {ForAccumulatedStdCost = 0}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text52>
+            <Text53 Ref="98" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.2,0,9.6,0</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,14,Bold</Font>
+              <Guid>9c98c7997e584486aa428b9ce2a9b6c4</Guid>
+              <Linked>True</Linked>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text53</Name>
+              <Page isRef="9" />
+              <Parent isRef="96" />
+              <Text>reset accumulated current {ForAccumulatedCurCost = 0}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text53>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Linked>True</Linked>
+          <Name>FooterBand4</Name>
+          <Page isRef="9" />
+          <Parent isRef="9" />
+        </FooterBand4>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Guid>89531024f179433eaef74d365a6ffec9</Guid>
+      <LargeHeight>True</LargeHeight>
+      <Margins>1,1,1,1</Margins>
+      <Name>ReportPage</Name>
+      <Orientation>Landscape</Orientation>
+      <PageHeight>21</PageHeight>
+      <PageWidth>29.7</PageWidth>
+      <PaperSize>A4</PaperSize>
+      <Report isRef="0" />
+      <StretchToPrintArea>True</StretchToPrintArea>
+      <Watermark Ref="99" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <Font>Arial,100</Font>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
+    </ReportPage>
+  </Pages>
+  <PrinterSettings Ref="100" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>04_DIS_SSAA_SSOO_00000100_SaleOrderCostValuation</ReportAlias>
+  <ReportAuthor>SYSADM</ReportAuthor>
+  <ReportChanged>3/12/2018 2:18:03 PM</ReportChanged>
+  <ReportCreated>11/22/2012 10:12:51 AM</ReportCreated>
+  <ReportDescription>{1:60001257#Cost valuation (detailed)}</ReportDescription>
+  <ReportFile />
+  <ReportGuid>76d7a3782523549dd0c31a5c5eb83eae</ReportGuid>
+  <ReportName>04_DIS_SSAA_SSOO_00000100_SaleOrderCostValuation</ReportName>
+  <ReportUnit>Centimeters</ReportUnit>
+  <ReportVersion>2013.2.1604</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    public class DIS_SSAA_SSOO_00000100_SaleOrderCostValuation : Stimulsoft.Report.StiReport
+    {
+        public DIS_SSAA_SSOO_00000100_SaleOrderCostValuation()        {
+            this.InitializeComponent();
+        }
+
+		public string FormatQuantity(double quantity, string unit) {
+			return quantity &gt;= 1000.0 ? String.Format("{0:0,0.000}", quantity) + " " + unit: String.Format("{0:0.000}", quantity) + " " + unit;
+		}
+		
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="7">
+    <Titles Ref="101" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>Bottom;[199:213:224];3;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Arial,22,Bold</Font>
+      <Name>Titles</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Titles>
+    <PageHeader Ref="102" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>Bottom;[199:213:224];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Verdana,9</Font>
+      <Name>PageHeader</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </PageHeader>
+    <PageFooter Ref="103" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>Top;[199:213:224];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Verdana,9</Font>
+      <Name>PageFooter</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </PageFooter>
+    <Headers Ref="104" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>All;[131:166:224];1;Solid;False;4;Black</Border>
+      <Brush>[185:218:255]</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Arial,11,Bold</Font>
+      <Name>Headers</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Headers>
+    <DataClean Ref="105" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Verdana,10</Font>
+      <Name>DataClean</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </DataClean>
+    <DataOdd Ref="106" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>All;[216:223:232];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Verdana,10</Font>
+      <Name>DataOdd</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </DataOdd>
+    <DataEven Ref="107" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>All;[216:223:232];1;Solid;False;4;Black</Border>
+      <Brush>[245:245:245]</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Verdana,10</Font>
+      <Name>DataEven</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </DataEven>
+  </Styles>
+</StiSerializer>

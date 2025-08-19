@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<QUERY Scheme="SSAA" Table="RETURN_ORDER_CREDIT_NOTE" Type="List" ClassType="Lantek.SYSLayer.Applications.Queries.Sales.ReturnOrderCreditNoteQueryEntity,SYS_apps" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\..\xsd\Repository\Queries.xsd">
+    <SELECT TblRef="RETURN_ORDER_CREDIT_NOTE" NoRead="1">
+        <SELLIST>
+            <ALL/>
+        </SELLIST>
+    </SELECT>
+</QUERY>

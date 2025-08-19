@@ -1,0 +1,8 @@
+﻿<TABLE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\..\xsd\Repository\Tables.xsd">
+    <ACTIONS>
+        <ADACTIONS>
+            <ADACTION Reference="DIS_NEST_NEST_00000100_DIS_NEST" IsActive="0" />
+            <ADACTION Reference="DIS_NEST_NEST_00000100_SHERLOCK" ClassType="Lantek360.Applications.MES.Integration.AutomaticData.Nestings.NestingADAction_Lantek360,Lantek360.Applications.MES.Integration" Scheme="DIS_NEST" />
+        </ADACTIONS>
+    </ACTIONS>
+</TABLE>

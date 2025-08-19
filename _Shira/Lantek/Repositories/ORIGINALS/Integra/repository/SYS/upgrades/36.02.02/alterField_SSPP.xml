@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-16"?>
+<QUERIES xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\..\..\xsd\Queries\Queries.xsd">
+	<UPDFLD TblRef="SSPP_TTRR_00000400" OldFldRef="OriginRule" FldType="80" FldDefault="lnull" />
+</QUERIES>

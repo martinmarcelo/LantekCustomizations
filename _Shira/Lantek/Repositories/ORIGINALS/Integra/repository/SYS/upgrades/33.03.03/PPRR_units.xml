@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<QUERIES xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\..\..\xsd\Queries\Queries.xsd">
+    <!-- PPRR_PPRR_00000100, ViewWeight-->
+    <INSERT TblRef="SYST_UUMM_00000800">
+        <FIELDVALUE FldRef="TblRef" FldType="20" FldValue="PPRR_PPRR_00000100" />
+        <FIELDVALUE FldRef="FldRef" FldType="20" FldValue="ViewWeight" />
+        <FIELDVALUE FldRef="USyName" FldType="20" FldValue="MET" />
+        <FIELDVALUE FldRef="UCtName" FldType="20" FldValue="WGD" />
+        <FIELDVALUE FldRef="UntName" FldType="20" FldValue="kg/m" />
+        <FIELDVALUE FldRef="CntID" FldType="80" FldValue="0" />
+    </INSERT>
+    <INSERT TblRef="SYST_UUMM_00000800">
+        <FIELDVALUE FldRef="TblRef" FldType="20" FldValue="PPRR_PPRR_00000100" />
+        <FIELDVALUE FldRef="FldRef" FldType="20" FldValue="ViewWeight" />
+        <FIELDVALUE FldRef="USyName" FldType="20" FldValue="IMP" />
+        <FIELDVALUE FldRef="UCtName" FldType="20" FldValue="WGD" />
+        <FIELDVALUE FldRef="UntName" FldType="20" FldValue="lb/Ft" />
+        <FIELDVALUE FldRef="CntID" FldType="80" FldValue="0" />
+    </INSERT>
+    <INSERT TblRef="SYST_UUMM_00000400">
+        <FIELDVALUE FldRef="UntName" FldType="20" FldValue="lb/Ft" />
+        <FIELDVALUE FldRef="UntDsc" FldType="20" FldValue="Pounds per feet" />
+        <FIELDVALUE FldRef="MsgNum" FldType="80" FldValue="36769" />
+        <FIELDVALUE FldRef="UCtName" FldType="20" FldValue="WGD" />
+        <FIELDVALUE FldRef="UntAbb" FldType="20" FldValue="lb/Ft" />
+        <FIELDVALUE FldRef="CntID" FldType="80" FldValue="0" />
+    </INSERT>
+    <INSERT TblRef="SYST_UUMM_00000500">
+        <FIELDVALUE FldRef="UCtName" FldType="20" FldValue="WGD" />
+        <FIELDVALUE FldRef="UntNameOrg" FldType="20" FldValue="kg/m" />
+        <FIELDVALUE FldRef="UntNameDst" FldType="20" FldValue="lb/Ft" />
+        <FIELDVALUE FldRef="MFactor" FldType="100" FldValue="0.6719620800000007" />
+        <FIELDVALUE FldRef="CntID" FldType="80" FldValue="0" />
+    </INSERT>
+    <INSERT TblRef="SYST_UUMM_00000500">
+        <FIELDVALUE FldRef="UCtName" FldType="20" FldValue="WGD" />
+        <FIELDVALUE FldRef="UntNameOrg" FldType="20" FldValue="lb/Ft" />
+        <FIELDVALUE FldRef="UntNameDst" FldType="20" FldValue="lb/Ft" />
+        <FIELDVALUE FldRef="MFactor" FldType="100" FldValue="1" />
+        <FIELDVALUE FldRef="CntID" FldType="80" FldValue="0" />
+    </INSERT>
+    <INSERT TblRef="SYST_UUMM_00000500">
+        <FIELDVALUE FldRef="UCtName" FldType="20" FldValue="WGD" />
+        <FIELDVALUE FldRef="UntNameOrg" FldType="20" FldValue="lb/Ft" />
+        <FIELDVALUE FldRef="UntNameDst" FldType="20" FldValue="kg/m" />
+        <FIELDVALUE FldRef="MFactor" FldType="100" FldValue="1.488179213922308" />
+        <FIELDVALUE FldRef="CntID" FldType="80" FldValue="0" />
+    </INSERT>
+</QUERIES>

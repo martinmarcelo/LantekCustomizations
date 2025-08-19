@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<QUERIES xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\..\..\xsd\Queries\Queries.xsd">
+    <!-- PPMM_CCFF_00000300 -->
+    <!-- PPMM_CCFF_00000300,UnitWeight -->
+    <INSERT TblRef="SYST_UUMM_00000800">
+        <FIELDVALUE FldRef="TblRef" FldType="20" FldValue="PPMM_CCFF_00000300" />
+        <FIELDVALUE FldRef="FldRef" FldType="20" FldValue="UnitWeight" />
+        <FIELDVALUE FldRef="USyName" FldType="20" FldValue="MET" />
+        <FIELDVALUE FldRef="UCtName" FldType="20" FldValue="WGH" />
+        <FIELDVALUE FldRef="UntName" FldType="20" FldValue="kg" />
+        <FIELDVALUE FldRef="CntID" FldType="80" FldValue="0" />
+    </INSERT>
+    <INSERT TblRef="SYST_UUMM_00000800">
+        <FIELDVALUE FldRef="TblRef" FldType="20" FldValue="PPMM_CCFF_00000300" />
+        <FIELDVALUE FldRef="FldRef" FldType="20" FldValue="UnitWeight" />
+        <FIELDVALUE FldRef="USyName" FldType="20" FldValue="IMP" />
+        <FIELDVALUE FldRef="UCtName" FldType="20" FldValue="WGH" />
+        <FIELDVALUE FldRef="UntName" FldType="20" FldValue="lb" />
+        <FIELDVALUE FldRef="CntID" FldType="80" FldValue="0" />
+    </INSERT>
+
+    <!-- PPMM_CCFF_00000300,TotalWeight -->
+    <INSERT TblRef="SYST_UUMM_00000800">
+        <FIELDVALUE FldRef="TblRef" FldType="20" FldValue="PPMM_CCFF_00000300" />
+        <FIELDVALUE FldRef="FldRef" FldType="20" FldValue="TotalWeight" />
+        <FIELDVALUE FldRef="USyName" FldType="20" FldValue="MET" />
+        <FIELDVALUE FldRef="UCtName" FldType="20" FldValue="WGH" />
+        <FIELDVALUE FldRef="UntName" FldType="20" FldValue="kg" />
+        <FIELDVALUE FldRef="CntID" FldType="80" FldValue="0" />
+    </INSERT>
+    <INSERT TblRef="SYST_UUMM_00000800">
+        <FIELDVALUE FldRef="TblRef" FldType="20" FldValue="PPMM_CCFF_00000300" />
+        <FIELDVALUE FldRef="FldRef" FldType="20" FldValue="TotalWeight" />
+        <FIELDVALUE FldRef="USyName" FldType="20" FldValue="IMP" />
+        <FIELDVALUE FldRef="UCtName" FldType="20" FldValue="WGH" />
+        <FIELDVALUE FldRef="UntName" FldType="20" FldValue="lb" />
+        <FIELDVALUE FldRef="CntID" FldType="80" FldValue="0" />
+    </INSERT>
+</QUERIES>

@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<WINDOW Description="Assign calendar" Scheme="SYST" Inherits="RRRR_APPLICATIONS" MessageNumber="37703" Type="Other" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\..\xsd\Repository\Windows.xsd">
+    <CONTROLPROPS>
+        <LAYOUT>
+            <SIZE WidthValue="350" />
+        </LAYOUT>
+        <OTHER Text="{1:37703}" />
+    </CONTROLPROPS>
+    <STRUCTURES>
+        <STRUCTURE Reference="ASSIGN_CALENDAR_TO_WORKCENTERS" Table="ASSIGN_CALENDAR" Query="ASSIGN_CALENDAR" Security="0011000" New="1" />
+    </STRUCTURES>
+    <CHILDREN>
+        <CONTROL Name="CalName" Type="Text" Origin="CardCNT">
+            <CONTROLPROPS>
+                <LAYOUT>
+                    <SIZE WidthType="Auto" />
+                </LAYOUT>
+                <DATAACCESS StructureIdentifier="@#SM#@" ColumnIdentifier="CalName">
+                    <ROWACCESS Type="Auto" />
+                </DATAACCESS>
+                <OTHER>
+                    <C N="Selection" ShD="Select from a list" ShM="754" Img="APP_IMAGES:cmd/Select.svg" ARO="0">
+                        <P N="Structure" V="@#SM#@" />
+                        <P N="ChildTable" V="[STR,@#SM#@,tbl]" />
+                        <P N="ChildField" V="CalName" />
+                        <P N="Values">
+                            <V>[CELL,@#SM#@,CalName,-1,selval]</V>
+                        </P>
+                        <P N="NewWindow" V="1" />
+                        <P N="WindowProperties" V="type=modal" />
+                    </C>
+                </OTHER>
+            </CONTROLPROPS>
+        </CONTROL>
+        <CONTROL Name="StartDate" Type="Text" Origin="CardCNT">
+            <CONTROLPROPS>
+                <LAYOUT>
+                    <SIZE WidthType="Auto" />
+                </LAYOUT>
+                <DATAACCESS StructureIdentifier="@#SM#@" ColumnIdentifier="StartDate">
+                    <ROWACCESS Type="Auto" />
+                </DATAACCESS>
+                <OTHER>
+                    <C N="SelDate" Svr="0" ShD="Select a date" ShM="579" Img="APP_IMAGES:cmd/SelDate.svg" ARO="0">
+                        <P N="Control" V="StartDate" />
+                    </C>
+                </OTHER>
+            </CONTROLPROPS>
+        </CONTROL>
+        <CONTROL Name="EndDate" Type="Text" Origin="CardCNT">
+            <CONTROLPROPS>
+                <LAYOUT>
+                    <SIZE WidthType="Auto" />
+                </LAYOUT>
+                <DATAACCESS StructureIdentifier="@#SM#@" ColumnIdentifier="EndDate">
+                    <ROWACCESS Type="Auto" />
+                </DATAACCESS>
+                <OTHER>
+                    <C N="SelDate" Svr="0" ShD="Select a date" ShM="579" Img="APP_IMAGES:cmd/SelDate.svg" ARO="0">
+                        <P N="Control" V="EndDate" />
+                    </C>
+                </OTHER>
+            </CONTROLPROPS>
+        </CONTROL>
+        <CONTROL Name="OptionsCNT" Type="Container">
+            <CHILDREN>
+                <CONTROL Name="AcceptButton" Type="Button">
+                    <CONTROLPROPS>
+                        <LAYOUT>
+                            <SIZE WidthType="Default" />
+                        </LAYOUT>
+                        <OTHER Text="{1:476}" Tooltip="{1:476}">
+                            <C N="ManyCommands">
+                                <P N="Command1">
+                                    <V>
+                                        <C N="AssignCalendarToWorkcenters" Frm="@#OPENER#@" TEx="Lantek.SYSLayer.Applications.Executors.ActionResultHandlerExecutor,SYS_apps">
+                                            <P N="ClassType" V="Lantek.SYSLayer.Applications.ManualData.Calendars.AssignCalendarToWorkCentersMDAction,SYS_apps" />
+                                            <P N="Method" V="AssignCalendarToWorkCenters" />
+                                            <P N="Calendar" V="[CELL,@#SM#@,CalName,-1,bv]" />
+                                            <P N="StartDate" V="[CELL,@#SM#@,StartDate,-1,bv]" />
+                                            <P N="EndDate" V="[CELL,@#SM#@,EndDate,-1,bv]" />
+                                            <P N="Records" V="[WIN,weiRecords]"/>
+                                            <P N="CreateTransaction" V="0" />
+                                            <P N="Dictionary" V="0" />
+                                        </C>
+                                    </V>
+                                </P >
+                                <P N="Command2">
+                                    <V>
+                                        <C N="Close" Stt="0" Svr="0" />
+                                    </V>
+                                </P>
+                            </C>
+                        </OTHER>
+                    </CONTROLPROPS>
+                </CONTROL>
+            </CHILDREN>
+        </CONTROL>
+    </CHILDREN>
+</WINDOW>

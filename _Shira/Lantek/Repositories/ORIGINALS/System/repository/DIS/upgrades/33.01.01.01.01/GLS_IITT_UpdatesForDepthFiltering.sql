@@ -1,0 +1,14 @@
+-- @#LONGSCRIPT#@
+
+--Updates in item tracking
+UPDATE GLS_IITT_IITT_00000200
+SET GLS_IITT_IITT_00000200.MainOriginFilter = ISNULL((
+													  SELECT TOP 1 SSAA_SSOO_00000100.OrdRef
+													  FROM SSAA_SSOO_00000100, MMNN_MMOO_00000100
+													  WHERE SSAA_SSOO_00000100.OrdRef = MMNN_MMOO_00000100.OrdRef AND
+															MMNN_MMOO_00000100.Origin = 1 AND 
+															GLS_IITT_IITT_00000200.Reference = MMNN_MMOO_00000100.MnORef AND
+															GLS_IITT_IITT_00000200.Category = 52)
+													  , ''),
+	GLS_IITT_IITT_00000200.MainOriginTypeFilter = 2
+WHERE GLS_IITT_IITT_00000200.Reference <> '' AND GLS_IITT_IITT_00000200.Category = 52

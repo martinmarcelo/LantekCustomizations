@@ -1,0 +1,332 @@
+<CONTROL Name="WWPP_WWOO_00000200_Grid" Type="Grid" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\..\xsd\Repository\Controls.xsd">
+    <CONTROLPROPS>
+        <LAYOUT>
+            <SIZE WidthType="Auto" />
+            <SPACING Value="APP:ControlSpacing" />
+        </LAYOUT>
+        <DATAACCESS StructureIdentifier="WWPP_WWOO_00000200_Planning" />
+        <STYLES MergeRowsStyle="1" />
+        <SPECIAL>
+            <GRD PhonesFormatString="{0:cell_Component}{0:cell_PrdName##, #}{0:cell_GLS_Var1##, #}{0:cell_Quantity##: #}" SelectAll="0" />
+        </SPECIAL>
+    </CONTROLPROPS>
+    <CHILDREN>
+        <CONTROL Name="WWPP_WWOO_00000200_Grid_New" Type="Custom" ClassType="Lantek.Avantia.Application.Controls.NewOptionsControlEntity,lnkavnt_apps">
+            <CONTROLPROPS>
+                <DATAACCESS StructureIdentifier="WWPP_WWOO_00000200_Planning" />
+                <OTHER Text="" Tooltip="{1:45}{2:dcss}" Image="./img/cmd/New.svg" Visible="0">
+                    <C N="New">
+                        <P N="Structure" V="WWPP_WWOO_00000200_Planning" />
+                        <P N="Table" V="[STR,WWPP_WWOO_00000200_Planning,tbl]" />
+                        <P N="LowerFields">
+                            <V>[STR,WWPP_WWOO_00000200_Planning,lowf]</V>
+                        </P>
+                        <P N="LowerCnds">
+                            <V>[STR,WWPP_WWOO_00000200_Planning,lowcnd]</V>
+                        </P>
+                        <P N="LowerSec" V="[STR,WWPP_WWOO_00000200_Planning,lowsec]" />
+                        <P N="FFilter">
+                            <V>[STR,WWPP_WWOO_00000200_Planning,ffil]</V>
+                        </P>
+                        <P N="PFilter">
+                            <V>[STR,WWPP_WWOO_00000200_Planning,pfil]</V>
+                        </P>
+                        <P N="SFilter">
+                            <V>[STR,WWPP_WWOO_00000200_Planning,sfil]</V>
+                        </P>
+                        <P N="Subclass" V="[STR,WWPP_WWOO_00000200_Planning,dcid]" />
+                    </C>
+                </OTHER>
+            </CONTROLPROPS>
+        </CONTROL>
+        <CONTROL Name="WWPP_WWOO_00000200_Grid_View" Type="MenuOption" ILayout="NOPhones">
+            <CONTROLPROPS>
+                <OTHER Tooltip="{1:799}" Image="./img/cmd/View.svg" Visible="0">
+                    <C N="OpenWindow" TEx="Lantek.SYSLayer.Applications.Executors.WorkPlanning.BOMViewOpenWindow,SYS_apps">
+                        <P N="Name" V="WWPP_WWOO_00000200_View" />
+                        <P N="Structure" V="WWPP_WWOO_00000200_Planning" />
+                        <P N="Component" V="[CELL,WWPP_WWOO_00000200_Planning,Component,-1,bv]" />
+                        <P N="WorkOrder" V="[CELL,WWPP_WWOO_00000200_Planning,OrdRef,-1,bv]" />
+                        <P N="CompType" V="[CELL,WWPP_WWOO_00000200_Planning,CompType,-1,bv]" />
+                        <P N="FixedFilter">
+                            <V>
+                                <FILTER>
+                                    <CONDITIONS>
+                                        <CONDITION>
+                                            <EXPRESSION>
+                                                <FIELD FldRef="OrdRef" />
+                                            </EXPRESSION>
+                                            <EQUAL />
+                                            <EXPRESSION>
+                                                <CONSTANT Value="[CELL,WWPP_WWOO_00000200_Planning,OrdRef,-1,bv]" Type="20" />
+                                            </EXPRESSION>
+                                        </CONDITION>
+                                        <AND />
+                                        <CONDITION>
+                                            <EXPRESSION>
+                                                <FIELD FldRef="Component" />
+                                            </EXPRESSION>
+                                            <EQUAL />
+                                            <EXPRESSION>
+                                                <CONSTANT Value="[CELL,WWPP_WWOO_00000200_Planning,Component,-1,bv]" Type="20" />
+                                            </EXPRESSION>
+                                        </CONDITION>
+                                    </CONDITIONS>
+                                </FILTER>
+                            </V>
+                        </P>
+                    </C>
+                </OTHER>
+                <BEHAVIORS>
+                    <BEHAVIOR Name="HideIfNotBoolParam">
+                        <P N="Layer" V="KER" />
+                        <P N="Module" V="SYST" />
+                        <P N="Name" V="ShowOptionView" />
+                        <P N="Value" V="1" />
+                        <P N="DefaultValue" V="0" />
+                    </BEHAVIOR>
+                </BEHAVIORS>
+            </CONTROLPROPS>
+        </CONTROL>
+        <CONTROL Name="WWPP_WWOO_00000200_Grid_Edit" Type="MenuOption">
+            <CONTROLPROPS>
+                <OTHER Tooltip="{1:561}" Image="./img/cmd/Edit.svg" Visible="0">
+                    <C N="Edit">
+                        <P N="Structure" V="WWPP_WWOO_00000200_Planning" />
+                        <P N="Table" V="[STR,WWPP_WWOO_00000200_Planning,tbl]" />
+                        <P N="Record" V="[GRDact,WWPP_WWOO_00000200_Grid]" />
+                        <P N="RecordsQuery">
+                            <V>[STR,WWPP_WWOO_00000200_Planning,rcsq]</V>
+                        </P>
+                        <P N="LowerFields">
+                            <V>[STR,WWPP_WWOO_00000200_Planning,lowf]</V>
+                        </P>
+                        <P N="LowerCnds">
+                            <V>[STR,WWPP_WWOO_00000200_Planning,lowcnd]</V>
+                        </P>
+                        <P N="LowerSec" V="[STR,WWPP_WWOO_00000200_Planning,lowsec]" />
+                    </C>
+                </OTHER>
+            </CONTROLPROPS>
+        </CONTROL>
+        <CONTROL Name="WWPP_WWOO_00000200_Grid_Delete" Type="MenuOption">
+            <CONTROLPROPS>
+                <OTHER Tooltip="{1:673}..." Image="./img/cmd/Delete.svg" Visible="0">
+                    <C N="Delete">
+                        <P N="Structure" V="WWPP_WWOO_00000200_Planning" />
+                        <P N="SelectAll" V="[GRDselall,WWPP_WWOO_00000200_Grid]" />
+                        <P N="Confirmation" V="@#KRN_CONFIRMDEL,#221#NwLn#1561-WWPP_WWOO_00000200_Grid#@" />
+                    </C>
+                </OTHER>
+            </CONTROLPROPS>
+        </CONTROL>
+        <CONTROL Name="WWPP_WWOO_00000200_Grid_Separator" Type="MenuSeparator" />
+        <CONTROL Name="WWPP_WWOO_00000200_Grid_PlanConsumable" Type="MenuOption">
+            <CONTROLPROPS>
+                <OTHER Text="{1:36575}" Image="./img/cmd/PlanPurchase.svg">
+                    <C N="ManData" Stt="1" TEx="Lantek.DISLayer_Integra.Applications.Executors.ProductBacklogs.PlanAutomaticConsumablesExecutor,DIS_Integra_apps">
+                        <P N="Structure" V="WWPP_WWOO_00000200_Planning" />
+                        <P N="ClassType" V="Lantek.DISLayer_Integra.Applications.ManualData.ProductBacklogs.MaterialRequirementMDAction_DIS,DIS_Integra_apps" />
+                        <P N="Method" V="PlanPurchases" />
+                        <P N="Records" V="[GRDsel,WWPP_WWOO_00000200_Grid]" />
+                        <P N="WorkOrder" V="[CELL,@#SM#@,OrdRef,-1,bv]" />
+                        <P N="WorkOrderType" V="[CELL,@#SM#@,Type,-1,bv]" />
+                        <P N="IsWorkOrder" V="1" />
+                        <P N="CreateTransaction" V="0" />
+                    </C>
+                </OTHER>
+            </CONTROLPROPS>
+        </CONTROL>
+        <CONTROL Name="WWPP_WWOO_00000200_Grid_PlanSheets" Type="MenuNodeOption">
+            <CONTROLPROPS>
+                <OTHER Text="{1:60002384}..." Image="./img/cmd/PlanPurchase.svg">
+                    <C N="OpenWindow" Stt="1" TTs="WWPP_WWOO_00000200,00011000" TEx="Lantek.DISLayer_Integra.Applications.Executors.ProductBacklogs.PlanAutomacFormatsOpenWindowExecutor,DIS_Integra_apps">
+                        <P N="Name" V="WWPP_WWOO_00000200_AutomaticMaterialPlanning_PartsFromWorkOrder_Selection" />
+                        <P N="Structure" V="WWPP_WWOO_00000200_Planning" />
+                        <P N="Record" V="[GRDact,WWPP_WWOO_00000200_Grid]" />
+                        <P N="ProductClass" V="51" />
+                        <P N="Package" V="[WIN,weiPackage]" />
+                        <P N="IsWorkOrder" V="1" />
+                        <P N="Best" V="1" />
+                        <P N="NewWindow" V="1" />
+                        <P N="WindowProperties" V="type=modal,resizable=yes,titlebar=no,menubar=no,toolbar=no,location=no,status=no,scrollbars=yes" />
+                    </C>
+                </OTHER>
+            </CONTROLPROPS>
+            <CHILDREN>
+                <CONTROL Name="WWPP_WWOO_00000200_Grid_PlanSheets_UniqueFormat" Type="MenuOption">
+                    <CONTROLPROPS>
+                        <OTHER Text="{1:60002516#Calculate unique sheet format}..." Image="./img/cmd/PlanPurchase.svg">
+                            <C N="OpenWindow" Stt="1" TTs="WWPP_WWOO_00000200,00011000" TEx="Lantek.DISLayer_Integra.Applications.Executors.ProductBacklogs.PlanAutomacFormatsOpenWindowExecutor,DIS_Integra_apps">
+                                <P N="Name" V="WWPP_WWOO_00000200_AutomaticMaterialPlanning_PartsFromWorkOrder_Selection" />
+                                <P N="Structure" V="WWPP_WWOO_00000200_Planning" />
+                                <P N="Record" V="[GRDact,WWPP_WWOO_00000200_Grid]" />
+                                <P N="ProductClass" V="51" />
+                                <P N="Package" V="[WIN,weiPackage]" />
+                                <P N="IsWorkOrder" V="1" />
+                                <P N="Best" V="0" />
+                                <P N="NewWindow" V="1" />
+                                <P N="WindowProperties" V="type=modal,resizable=yes,titlebar=no,menubar=no,toolbar=no,location=no,status=no,scrollbars=yes" />
+                            </C>
+                        </OTHER>
+                    </CONTROLPROPS>
+                </CONTROL>
+            </CHILDREN>
+        </CONTROL>
+        <CONTROL Name="WWPP_WWOO_00000200_Grid_PlanBeams" Type="MenuNodeOption">
+            <CONTROLPROPS>
+                <OTHER Text="{1:60002398}..." Image="./img/cmd/PlanPurchase.svg">
+                    <C N="OpenWindow" Stt="1" TTs="WWPP_WWOO_00000200,00011000" TEx="Lantek.DISLayer_Integra.Applications.Executors.ProductBacklogs.PlanAutomacFormatsOpenWindowExecutor,DIS_Integra_apps">
+                        <P N="Name" V="WWPP_WWOO_00000200_AutomaticMaterialPlanning_PartsFromWorkOrder_Selection" />
+                        <P N="Structure" V="WWPP_WWOO_00000200_Planning" />
+                        <P N="Record" V="[GRDact,WWPP_WWOO_00000200_Grid]" />
+                        <P N="ProductClass" V="55" />
+                        <P N="Package" V="[WIN,weiPackage]" />
+                        <P N="IsWorkOrder" V="1" />
+                        <P N="Best" V="1" />
+                        <P N="NewWindow" V="1" />
+                        <P N="WindowProperties" V="type=modal,resizable=yes,titlebar=no,menubar=no,toolbar=no,location=no,status=no,scrollbars=yes" />
+                    </C>
+                </OTHER>
+            </CONTROLPROPS>
+            <CHILDREN>
+                <CONTROL Name="WWPP_WWOO_00000200_Grid_PlanBeams_UniqueFormat" Type="MenuOption">
+                    <CONTROLPROPS>
+                        <OTHER Text="{1:60002517#Calculate unique beam format}..." Image="./img/cmd/PlanPurchase.svg">
+                            <C N="OpenWindow" Stt="1" TTs="WWPP_WWOO_00000200,00011000" TEx="Lantek.DISLayer_Integra.Applications.Executors.ProductBacklogs.PlanAutomacFormatsOpenWindowExecutor,DIS_Integra_apps">
+                                <P N="Name" V="WWPP_WWOO_00000200_AutomaticMaterialPlanning_PartsFromWorkOrder_Selection" />
+                                <P N="Structure" V="WWPP_WWOO_00000200_Planning" />
+                                <P N="Record" V="[GRDact,WWPP_WWOO_00000200_Grid]" />
+                                <P N="ProductClass" V="55" />
+                                <P N="Package" V="[WIN,weiPackage]" />
+                                <P N="IsWorkOrder" V="1" />
+                                <P N="Best" V="0" />
+                                <P N="NewWindow" V="1" />
+                                <P N="WindowProperties" V="type=modal,resizable=yes,titlebar=no,menubar=no,toolbar=no,location=no,status=no,scrollbars=yes" />
+                            </C>
+                        </OTHER>
+                    </CONTROLPROPS>
+                </CONTROL>
+            </CHILDREN>
+        </CONTROL>
+        <CONTROL Name="WWPP_WWOO_00000200_Grid_PlannedStatus" Type="GridColumn">
+            <CONTROLPROPS>
+                <LAYOUT>
+                    <SIZE WidthValue="APP:LittleImagesColumnsWidth" />
+                </LAYOUT>
+                <DATAACCESS ColumnIdentifier="PlannedStatus" />
+                <OTHER LabelText="" />
+                <SPECIAL>
+                    <COL Preserve="1" ColumnType="Combo" CanResize="0" />
+                </SPECIAL>
+            </CONTROLPROPS>
+        </CONTROL>
+        <CONTROL Name="WWPP_WWOO_00000200_Grid_Class" Type="GridColumn">
+            <CONTROLPROPS>
+                <LAYOUT>
+                    <SIZE WidthValue="APP:LittleImagesColumnsWidth" />
+                </LAYOUT>
+                <DATAACCESS ColumnIdentifier="DIS_EClass" />
+                <OTHER LabelText="{1:60000702}" Image="./img/col/Element.png" />
+                <SPECIAL>
+                    <COL ColumnType="Combo" CanResize="0" />
+                </SPECIAL>
+            </CONTROLPROPS>
+        </CONTROL>
+        <CONTROL Name="WWPP_WWOO_00000200_Grid_ComponentType" Type="GridColumn" ClassType="Lantek.DISLayer_Integra.Applications.Controls.WorkPlanning.ComponentTypeGridColumnEntity,DIS_Integra_apps">
+            <CONTROLPROPS>
+                <LAYOUT>
+                    <SIZE WidthValue="APP:LittleImagesColumnsWidth" />
+                </LAYOUT>
+                <DATAACCESS ColumnIdentifier="CompType" />
+                <OTHER LabelText="{1:93}" Image="./img/col/Type.png" />
+                <SPECIAL>
+                    <COL Preserve="1" ColumnType="Combo" CanResize="0" />
+                </SPECIAL>
+            </CONTROLPROPS>
+        </CONTROL>
+        <CONTROL Name="WWPP_WWOO_00000200_Grid_Component" Type="GridColumn">
+            <CONTROLPROPS>
+                <LAYOUT>
+                    <SIZE WidthValue="APP:LongTextsBigColumnsWidth" />
+                </LAYOUT>
+                <DATAACCESS ColumnIdentifier="Component" FormatString="{0:cell_Component}{0:cell_PrdName##, #}{0:cell_GLS_Var1##, #}" />
+            </CONTROLPROPS>
+        </CONTROL>
+        <CONTROL Name="WWPP_WWOO_00000200_Grid_Quantity" Type="GridColumn">
+            <CONTROLPROPS>
+                <LAYOUT>
+                    <SIZE WidthValue="APP:DurationColumnsWidth" />
+                </LAYOUT>
+                <DATAACCESS ColumnIdentifier="VisibleQuantity" />
+                <STYLES Alignment="Right" />
+                <OTHER LabelText="{1:30080#Quantity}" />
+                <SPECIAL>
+                    <COL PercentWidth="0" CanSort="0" />
+                </SPECIAL>
+            </CONTROLPROPS>
+        </CONTROL>
+        <CONTROL Name="WWPP_WWOO_00000200_Grid_PlannedQuantity" Type="GridColumn">
+            <CONTROLPROPS>
+                <LAYOUT>
+                    <SIZE WidthValue="APP:DurationColumnsWidth" />
+                </LAYOUT>
+                <DATAACCESS ColumnIdentifier="PlannedQ" />
+                <STYLES Alignment="Right" />
+                <SPECIAL>
+                    <COL PercentWidth="0" CanSort="0" />
+                </SPECIAL>
+            </CONTROLPROPS>
+        </CONTROL>
+        <CONTROL Name="WWPP_WWOO_00000200_Grid_OrderedQuantity" Type="GridColumn">
+            <CONTROLPROPS>
+                <LAYOUT>
+                    <SIZE WidthValue="APP:DurationColumnsWidth" />
+                </LAYOUT>
+                <DATAACCESS ColumnIdentifier="OrderedQ" />
+                <STYLES Alignment="Right" />
+                <SPECIAL>
+                    <COL PercentWidth="0" CanSort="0" />
+                </SPECIAL>
+            </CONTROLPROPS>
+        </CONTROL>
+        <CONTROL Name="WWPP_WWOO_00000200_Grid_AllocatedQuantity" Type="GridColumn">
+            <CONTROLPROPS>
+                <LAYOUT>
+                    <SIZE WidthValue="APP:DurationColumnsWidth" />
+                </LAYOUT>
+                <DATAACCESS ColumnIdentifier="AllocatedQ" />
+                <STYLES Alignment="Right" />
+                <SPECIAL>
+                    <COL PercentWidth="0" CanSort="0" />
+                </SPECIAL>
+            </CONTROLPROPS>
+        </CONTROL>
+        <CONTROL Name="WWPP_WWOO_00000200_Grid_PendingQuantity" Type="GridColumn">
+            <CONTROLPROPS>
+                <LAYOUT>
+                    <SIZE WidthValue="APP:DurationColumnsWidth" />
+                </LAYOUT>
+                <DATAACCESS ColumnIdentifier="PendingQuantity" />
+                <STYLES Alignment="Right" />
+                <OTHER LabelText="{1:36483}" LabelTooltip="{1:36100}" />
+                <SPECIAL>
+                    <COL PercentWidth="0" CanSort="0" />
+                </SPECIAL>
+            </CONTROLPROPS>
+        </CONTROL>
+        <CONTROL Name="WWPP_WWOO_00000200_Grid_RequiredDate" Type="GridColumn">
+            <CONTROLPROPS>
+                <LAYOUT>
+                    <SIZE WidthValue="APP:ShortDatesColumnsWidth" />
+                </LAYOUT>
+                <DATAACCESS ColumnIdentifier="RequiredDate" />
+                <STYLES Alignment="Center" />
+                <OTHER LabelText="{1:31986}" LabelTooltip="{1:30101}" />
+                <SPECIAL>
+                    <COL CanResize="0" PercentWidth="0" CanSort="0" />
+                </SPECIAL>
+            </CONTROLPROPS>
+        </CONTROL>
+    </CHILDREN>
+</CONTROL>

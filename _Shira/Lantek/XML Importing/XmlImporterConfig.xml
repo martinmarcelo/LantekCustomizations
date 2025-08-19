@@ -40,9 +40,6 @@
             <FieldItem DBName="DIS_UData6_Prt" Tag="UDATA6" AlternativeTag="UDATA6" />
             <FieldItem DBName="DIS_UData7_Prt" Tag="UDATA7" AlternativeTag="UDATA7" />
             <FieldItem DBName="DIS_UData8_Prt" Tag="UDATA8" AlternativeTag="UDATA8" />
-            <FieldItem DBName="DIS_UData1_Sht" Tag="DIS_UData1_Sht" AlternativeTag="UDATASHT1" />
-            <FieldItem DBName="DIS_UData2_Sht" Tag="DIS_UData2_Sht" AlternativeTag="UDATASHT2" />
-            <FieldItem DBName="DIS_UData3_Sht" Tag="DIS_UData3_Sht" AlternativeTag="UDATASHT3" />
             <FieldItem DBName="DIS_CamQuan" Tag="XQUANT" AlternativeTag="CAMQUANTITY" />
             <FieldItem DBName="DIS_Rotations" Tag="ROTATIONS" AlternativeTag="ROTATIONS" />
             <FieldItem DBName="DIS_ModelingBy" Tag="MODELINGBY" AlternativeTag="MODELINGBY" />
@@ -63,17 +60,9 @@
             <FieldItem DBName="DIS_WEA" Tag="WEA" AlternativeTag="WEA" />
             <FieldItem DBName="DIS_FSA" Tag="FSA" AlternativeTag="FSA" />
             <FieldItem DBName="DIS_FEA" Tag="FEA" AlternativeTag="FEA" />
-        </FieldItemList>
-        <!-- Product operations -->
-        <FieldItemList TableName="MMNN_PPOO_00000200" AlternativeTableName="OPERATIONS">
-            <FieldItem DBName="PrdRef" Tag="PRDREF" AlternativeTag="PRODUCT" />
-            <FieldItem DBName="OOrder" Tag="OORDER" AlternativeTag="OPERATIONORDER" />
-            <FieldItem DBName="WrkRef" Tag="WRKREF" AlternativeTag="WORKCENTER" />
-            <FieldItem DBName="OprRef" Tag="OPRREF" AlternativeTag="OPERATION" />
-            <FieldItem DBName="PrevOpr" Tag="PREVOPR" AlternativeTag="PREVIOUSOPERATION" />
-            <FieldItem DBName="OTime" Tag="OTIME" AlternativeTag="OPERATIONTIME" />
-            <FieldItem DBName="PrdName" Tag="PRDNAME" AlternativeTag="PRODUCTNAME" />
-            <FieldItem DBName="Descrip" Tag="DESCRIP" AlternativeTag="DESCRIPTION" />
+            <FieldItem DBName="DIS_UData1_Sht" Tag="DIS_UData1_Sht" AlternativeTag="UDATASHT1" />
+            <FieldItem DBName="DIS_UData2_Sht" Tag="DIS_UData2_Sht" AlternativeTag="UDATASHT2" />
+            <FieldItem DBName="DIS_UData3_Sht" Tag="DIS_UData3_Sht" AlternativeTag="UDATASHT3" />
         </FieldItemList>
         <!-- Bendings -->
         <FieldItemList TableName="DIS_SHPR_BEND_00000100" AlternativeTableName="BENDINGS">
@@ -141,28 +130,6 @@
             <FieldItem DBName="GLS_Var1" Tag="LENGTH" AlternativeTag="LENGTH" />
             <FieldItem DBName="StockQ" Tag="QUANTITY" AlternativeTag="QUANTITY" />
         </FieldItemList>
-        <!-- Material -->
-        <FieldItemList TableName="DIS_MMTT_MMTT_00000100" AlternativeTableName="RAWMATERIAL">
-            <FieldItem DBName="MatRef" Tag="MATREF" AlternativeTag="MATERIAL" />
-            <FieldItem DBName="Density" Tag="DENSITY" AlternativeTag="DENSITY" />
-            <FieldItem DBName="Price" Tag="PRICE" AlternativeTag="PRICE" />
-            <FieldItem DBName="Descrip" Tag="DESCRIP" AlternativeTag="DESCRIPTION" />
-            <FieldItem DBName="MFactor" Tag="MFACTOR" AlternativeTag="MFACTOR" />
-            <FieldItem DBName="IntRef" Tag="INTREF" AlternativeTag="INTREF" />
-        </FieldItemList>
-        <!-- Warehouse locations -->
-        <FieldItemList TableName="GLS_IITT_IITT_00000100" AlternativeTableName="BATCHES">
-			<FieldItem DBName="BatchNo" Tag="BatchNo" AlternativeTag="BATCHNUMBER" />
-			<FieldItem DBName="SuppBatchNo" Tag="SuppBatchNo" AlternativeTag="SUPPBATCHNO" />
-			<FieldItem DBName="SuppRef" Tag="SuppRef" AlternativeTag="SUPPREF" />
-			<FieldItem DBName="SuppName" Tag="SuppName" AlternativeTag="SUPPNAME" />
-		</FieldItemList>
-        <!-- Warehouse locations -->
-        <FieldItemList TableName="WWHH_WWHH_00000200" AlternativeTableName="WAREHOUSELOCATIONS">
-			<FieldItem DBName="WrhRef" Tag="WrhRef" AlternativeTag="WRHREF" />
-			<FieldItem DBName="LocRef" Tag="LocRef" AlternativeTag="LOCREF" />
-			<FieldItem DBName="IsEnd" Tag="IsEnd" AlternativeTag="ISEND" />
-		</FieldItemList>
         <!-- Warehouse movements -->
         <FieldItemList TableName="WWHH_MMVV_00000100" AlternativeTableName="WAREHOUSEMOVEMENTS">
             <FieldItem DBName="Type" Tag="TYPE" AlternativeTag="TYPE" />
@@ -179,26 +146,26 @@
         <FieldItemList TableName="CCOO_CCOO_00000100" AlternativeTableName="COMPANIES">
             <FieldItem DBName="ComRef" Tag="COMREF" AlternativeTag="REFERENCE" />
             <FieldItem DBName="ComName" Tag="COMNAME" AlternativeTag="NAME" />
-            <FieldItem DBName="ComIntName" Tag="COMINTNAME" AlternativeTag="COMINTNAME" />
             <FieldItem DBName="IsCust" Tag="ISCUST" AlternativeTag="ISCUSTOMER" />
             <FieldItem DBName="IsSupp" Tag="ISSUPP" AlternativeTag="ISSUPPLIER" />
             <FieldItem DBName="Address1" Tag="ADDRESS1" AlternativeTag="ADDRESS1" />
             <FieldItem DBName="Address2" Tag="ADDRESS2" AlternativeTag="ADDRESS2" />
             <FieldItem DBName="Address3" Tag="ADDRESS3" AlternativeTag="ADDRESS3" />
-            <FieldItem DBName="Descrip" Tag="Descrip" AlternativeTag="DESCRIPTION" />
-            <FieldItem DBName="Locked" Tag="Locked" AlternativeTag="LOCKED" />
             <FieldItem DBName="City" Tag="CITY" AlternativeTag="CITY" />
             <FieldItem DBName="ZipCode" Tag="ZIPCODE" AlternativeTag="ZIPCODE" />
             <FieldItem DBName="State" Tag="STATE" AlternativeTag="STATE" />
             <FieldItem DBName="CouName" Tag="COUNAME" AlternativeTag="COUNTRY" />
-            <FieldItem DBName="CurName" Tag="CurName" AlternativeTag="CURNAME" />
-            <FieldItem DBName="Sector" Tag="Sector" AlternativeTag="SECTOR" />
-            <FieldItem DBName="Zone" Tag="Zone" AlternativeTag="ZONE" />
             <FieldItem DBName="Phone" Tag="PHONE" AlternativeTag="PHONE" />
             <FieldItem DBName="Fax" Tag="FAX" AlternativeTag="FAX" />
             <FieldItem DBName="Web" Tag="WEB" AlternativeTag="WEB" />
             <FieldItem DBName="EMail" Tag="EMAIL" AlternativeTag="EMAIL" />
             <FieldItem DBName="VatNum" Tag="VATNUM" AlternativeTag="VAT" />
+            <FieldItem DBName="ComIntName" Tag="COMINTNAME" AlternativeTag="COMINTNAME" />
+            <FieldItem DBName="Descrip" Tag="Descrip" AlternativeTag="DESCRIPTION" />
+            <FieldItem DBName="Locked" Tag="Locked" AlternativeTag="LOCKED" />
+            <FieldItem DBName="CurName" Tag="CurName" AlternativeTag="CURNAME" />
+            <FieldItem DBName="Sector" Tag="Sector" AlternativeTag="SECTOR" />
+            <FieldItem DBName="Zone" Tag="Zone" AlternativeTag="ZONE" />
         </FieldItemList>
         <!-- Sale orders -->
         <FieldItemList TableName="SSAA_SSOO_00000100" AlternativeTableName="SALEORDERS">
@@ -270,7 +237,28 @@
             <FieldItem DBName="FFName" Tag="FFNAME" AlternativeTag="FilePath" />
             <FieldItem DBName="FFVault" Tag="FFVAULT" AlternativeTag="Vault" />
         </FieldItemList>
-		<!-- Users -->
+        <FieldItemList TableName="DIS_MMTT_MMTT_00000100" AlternativeTableName="RAWMATERIAL">
+            <FieldItem DBName="MatRef" Tag="MATREF" AlternativeTag="MATERIAL" />
+            <FieldItem DBName="Density" Tag="DENSITY" AlternativeTag="DENSITY" />
+            <FieldItem DBName="Price" Tag="PRICE" AlternativeTag="PRICE" />
+            <FieldItem DBName="Descrip" Tag="DESCRIP" AlternativeTag="DESCRIPTION" />
+            <FieldItem DBName="MFactor" Tag="MFACTOR" AlternativeTag="MFACTOR" />
+            <FieldItem DBName="IntRef" Tag="INTREF" AlternativeTag="INTREF" />
+        </FieldItemList>
+        <FieldItemList TableName="GLS_IITT_IITT_00000100" AlternativeTableName="BATCHES">
+            <FieldItem DBName="BatchNo" Tag="BatchNo" AlternativeTag="BATCHNUMBER" />
+            <FieldItem DBName="SuppBatchNo" Tag="SuppBatchNo" AlternativeTag="SUPPBATCHNO" />
+            <FieldItem DBName="SuppRef" Tag="SuppRef" AlternativeTag="SUPPREF" />
+            <FieldItem DBName="SuppName" Tag="SuppName" AlternativeTag="SUPPNAME" />
+        </FieldItemList>
+        <FieldItemList TableName="WWHH_WWHH_00000200" AlternativeTableName="WAREHOUSELOCATIONS">
+            <FieldItem DBName="WrhRef" Tag="WrhRef" AlternativeTag="WRHREF" />
+            <FieldItem DBName="LocRef" Tag="LocRef" AlternativeTag="LOCREF" />
+            <FieldItem DBName="IsEnd" Tag="IsEnd" AlternativeTag="ISEND" />
+        </FieldItemList>
+        <FieldItemList TableName="SYST_SSRR_00000100" AlternativeTableName="TEAMS">
+			<FieldItem DBName="GrpName" Tag="GrpName" AlternativeTag="GrpName" />
+		</FieldItemList>
         <FieldItemList TableName="SYST_SSRR_00000200" AlternativeTableName="USERS">
             <FieldItem DBName="UsrName" Tag="UsrName" AlternativeTag="UsrName" />
             <FieldItem DBName="WPhone" Tag="WPhone" AlternativeTag="WPhone" />
@@ -291,24 +279,30 @@
             <FieldItem DBName="Locked" Tag="Locked" AlternativeTag="Locked" />
             <FieldItem DBName="DIS_WindowsUser" Tag="DIS_WindowsUser" AlternativeTag="DIS_WindowsUser" />
         </FieldItemList>
-		<!-- Roles -->
-		<FieldItemList TableName="SYST_SSRR_00000500" AlternativeTableName="ROLES">
-			<FieldItem DBName="RolName" Tag="ROLNAME" AlternativeTag="ROLE" />
+        <FieldItemList TableName="SYST_SSRR_00000300" AlternativeTableName="TEAMMEMBERS">
+			<FieldItem DBName="GrpName" Tag="GrpName" AlternativeTag="GrpName" />
+			<FieldItem DBName="UsrName" Tag="UsrName" AlternativeTag="UsrName" />
+		</FieldItemList>
+        <FieldItemList TableName="SYST_SSRR_00000500" AlternativeTableName="ROLES">
+            <FieldItem DBName="RolName" Tag="ROLNAME" AlternativeTag="ROLE" />
             <FieldItem DBName="MsgNum" Tag="MSGNUM" AlternativeTag="MESSAGENUMBER" />
             <FieldItem DBName="IsActive" Tag="ISACTIVE" AlternativeTag="ACTIVATED" />
             <FieldItem DBName="IsGroup" Tag="ISGROUP" AlternativeTag="ISGROUP" />
             <FieldItem DBName="RolOrg" Tag="ROLORG" AlternativeTag="ORIGINALROLE" />
             <FieldItem DBName="RecState" Tag="RECSTATE" AlternativeTag="RECORDSTATE" />
-        </FieldItemList>		
-		<!-- Role permissions -->
-		<FieldItemList TableName="SYST_SSRR_00000501" AlternativeTableName="ROLEPERMISSIONS">
-			<FieldItem DBName="RoleName" Tag="ROLENAME" AlternativeTag="ROLENAME" />
+        </FieldItemList>
+        <FieldItemList TableName="SYST_SSRR_00000501" AlternativeTableName="ROLEPERMISSIONS">
+            <FieldItem DBName="RoleName" Tag="ROLENAME" AlternativeTag="ROLENAME" />
             <FieldItem DBName="GroupName" Tag="GROUPNAME" AlternativeTag="GROUPNAME" />
             <FieldItem DBName="RecState" Tag="RECSTATE" AlternativeTag="RECORDSTATE" />
         </FieldItemList>
-		<!-- Table permissions -->
-		<FieldItemList TableName="SYST_SSRR_00000700" AlternativeTableName="TABLEPERMISSIONS">
-			<FieldItem DBName="RolName" Tag="ROLNAME" AlternativeTag="ROLENAME" />
+        <FieldItemList TableName="SYST_SSRR_00000600" AlternativeTableName="ROLEMEMBERS">
+            <FieldItem DBName="RolName" Tag="RolName" AlternativeTag="RolName" />
+            <FieldItem DBName="EType" Tag="EType" AlternativeTag="EType" />
+            <FieldItem DBName="EName" Tag="EName" AlternativeTag="EName" />
+        </FieldItemList>
+        <FieldItemList TableName="SYST_SSRR_00000700" AlternativeTableName="TABLEPERMISSIONS">
+            <FieldItem DBName="RolName" Tag="ROLNAME" AlternativeTag="ROLENAME" />
             <FieldItem DBName="TblRef" Tag="TBLREF" AlternativeTag="TABLEREFERENCE" />
             <FieldItem DBName="OUName" Tag="OUNAME" AlternativeTag="ORGANIZATIONNAME" />
             <FieldItem DBName="PSelect" Tag="PSELECT" AlternativeTag="PSELECT" />
@@ -320,8 +314,7 @@
             <FieldItem DBName="PAssign" Tag="PASSIGN" AlternativeTag="PASSIGN" />
             <FieldItem DBName="PShare" Tag="PSHARE" AlternativeTag="PSHARE" />
             <FieldItem DBName="RecState" Tag="RECSTATE" AlternativeTag="RECORDSTATE" />
-        </FieldItemList>			
-		<!-- Payments Methods  -->
+        </FieldItemList>
         <FieldItemList TableName="SSPP_SSPP_00000100" AlternativeTableName="PAYMENTMETHODS">
             <FieldItem DBName="PymName" Tag="PymName" AlternativeTag="PaymentName" />
             <FieldItem DBName="Pym" Tag="Pym" AlternativeTag="PaymentIdentifier" />
@@ -331,7 +324,6 @@
             <FieldItem DBName="EarlyPymName" Tag="EarlyPymName" AlternativeTag="EarlyPaymentName" />
             <FieldItem DBName="PymDsc" Tag="PymDsc" AlternativeTag="PaymentDiscount" />
         </FieldItemList>
-		<!-- Payment Terms -->
         <FieldItemList TableName="SSPP_SSPP_00000200" AlternativeTableName="PAYMENTDATES">
             <FieldItem DBName="PymName" Tag="PymName" AlternativeTag="PaymentName" />
             <FieldItem DBName="LineNum" Tag="LineNum" AlternativeTag="LineNum" />
@@ -339,13 +331,41 @@
             <FieldItem DBName="Percent" Tag="Percent" AlternativeTag="Percent" />
             <FieldItem DBName="Type" Tag="Type" AlternativeTag="Type" />
             <FieldItem DBName="IsEndOfMonth" Tag="IsEndOfMonth" AlternativeTag="IsEndOfMonth" />
-        </FieldItemList>		
-		<!-- Early Payment Discounts -->
+        </FieldItemList>
         <FieldItemList TableName="SSPP_SSPP_00000300" AlternativeTableName="EARLYPAYMENTDISCOUNTS">
             <FieldItem DBName="EarlyPymName" Tag="EarlyPymName" AlternativeTag="EarlyPaymentName" />
             <FieldItem DBName="EarlyPymDsc" Tag="EarlyPymDsc" AlternativeTag="EarlyPaymentDiscount" />
         </FieldItemList>
-        <!-- Employees -->
+        <FieldItemList TableName="WWCC_WWCC_00000100" AlternativeTableName="WORKCENTERS">
+			<FieldItem DBName="WrkRef" Tag="WrkRef" AlternativeTag="WrkRef" />
+            <FieldItem DBName="WrkOEM" Tag="WrkOEM" AlternativeTag="WrkOEM" />
+            <FieldItem DBName="WrkCNC" Tag="WrkCNC" AlternativeTag="WrkCNC" />
+            <FieldItem DBName="IsOutsourcing" Tag="IsOutsourcing" AlternativeTag="IsOutsourcing" />
+            <FieldItem DBName="WrkCapUCtName" Tag="WrkCapUCtName" AlternativeTag="WrkCapUCtName" />
+            <FieldItem DBName="WrkCapUntName" Tag="WrkCapUntName" AlternativeTag="WrkCapUntName" />
+            <FieldItem DBName="WrkCap" Tag="WrkCap" AlternativeTag="WrkCap" />
+            <FieldItem DBName="Descrip" Tag="Descrip" AlternativeTag="Descrip" />
+            <FieldItem DBName="IsActive" Tag="IsActive" AlternativeTag="IsActive" />
+            <FieldItem DBName="DIS_WrkType" Tag="DIS_WrkType" AlternativeTag="DIS_WrkType" />
+            <FieldItem DBName="DIS_OTechn" Tag="DIS_OTechn" AlternativeTag="DIS_OTechn" />
+		</FieldItemList>		
+        <FieldItemList TableName="MMNN_PPOO_00000100" AlternativeTableName="ROUTINGS">
+			<FieldItem DBName="RouRef" Tag="RouRef" AlternativeTag="RouRef" />
+            <FieldItem DBName="DIS_Rules" Tag="DIS_Rules" AlternativeTag="DIS_Rules" />
+            <FieldItem DBName="DIS_PClass" Tag="DIS_PClass" AlternativeTag="DIS_PClass" />            
+		</FieldItemList>
+        <FieldItemList TableName="SSAA_CCUU_00000100" AlternativeTableName="ADDITIONALCUSTOMERDATA">
+			<FieldItem DBName="CusRef" Tag="CustomerReference" AlternativeTag="CusRef" />
+			<FieldItem DBName="CarRef" Tag="CarrierReference" AlternativeTag="CarRef" />
+		</FieldItemList>
+        <FieldItemList TableName="MMNN_PPOO_00000200" AlternativeTableName="ROUTINGOPERATIONS">
+			<FieldItem DBName="PrdRef" Tag="PrdRef" AlternativeTag="PrdRef" />
+			<FieldItem DBName="RouRef" Tag="RouRef" AlternativeTag="RouRef" />
+            <FieldItem DBName="OOrder" Tag="OOrder" AlternativeTag="OOrder" />
+            <FieldItem DBName="WrkRef" Tag="WrkRef" AlternativeTag="WrkRef" />
+            <FieldItem DBName="OprRef" Tag="OprRef" AlternativeTag="OprRef" />
+            <FieldItem DBName="PrevOpr" Tag="PrevOpr" AlternativeTag="PrevOpr" />
+		</FieldItemList>
         <FieldItemList TableName="EEMM_EEMM_00000100" AlternativeTableName="EMPLOYEES">
             <FieldItem DBName="EmpRef" Tag="EmpRef" AlternativeTag="EmpRef" />
             <FieldItem DBName="EName" Tag="EName" AlternativeTag="EName" />

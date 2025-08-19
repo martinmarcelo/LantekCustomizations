@@ -1,0 +1,7 @@
+IF EXISTS  (SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'SSHH_SSHH_00000100' AND COLUMN_NAME = 'PrjRef')
+BEGIN
+	EXEC sp_rename 
+		@objname = 'SSHH_SSHH_00000100.PrjRef', 
+		@newname = 'DEL_PrjRef', 
+		@objtype = 'COLUMN' 
+END

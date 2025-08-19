@@ -1,0 +1,125 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="EEMM_EEMM_00000400_EmployeeExpense" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+  <xs:element name="EEMM_EEMM_00000400_EmployeeExpense" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="EmployeeExpense" msprop:Table="EEMM_EEMM_00000400">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EmpRef" msdata:Caption="Empleado" type="xs:string" minOccurs="0" />
+              <xs:element name="EmpRef__Lab" msdata:Caption="Empleado (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="ExpenseRef" msdata:Caption="Referencia" type="xs:string" minOccurs="0" />
+              <xs:element name="ExpenseRef__Lab" msdata:Caption="Referencia (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Status" msdata:Caption="Estado" type="xs:short" minOccurs="0" />
+              <xs:element name="Status__Lab" msdata:Caption="Estado (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Paid" msdata:Caption="Pagado" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Paid__Lab" msdata:Caption="Pagado (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Paid__ScN" msdata:Caption="Pagado (Valor)" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalA" msdata:Caption="Total" type="xs:double" minOccurs="0" />
+              <xs:element name="TotalA__Lab" msdata:Caption="Total (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalA__DBD" msdata:Caption="Total (Base de datos)" type="xs:double" minOccurs="0" />
+              <xs:element name="TotalA__Scr" msdata:Caption="Total (Valor)" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalA__Dec" msdata:Caption="Total (Dígitos decimales)" type="xs:short" minOccurs="0" />
+              <xs:element name="TotalA__Rnd" msdata:Caption="Total (Redondeado)" type="xs:short" minOccurs="0" />
+              <xs:element name="TotalA__Sff" msdata:Caption="Total (Sufijo)" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalA__Prf" msdata:Caption="Total (Prefijo)" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalA__PrP" msdata:Caption="Total (Prefijo positivo)" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalA__PrN" msdata:Caption="Total (Prefijo negativo)" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalA__SfP" msdata:Caption="Total (Sufijo positivo)" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalA__SfN" msdata:Caption="Total (Sufijo negativo)" type="xs:string" minOccurs="0" />
+              <xs:element name="CurName" msdata:Caption="Moneda" type="xs:string" minOccurs="0" />
+              <xs:element name="CurName__Lab" msdata:Caption="Moneda (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Employee.EmpRef" msdata:Caption="Referencia" type="xs:string" minOccurs="0" />
+              <xs:element name="Employee.EmpRef__Lab" msdata:Caption="Referencia (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Employee.EName" msdata:Caption="Nombre" type="xs:string" minOccurs="0" />
+              <xs:element name="Employee.EName__Lab" msdata:Caption="Nombre (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Employee.ESurname1" msdata:Caption="Primer apellido" type="xs:string" minOccurs="0" />
+              <xs:element name="Employee.ESurname1__Lab" msdata:Caption="Primer apellido (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Employee.ESurname2" msdata:Caption="Segundo apellido" type="xs:string" minOccurs="0" />
+              <xs:element name="Employee.ESurname2__Lab" msdata:Caption="Segundo apellido (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Currency.CurName" msdata:Caption="Nombre" type="xs:string" minOccurs="0" />
+              <xs:element name="Currency.CurName__Lab" msdata:Caption="Nombre (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Currency.CurDecs" msdata:Caption="Número de decimales" type="xs:short" minOccurs="0" />
+              <xs:element name="Currency.CurDecs__Lab" msdata:Caption="Número de decimales (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Currency.FisDecs" msdata:Caption="Decimales fiscales" type="xs:short" minOccurs="0" />
+              <xs:element name="Currency.FisDecs__Lab" msdata:Caption="Decimales fiscales (Etiqueta)" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Lines" msprop:Table="EEMM_EEMM_00000500">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EmpRef" msdata:Caption="Empleado" type="xs:string" minOccurs="0" />
+              <xs:element name="EmpRef__Lab" msdata:Caption="Empleado (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="ExpenseRef" msdata:Caption="Gasto de empleado" type="xs:string" minOccurs="0" />
+              <xs:element name="ExpenseRef__Lab" msdata:Caption="Gasto de empleado (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="LineNum" msdata:Caption="Número de línea" type="xs:int" minOccurs="0" />
+              <xs:element name="LineNum__Lab" msdata:Caption="Número de línea (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="PrjRef" msdata:Caption="Elemento asociado" type="xs:string" minOccurs="0" />
+              <xs:element name="PrjRef__Lab" msdata:Caption="Elemento asociado (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Quantity" msdata:Caption="Cantidad" type="xs:double" minOccurs="0" />
+              <xs:element name="Quantity__Lab" msdata:Caption="Cantidad (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Quantity__DBD" msdata:Caption="Cantidad (Base de datos)" type="xs:double" minOccurs="0" />
+              <xs:element name="Quantity__Scr" msdata:Caption="Cantidad (Valor)" type="xs:string" minOccurs="0" />
+              <xs:element name="Quantity__Dec" msdata:Caption="Cantidad (Dígitos decimales)" type="xs:short" minOccurs="0" />
+              <xs:element name="Quantity__Rnd" msdata:Caption="Cantidad (Redondeado)" type="xs:short" minOccurs="0" />
+              <xs:element name="Quantity__Sff" msdata:Caption="Cantidad (Sufijo)" type="xs:string" minOccurs="0" />
+              <xs:element name="TCost" msdata:Caption="Coste total" type="xs:double" minOccurs="0" />
+              <xs:element name="TCost__Lab" msdata:Caption="Coste total (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="TCost__DBD" msdata:Caption="Coste total (Base de datos)" type="xs:double" minOccurs="0" />
+              <xs:element name="TCost__Scr" msdata:Caption="Coste total (Valor)" type="xs:string" minOccurs="0" />
+              <xs:element name="TCost__Dec" msdata:Caption="Coste total (Dígitos decimales)" type="xs:short" minOccurs="0" />
+              <xs:element name="TCost__Rnd" msdata:Caption="Coste total (Redondeado)" type="xs:short" minOccurs="0" />
+              <xs:element name="TCost__Sff" msdata:Caption="Coste total (Sufijo)" type="xs:string" minOccurs="0" />
+              <xs:element name="TCost__Prf" msdata:Caption="Coste total (Prefijo)" type="xs:string" minOccurs="0" />
+              <xs:element name="TCost__PrP" msdata:Caption="Coste total (Prefijo positivo)" type="xs:string" minOccurs="0" />
+              <xs:element name="TCost__PrN" msdata:Caption="Coste total (Prefijo negativo)" type="xs:string" minOccurs="0" />
+              <xs:element name="TCost__SfP" msdata:Caption="Coste total (Sufijo positivo)" type="xs:string" minOccurs="0" />
+              <xs:element name="TCost__SfN" msdata:Caption="Coste total (Sufijo negativo)" type="xs:string" minOccurs="0" />
+              <xs:element name="UCost" msdata:Caption="Coste unitario" type="xs:double" minOccurs="0" />
+              <xs:element name="UCost__Lab" msdata:Caption="Coste unitario (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="UCost__DBD" msdata:Caption="Coste unitario (Base de datos)" type="xs:double" minOccurs="0" />
+              <xs:element name="UCost__Scr" msdata:Caption="Coste unitario (Valor)" type="xs:string" minOccurs="0" />
+              <xs:element name="UCost__Dec" msdata:Caption="Coste unitario (Dígitos decimales)" type="xs:short" minOccurs="0" />
+              <xs:element name="UCost__Rnd" msdata:Caption="Coste unitario (Redondeado)" type="xs:short" minOccurs="0" />
+              <xs:element name="UCost__Sff" msdata:Caption="Coste unitario (Sufijo)" type="xs:string" minOccurs="0" />
+              <xs:element name="UCost__Prf" msdata:Caption="Coste unitario (Prefijo)" type="xs:string" minOccurs="0" />
+              <xs:element name="UCost__PrP" msdata:Caption="Coste unitario (Prefijo positivo)" type="xs:string" minOccurs="0" />
+              <xs:element name="UCost__PrN" msdata:Caption="Coste unitario (Prefijo negativo)" type="xs:string" minOccurs="0" />
+              <xs:element name="UCost__SfP" msdata:Caption="Coste unitario (Sufijo positivo)" type="xs:string" minOccurs="0" />
+              <xs:element name="UCost__SfN" msdata:Caption="Coste unitario (Sufijo negativo)" type="xs:string" minOccurs="0" />
+              <xs:element name="CostAccount" msdata:Caption="Cuenta de costes" type="xs:string" minOccurs="0" />
+              <xs:element name="CostAccount__Lab" msdata:Caption="Cuenta de costes (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Date" msdata:Caption="Fecha" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Date__Lab" msdata:Caption="Fecha (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Date__LDt" msdata:Caption="Fecha (Fecha larga)" type="xs:string" minOccurs="0" />
+              <xs:element name="Date__SDt" msdata:Caption="Fecha (Fecha corta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Descrip" msdata:Caption="Observaciones" type="xs:string" minOccurs="0" />
+              <xs:element name="Descrip__Lab" msdata:Caption="Observaciones (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Type" msdata:Caption="Tipo" type="xs:string" minOccurs="0" />
+              <xs:element name="Type__Lab" msdata:Caption="Tipo (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Proyects.PrjRef" msdata:Caption="Referencia" type="xs:string" minOccurs="0" />
+              <xs:element name="Proyects.PrjRef__Lab" msdata:Caption="Referencia (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Proyects.Project" msdata:Caption="Nombre" type="xs:string" minOccurs="0" />
+              <xs:element name="Proyects.Project__Lab" msdata:Caption="Nombre (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="CostAccount.Reference" msdata:Caption="Referencia" type="xs:string" minOccurs="0" />
+              <xs:element name="CostAccount.Reference__Lab" msdata:Caption="Referencia (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="CostAccount.Name" msdata:Caption="Nombre" type="xs:string" minOccurs="0" />
+              <xs:element name="CostAccount.Name__Lab" msdata:Caption="Nombre (Etiqueta)" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1">
+      <xs:selector xpath=".//EmployeeExpense" />
+      <xs:field xpath="EmpRef" />
+      <xs:field xpath="ExpenseRef" />
+    </xs:unique>
+    <xs:keyref name="Lines" refer="Constraint1">
+      <xs:selector xpath=".//Lines" />
+      <xs:field xpath="EmpRef" />
+      <xs:field xpath="ExpenseRef" />
+    </xs:keyref>
+  </xs:element>
+</xs:schema>

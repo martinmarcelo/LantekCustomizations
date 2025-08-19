@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<QUERIES xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\..\..\xsd\Queries\Queries.xsd">
+    <!-- DELELE PPCT_PPCT_00000050 AND PPCT_PPCT_00000100 TABLE'S UNITS -->
+    <!-- PPCT_PPCT_00000050 -->
+    <DELETE TblRef="SYST_UUMM_00000800">
+        <CONDITIONS>
+            <CONDITION>
+                <EXPRESSION>
+                    <FIELD FldRef="TblRef" />
+                </EXPRESSION>
+                <EQUAL />
+                <EXPRESSION>
+                    <CONSTANT Value="PPCT_PPCT_00000050" Type="20" />
+                </EXPRESSION>
+            </CONDITION>
+            <AND />
+            <CONDITION>
+                <EXPRESSION>
+                    <FIELD FldRef="FldRef" />
+                </EXPRESSION>
+                <EQUAL />
+                <EXPRESSION>
+                    <CONSTANT Type="20" Value="QTWeight" />
+                </EXPRESSION>
+            </CONDITION>
+        </CONDITIONS>
+    </DELETE>
+    <!-- PPCT_PPCT_00000100 -->
+    <DELETE TblRef="SYST_UUMM_00000800">
+        <CONDITIONS>
+            <CONDITION>
+                <EXPRESSION>
+                    <FIELD FldRef="TblRef" />
+                </EXPRESSION>
+                <EQUAL />
+                <EXPRESSION>
+                    <CONSTANT Value="PPCT_PPCT_00000100" Type="20" />
+                </EXPRESSION>
+            </CONDITION>
+            <AND />
+            <CONDITION>
+                <EXPRESSION>
+                    <FIELD FldRef="FldRef" />
+                </EXPRESSION>
+                <EQUAL />
+                <EXPRESSION>
+                    <CONSTANT Type="20" Value="Weight" />
+                </EXPRESSION>
+            </CONDITION>
+        </CONDITIONS>
+    </DELETE>
+</QUERIES>

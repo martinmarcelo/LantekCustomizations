@@ -1,0 +1,258 @@
+<QUERIES xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\..\..\xsd\Queries\Queries.xsd">
+    <!--QQTT_QQTT_00000200, DIS_RealWeight-->
+    <DELETE TblRef="SYST_UUMM_00000800">
+        <CONDITIONS>
+            <CONDITION>
+                <EXPRESSION>
+                    <FIELD FldRef="TblRef" />
+                </EXPRESSION>
+                <EQUAL />
+                <EXPRESSION>
+                    <CONSTANT Value="QQTT_QQTT_00000200" Type="20" />
+                </EXPRESSION>
+            </CONDITION>
+            <AND />
+            <CONDITION>
+                <EXPRESSION>
+                    <FIELD FldRef="FldRef" />
+                </EXPRESSION>
+                <EQUAL />
+                <EXPRESSION>
+                    <CONSTANT Type="20" Value="DIS_RealWeight" />
+                </EXPRESSION>
+            </CONDITION>
+        </CONDITIONS>
+    </DELETE>
+    <INSERT TblRef="SYST_UUMM_00000800">
+        <FIELDVALUE FldRef="TblRef" FldType="20" FldValue="QQTT_QQTT_00000200" />
+        <FIELDVALUE FldRef="FldRef" FldType="20" FldValue="DIS_RealWeight" />
+        <FIELDVALUE FldRef="USyName" FldType="20" FldValue="IMP" />
+        <FIELDVALUE FldRef="UCtName" FldType="20" FldValue="WGH" />
+        <FIELDVALUE FldRef="UntName" FldType="20" FldValue="lb" />
+        <FIELDVALUE FldRef="CntID" FldType="80" FldValue="0" />
+    </INSERT>
+    <INSERT TblRef="SYST_UUMM_00000800">
+        <FIELDVALUE FldRef="TblRef" FldType="20" FldValue="QQTT_QQTT_00000200" />
+        <FIELDVALUE FldRef="FldRef" FldType="20" FldValue="DIS_RealWeight" />
+        <FIELDVALUE FldRef="USyName" FldType="20" FldValue="MET" />
+        <FIELDVALUE FldRef="UCtName" FldType="20" FldValue="WGH" />
+        <FIELDVALUE FldRef="UntName" FldType="20" FldValue="kg" />
+        <FIELDVALUE FldRef="CntID" FldType="80" FldValue="0" />
+    </INSERT>
+
+    <!--QQTT_QQTT_00000200, DIS_ExtWeight-->
+    <DELETE TblRef="SYST_UUMM_00000800">
+        <CONDITIONS>
+            <CONDITION>
+                <EXPRESSION>
+                    <FIELD FldRef="TblRef" />
+                </EXPRESSION>
+                <EQUAL />
+                <EXPRESSION>
+                    <CONSTANT Value="QQTT_QQTT_00000200" Type="20" />
+                </EXPRESSION>
+            </CONDITION>
+            <AND />
+            <CONDITION>
+                <EXPRESSION>
+                    <FIELD FldRef="FldRef" />
+                </EXPRESSION>
+                <EQUAL />
+                <EXPRESSION>
+                    <CONSTANT Type="20" Value="DIS_ExtWeight" />
+                </EXPRESSION>
+            </CONDITION>
+        </CONDITIONS>
+    </DELETE>
+    <INSERT TblRef="SYST_UUMM_00000800">
+        <FIELDVALUE FldRef="TblRef" FldType="20" FldValue="QQTT_QQTT_00000200" />
+        <FIELDVALUE FldRef="FldRef" FldType="20" FldValue="DIS_ExtWeight" />
+        <FIELDVALUE FldRef="USyName" FldType="20" FldValue="IMP" />
+        <FIELDVALUE FldRef="UCtName" FldType="20" FldValue="WGH" />
+        <FIELDVALUE FldRef="UntName" FldType="20" FldValue="lb" />
+        <FIELDVALUE FldRef="CntID" FldType="80" FldValue="0" />
+    </INSERT>
+    <INSERT TblRef="SYST_UUMM_00000800">
+        <FIELDVALUE FldRef="TblRef" FldType="20" FldValue="QQTT_QQTT_00000200" />
+        <FIELDVALUE FldRef="FldRef" FldType="20" FldValue="DIS_ExtWeight" />
+        <FIELDVALUE FldRef="USyName" FldType="20" FldValue="MET" />
+        <FIELDVALUE FldRef="UCtName" FldType="20" FldValue="WGH" />
+        <FIELDVALUE FldRef="UntName" FldType="20" FldValue="kg" />
+        <FIELDVALUE FldRef="CntID" FldType="80" FldValue="0" />
+    </INSERT>
+
+    <!--QQTT_QQTT_00000200, DIS_RectWeight-->
+    <DELETE TblRef="SYST_UUMM_00000800">
+        <CONDITIONS>
+            <CONDITION>
+                <EXPRESSION>
+                    <FIELD FldRef="TblRef" />
+                </EXPRESSION>
+                <EQUAL />
+                <EXPRESSION>
+                    <CONSTANT Value="QQTT_QQTT_00000200" Type="20" />
+                </EXPRESSION>
+            </CONDITION>
+            <AND />
+            <CONDITION>
+                <EXPRESSION>
+                    <FIELD FldRef="FldRef" />
+                </EXPRESSION>
+                <EQUAL />
+                <EXPRESSION>
+                    <CONSTANT Type="20" Value="DIS_RectWeight" />
+                </EXPRESSION>
+            </CONDITION>
+        </CONDITIONS>
+    </DELETE>
+    <INSERT TblRef="SYST_UUMM_00000800">
+        <FIELDVALUE FldRef="TblRef" FldType="20" FldValue="QQTT_QQTT_00000200" />
+        <FIELDVALUE FldRef="FldRef" FldType="20" FldValue="DIS_RectWeight" />
+        <FIELDVALUE FldRef="USyName" FldType="20" FldValue="IMP" />
+        <FIELDVALUE FldRef="UCtName" FldType="20" FldValue="WGH" />
+        <FIELDVALUE FldRef="UntName" FldType="20" FldValue="lb" />
+        <FIELDVALUE FldRef="CntID" FldType="80" FldValue="0" />
+    </INSERT>
+    <INSERT TblRef="SYST_UUMM_00000800">
+        <FIELDVALUE FldRef="TblRef" FldType="20" FldValue="QQTT_QQTT_00000200" />
+        <FIELDVALUE FldRef="FldRef" FldType="20" FldValue="DIS_RectWeight" />
+        <FIELDVALUE FldRef="USyName" FldType="20" FldValue="MET" />
+        <FIELDVALUE FldRef="UCtName" FldType="20" FldValue="WGH" />
+        <FIELDVALUE FldRef="UntName" FldType="20" FldValue="kg" />
+        <FIELDVALUE FldRef="CntID" FldType="80" FldValue="0" />
+    </INSERT>
+
+    <!--QUOTE_LINE_MATERIAL_COST, DIS_Length-->
+    <DELETE TblRef="SYST_UUMM_00000800">
+        <CONDITIONS>
+            <CONDITION>
+                <EXPRESSION>
+                    <FIELD FldRef="TblRef" />
+                </EXPRESSION>
+                <EQUAL />
+                <EXPRESSION>
+                    <CONSTANT Value="QUOTE_LINE_MATERIAL_COST" Type="20" />
+                </EXPRESSION>
+            </CONDITION>
+            <AND />
+            <CONDITION>
+                <EXPRESSION>
+                    <FIELD FldRef="FldRef" />
+                </EXPRESSION>
+                <EQUAL />
+                <EXPRESSION>
+                    <CONSTANT Type="20" Value="DIS_Length" />
+                </EXPRESSION>
+            </CONDITION>
+        </CONDITIONS>
+    </DELETE>
+
+    <!--QUOTE_LINE_MATERIAL_COST, Length-->
+    <DELETE TblRef="SYST_UUMM_00000800">
+        <CONDITIONS>
+            <CONDITION>
+                <EXPRESSION>
+                    <FIELD FldRef="TblRef" />
+                </EXPRESSION>
+                <EQUAL />
+                <EXPRESSION>
+                    <CONSTANT Value="QUOTE_LINE_MATERIAL_COST" Type="20" />
+                </EXPRESSION>
+            </CONDITION>
+            <AND />
+            <CONDITION>
+                <EXPRESSION>
+                    <FIELD FldRef="FldRef" />
+                </EXPRESSION>
+                <EQUAL />
+                <EXPRESSION>
+                    <CONSTANT Type="20" Value="Length" />
+                </EXPRESSION>
+            </CONDITION>
+        </CONDITIONS>
+    </DELETE>
+    <INSERT TblRef="SYST_UUMM_00000800">
+        <FIELDVALUE FldRef="TblRef" FldType="20" FldValue="QUOTE_LINE_MATERIAL_COST" />
+        <FIELDVALUE FldRef="FldRef" FldType="20" FldValue="Length" />
+        <FIELDVALUE FldRef="USyName" FldType="20" FldValue="MET" />
+        <FIELDVALUE FldRef="UCtName" FldType="20" FldValue="DST" />
+        <FIELDVALUE FldRef="UntName" FldType="20" FldValue="mm" />
+        <FIELDVALUE FldRef="CntID" FldType="80" FldValue="0" />
+    </INSERT>
+    <INSERT TblRef="SYST_UUMM_00000800">
+        <FIELDVALUE FldRef="TblRef" FldType="20" FldValue="QUOTE_LINE_MATERIAL_COST" />
+        <FIELDVALUE FldRef="FldRef" FldType="20" FldValue="Length" />
+        <FIELDVALUE FldRef="USyName" FldType="20" FldValue="IMP" />
+        <FIELDVALUE FldRef="UCtName" FldType="20" FldValue="DST" />
+        <FIELDVALUE FldRef="UntName" FldType="20" FldValue="in" />
+        <FIELDVALUE FldRef="CntID" FldType="80" FldValue="0" />
+    </INSERT>
+
+    <!--QUOTE_LINE_MATERIAL_COST, DIS_Thickness-->
+    <DELETE TblRef="SYST_UUMM_00000800">
+        <CONDITIONS>
+            <CONDITION>
+                <EXPRESSION>
+                    <FIELD FldRef="TblRef" />
+                </EXPRESSION>
+                <EQUAL />
+                <EXPRESSION>
+                    <CONSTANT Value="QUOTE_LINE_MATERIAL_COST" Type="20" />
+                </EXPRESSION>
+            </CONDITION>
+            <AND />
+            <CONDITION>
+                <EXPRESSION>
+                    <FIELD FldRef="FldRef" />
+                </EXPRESSION>
+                <EQUAL />
+                <EXPRESSION>
+                    <CONSTANT Type="20" Value="DIS_Thickness" />
+                </EXPRESSION>
+            </CONDITION>
+        </CONDITIONS>
+    </DELETE>
+
+    <!--QUOTE_LINE_MATERIAL_COST, Thickness-->
+    <DELETE TblRef="SYST_UUMM_00000800">
+        <CONDITIONS>
+            <CONDITION>
+                <EXPRESSION>
+                    <FIELD FldRef="TblRef" />
+                </EXPRESSION>
+                <EQUAL />
+                <EXPRESSION>
+                    <CONSTANT Value="QUOTE_LINE_MATERIAL_COST" Type="20" />
+                </EXPRESSION>
+            </CONDITION>
+            <AND />
+            <CONDITION>
+                <EXPRESSION>
+                    <FIELD FldRef="FldRef" />
+                </EXPRESSION>
+                <EQUAL />
+                <EXPRESSION>
+                    <CONSTANT Type="20" Value="Thickness" />
+                </EXPRESSION>
+            </CONDITION>
+        </CONDITIONS>
+    </DELETE>
+    <INSERT TblRef="SYST_UUMM_00000800">
+        <FIELDVALUE FldRef="TblRef" FldType="20" FldValue="QUOTE_LINE_MATERIAL_COST" />
+        <FIELDVALUE FldRef="FldRef" FldType="20" FldValue="Thickness" />
+        <FIELDVALUE FldRef="USyName" FldType="20" FldValue="MET" />
+        <FIELDVALUE FldRef="UCtName" FldType="20" FldValue="DST" />
+        <FIELDVALUE FldRef="UntName" FldType="20" FldValue="mm" />
+        <FIELDVALUE FldRef="CntID" FldType="80" FldValue="0" />
+    </INSERT>
+    <INSERT TblRef="SYST_UUMM_00000800">
+        <FIELDVALUE FldRef="TblRef" FldType="20" FldValue="QUOTE_LINE_MATERIAL_COST" />
+        <FIELDVALUE FldRef="FldRef" FldType="20" FldValue="Thickness" />
+        <FIELDVALUE FldRef="USyName" FldType="20" FldValue="IMP" />
+        <FIELDVALUE FldRef="UCtName" FldType="20" FldValue="DST" />
+        <FIELDVALUE FldRef="UntName" FldType="20" FldValue="in" />
+        <FIELDVALUE FldRef="CntID" FldType="80" FldValue="0" />
+    </INSERT>
+
+
+</QUERIES>

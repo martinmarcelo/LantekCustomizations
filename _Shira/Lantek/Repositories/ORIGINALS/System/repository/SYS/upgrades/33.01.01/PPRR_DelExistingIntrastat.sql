@@ -1,0 +1,20 @@
+-- @#LONGSCRIPT#@
+
+-- If original database version < 30.02.02 AND COU layer is not loaded
+-- Intrastat fileds and tables are already present in SYS, so mark them as deleted.
+
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'PPRR_PPRR_00000100' AND COLUMN_NAME = 'CommCode')
+BEGIN
+    EXEC sp_rename 'PPRR_PPRR_00000100.CommCode', 'DEL_CommCode', 'COLUMN'
+END
+
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'PPRR_PPRR_00000100' AND COLUMN_NAME = 'OCountry')
+BEGIN
+    EXEC sp_rename 'PPRR_PPRR_00000100.OCountry', 'DEL_OCountry', 'COLUMN'
+END
+
+-- Table for commodity codes
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'PPRR_PPRR_00001200')
+BEGIN
+    EXEC sp_rename 'PPRR_PPRR_00001200', 'DEL_PPRR_PPRR_00001200'
+END

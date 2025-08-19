@@ -1,0 +1,62 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="MMNN_MMOO_00000300_Workload_Scheduling" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="MMNN_MMOO_00000300_Workload_Scheduling" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="WORKCENTER_SCHEDULING_REPORT">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="WrkRef" msdata:Caption="Centro de trabajo" type="xs:string" minOccurs="0" />
+              <xs:element name="WrkRef__Lab" msdata:Caption="Centro de trabajo (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="WorkCenterGroup" msdata:Caption="Grupo" type="xs:string" minOccurs="0" />
+              <xs:element name="WorkCenterGroup__Lab" msdata:Caption="Grupo (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="WorkCenterType" msdata:Caption="Work Center Type" type="xs:short" minOccurs="0" />
+              <xs:element name="WorkCenterType__Lab" msdata:Caption="Work Center Type (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="WorkCenterType__ScN" msdata:Caption="Work Center Type (Valor)" type="xs:string" minOccurs="0" />
+              <xs:element name="ReportType" type="xs:short" minOccurs="0" />
+              <xs:element name="ReportType__Lab" msdata:Caption="ReportType (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="ReportType__ScN" msdata:Caption="ReportType (Valor)" type="xs:string" minOccurs="0" />
+              <xs:element name="SDate" msdata:Caption="Fecha inicio" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="SDate__Lab" msdata:Caption="Fecha inicio (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="SDate__ScN" msdata:Caption="Fecha inicio (Valor)" type="xs:string" minOccurs="0" />
+              <xs:element name="SDate__LDt" msdata:Caption="Fecha inicio (Fecha larga)" type="xs:string" minOccurs="0" />
+              <xs:element name="SDate__SDt" msdata:Caption="Fecha inicio (Fecha corta)" type="xs:string" minOccurs="0" />
+              <xs:element name="EstimatedLoad" msdata:Caption="Estimated load" type="xs:double" minOccurs="0" />
+              <xs:element name="EstimatedLoad__Lab" msdata:Caption="Estimated load (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="EstimatedLoad__ScN" msdata:Caption="Estimated load (Valor)" type="xs:string" minOccurs="0" />
+              <xs:element name="EstimatedLoad__Dec" msdata:Caption="Estimated load (Dígitos decimales)" type="xs:short" minOccurs="0" />
+              <xs:element name="EstimatedLoad__Rnd" msdata:Caption="Estimated load (Redondeado)" type="xs:short" minOccurs="0" />
+              <xs:element name="Capacity" msdata:Caption="Capacité réelle" type="xs:double" minOccurs="0" />
+              <xs:element name="Capacity__Lab" msdata:Caption="Capacité réelle (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Capacity__ScN" msdata:Caption="Capacité réelle (Valor)" type="xs:string" minOccurs="0" />
+              <xs:element name="Capacity__Dec" msdata:Caption="Capacité réelle (Dígitos decimales)" type="xs:short" minOccurs="0" />
+              <xs:element name="Capacity__Rnd" msdata:Caption="Capacité réelle (Redondeado)" type="xs:short" minOccurs="0" />
+              <xs:element name="FreeCapacity" msdata:Caption="Free Capacity" type="xs:double" minOccurs="0" />
+              <xs:element name="FreeCapacity__Lab" msdata:Caption="Free Capacity (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="FreeCapacity__ScN" msdata:Caption="Free Capacity (Valor)" type="xs:string" minOccurs="0" />
+              <xs:element name="FreeCapacity__Dec" msdata:Caption="Free Capacity (Dígitos decimales)" type="xs:short" minOccurs="0" />
+              <xs:element name="FreeCapacity__Rnd" msdata:Caption="Free Capacity (Redondeado)" type="xs:short" minOccurs="0" />
+              <xs:element name="OverLoad" type="xs:double" minOccurs="0" />
+              <xs:element name="OverLoad__Lab" msdata:Caption="OverLoad (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="OverLoad__ScN" msdata:Caption="OverLoad (Valor)" type="xs:string" minOccurs="0" />
+              <xs:element name="OverLoad__Dec" msdata:Caption="OverLoad (Dígitos decimales)" type="xs:short" minOccurs="0" />
+              <xs:element name="OverLoad__Rnd" msdata:Caption="OverLoad (Redondeado)" type="xs:short" minOccurs="0" />
+              <xs:element name="RealLoad" msdata:Caption="Charge de travail réelle" type="xs:double" minOccurs="0" />
+              <xs:element name="RealLoad__Lab" msdata:Caption="Charge de travail réelle (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="RealLoad__ScN" msdata:Caption="Charge de travail réelle (Valor)" type="xs:string" minOccurs="0" />
+              <xs:element name="RealLoad__Dec" msdata:Caption="Charge de travail réelle (Dígitos decimales)" type="xs:short" minOccurs="0" />
+              <xs:element name="RealLoad__Rnd" msdata:Caption="Charge de travail réelle (Redondeado)" type="xs:short" minOccurs="0" />
+              <xs:element name="Description" msdata:Caption="Descripción" type="xs:string" minOccurs="0" />
+              <xs:element name="Description__Lab" msdata:Caption="Descripción (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Efficiency" msdata:Caption="Ratio Charge / Capacité" type="xs:double" minOccurs="0" />
+              <xs:element name="Efficiency__Lab" msdata:Caption="Ratio Charge / Capacité (Etiqueta)" type="xs:string" minOccurs="0" />
+              <xs:element name="Efficiency__ScN" msdata:Caption="Ratio Charge / Capacité (Valor)" type="xs:string" minOccurs="0" />
+              <xs:element name="Efficiency__Dec" msdata:Caption="Ratio Charge / Capacité (Dígitos decimales)" type="xs:short" minOccurs="0" />
+              <xs:element name="Efficiency__Rnd" msdata:Caption="Ratio Charge / Capacité (Redondeado)" type="xs:short" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

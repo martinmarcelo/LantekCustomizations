@@ -1,0 +1,525 @@
+<CONTROL Name="PPBB_PPBB_00000100_Grid_MaterialRequirements_Container" Type="Container" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\..\xsd\Repository\Controls.xsd">
+    <CONTROLPROPS>
+        <LAYOUT>
+            <SIZE WidthType="Auto" />
+        </LAYOUT>
+        <STYLES>
+            <NORMALSTYLE Name="Background" />
+        </STYLES>
+        <OTHER LabelText="{1:36213}" />
+        <SPECIAL>
+            <CNT HideIfEmpty="1" ScrollingType="No" />
+        </SPECIAL>
+    </CONTROLPROPS>
+    <CHILDREN>
+        <CONTROL Name="PPBB_PPBB_00000100_Grid_NotApproved" Type="Grid">
+            <CONTROLPROPS>
+                <LAYOUT>
+                    <SIZE WidthType="Auto" />
+                    <SPACING Value="APP:ControlSpacing" />
+                </LAYOUT>
+                <DATAACCESS StructureIdentifier="PPBB_PPBB_00000100_NotApproved" />
+                <STYLES MergeRowsStyle="1" />
+                <OTHER Expand="Expanded" LabelText="{1:549}" />
+                <SPECIAL>
+                    <GRD PhonesFormatString="{0:cell_PrdRef}{0:cell_PrdName##, #}{0:cell_Quantity##: #}" />
+                </SPECIAL>
+            </CONTROLPROPS>
+            <CHILDREN>
+                <CONTROL Name="PPBB_PPBB_00000100_Grid_NotApproved_New" Type="Custom" ClassType="Lantek.Avantia.Application.Controls.NewOptionsControlEntity,lnkavnt_apps">
+                    <CONTROLPROPS>
+                        <DATAACCESS StructureIdentifier="PPBB_PPBB_00000100_NotApproved" />
+                        <OTHER Text="" Tooltip="{1:45}{2:dcss}" Image="./img/cmd/EditRep.svg">
+                            <C N="OpenWindow" TEx="Lantek.SYSLayer.Applications.Executors.WorkPlanning.OpenMaterialRequirementExecutor,SYS_apps">
+                                <P N="Name" V="ADD_QUICK_MATERIALREQUIREMENT" />
+                                <P N="LowerFields">
+                                    <V>[STR,PPBB_PPBB_00000100_NotApproved,lowf]</V>
+                                </P>
+                                <P N="LowerCnds">
+                                    <V>[STR,PPBB_PPBB_00000100_NotApproved,lowcnd]</V>
+                                </P>
+                                <P N="LowerSec" V="[STR,PPBB_PPBB_00000100_NotApproved,lowsec]" />
+                                <P N="FFilter">
+                                    <V>[STR,PPBB_PPBB_00000100_NotApproved,ffil]</V>
+                                </P>
+                                <P N="PFilter">
+                                    <V>[STR,PPBB_PPBB_00000100_NotApproved,pfil]</V>
+                                </P>
+                                <P N="SFilter">
+                                    <V>[STR,PPBB_PPBB_00000100_NotApproved,sfil]</V>
+                                </P>
+                                <P N="Subclass" V="[STR,PPBB_PPBB_00000100_NotApproved,dcid]" />
+                                <P N="Package" V="[WIN,weiPackage]" />
+                                <P N="WorkOrder" V="[WIN,weiWorkOrder]" />
+                                <P N="FixedConditions">
+                                    <V>
+                                        [WIN,weiFixedConditions]
+                                    </V>
+                                </P>
+                                <P N="NewWindow" V="1" />
+                                <P N="WindowProperties" V="type=modal,resizable=yes,titlebar=no,menubar=no,toolbar=no,location=no,status=no,scrollbars=yes" />
+                            </C>
+                        </OTHER>
+                    </CONTROLPROPS>
+                </CONTROL>
+                <CONTROL Name="PPBB_PPBB_00000100_Grid_NotApproved_View" Type="MenuOption" ILayout="NOPhones">
+                    <CONTROLPROPS>
+                        <OTHER Tooltip="{1:799}" Image="./img/cmd/View.svg" State="Disabled">
+                            <C N="View">
+                                <P N="Structure" V="PPBB_PPBB_00000100_NotApproved" />
+                                <P N="Table" V="[STR,PPBB_PPBB_00000100_NotApproved,tbl]" />
+                                <P N="Record" V="[GRDact,PPBB_PPBB_00000100_Grid_NotApproved]" />
+                                <P N="RecordsQuery">
+                                    <V>[STR,PPBB_PPBB_00000100_NotApproved,rcsq]</V>
+                                </P>
+                                <P N="LowerFields">
+                                    <V>[STR,PPBB_PPBB_00000100_NotApproved,lowf]</V>
+                                </P>
+                                <P N="LowerCnds">
+                                    <V>[STR,PPBB_PPBB_00000100_NotApproved,lowcnd]</V>
+                                </P>
+                                <P N="LowerSec" V="[STR,PPBB_PPBB_00000100_NotApproved,lowsec]" />
+                            </C>
+                        </OTHER>
+                        <BEHAVIORS>
+                            <BEHAVIOR Name="HideIfNotBoolParam">
+                                <P N="Layer" V="KER" />
+                                <P N="Module" V="SYST" />
+                                <P N="Name" V="ShowOptionView" />
+                                <P N="Value" V="1" />
+                                <P N="DefaultValue" V="0" />
+                            </BEHAVIOR>
+                        </BEHAVIORS>
+                    </CONTROLPROPS>
+                </CONTROL>
+                <CONTROL Name="PPBB_PPBB_00000100_Grid_NotApproved_Delete" Type="MenuOption">
+                    <CONTROLPROPS>
+                        <OTHER Tooltip="{1:673}..." Image="./img/cmd/Delete.svg">
+                            <C N="Delete">
+                                <P N="Structure" V="PPBB_PPBB_00000100_NotApproved" />
+                                <P N="SelectAll" V="[GRDselall,PPBB_PPBB_00000100_Grid_NotApproved]" />
+                                <P N="Confirmation" V="@#KRN_CONFIRMDEL,#221#NwLn#1561-PPBB_PPBB_00000100_Grid_NotApproved#@" />
+                            </C>
+                        </OTHER>
+                    </CONTROLPROPS>
+                </CONTROL>
+                <CONTROL Name="PPBB_PPBB_00000100_Grid_NotApproved_Separator" Type="MenuSeparator" />
+                <CONTROL Name="PPBB_PPBB_00000100_Grid_NotApproved_CalculatePlannedDates" Type="MenuOption" ILayout="NOPhones">
+                    <CONTROLPROPS>
+                        <OTHER Text="{1:36138}..." Image="./img/cmd/UpdateRequiredDate.svg">
+                            <C N="DatesCalculation" Stt="1" TEx="Lantek.SYSLayer.Applications.Executors.ProductBacklogs.MaterialRequirementDatesCalculationExecutor,SYS_apps" TTs="PPBB_PPBB_00000100,00001000">
+                                <P N="Name" V="MATERIALREQUIREMENTS_DATES_CALCULATION_Edit" />
+                                <P N="Structure" V="PPBB_PPBB_00000100_NotApproved" />
+                                <P N="Records" V="[GRDsel,PPBB_PPBB_00000100_Grid_NotApproved]" />
+                                <P N="SelectAll" V="[GRDselall,PPBB_PPBB_00000100_Grid_NotApproved]" />
+                                <P N="RecordsQuery">
+                                    <V>[STR,PPBB_PPBB_00000100_NotApproved,rcsq]</V>
+                                </P>
+                                <P N="ClassType" V="Lantek.SYSLayer.Applications.ManualData.ProductBacklogs.MaterialRequirementMDAction,SYS_apps" />
+                                <P N="Method" V="CalculatePlannedDates" />
+                                <P N="NewWindow" V="1" />
+                                <P N="WindowProperties" V="type=modal,resizable=no,toolbar=no,menubar=no,location=no,status=no,scrollbars=no" />
+                            </C>
+                        </OTHER>
+                    </CONTROLPROPS>
+                </CONTROL>
+                <CONTROL Name="PPBB_PPBB_00000100_Grid_NotApproved_Approbed" Type="MenuOption" ILayout="NOPhones">
+                    <CONTROLPROPS>
+                        <OTHER Text="{1:36199}" Image="./img/cmd/ApproveRequirements.svg">
+                            <C Idf="List" N="ApproveRequirements" TEx="Lantek.SYSLayer.Applications.Executors.ProductBacklogs.ApproveRequirementsExecutor,SYS_apps" TTs="PPBB_PPBB_00000100,00001000">
+                                <P N="Structure" V="PPBB_PPBB_00000100_NotApproved" />
+                                <P N="Records" V="[GRDsel,PPBB_PPBB_00000100_Grid_NotApproved]" />
+                                <P N="SelectAll" V="[GRDselall,PPBB_PPBB_00000100_Grid_NotApproved]" />
+                                <P N="RecordsQuery">
+                                    <V>[STR,PPBB_PPBB_00000100_NotApproved,rcsq]</V>
+                                </P>
+                                <P N="ClassType" V="Lantek.SYSLayer.Applications.ManualData.ProductBacklogs.MaterialRequirementMDAction,SYS_apps" />
+                                <P N="Method" V="ApprovedMaterialRequirements" />
+                                <P N="CreateTransaction" V="0" />
+                            </C>
+                        </OTHER>
+                    </CONTROLPROPS>
+                </CONTROL>
+                <CONTROL Name="PPBB_PPBB_00000100_Grid_NotApproved_GeneralStatus" Type="GridColumn">
+                    <CONTROLPROPS>
+                        <LAYOUT>
+                            <SIZE WidthValue="APP:LittleImagesColumnsWidth" />
+                        </LAYOUT>
+                        <DATAACCESS ColumnIdentifier="MatReqGeneralStatus" />
+                        <OTHER LabelText="" />
+                        <SPECIAL>
+                            <COL Preserve="1" ColumnType="Combo" CanResize="0" CanMove="0" />
+                        </SPECIAL>
+                    </CONTROLPROPS>
+                </CONTROL>
+                <CONTROL Name="PPBB_PPBB_00000100_Grid_NotApproved_ElementStatus" Type="GridColumn">
+                    <CONTROLPROPS>
+                        <LAYOUT>
+                            <SIZE WidthValue="APP:LittleImagesColumnsWidth" />
+                        </LAYOUT>
+                        <DATAACCESS ColumnIdentifier="ElementStatus" />
+                        <OTHER LabelText="" />
+                        <SPECIAL>
+                            <COL Preserve="1" ColumnType="Combo" CanResize="0" CanMove="0" />
+                        </SPECIAL>
+                    </CONTROLPROPS>
+                </CONTROL>
+                <CONTROL Name="PPBB_PPBB_00000100_Grid_NotApproved_PrdRef" Type="GridColumn">
+                    <CONTROLPROPS>
+                        <LAYOUT>
+                            <SIZE WidthValue="APP:LongTextsBigColumnsWidth" />
+                        </LAYOUT>
+                        <DATAACCESS ColumnIdentifier="PrdRef" FormatString="{0:cell_PrdRef}{0:cell_PrdName##, #}{0:cell_GLS_Var1##, #}" />
+                        <OTHER>
+                            <C N="View">
+                                <P N="Structure" V="PPBB_PPBB_00000100_NotApproved" />
+                                <P N="Table" V="[STR,PPBB_PPBB_00000100_NotApproved,tbl]" />
+                                <P N="Record" V="[CELL,PPBB_PPBB_00000100_NotApproved,RecID,-1,bv]" />
+                                <P N="RecordsQuery">
+                                    <V>
+                                        [STR,PPBB_PPBB_00000100_NotApproved,rcsq]
+                                    </V>
+                                </P>
+                                <P N="LowerFields">
+                                    <V>
+                                        [STR,PPBB_PPBB_00000100_NotApproved,lowf]
+                                    </V>
+                                </P>
+                                <P N="LowerCnds">
+                                    <V>
+                                        [STR,PPBB_PPBB_00000100_NotApproved,lowcnd]
+                                    </V>
+                                </P>
+                                <P N="LowerSec" V="[STR,PPBB_PPBB_00000100_NotApproved,lowsec]" />
+                            </C>
+                        </OTHER>
+                    </CONTROLPROPS>
+                </CONTROL>
+                <CONTROL Name="PPBB_PPBB_00000100_Grid_NotApproved_WrhRef" Type="GridColumn">
+                    <CONTROLPROPS>
+                        <LAYOUT>
+                            <SIZE WidthValue="APP:ReferencesColumnsWidth" />
+                        </LAYOUT>
+                        <DATAACCESS ColumnIdentifier="WrhRef" />
+                        <OTHER Visible="0" />
+                    </CONTROLPROPS>
+                </CONTROL>
+                <CONTROL Name="PPBB_PPBB_00000100_Grid_NotApproved_RequiredQ" Type="GridColumn">
+                    <CONTROLPROPS>
+                        <LAYOUT>
+                            <SIZE WidthValue="APP:DurationColumnsWidth" />
+                        </LAYOUT>
+                        <DATAACCESS ColumnIdentifier="RequiredQ" />
+                        <STYLES Alignment="Right" />
+                        <OTHER LabelText="{1:34632}" />
+                        <SPECIAL>
+                            <COL PercentWidth="0" />
+                        </SPECIAL>
+                    </CONTROLPROPS>
+                </CONTROL>
+                <CONTROL Name="PPBB_PPBB_00000100_Grid_NotApproved_AllocatedQ" Type="GridColumn">
+                    <CONTROLPROPS>
+                        <LAYOUT>
+                            <SIZE WidthValue="APP:DurationColumnsWidth" />
+                        </LAYOUT>
+                        <DATAACCESS ColumnIdentifier="AllocatedQ" />
+                        <STYLES Alignment="Right" />
+                        <OTHER LabelText="{1:31404}" LabelTooltip="{1:36099}" />
+                        <SPECIAL>
+                            <COL PercentWidth="0" />
+                        </SPECIAL>
+                    </CONTROLPROPS>
+                </CONTROL>
+                <CONTROL Name="PPBB_PPBB_00000100_Grid_NotApproved_PendingQ" Type="GridColumn">
+                    <CONTROLPROPS>
+                        <LAYOUT>
+                            <SIZE WidthValue="APP:DurationColumnsWidth" />
+                        </LAYOUT>
+                        <DATAACCESS ColumnIdentifier="PendingQ" />
+                        <STYLES Alignment="Right" />
+                        <SPECIAL>
+                            <COL PercentWidth="0" />
+                        </SPECIAL>
+                    </CONTROLPROPS>
+                </CONTROL>
+                <CONTROL Name="PPBB_PPBB_00000100_Grid_NotApproved_RDate" Type="GridColumn">
+                    <CONTROLPROPS>
+                        <LAYOUT>
+                            <SIZE WidthValue="APP:ShortDatesColumnsWidth" />
+                        </LAYOUT>
+                        <DATAACCESS ColumnIdentifier="RDate" />
+                        <STYLES Alignment="Center" />
+                        <OTHER LabelText="{1:30155}" LabelTooltip ="{1:34687}" />
+                        <SPECIAL>
+                            <COL CanResize="0" PercentWidth="0" />
+                        </SPECIAL>
+                    </CONTROLPROPS>
+                </CONTROL>
+                <CONTROL Name="PPBB_PPBB_00000100_Grid_NotApproved_PlannedDDate" Type="GridColumn">
+                    <CONTROLPROPS>
+                        <LAYOUT>
+                            <SIZE WidthValue="APP:ShortDatesColumnsWidth" />
+                        </LAYOUT>
+                        <DATAACCESS ColumnIdentifier="PlannedDDate" />
+                        <STYLES Alignment="Center" />
+                        <OTHER LabelText="{1:34184}" LabelTooltip ="{1:36097}" />
+                        <SPECIAL>
+                            <COL CanResize="0" PercentWidth="0" />
+                        </SPECIAL>
+                    </CONTROLPROPS>
+                </CONTROL>
+            </CHILDREN>
+        </CONTROL>
+        <CONTROL Name="PPBB_PPBB_00000100_Grid_Approved" Type="Grid">
+            <CONTROLPROPS>
+                <LAYOUT>
+                    <SIZE WidthType="Auto" />
+                </LAYOUT>
+                <DATAACCESS StructureIdentifier="PPBB_PPBB_00000100_Approved" />
+                <STYLES MergeRowsStyle="1" />
+                <OTHER Expand="Expanded" LabelText="{1:1640}" />
+                <SPECIAL>
+                    <GRD PhonesFormatString="{0:cell_PrdRef}{0:cell_PrdName##, #}{0:cell_Quantity##: #}" />
+                </SPECIAL>
+            </CONTROLPROPS>
+            <CHILDREN>
+                <CONTROL Name="PPBB_PPBB_00000100_Grid_Approved_New" Type="Custom" ClassType="Lantek.Avantia.Application.Controls.NewOptionsControlEntity,lnkavnt_apps">
+                    <CONTROLPROPS>
+                        <DATAACCESS StructureIdentifier="PPBB_PPBB_00000100_Approved" />
+                        <OTHER Text="" Tooltip="{1:45}{2:dcss}" Image="./img/cmd/New.svg">
+                            <C N="New">
+                                <P N="Structure" V="PPBB_PPBB_00000100_Approved" />
+                                <P N="Table" V="[STR,PPBB_PPBB_00000100_Approved,tbl]" />
+                                <P N="LowerFields">
+                                    <V>[STR,PPBB_PPBB_00000100_Approved,lowf]</V>
+                                </P>
+                                <P N="LowerCnds">
+                                    <V>[STR,PPBB_PPBB_00000100_Approved,lowcnd]</V>
+                                </P>
+                                <P N="LowerSec" V="[STR,PPBB_PPBB_00000100_Approved,lowsec]" />
+                                <P N="FFilter">
+                                    <V>[STR,PPBB_PPBB_00000100_Approved,ffil]</V>
+                                </P>
+                                <P N="PFilter">
+                                    <V>[STR,PPBB_PPBB_00000100_Approved,pfil]</V>
+                                </P>
+                                <P N="SFilter">
+                                    <V>[STR,PPBB_PPBB_00000100_Approved,sfil]</V>
+                                </P>
+                                <P N="Subclass" V="[STR,PPBB_PPBB_00000100_Approved,dcid]" />
+                            </C>
+                        </OTHER>
+                    </CONTROLPROPS>
+                </CONTROL>
+                <CONTROL Name="PPBB_PPBB_00000100_Grid_Approved_View" Type="MenuOption" ILayout="NOPhones">
+                    <CONTROLPROPS>
+                        <OTHER Tooltip="{1:799}" Image="./img/cmd/View.svg" State="Disabled">
+                            <C N="View">
+                                <P N="Structure" V="PPBB_PPBB_00000100_Approved" />
+                                <P N="Table" V="[STR,PPBB_PPBB_00000100_Approved,tbl]" />
+                                <P N="Record" V="[GRDact,PPBB_PPBB_00000100_Grid_Approved]" />
+                                <P N="RecordsQuery">
+                                    <V>[STR,PPBB_PPBB_00000100_Approved,rcsq]</V>
+                                </P>
+                                <P N="LowerFields">
+                                    <V>[STR,PPBB_PPBB_00000100_Approved,lowf]</V>
+                                </P>
+                                <P N="LowerCnds">
+                                    <V>[STR,PPBB_PPBB_00000100_Approved,lowcnd]</V>
+                                </P>
+                                <P N="LowerSec" V="[STR,PPBB_PPBB_00000100_Approved,lowsec]" />
+                            </C>
+                        </OTHER>
+                        <BEHAVIORS>
+                            <BEHAVIOR Name="HideIfNotBoolParam">
+                                <P N="Layer" V="KER" />
+                                <P N="Module" V="SYST" />
+                                <P N="Name" V="ShowOptionView" />
+                                <P N="Value" V="1" />
+                                <P N="DefaultValue" V="0" />
+                            </BEHAVIOR>
+                        </BEHAVIORS>
+                    </CONTROLPROPS>
+                </CONTROL>
+                <CONTROL Name="PPBB_PPBB_00000100_Grid_Approved_Edit" Type="MenuOption">
+                    <CONTROLPROPS>
+                        <OTHER Tooltip="{1:561}" Image="./img/cmd/Edit.svg">
+                            <C N="Edit">
+                                <P N="Structure" V="PPBB_PPBB_00000100_Approved" />
+                                <P N="Table" V="[STR,PPBB_PPBB_00000100_Approved,tbl]" />
+                                <P N="Record" V="[GRDact,PPBB_PPBB_00000100_Grid_Approved]" />
+                                <P N="RecordsQuery">
+                                    <V>[STR,PPBB_PPBB_00000100_Approved,rcsq]</V>
+                                </P>
+                                <P N="LowerFields">
+                                    <V>[STR,PPBB_PPBB_00000100_Approved,lowf]</V>
+                                </P>
+                                <P N="LowerCnds">
+                                    <V>[STR,PPBB_PPBB_00000100_Approved,lowcnd]</V>
+                                </P>
+                                <P N="LowerSec" V="[STR,PPBB_PPBB_00000100_Approved,lowsec]" />
+                            </C>
+                        </OTHER>
+                    </CONTROLPROPS>
+                </CONTROL>
+                <CONTROL Name="PPBB_PPBB_00000100_Grid_Approved_Delete" Type="MenuOption">
+                    <CONTROLPROPS>
+                        <OTHER Tooltip="{1:673}..." Image="./img/cmd/Delete.svg">
+                            <C N="Delete">
+                                <P N="Structure" V="PPBB_PPBB_00000100_Approved" />
+                                <P N="SelectAll" V="[GRDselall,PPBB_PPBB_00000100_Grid_Approved]" />
+                                <P N="Confirmation" V="@#KRN_CONFIRMDEL,#221#NwLn#1561-PPBB_PPBB_00000100_Grid_Approved#@" />
+                            </C>
+                        </OTHER>
+                    </CONTROLPROPS>
+                </CONTROL>
+                <CONTROL Name="PPBB_PPBB_00000100_Grid_Approved_Separator" Type="MenuSeparator" />
+                <CONTROL Name="PPBB_PPBB_00000100_Grid_NotApproved_UndoApprobed" Type="MenuOption" ILayout="NOPhones">
+                    <CONTROLPROPS>
+                        <OTHER Text="{1:36200}" Image="./img/cmd/UndoRequirementsApproval.svg">
+                            <C N="UndoRequirementsApproval" TEx="Lantek.SYSLayer.Applications.Executors.ProductBacklogs.UndoRequirementsApprovalExecutor,SYS_apps" TTs="PPBB_PPBB_00000100,00001000">
+                                <P N="Structure" V="PPBB_PPBB_00000100_Approved" />
+                                <P N="Records" V="[GRDsel,PPBB_PPBB_00000100_Grid_Approved]" />
+                                <P N="SelectAll" V="[GRDselall,PPBB_PPBB_00000100_Grid_Approved]" />
+                                <P N="RecordsQuery">
+                                    <V>[STR,PPBB_PPBB_00000100_Approved,rcsq]</V>
+                                </P>
+                                <P N="ClassType" V="Lantek.SYSLayer.Applications.ManualData.ProductBacklogs.MaterialRequirementMDAction,SYS_apps" />
+                                <P N="Method" V="UndoRequirementsApproval" />
+                                <P N="CreateTransaction" V="0" />
+                            </C>
+                        </OTHER>
+                    </CONTROLPROPS>
+                </CONTROL>
+                <CONTROL Name="PPBB_PPBB_00000100_Grid_Approved_MatReqGeneralStatus" Type="GridColumn">
+                    <CONTROLPROPS>
+                        <LAYOUT>
+                            <SIZE WidthValue="APP:LittleImagesColumnsWidth" />
+                        </LAYOUT>
+                        <DATAACCESS ColumnIdentifier="MatReqGeneralStatus" />
+                        <OTHER Image="./img/col/Status.png" Visible="0" />
+                        <SPECIAL>
+                            <COL Preserve="1" ColumnType="Combo" CanResize="0" CanMove="0" />
+                        </SPECIAL>
+                    </CONTROLPROPS>
+                </CONTROL>
+                <CONTROL Name="PPBB_PPBB_00000100_Grid_Approved_ElementStatus" Type="GridColumn">
+                    <CONTROLPROPS>
+                        <LAYOUT>
+                            <SIZE WidthValue="APP:LittleImagesColumnsWidth" />
+                        </LAYOUT>
+                        <DATAACCESS ColumnIdentifier="ElementStatus" />
+                        <OTHER LabelText="" />
+                        <SPECIAL>
+                            <COL Preserve="1" ColumnType="Combo" CanResize="0" CanMove="0" />
+                        </SPECIAL>
+                    </CONTROLPROPS>
+                </CONTROL>
+                <CONTROL Name="PPBB_PPBB_00000100_Grid_Approved_PrdRef" Type="GridColumn">
+                    <CONTROLPROPS>
+                        <LAYOUT>
+                            <SIZE WidthValue="APP:LongTextsBigColumnsWidth" />
+                        </LAYOUT>
+                        <DATAACCESS ColumnIdentifier="PrdRef" FormatString="{0:cell_PrdRef}{0:cell_PrdName##, #}{0:cell_GLS_Var1##, #}" />
+                        <OTHER>
+                            <C N="View">
+                                <P N="Structure" V="PPBB_PPBB_00000100_Approved" />
+                                <P N="Table" V="[STR,PPBB_PPBB_00000100_Approved,tbl]" />
+                                <P N="Record" V="[CELL,PPBB_PPBB_00000100_Approved,RecID,-1,bv]" />
+                                <P N="RecordsQuery">
+                                    <V>
+                                        [STR,PPBB_PPBB_00000100_Approved,rcsq]
+                                    </V>
+                                </P>
+                                <P N="LowerFields">
+                                    <V>
+                                        [STR,PPBB_PPBB_00000100_Approved,lowf]
+                                    </V>
+                                </P>
+                                <P N="LowerCnds">
+                                    <V>
+                                        [STR,PPBB_PPBB_00000100_Approved,lowcnd]
+                                    </V>
+                                </P>
+                                <P N="LowerSec" V="[STR,PPBB_PPBB_00000100_Approved,lowsec]" />
+                            </C>
+                        </OTHER>
+                    </CONTROLPROPS>
+                </CONTROL>
+                <CONTROL Name="PPBB_PPBB_00000100_Grid_Approved_WrhRef" Type="GridColumn">
+                    <CONTROLPROPS>
+                        <LAYOUT>
+                            <SIZE WidthValue="APP:ReferencesColumnsWidth" />
+                        </LAYOUT>
+                        <DATAACCESS ColumnIdentifier="WrhRef" />
+                        <OTHER Visible="0" />
+                    </CONTROLPROPS>
+                </CONTROL>
+                <CONTROL Name="PPBB_PPBB_00000100_Grid_Approved_RequiredQ" Type="GridColumn">
+                    <CONTROLPROPS>
+                        <LAYOUT>
+                            <SIZE WidthValue="APP:DurationColumnsWidth" />
+                        </LAYOUT>
+                        <DATAACCESS ColumnIdentifier="RequiredQ" />
+                        <STYLES Alignment="Right" />
+                        <OTHER LabelText="{1:34632}" />
+                        <SPECIAL>
+                            <COL PercentWidth="0" />
+                        </SPECIAL>
+                    </CONTROLPROPS>
+                </CONTROL>
+                <CONTROL Name="PPBB_PPBB_00000100_Grid_Approved_AllocatedQ" Type="GridColumn">
+                    <CONTROLPROPS>
+                        <LAYOUT>
+                            <SIZE WidthValue="APP:DurationColumnsWidth" />
+                        </LAYOUT>
+                        <DATAACCESS ColumnIdentifier="AllocatedQ" />
+                        <STYLES Alignment="Right" />
+                        <OTHER LabelText="{1:31404}" LabelTooltip="{1:36099}" />
+                        <SPECIAL>
+                            <COL PercentWidth="0" />
+                        </SPECIAL>
+                    </CONTROLPROPS>
+                </CONTROL>
+                <CONTROL Name="PPBB_PPBB_00000100_Grid_Approved_PendingQ" Type="GridColumn">
+                    <CONTROLPROPS>
+                        <LAYOUT>
+                            <SIZE WidthValue="APP:DurationColumnsWidth" />
+                        </LAYOUT>
+                        <DATAACCESS ColumnIdentifier="PendingQ" />
+                        <STYLES Alignment="Right" />
+                        <SPECIAL>
+                            <COL PercentWidth="0" />
+                        </SPECIAL>
+                    </CONTROLPROPS>
+                </CONTROL>
+                <CONTROL Name="PPBB_PPBB_00000100_Grid_Approved_RDate" Type="GridColumn">
+                    <CONTROLPROPS>
+                        <LAYOUT>
+                            <SIZE WidthValue="APP:ShortDatesColumnsWidth" />
+                        </LAYOUT>
+                        <DATAACCESS ColumnIdentifier="RDate" />
+                        <STYLES Alignment="Center" />
+                        <OTHER LabelText="{1:30155}" LabelTooltip ="{1:34687}" />
+                        <SPECIAL>
+                            <COL CanResize="0" PercentWidth="0" />
+                        </SPECIAL>
+                    </CONTROLPROPS>
+                </CONTROL>
+                <CONTROL Name="PPBB_PPBB_00000100_Grid_Approved_PlannedDDate" Type="GridColumn">
+                    <CONTROLPROPS>
+                        <LAYOUT>
+                            <SIZE WidthValue="APP:ShortDatesColumnsWidth" />
+                        </LAYOUT>
+                        <DATAACCESS ColumnIdentifier="PlannedDDate" />
+                        <STYLES Alignment="Center" />
+                        <OTHER LabelText="{1:34184}" LabelTooltip ="{1:36097}" />
+                        <SPECIAL>
+                            <COL CanResize="0" PercentWidth="0" />
+                        </SPECIAL>
+                    </CONTROLPROPS>
+                </CONTROL>
+            </CHILDREN>
+        </CONTROL>
+    </CHILDREN>
+</CONTROL>

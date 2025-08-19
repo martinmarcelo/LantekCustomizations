@@ -1,0 +1,20 @@
+
+
+
+// 3D procedures.
+// -----------
+
+procedure CAM3DDSTV(product, DSTVFile, workCenter, material)
+begin
+	CallTypedStaticFunction("CAMServices3D.CAMServices3D,CAMServices3D", "CAM3DDSTV", "Text,Text,Text,Text", product, DSTVFile, workCenter, material);
+end
+
+procedure CAM3DSAT(product, SATFile, workCenter, material)
+begin
+	CallTypedStaticFunction("CAMServices3D.CAMServices3D,CAMServices3D", "CAM3DSAT", "Text,Text,Text,Text", product, SATFile, workCenter, material);
+end
+
+procedure CAM3DXML(product, XMLFile, workCenter, material)
+begin
+    CallTypedStaticFunction("CAMServices3D.CAMServices3D,CAMServices3D", "CAM3DXML", "Text,Text,Text,Text", product, XMLFile, workCenter, material);
+end

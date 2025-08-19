@@ -1,0 +1,259 @@
+<CONTROL Name="WWPP_WWOO_00000200_Grid" Type="Grid" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\..\xsd\Repository\Controls.xsd">
+    <CONTROLPROPS>
+        <LAYOUT>
+            <SIZE WidthType="Auto" />
+        </LAYOUT>
+        <DATAACCESS StructureIdentifier="WWPP_WWOO_00000200" />
+        <STYLES MergeRowsStyle="1" />
+        <OTHER Expand="Expanded" LabelText="{1:30275}" />
+        <SPECIAL>
+            <GRD PhonesFormatString="{0:cell_Component}{0:cell_PrdName##, #}{0:cell_Quantity##: #}" SelectAll="0" />
+        </SPECIAL>
+    </CONTROLPROPS>
+    <CHILDREN>
+        <CONTROL Name="WWPP_WWOO_00000200_Grid_Zoom" Type="MenuOption" ILayout="AnyDesktop">
+            <CONTROLPROPS>
+                <OTHER Visible="0" Tooltip="{1:36610#Zoom}" Image="./img/cmd/Zoom.png">
+                    <C N="OpenWindow" TEx="Lantek.SYSLayer.Applications.Executors.OpenZoomWindowExecutor,SYS_apps">
+                        <P N="Name" V="WWPP_WWOO_00000200_List" />
+                        <P N="Structure" V="WWPP_WWOO_00000200" />
+                        <P N="Package" V="[CELL,@#SM#@,OrdRef,-1,bv]" />
+                        <P N="IsPackage" V="0" />
+                        <P N="MainOriginName" V="[CELL,@#SM#@,MainOriginName,-1,bv]" />
+                        <P N="OriginElement" V="[CELL,@#SM#@,OriginElement,-1,bv]" />
+                        <P N="WorkOrderType" V="[CELL,@#SM#@,Type,-1,bv]" />
+                        <P N="WorkOrderRecord" V="[CELL,@#SM#@,RecID,-1,bv]" />
+                        <P N="FixedFilter">
+                            <V>
+                                <FILTER>
+                                    <CONDITIONS>
+                                        <CONDITION>
+                                            <EXPRESSION>
+                                                <FIELD FldRef="OrdRef" />
+                                            </EXPRESSION>
+                                            <EQUAL />
+                                            <EXPRESSION>
+                                                <CONSTANT Value="[CELL,@#SM#@,OrdRef,-1,bv]" Type="20" />
+                                            </EXPRESSION>
+                                        </CONDITION>
+                                        <AND />
+                                        <CONDITION>
+                                            <EXPRESSION>
+                                                <FIELD FldRef="IsAssembly" />
+                                            </EXPRESSION>
+                                            <EQUAL />
+                                            <EXPRESSION>
+                                                <CONSTANT Value="0" Type="10" />
+                                            </EXPRESSION>
+                                        </CONDITION>
+                                    </CONDITIONS>
+                                </FILTER>
+                            </V>
+                        </P>
+                        <P N="IsSave" V="1" />
+                        <P N="NewWindow" V="1" />
+                        <P N="WindowProperties" V="type=modal,resizable=yes,titlebar=no,menubar=no,toolbar=no,location=no,status=no,scrollbars=yes" />
+                    </C>
+                </OTHER>
+            </CONTROLPROPS>
+        </CONTROL>
+        <CONTROL Name="WWPP_WWOO_00000200_Grid_Structure" Type="MenuOption" ILayout="NOPhones">
+            <CONTROLPROPS>
+                <OTHER Visible="0" Tooltip="{1:702}" Image="./img/cmd/ViewStr.svg">
+                    <C N="OpenWindow" Stt="0">
+                        <P N="Name" V="WWPP_WWOO_00000200_Str" />
+                        <P N="FixedFilter">
+                            <V>
+                                <FILTER>
+                                    <CONDITIONS>
+                                        <CONDITION>
+                                            <EXPRESSION>
+                                                <FIELD FldRef="OrdRef"/>
+                                            </EXPRESSION>
+                                            <EQUAL />
+                                            <EXPRESSION>
+                                                <CONSTANT Value="[CELL,@#SM#@,OrdRef,-1,bv]" Type="20" />
+                                            </EXPRESSION>
+                                        </CONDITION>
+                                        <AND />
+                                        <CONDITION>
+                                            <EXPRESSION>
+                                                <FIELD FldRef="ParentComp"/>
+                                            </EXPRESSION>
+                                            <EQUAL />
+                                            <EXPRESSION>
+                                                <CONSTANT Value="0" Type="80" />
+                                            </EXPRESSION>
+                                        </CONDITION>
+                                    </CONDITIONS>
+                                </FILTER>
+                            </V>
+                        </P>
+                        <P N="NewWindow" V="1" />
+                        <P N="WindowProperties" V="type=modal,resizable=yes,titlebar=no,menubar=no,toolbar=no,location=no,status=no,scrollbars=yes" />
+                    </C>
+                </OTHER>
+            </CONTROLPROPS>
+        </CONTROL>
+        <CONTROL Name="WWPP_WWOO_00000200_Grid_Actions_Phones" Type="MenuNode" ILayout="Phones">
+            <CONTROLPROPS>
+                <OTHER Visible="0" Image="./img/cmd/Actions.png" />
+            </CONTROLPROPS>
+            <CHILDREN>
+                <CONTROL Name="WWPP_WWOO_00000200_Grid_Zoom_Option_Phones" Type="MenuOption">
+                    <CONTROLPROPS>
+                        <OTHER Tooltip="{1:36610#Zoom}" Image="./img/cmd/Zoom.png">
+                            <C N="OpenWindow" TEx="Lantek.SYSLayer.Applications.Executors.OpenZoomWindowExecutor,SYS_apps">
+                                <P N="Name" V="WWPP_WWOO_00000200_List" />
+                                <P N="Structure" V="WWPP_WWOO_00000200" />
+                                <P N="Package" V="[CELL,@#SM#@,OrdRef,-1,bv]" />
+                                <P N="IsPackage" V="0" />
+                                <P N="MainOriginName" V="[CELL,@#SM#@,MainOriginName,-1,bv]" />
+                                <P N="OriginElement" V="[CELL,@#SM#@,OriginElement,-1,bv]" />
+                                <P N="WorkOrderType" V="[CELL,@#SM#@,Type,-1,bv]" />
+                                <P N="WorkOrderRecord" V="[CELL,@#SM#@,RecID,-1,bv]" />
+                                <P N="FixedFilter">
+                                    <V>
+                                        <FILTER>
+                                            <CONDITIONS>
+                                                <CONDITION>
+                                                    <EXPRESSION>
+                                                        <FIELD FldRef="OrdRef" />
+                                                    </EXPRESSION>
+                                                    <EQUAL />
+                                                    <EXPRESSION>
+                                                        <CONSTANT Value="[CELL,@#SM#@,OrdRef,-1,bv]" Type="20" />
+                                                    </EXPRESSION>
+                                                </CONDITION>
+                                                <AND />
+                                                <CONDITION>
+                                                    <EXPRESSION>
+                                                        <FIELD FldRef="IsAssembly" />
+                                                    </EXPRESSION>
+                                                    <EQUAL />
+                                                    <EXPRESSION>
+                                                        <CONSTANT Value="0" Type="10" />
+                                                    </EXPRESSION>
+                                                </CONDITION>
+                                            </CONDITIONS>
+                                        </FILTER>
+                                    </V>
+                                </P>
+                                <P N="IsSave" V="1" />
+                                <P N="NewWindow" V="1" />
+                                <P N="WindowProperties" V="type=modal,resizable=yes,titlebar=no,menubar=no,toolbar=no,location=no,status=no,scrollbars=yes" />
+                            </C>
+                        </OTHER>
+                    </CONTROLPROPS>
+                </CONTROL>
+            </CHILDREN>
+        </CONTROL>
+        <CONTROL Name="WWPP_WWOO_00000200_Grid_Actions_Tablets" Type="MenuNode" ILayout="Tablets">
+            <CONTROLPROPS>
+                <OTHER Visible="0" Text="{1:30525}" />
+            </CONTROLPROPS>
+            <CHILDREN>
+                <CONTROL Name="WWPP_WWOO_00000200_Grid_Zoom_Option_Tablets" Type="MenuOption">
+                    <CONTROLPROPS>
+                        <OTHER Tooltip="{1:36610#Zoom}" Image="./img/cmd/Zoom.png">
+                            <C N="OpenWindow" TEx="Lantek.SYSLayer.Applications.Executors.OpenZoomWindowExecutor,SYS_apps">
+                                <P N="Name" V="WWPP_WWOO_00000200_List" />
+                                <P N="Structure" V="WWPP_WWOO_00000200" />
+                                <P N="Package" V="[CELL,@#SM#@,OrdRef,-1,bv]" />
+                                <P N="IsPackage" V="0" />
+                                <P N="MainOriginName" V="[CELL,@#SM#@,MainOriginName,-1,bv]" />
+                                <P N="OriginElement" V="[CELL,@#SM#@,OriginElement,-1,bv]" />
+                                <P N="WorkOrderType" V="[CELL,@#SM#@,Type,-1,bv]" />
+                                <P N="WorkOrderRecord" V="[CELL,@#SM#@,RecID,-1,bv]" />
+                                <P N="FixedFilter">
+                                    <V>
+                                        <FILTER>
+                                            <CONDITIONS>
+                                                <CONDITION>
+                                                    <EXPRESSION>
+                                                        <FIELD FldRef="OrdRef" />
+                                                    </EXPRESSION>
+                                                    <EQUAL />
+                                                    <EXPRESSION>
+                                                        <CONSTANT Value="[CELL,@#SM#@,OrdRef,-1,bv]" Type="20" />
+                                                    </EXPRESSION>
+                                                </CONDITION>
+                                                <AND />
+                                                <CONDITION>
+                                                    <EXPRESSION>
+                                                        <FIELD FldRef="IsAssembly" />
+                                                    </EXPRESSION>
+                                                    <EQUAL />
+                                                    <EXPRESSION>
+                                                        <CONSTANT Value="0" Type="10" />
+                                                    </EXPRESSION>
+                                                </CONDITION>
+                                            </CONDITIONS>
+                                        </FILTER>
+                                    </V>
+                                </P>
+                                <P N="IsSave" V="1" />
+                                <P N="NewWindow" V="1" />
+                                <P N="WindowProperties" V="type=modal,resizable=yes,titlebar=no,menubar=no,toolbar=no,location=no,status=no,scrollbars=yes" />
+                            </C>
+                        </OTHER>
+                    </CONTROLPROPS>
+                </CONTROL>
+            </CHILDREN>
+        </CONTROL>
+        <CONTROL Name="WWPP_WWOO_00000200_Grid_Class" Type="GridColumn">
+            <CONTROLPROPS>
+                <LAYOUT>
+                    <SIZE WidthValue="APP:LittleImagesColumnsWidth" />
+                </LAYOUT>
+                <DATAACCESS ColumnIdentifier="DIS_EClass" />
+                <OTHER LabelText="{1:60000702}" Image="./img/col/Element.png" />
+                <SPECIAL>
+                    <COL ColumnType="Combo" CanResize="0" />
+                </SPECIAL>
+            </CONTROLPROPS>
+        </CONTROL>
+        <CONTROL Name="WWPP_WWOO_00000200_Grid_ComponentType" Type="GridColumn">
+            <CONTROLPROPS>
+                <LAYOUT>
+                    <SIZE WidthValue="APP:LittleImagesColumnsWidth" />
+                </LAYOUT>
+                <DATAACCESS ColumnIdentifier="CompType" />
+                <OTHER LabelText="{1:93}" Image="./img/col/Type.png" />
+                <SPECIAL>
+                    <COL Preserve="1" ColumnType="Combo" CanResize="0" />
+                </SPECIAL>
+            </CONTROLPROPS>
+        </CONTROL>
+        <CONTROL Name="WWPP_WWOO_00000200_Grid_Component" Type="GridColumn">
+            <CONTROLPROPS>
+                <LAYOUT>
+                    <SIZE WidthValue="APP:LongTextsBigColumnsWidth" />
+                </LAYOUT>
+                <DATAACCESS ColumnIdentifier="Component" FormatString="{0:cell_Component}{0:cell_PrdName##, #}{0:cell_GLS_Var1##, #}" />
+                <OTHER>
+                    <C N="OpenParent" TEx="Lantek.SYSLayer.Applications.Executors.OpenParentProductExecutor,SYS_apps">
+                        <P N="Structure" V="WWPP_WWOO_00000200" />
+                        <P N="ChildTable" V="[STR,WWPP_WWOO_00000200,tbl]" />
+                        <P N="ChildField" V="Component" />
+                        <P N="ChildRecord" V="[CELL,WWPP_WWOO_00000200,RecID,-1,bv]" />
+                        <P N="Product" V="[CELL,WWPP_WWOO_00000200,Component,-1,bv]" />
+                    </C>
+                </OTHER>
+            </CONTROLPROPS>
+        </CONTROL>
+        <CONTROL Name="WWPP_WWOO_00000200_Grid_Quantity" Type="GridColumn">
+            <CONTROLPROPS>
+                <LAYOUT>
+                    <SIZE WidthValue="APP:ShortNumbersColumnsWidth" />
+                </LAYOUT>
+                <DATAACCESS ColumnIdentifier="VisibleQuantity" />
+                <STYLES Alignment="Right" />
+                <OTHER LabelText="{1:30080#Quantity}" />
+                <SPECIAL>
+                    <COL PercentWidth="0" CanSort="0" />
+                </SPECIAL>
+            </CONTROLPROPS>
+        </CONTROL>
+    </CHILDREN>
+</CONTROL>

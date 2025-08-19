@@ -1,0 +1,123 @@
+<CONTROL Name="WWPP_WWOO_00000200_Grid_Planning" Type="Grid" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\..\xsd\Repository\Controls.xsd">
+    <CONTROLPROPS>
+        <LAYOUT>
+            <SIZE WidthType="Auto" />
+            <SPACING Value="APP:TabGridSpacing" />
+        </LAYOUT>
+        <DATAACCESS StructureIdentifier="WWPP_WWOO_00000200_Planning" />
+        <STYLES MergeRowsStyle="1" />
+        <OTHER Expand="Expanded" LabelText="{1:30275}" />
+        <SPECIAL>
+            <GRD PhonesFormatString="{0:cell_Component}{0:cell_PrdName##, #}{0:cell_GLS_Var1##, #}{0:cell_Quantity##: #}" SelectAll="0" />
+        </SPECIAL>
+    </CONTROLPROPS>
+    <CHILDREN>
+        <CONTROL Name="WWPP_WWOO_00000200_Grid_Planning_AvailabilityStatus" Type="GridColumn">
+            <CONTROLPROPS>
+                <LAYOUT>
+                    <SIZE WidthValue="APP:LittleImagesColumnsWidth" />
+                </LAYOUT>
+                <DATAACCESS ColumnIdentifier="AvailabilityStatus" />
+                <OTHER Image="./img/col/Warehouse.png" />
+                <SPECIAL>
+                    <COL Preserve="1" CanMove="0" CanResize="0" ColumnType="Combo" />
+                </SPECIAL>
+            </CONTROLPROPS>
+        </CONTROL>
+        <CONTROL Name="WWPP_WWOO_00000200_Grid_Planning_Component" Type="GridColumn">
+            <CONTROLPROPS>
+                <LAYOUT>
+                    <SIZE WidthValue="APP:ShortNumbersColumnsWidth" />
+                </LAYOUT>
+                <DATAACCESS ColumnIdentifier="Component" FormatString="{0:cell_Component}{0:cell_PrdName##, #}{0:cell_GLS_Var1##, #}" />
+            </CONTROLPROPS>
+        </CONTROL>
+        <CONTROL Name="WWPP_WWOO_00000200_Grid_Planning_Quantity" Type="GridColumn">
+            <CONTROLPROPS>
+                <LAYOUT>
+                    <SIZE WidthValue="APP:DurationColumnsWidth" />
+                </LAYOUT>
+                <DATAACCESS ColumnIdentifier="VisibleQuantity" />
+                <STYLES Alignment="Right" />
+                <OTHER LabelText="{1:30080#Quantity}" />
+                <SPECIAL>
+                    <COL PercentWidth="0" CanSort="0" />
+                </SPECIAL>
+            </CONTROLPROPS>
+        </CONTROL>
+        <CONTROL Name="WWPP_WWOO_00000200_Grid_Planning_PlannedQuantity" Type="GridColumn">
+            <CONTROLPROPS>
+                <LAYOUT>
+                    <SIZE WidthValue="APP:ShortNumbersColumnsWidth" />
+                </LAYOUT>
+                <DATAACCESS ColumnIdentifier="PlannedQ" />
+                <STYLES Alignment="Right" />
+                <SPECIAL>
+                    <COL PercentWidth="0" CanSort="0" />
+                </SPECIAL>
+            </CONTROLPROPS>
+        </CONTROL>
+        <CONTROL Name="WWPP_WWOO_00000200_Grid_Planning_OrderedQuantity" Type="GridColumn">
+            <CONTROLPROPS>
+                <LAYOUT>
+                    <SIZE WidthValue="APP:ShortNumbersColumnsWidth" />
+                </LAYOUT>
+                <DATAACCESS ColumnIdentifier="OrderedQ" />
+                <STYLES Alignment="Right" />
+                <SPECIAL>
+                    <COL PercentWidth="0" CanSort="0" />
+                </SPECIAL>
+            </CONTROLPROPS>
+        </CONTROL>
+        <CONTROL Name="WWPP_WWOO_00000200_Grid_Planning_AllocatedQuantity" Type="GridColumn">
+            <CONTROLPROPS>
+                <LAYOUT>
+                    <SIZE WidthValue="APP:ShortNumbersColumnsWidth" />
+                </LAYOUT>
+                <DATAACCESS ColumnIdentifier="AllocatedQ" />
+                <STYLES Alignment="Right" />
+                <SPECIAL>
+                    <COL PercentWidth="0" CanSort="0" />
+                </SPECIAL>
+            </CONTROLPROPS>
+        </CONTROL>
+        <CONTROL Name="WWPP_WWOO_00000200_Grid_Planning_PendingQuantity" Type="GridColumn">
+            <CONTROLPROPS>
+                <LAYOUT>
+                    <SIZE WidthValue="APP:ShortNumbersColumnsWidth" />
+                </LAYOUT>
+                <DATAACCESS ColumnIdentifier="PendingQuantity" />
+                <STYLES Alignment="Right" />
+                <OTHER LabelText="{1:36483}" LabelTooltip="{1:36100}" />
+                <SPECIAL>
+                    <COL PercentWidth="0" CanSort="0" />
+                </SPECIAL>
+            </CONTROLPROPS>
+        </CONTROL>
+        <CONTROL Name="WWPP_WWOO_00000200_Grid_Planning_ConsumedQuantity" Type="GridColumn">
+            <CONTROLPROPS>
+                <LAYOUT>
+                    <SIZE WidthValue="APP:ShortNumbersColumnsWidth" />
+                </LAYOUT>
+                <DATAACCESS ColumnIdentifier="ConsumedQ" />
+                <STYLES Alignment="Right" />
+                <SPECIAL>
+                    <COL PercentWidth="0" CanSort="0" />
+                </SPECIAL>
+            </CONTROLPROPS>
+        </CONTROL>
+        <CONTROL Name="WWPP_WWOO_00000200_Grid_Planning_RequiredDate" Type="GridColumn">
+            <CONTROLPROPS>
+                <LAYOUT>
+                    <SIZE WidthValue="APP:ShortDatesColumnsWidth" />
+                </LAYOUT>
+                <DATAACCESS ColumnIdentifier="RequiredDate" />
+                <STYLES Alignment="Center" />
+                <OTHER LabelText="{1:31986}" LabelTooltip="{1:30101}" />
+                <SPECIAL>
+                    <COL CanResize="0" PercentWidth="0" CanSort="0" />
+                </SPECIAL>
+            </CONTROLPROPS>
+        </CONTROL>
+    </CHILDREN>
+</CONTROL>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<QUERY Scheme="AAWW" Table="AUTOMATICWAREHOUSESMODULE_CONFIG" Type="NoRead" ClassType="Lantek.DISLayer_Integra.Applications.Queries.AutomaticWarehouses.AutomaticWarehousesParametersQueryEntity_DIS,DIS_Integra_apps" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\..\xsd\Repository\Queries.xsd">
+    <SELECT TblRef="AUTOMATICWAREHOUSESMODULE_CONFIG" NoRead="1">
+        <SELLIST>
+            <ALL />
+        </SELLIST>
+    </SELECT>
+</QUERY>

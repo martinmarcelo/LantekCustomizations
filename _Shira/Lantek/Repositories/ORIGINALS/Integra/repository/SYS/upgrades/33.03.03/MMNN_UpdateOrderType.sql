@@ -1,0 +1,1 @@
+Update MMNN_MMOO_00000100 Set OrderType = 1 Where PrdRef IN (Select PrdRef from PPRR_PPRR_00000100 where Assembly = 1)

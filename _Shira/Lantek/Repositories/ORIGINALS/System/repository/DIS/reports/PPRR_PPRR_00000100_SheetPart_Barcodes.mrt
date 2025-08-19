@@ -1,0 +1,481 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="0" />
+    <DataSources isList="true" count="1">
+      <Items Ref="2" type="DataTableSource" isKey="true">
+        <Alias>Items</Alias>
+        <Columns isList="true" count="125">
+          <value>PrdRef,Reference,System.String</value>
+          <value>PrdRef__Lab,Reference_x0020__x0028_Label_x0029_,System.String</value>
+          <value>PrdName,Name,System.String</value>
+          <value>PrdName__Lab,Name_x0020__x0028_Label_x0029_,System.String</value>
+          <value>PType,Type,System.Int16</value>
+          <value>PType__Lab,Type_x0020__x0028_Label_x0029_,System.String</value>
+          <value>PType__ScN,Type_x0020__x0028_Value_x0029_,System.String</value>
+          <value>DIS_MatRef,Material,System.String</value>
+          <value>DIS_MatRef__Lab,Material_x0020__x0028_Label_x0029_,System.String</value>
+          <value>DIS_Thickness,Thickness,System.Double</value>
+          <value>DIS_Thickness__Lab,Thickness_x0020__x0028_Label_x0029_,System.String</value>
+          <value>DIS_Thickness__DBD,Thickness_x0020__x0028_Database_x0029_,System.Double</value>
+          <value>DIS_Thickness__Scr,Thickness_x0020__x0028_Value_x0029_,System.String</value>
+          <value>DIS_Thickness__ScN,Thickness_x0020__x0028_Value_x0029_,System.String</value>
+          <value>DIS_Thickness__Dec,Thickness_x0020__x0028_Decimal_x0020_digits_x0029_,System.Int16</value>
+          <value>DIS_Thickness__Rnd,Thickness_x0020__x0028_Rounded_x0029_,System.Int16</value>
+          <value>DIS_Thickness__Sff,Thickness_x0020__x0028_Suffix_x0029_,System.String</value>
+          <value>Image,System.String</value>
+          <value>Image__Lab,Image_x0020__x0028_Label_x0029_,System.String</value>
+          <value>Image__DBD,Image_x0020__x0028_Database_x0029_,System.String</value>
+          <value>Weight,System.Double</value>
+          <value>Weight__Lab,Weight_x0020__x0028_Label_x0029_,System.String</value>
+          <value>Weight__DBD,Weight_x0020__x0028_Database_x0029_,System.Double</value>
+          <value>Weight__Scr,Weight_x0020__x0028_Value_x0029_,System.String</value>
+          <value>Weight__ScN,Weight_x0020__x0028_Value_x0029_,System.String</value>
+          <value>Weight__Dec,Weight_x0020__x0028_Decimal_x0020_digits_x0029_,System.Int16</value>
+          <value>Weight__Rnd,Weight_x0020__x0028_Rounded_x0029_,System.Int16</value>
+          <value>Weight__Sff,Weight_x0020__x0028_Suffix_x0029_,System.String</value>
+          <value>DIS_Width,Width,System.Double</value>
+          <value>DIS_Width__Lab,Width_x0020__x0028_Label_x0029_,System.String</value>
+          <value>DIS_Width__DBD,Width_x0020__x0028_Database_x0029_,System.Double</value>
+          <value>DIS_Width__Scr,Width_x0020__x0028_Value_x0029_,System.String</value>
+          <value>DIS_Width__ScN,Width_x0020__x0028_Value_x0029_,System.String</value>
+          <value>DIS_Width__Dec,Width_x0020__x0028_Decimal_x0020_digits_x0029_,System.Int16</value>
+          <value>DIS_Width__Rnd,Width_x0020__x0028_Rounded_x0029_,System.Int16</value>
+          <value>DIS_Width__Sff,Width_x0020__x0028_Suffix_x0029_,System.String</value>
+          <value>DIS_Length,Length,System.Double</value>
+          <value>DIS_Length__Lab,Length_x0020__x0028_Label_x0029_,System.String</value>
+          <value>DIS_Length__DBD,Length_x0020__x0028_Database_x0029_,System.Double</value>
+          <value>DIS_Length__Scr,Length_x0020__x0028_Value_x0029_,System.String</value>
+          <value>DIS_Length__ScN,Length_x0020__x0028_Value_x0029_,System.String</value>
+          <value>DIS_Length__Dec,Length_x0020__x0028_Decimal_x0020_digits_x0029_,System.Int16</value>
+          <value>DIS_Length__Rnd,Length_x0020__x0028_Rounded_x0029_,System.Int16</value>
+          <value>DIS_Length__Sff,Length_x0020__x0028_Suffix_x0029_,System.String</value>
+          <value>DIS_RectWeight,Rectangle_x0020_weight,System.Double</value>
+          <value>DIS_RectWeight__Lab,Rectangle_x0020_weight_x0020__x0028_Label_x0029_,System.String</value>
+          <value>DIS_RectWeight__DBD,Rectangle_x0020_weight_x0020__x0028_Database_x0029_,System.Double</value>
+          <value>DIS_RectWeight__Scr,Rectangle_x0020_weight_x0020__x0028_Value_x0029_,System.String</value>
+          <value>DIS_RectWeight__ScN,Rectangle_x0020_weight_x0020__x0028_Value_x0029_,System.String</value>
+          <value>DIS_RectWeight__Dec,Rectangle_x0020_weight_x0020__x0028_Decimal_x0020_digits_x0029_,System.Int16</value>
+          <value>DIS_RectWeight__Rnd,Rectangle_x0020_weight_x0020__x0028_Rounded_x0029_,System.Int16</value>
+          <value>DIS_RectWeight__Sff,Rectangle_x0020_weight_x0020__x0028_Suffix_x0029_,System.String</value>
+          <value>DIS_ExtWeight,External_x0020_weight,System.Double</value>
+          <value>DIS_ExtWeight__Lab,External_x0020_weight_x0020__x0028_Label_x0029_,System.String</value>
+          <value>DIS_ExtWeight__DBD,External_x0020_weight_x0020__x0028_Database_x0029_,System.Double</value>
+          <value>DIS_ExtWeight__Scr,External_x0020_weight_x0020__x0028_Value_x0029_,System.String</value>
+          <value>DIS_ExtWeight__ScN,External_x0020_weight_x0020__x0028_Value_x0029_,System.String</value>
+          <value>DIS_ExtWeight__Dec,External_x0020_weight_x0020__x0028_Decimal_x0020_digits_x0029_,System.Int16</value>
+          <value>DIS_ExtWeight__Rnd,External_x0020_weight_x0020__x0028_Rounded_x0029_,System.Int16</value>
+          <value>DIS_ExtWeight__Sff,External_x0020_weight_x0020__x0028_Suffix_x0029_,System.String</value>
+          <value>DIS_MrkPerim,Mark_x0020_perimeter,System.Double</value>
+          <value>DIS_MrkPerim__Lab,Mark_x0020_perimeter_x0020__x0028_Label_x0029_,System.String</value>
+          <value>DIS_MrkPerim__DBD,Mark_x0020_perimeter_x0020__x0028_Database_x0029_,System.Double</value>
+          <value>DIS_MrkPerim__Scr,Mark_x0020_perimeter_x0020__x0028_Value_x0029_,System.String</value>
+          <value>DIS_MrkPerim__ScN,Mark_x0020_perimeter_x0020__x0028_Value_x0029_,System.String</value>
+          <value>DIS_MrkPerim__Dec,Mark_x0020_perimeter_x0020__x0028_Decimal_x0020_digits_x0029_,System.Int16</value>
+          <value>DIS_MrkPerim__Rnd,Mark_x0020_perimeter_x0020__x0028_Rounded_x0029_,System.Int16</value>
+          <value>DIS_MrkPerim__Sff,Mark_x0020_perimeter_x0020__x0028_Suffix_x0029_,System.String</value>
+          <value>DIS_CutPerim,Cut_x0020_perimeter,System.Double</value>
+          <value>DIS_CutPerim__Lab,Cut_x0020_perimeter_x0020__x0028_Label_x0029_,System.String</value>
+          <value>DIS_CutPerim__DBD,Cut_x0020_perimeter_x0020__x0028_Database_x0029_,System.Double</value>
+          <value>DIS_CutPerim__Scr,Cut_x0020_perimeter_x0020__x0028_Value_x0029_,System.String</value>
+          <value>DIS_CutPerim__ScN,Cut_x0020_perimeter_x0020__x0028_Value_x0029_,System.String</value>
+          <value>DIS_CutPerim__Dec,Cut_x0020_perimeter_x0020__x0028_Decimal_x0020_digits_x0029_,System.Int16</value>
+          <value>DIS_CutPerim__Rnd,Cut_x0020_perimeter_x0020__x0028_Rounded_x0029_,System.Int16</value>
+          <value>DIS_CutPerim__Sff,Cut_x0020_perimeter_x0020__x0028_Suffix_x0029_,System.String</value>
+          <value>DIS_SimpleBends,Simple_x0020_bends,System.Int16</value>
+          <value>DIS_SimpleBends__Lab,Simple_x0020_bends_x0020__x0028_Label_x0029_,System.String</value>
+          <value>DIS_SimpleBends__ScN,Simple_x0020_bends_x0020__x0028_Value_x0029_,System.String</value>
+          <value>DIS_SpecialBends,Special_x0020_bends,System.Int16</value>
+          <value>DIS_SpecialBends__Lab,Special_x0020_bends_x0020__x0028_Label_x0029_,System.String</value>
+          <value>DIS_SpecialBends__ScN,Special_x0020_bends_x0020__x0028_Value_x0029_,System.String</value>
+          <value>Descrip,Description,System.String</value>
+          <value>Descrip__Lab,Description_x0020__x0028_Label_x0029_,System.String</value>
+          <value>StdCost,Standard_x0020_cost,System.Double</value>
+          <value>StdCost__Lab,Standard_x0020_cost_x0020__x0028_Label_x0029_,System.String</value>
+          <value>StdCost__DBD,Standard_x0020_cost_x0020__x0028_Database_x0029_,System.Double</value>
+          <value>StdCost__Scr,Standard_x0020_cost_x0020__x0028_Value_x0029_,System.String</value>
+          <value>StdCost__ScN,Standard_x0020_cost_x0020__x0028_Value_x0029_,System.String</value>
+          <value>StdCost__Dec,Standard_x0020_cost_x0020__x0028_Decimal_x0020_digits_x0029_,System.Int16</value>
+          <value>StdCost__Rnd,Standard_x0020_cost_x0020__x0028_Rounded_x0029_,System.Int16</value>
+          <value>StdCost__Sff,Standard_x0020_cost_x0020__x0028_Suffix_x0029_,System.String</value>
+          <value>StdCost__Prf,Standard_x0020_cost_x0020__x0028_Prefix_x0029_,System.String</value>
+          <value>StdCost__PrP,Standard_x0020_cost_x0020__x0028_Positive_x0020_prefix_x0029_,System.String</value>
+          <value>StdCost__PrN,Standard_x0020_cost_x0020__x0028_Negative_x0020_prefix_x0029_,System.String</value>
+          <value>StdCost__SfP,Standard_x0020_cost_x0020__x0028_Positive_x0020_suffix_x0029_,System.String</value>
+          <value>StdCost__SfN,Standard_x0020_cost_x0020__x0028_Negative_x0020_suffix_x0029_,System.String</value>
+          <value>UntName,Unit,System.String</value>
+          <value>UntName__Lab,Unit_x0020__x0028_Label_x0029_,System.String</value>
+          <value>UCtName,Unit_x0020_category,System.String</value>
+          <value>UCtName__Lab,Unit_x0020_category_x0020__x0028_Label_x0029_,System.String</value>
+          <value>DIS_RectArea,Rectangle_x0020_area,System.Double</value>
+          <value>DIS_RectArea__Lab,Rectangle_x0020_area_x0020__x0028_Label_x0029_,System.String</value>
+          <value>DIS_RectArea__DBD,Rectangle_x0020_area_x0020__x0028_Database_x0029_,System.Double</value>
+          <value>DIS_RectArea__Scr,Rectangle_x0020_area_x0020__x0028_Value_x0029_,System.String</value>
+          <value>DIS_RectArea__ScN,Rectangle_x0020_area_x0020__x0028_Value_x0029_,System.String</value>
+          <value>DIS_RectArea__Dec,Rectangle_x0020_area_x0020__x0028_Decimal_x0020_digits_x0029_,System.Int16</value>
+          <value>DIS_RectArea__Rnd,Rectangle_x0020_area_x0020__x0028_Rounded_x0029_,System.Int16</value>
+          <value>DIS_RectArea__Sff,Rectangle_x0020_area_x0020__x0028_Suffix_x0029_,System.String</value>
+          <value>DIS_ExtArea,External_x0020_area,System.Double</value>
+          <value>DIS_ExtArea__Lab,External_x0020_area_x0020__x0028_Label_x0029_,System.String</value>
+          <value>DIS_ExtArea__DBD,External_x0020_area_x0020__x0028_Database_x0029_,System.Double</value>
+          <value>DIS_ExtArea__Scr,External_x0020_area_x0020__x0028_Value_x0029_,System.String</value>
+          <value>DIS_ExtArea__ScN,External_x0020_area_x0020__x0028_Value_x0029_,System.String</value>
+          <value>DIS_ExtArea__Dec,External_x0020_area_x0020__x0028_Decimal_x0020_digits_x0029_,System.Int16</value>
+          <value>DIS_ExtArea__Rnd,External_x0020_area_x0020__x0028_Rounded_x0029_,System.Int16</value>
+          <value>DIS_ExtArea__Sff,External_x0020_area_x0020__x0028_Suffix_x0029_,System.String</value>
+          <value>DIS_Area,Area,System.Double</value>
+          <value>DIS_Area__Lab,Area_x0020__x0028_Label_x0029_,System.String</value>
+          <value>DIS_Area__DBD,Area_x0020__x0028_Database_x0029_,System.Double</value>
+          <value>DIS_Area__Scr,Area_x0020__x0028_Value_x0029_,System.String</value>
+          <value>DIS_Area__ScN,Area_x0020__x0028_Value_x0029_,System.String</value>
+          <value>DIS_Area__Dec,Area_x0020__x0028_Decimal_x0020_digits_x0029_,System.Int16</value>
+          <value>DIS_Area__Rnd,Area_x0020__x0028_Rounded_x0029_,System.Int16</value>
+          <value>DIS_Area__Sff,Area_x0020__x0028_Suffix_x0029_,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Items</Name>
+        <NameInSource>PPRR_PPRR_00000100_SheetPart_Barcodes.Items</NameInSource>
+      </Items>
+    </DataSources>
+    <Relations isList="true" count="0" />
+    <Report isRef="0" />
+    <Variables isList="true" count="29">
+      <value>,__Sys_DatePattern,__Sys_DatePattern,System.String,,False,False</value>
+      <value>,__Mss_33466,__Mss_33466,System.String,,False,False</value>
+      <value>,__Mss_30447,__Mss_30447,System.String,,False,False</value>
+      <value>,__Mss_60000522,__Mss_60000522,System.String,,False,False</value>
+      <value>,__Mss_33226,__Mss_33226,System.String,,False,False</value>
+      <value>,__Mss_30433,__Mss_30433,System.String,,False,False</value>
+      <value>,__Mss_30149,__Mss_30149,System.String,,False,False</value>
+      <value>,__Mss_60000502,__Mss_60000502,System.String,,False,False</value>
+      <value>,ForPage,ForPage,System.String,,False,False</value>
+      <value>,__Mss_31002,__Mss_31002,System.String,,False,False</value>
+      <value>,__Mss_30609,__Mss_30609,System.String,,False,False</value>
+      <value>,__Mss_30690,__Mss_30690,System.String,,False,False</value>
+      <value>,__Mss_60000012,__Mss_60000012,System.String,,False,False</value>
+      <value>,__Mss_60000160,__Mss_60000160,System.String,,False,False</value>
+      <value>,__Mss_60003108,__Mss_60003108,System.String,,False,False</value>
+      <value>,__Mss_60001075,__Mss_60001075,System.String,,False,False</value>
+      <value>,__Mss_60003123,__Mss_60003123,System.String,,False,False</value>
+      <value>,__Mss_60000023,__Mss_60000023,System.String,,False,False</value>
+      <value>,__Mss_60000024,__Mss_60000024,System.String,,False,False</value>
+      <value>,__Mss_60000019,__Mss_60000019,System.String,,False,False</value>
+      <value>,__Mss_60000020,__Mss_60000020,System.String,,False,False</value>
+      <value>,__Mss_60000688,__Mss_60000688,System.String,,False,False</value>
+      <value>,ImagePath,ImagePath,System.String,Replace_x0028_ToLowerCase_x0028_Items.Image__DBD_x0029__x002C__x0022_.bmp_x0022__x002C__x0022_-IMGB.png_x0022__x0029_,True,True</value>
+      <value>,__Mss_30448,__Mss_30448,System.String,,False,False</value>
+      <value>,__Mss_60000210,__Mss_60000210,System.String,,False,False</value>
+      <value>,__Mss_60000022,__Mss_60000022,System.String,,False,False</value>
+      <value>,__Mss_60000021,__Mss_60000021,System.String,,False,False</value>
+      <value>,ForBarCode,ForBarCode,System.String,Items.PrdRef,True,True</value>
+      <value>,__Mss_30007,__Mss_30007,System.String,,False,False</value>
+    </Variables>
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <ReportPage Ref="3" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="3">
+        <PageHeaderBand1 Ref="4" type="PageHeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0.4,19,2.8</ClientRectangle>
+          <Components isList="true" count="1">
+            <Title Ref="5" type="Stimulsoft.Report.Components.StiPanel" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0.2,19,2.4</ClientRectangle>
+              <Components isList="true" count="3">
+                <Text1 Ref="6" type="Text" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>0.4,0.4,7,1.4</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,14,Bold</Font>
+                  <Guid>0b908c2c64f64b7b804188527233f98d</Guid>
+                  <Linked>True</Linked>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text1</Name>
+                  <Page isRef="3" />
+                  <Parent isRef="5" />
+                  <Text>{__Mss_60000502}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text1>
+                <Text2 Ref="7" type="Text" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>12.4,0.6,5.4,0.4</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10</Font>
+                  <Guid>a6f6e7b41b654ab3be4bd3ba8cd01a2e</Guid>
+                  <HorAlignment>Right</HorAlignment>
+                  <Linked>True</Linked>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text2</Name>
+                  <Page isRef="3" />
+                  <Parent isRef="5" />
+                  <Text>{ForPage = Replace(Replace(__Mss_33466, "@#PAGENUMBER#@", PageNumber),  "@#TOTALPAGECOUNT#@", TotalPageCount)}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text2>
+                <Text3 Ref="8" type="Text" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>12.4,1.2,5.4,0.4</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10</Font>
+                  <Guid>528d36f90c6a42ba8753716a79344d9f</Guid>
+                  <HorAlignment>Right</HorAlignment>
+                  <Linked>True</Linked>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Text3</Name>
+                  <Page isRef="3" />
+                  <Parent isRef="5" />
+                  <Text>{Today}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <TextFormat Ref="9" type="DateFormat" isKey="true" />
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text3>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <Guid>122a98b317884155a172dc7df6b78f82</Guid>
+              <Linked>True</Linked>
+              <Name>Title</Name>
+              <Page isRef="3" />
+              <Parent isRef="4" />
+            </Title>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Guid>da9829db09b04540bb0675edd4335a5d</Guid>
+          <Linked>True</Linked>
+          <Name>PageHeaderBand1</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+        </PageHeaderBand1>
+        <PageFooterBand1 Ref="10" type="PageFooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,30,19,0</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <Name>PageFooterBand1</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+        </PageFooterBand1>
+        <Sheet_x0020_Parts Ref="11" type="DataBand" isKey="true">
+          <Border>Bottom;LightGray;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,4,19,2.4</ClientRectangle>
+          <Components isList="true" count="4">
+            <Text18 Ref="12" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>6.6,0.6,6.2,1.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,9</Font>
+              <Guid>5af818cbc84b445c965a946818cab247</Guid>
+              <Linked>True</Linked>
+              <Margins>6,0,0,0</Margins>
+              <Name>Text18</Name>
+              <Page isRef="3" />
+              <Parent isRef="11" />
+              <Text>{Items.DIS_MatRef} {Items.DIS_Thickness__Scr}
+{Items.DIS_Length__Scr} x {Items.DIS_Width__Scr}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+            </Text18>
+            <BarCode2 Ref="13" type="Stimulsoft.Report.BarCodes.StiBarCode" isKey="true">
+              <AutoScale>True</AutoScale>
+              <BackColor>Transparent</BackColor>
+              <BarCodeType Ref="14" type="Stimulsoft.Report.BarCodes.StiCode128AutoBarCodeType" isKey="true" />
+              <ClientRectangle>13.8,0.4,5,1.8</ClientRectangle>
+              <Code>{ForBarCode}</Code>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,8,Regular,Pixel</Font>
+              <ForeColor>Black</ForeColor>
+              <Guid>3eaa2219a46444968983cb38238299ca</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Name>BarCode2</Name>
+              <Page isRef="3" />
+              <Parent isRef="11" />
+            </BarCode2>
+            <Image2 Ref="15" type="Image" isKey="true">
+              <AspectRatio>True</AspectRatio>
+              <Brush>White</Brush>
+              <ClientRectangle>0.2,0.2,5.4,2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Guid>1e8d6a7cfa8b407ba4fc6940d88b1a60</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <ImageURL>{ImagePath}</ImageURL>
+              <Name>Image2</Name>
+              <Page isRef="3" />
+              <Parent isRef="11" />
+              <Stretch>True</Stretch>
+            </Image2>
+            <Text4 Ref="16" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>6.6,0.2,6.2,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Calibri Light,9,Bold</Font>
+              <Linked>True</Linked>
+              <Margins>6,0,0,0</Margins>
+              <Name>Text4</Name>
+              <Page isRef="3" />
+              <Parent isRef="11" />
+              <Text>{Items.PrdRef}{IIF(Items.PrdName != "", ","+Items.PrdName, "")}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+            </Text4>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DataRelationName isNull="true" />
+          <DataSourceName>Items</DataSourceName>
+          <Filters isList="true" count="0" />
+          <Guid>2c22825a42754d35b7980d0120cd075b</Guid>
+          <Linked>True</Linked>
+          <Name>Sheet Parts</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Sort isList="true" count="0" />
+        </Sheet_x0020_Parts>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Guid>96eeda19e62842b59caa727a4cd4ea13</Guid>
+      <Margins>1,1,1,1</Margins>
+      <Name>ReportPage</Name>
+      <PageHeight>32</PageHeight>
+      <PageWidth>21</PageWidth>
+      <Report isRef="0" />
+      <Watermark Ref="17" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <Font>Arial,100</Font>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
+    </ReportPage>
+  </Pages>
+  <PrinterSettings Ref="18" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>PPRR_PPRR_00000100_SheetPart_Barcodes</ReportAlias>
+  <ReportAuthor>SYSADM</ReportAuthor>
+  <ReportChanged>8/10/2018 12:52:11 PM</ReportChanged>
+  <ReportCreated>9/6/2017 9:20:09 AM</ReportCreated>
+  <ReportDescription>Sheet parts scanning</ReportDescription>
+  <ReportFile>C:/Development/Lantek/Lantek_Dev/DISLayer_Integra/SourceCode/WinInterface/bin/x64/Debug/repository/END/reports/PPRR_PPRR_00000100_SheetPart_Barcodes.mrt</ReportFile>
+  <ReportGuid>0dba5d129fb249ef8a83b1e7896a8472</ReportGuid>
+  <ReportName>PPRR_PPRR_00000100_SheetPart_Barcodes</ReportName>
+  <ReportUnit>Centimeters</ReportUnit>
+  <ReportVersion>2013.2.1604</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    public class PPRR_PPRR_00000100_Bendings : Stimulsoft.Report.StiReport
+    {
+        public PPRR_PPRR_00000100_Bendings()        {
+            this.InitializeComponent();
+        }
+		
+		public bool CheckBendingOperation(short technology, bool hasBending) {
+			if (technology == 20) return true;
+			else return hasBending;
+		}
+
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}
+</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="7">
+    <Titles Ref="19" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>Bottom;[199:213:224];3;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Arial,22,Bold</Font>
+      <Name>Titles</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Titles>
+    <PageHeader Ref="20" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>Bottom;[199:213:224];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Verdana,9</Font>
+      <Name>PageHeader</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </PageHeader>
+    <PageFooter Ref="21" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>Top;[199:213:224];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Verdana,9</Font>
+      <Name>PageFooter</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </PageFooter>
+    <Headers Ref="22" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>All;[131:166:224];1;Solid;False;4;Black</Border>
+      <Brush>[185:218:255]</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Arial,11,Bold</Font>
+      <Name>Headers</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Headers>
+    <DataClean Ref="23" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Verdana,10</Font>
+      <Name>DataClean</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </DataClean>
+    <DataOdd Ref="24" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>All;[216:223:232];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Verdana,10</Font>
+      <Name>DataOdd</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </DataOdd>
+    <DataEven Ref="25" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>All;[216:223:232];1;Solid;False;4;Black</Border>
+      <Brush>[240:245:251]</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Verdana,10</Font>
+      <Name>DataEven</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </DataEven>
+  </Styles>
+</StiSerializer>

@@ -1,0 +1,7 @@
+-- @#LONGSCRIPT#@
+
+--Updates in production order operations
+UPDATE MMNN_MMOO_00000300
+SET MMNN_MMOO_00000300.MainOriginFilter= MMNN_MMOO_00000300.OrdRef,	
+	MMNN_MMOO_00000300.MainOriginTypeFilter = 2
+WHERE MMNN_MMOO_00000300.OrdRef <> '' AND MMNN_MMOO_00000300.Origin = 1

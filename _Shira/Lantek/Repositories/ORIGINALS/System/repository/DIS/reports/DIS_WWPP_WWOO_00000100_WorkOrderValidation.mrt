@@ -1,0 +1,524 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="0" />
+    <DataSources isList="true" count="2">
+      <Work_x0020_orders Ref="2" type="DataTableSource" isKey="true">
+        <Alias>Work orders</Alias>
+        <Columns isList="true" count="12">
+          <value>OrdRef,Referencia,System.String</value>
+          <value>OrdRef__Lab,Referencia_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>RecID,Identificador_x0020_del_x0020_elemento,System.Int32</value>
+          <value>RecID__Lab,Identificador_x0020_del_x0020_elemento_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>OrdName,Nombre,System.String</value>
+          <value>OrdName__Lab,Nombre_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>OriginOrder,Paquete_x0020_de_x0020_trabajo,System.String</value>
+          <value>OriginOrder__Lab,Paquete_x0020_de_x0020_trabajo_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>Status,Estado,System.Int16</value>
+          <value>Status__Lab,Estado_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>Type,Tipo,System.Int16</value>
+          <value>Type__Lab,Tipo_x0020__x0028_Etiqueta_x0029_,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Work orders</Name>
+        <NameInSource>DIS_WWPP_WWOO_00000100_WorkOrderValidation.Work orders</NameInSource>
+      </Work_x0020_orders>
+      <Resource_x0020_Assignment Ref="3" type="DataTableSource" isKey="true">
+        <Alias>Resource Assignment</Alias>
+        <Columns isList="true" count="10">
+          <value>TblRef,Tabla_x0020_relacionada,System.String</value>
+          <value>TblRef__Lab,Tabla_x0020_relacionada_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>RecordID,Identificador_x0020_de_x0020_elemento_x0020_asociado,System.Int32</value>
+          <value>RecordID__Lab,Identificador_x0020_de_x0020_elemento_x0020_asociado_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>RsRef,Recurso,System.String</value>
+          <value>RsRef__Lab,Recurso_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>EstimatedTime,Tiempo_x0020_estimado,System.Double</value>
+          <value>EstimatedTime__Lab,Tiempo_x0020_estimado_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>EstimatedTime__Dec,Tiempo_x0020_estimado_x0020__x0028_Dígitos_x0020_decimales_x0029_,System.Int16</value>
+          <value>EstimatedTime__Rnd,Tiempo_x0020_estimado_x0020__x0028_Redondeado_x0029_,System.Int16</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Resource Assignment</Name>
+        <NameInSource>DIS_WWPP_WWOO_00000100_WorkOrderValidation.Resource Assignment</NameInSource>
+      </Resource_x0020_Assignment>
+    </DataSources>
+    <Relations isList="true" count="0" />
+    <Report isRef="0" />
+    <Variables isList="true" count="11">
+      <value>,__Sys_DatePattern,__Sys_DatePattern,System.String,,False,False</value>
+      <value>,__Mss_33466,__Mss_33466,System.String,,False,False</value>
+      <value>,__Mss_32806,__Mss_32806,System.String,,False,False</value>
+      <value>,__Mss_30690,__Mss_30690,System.String,,False,False</value>
+      <value>,__Mss_60002580,__Mss_60002580,System.String,,False,False</value>
+      <value>,ForWorkOrderRecordBarCode,ForWorkOrderRecordBarCode,System.String,_x0022__x002A__x0022__x0020__x002B__x0020_Work_orders.RecID.ToString_x0028__x0029__x0020__x002B__x0020__x0022__x002A__x0022_,True,True</value>
+      <value>,ForWorkOrderName,ForWorkOrderName,System.String,IIF_x0028_Work_orders.OrdName_x0020__x0021__x003D__x0020__x0022__x0022__x002C__x0020_Work_orders.OrdRef_x0020__x002B__x0020__x0022__x002C__x0020__x0022__x0020__x002B__x0020_Work_orders.OrdName_x002C__x0020_Work_orders.OrdRef_x0029_.ToString_x0028__x0029_,False,True</value>
+      <value>,ForFormatedEstimatedTime,ForFormatedEstimatedTime,System.String,CalculateTime_x0028_Resource_Assignment.EstimatedTime_x002C__x0020_0_x0029_,False,True</value>
+      <value>,ForPage,ForPage,System.String,,False,False</value>
+      <value>,__Mss_35912,__Mss_35912,System.String,,False,False</value>
+      <value>,__Mss_30007,__Mss_30007,System.String,,False,False</value>
+    </Variables>
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <ReportPage Ref="4" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="2">
+        <PageHeaderBand1 Ref="5" type="PageHeaderBand" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0.4,19,1.2</ClientRectangle>
+          <Components isList="true" count="1">
+            <Panel2 Ref="6" type="Stimulsoft.Report.Components.StiPanel" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,0,19,1</ClientRectangle>
+              <Components isList="true" count="3">
+                <Text7 Ref="7" type="Text" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>0,0.2,13.6,0.8</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,16,Bold</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>1e07f158258fa6a917fe57766c320927</Guid>
+                  <Linked>True</Linked>
+                  <Margins>8,0,0,0</Margins>
+                  <Name>Text7</Name>
+                  <Page isRef="4" />
+                  <Parent isRef="6" />
+                  <Text>{__Mss_60002580}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text7>
+                <Text6 Ref="8" type="Text" isKey="true">
+                  <Brush>White</Brush>
+                  <ClientRectangle>13.6,0.2,5.2,0.4</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10</Font>
+                  <Guid>962b6b081fd911bd4e9057766c322adf</Guid>
+                  <HorAlignment>Right</HorAlignment>
+                  <Linked>True</Linked>
+                  <Margins>0,6,0,0</Margins>
+                  <Name>Text6</Name>
+                  <Page isRef="4" />
+                  <Parent isRef="6" />
+                  <Text>{ForPage = Replace(Replace(__Mss_33466, "@#PAGENUMBER#@", PageNumber),  "@#TOTALPAGECOUNT#@", TotalPageCount)}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                </Text6>
+                <Text8 Ref="9" type="Text" isKey="true">
+                  <Brush>White</Brush>
+                  <ClientRectangle>13.6,0.6,5.2,0.4</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10</Font>
+                  <Guid>b009d185de05a53fa87457766c32059c</Guid>
+                  <HorAlignment>Right</HorAlignment>
+                  <Linked>True</Linked>
+                  <Margins>0,6,0,0</Margins>
+                  <Name>Text8</Name>
+                  <Page isRef="4" />
+                  <Parent isRef="6" />
+                  <Text>{Today}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <TextFormat Ref="10" type="DateFormat" isKey="true" />
+                  <Type>Expression</Type>
+                </Text8>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <Guid>ec1b58f9b3f088ceb89e57766c328423</Guid>
+              <Linked>True</Linked>
+              <Name>Panel2</Name>
+              <Page isRef="4" />
+              <Parent isRef="5" />
+            </Panel2>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Linked>True</Linked>
+          <Name>PageHeaderBand1</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+        </PageHeaderBand1>
+        <DataBand2 Ref="11" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,2.4,19,1.6</ClientRectangle>
+          <Components isList="true" count="4">
+            <Panel3 Ref="12" type="Stimulsoft.Report.Components.StiPanel" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,0.2,19,0.4</ClientRectangle>
+              <Components isList="true" count="4">
+                <Text20 Ref="13" type="Text" isKey="true">
+                  <Border>Top, Bottom;Black;1;Solid;False;4;Black</Border>
+                  <Brush>[0:90:129]</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>8.6,0,6.4,0.4</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,9,Bold</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>874224ffb292536b72845bc715e54f07</Guid>
+                  <Linked>True</Linked>
+                  <Margins>6,0,0,0</Margins>
+                  <Name>Text20</Name>
+                  <Page isRef="4" />
+                  <Parent isRef="12" />
+                  <Text>{Resource_Assignment.RsRef__Lab}</Text>
+                  <TextBrush>White</TextBrush>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text20>
+                <Text4 Ref="14" type="Text" isKey="true">
+                  <Border>Top, Bottom;Black;1;Solid;False;4;Black</Border>
+                  <Brush>[0:90:129]</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>5.4,0,3.2,0.4</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,9,Bold</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>9582b9654c1f600d65855bc6ef5973dc</Guid>
+                  <HorAlignment>Center</HorAlignment>
+                  <Linked>True</Linked>
+                  <Margins>6,0,0,0</Margins>
+                  <Name>Text4</Name>
+                  <Page isRef="4" />
+                  <Parent isRef="12" />
+                  <Text>{__Mss_30690}</Text>
+                  <TextBrush>White</TextBrush>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text4>
+                <Text18 Ref="15" type="Text" isKey="true">
+                  <Border>Top, Right, Bottom;Black;1;Solid;False;4;Black</Border>
+                  <Brush>[0:90:129]</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>15,0,4,0.4</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,9,Bold</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>833ab5d69bff89fbde735bc6ef593632</Guid>
+                  <HorAlignment>Right</HorAlignment>
+                  <Linked>True</Linked>
+                  <Margins>6,6,0,0</Margins>
+                  <Name>Text18</Name>
+                  <Page isRef="4" />
+                  <Parent isRef="12" />
+                  <Text>{__Mss_30007}</Text>
+                  <TextBrush>White</TextBrush>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text18>
+                <Text14 Ref="16" type="Text" isKey="true">
+                  <Border>Top, Left, Bottom;Black;1;Solid;False;4;Black</Border>
+                  <Brush>[0:90:129]</Brush>
+                  <CanGrow>True</CanGrow>
+                  <ClientRectangle>0,0,5.4,0.4</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,9,Bold</Font>
+                  <GrowToHeight>True</GrowToHeight>
+                  <Guid>1d93ddf6e8a5e367cf0e5bc6ef593b98</Guid>
+                  <Linked>True</Linked>
+                  <Margins>6,0,0,0</Margins>
+                  <Name>Text14</Name>
+                  <Page isRef="4" />
+                  <Parent isRef="12" />
+                  <Text>{__Mss_32806}</Text>
+                  <TextBrush>White</TextBrush>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text14>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <Linked>True</Linked>
+              <Name>Panel3</Name>
+              <Page isRef="4" />
+              <Parent isRef="11" />
+            </Panel3>
+            <Panel1 Ref="17" type="Stimulsoft.Report.Components.StiPanel" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>5.4,0.6,9.6,0.8</ClientRectangle>
+              <Components isList="true" count="1">
+                <DataBand1 Ref="18" type="DataBand" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <BusinessObjectGuid isNull="true" />
+                  <ClientRectangle>0,0.4,9.6,0.8</ClientRectangle>
+                  <Components isList="true" count="2">
+                    <Text9 Ref="19" type="Text" isKey="true">
+                      <Brush>Transparent</Brush>
+                      <ClientRectangle>0,0,3.2,0.8</ClientRectangle>
+                      <Conditions isList="true" count="0" />
+                      <Font>Arial,10</Font>
+                      <Guid>4705a02e9a337d80197c5b7451a6bc5b</Guid>
+                      <HorAlignment>Center</HorAlignment>
+                      <Linked>True</Linked>
+                      <Margins>6,0,0,0</Margins>
+                      <Name>Text9</Name>
+                      <Page isRef="4" />
+                      <Parent isRef="18" />
+                      <Text>{CalculateTime(Resource_Assignment.EstimatedTime, 0)}</Text>
+                      <TextBrush>Black</TextBrush>
+                      <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                      <Type>Expression</Type>
+                      <VertAlignment>Center</VertAlignment>
+                    </Text9>
+                    <Text2 Ref="20" type="Text" isKey="true">
+                      <Brush>Transparent</Brush>
+                      <ClientRectangle>3.2,0,6.4,0.8</ClientRectangle>
+                      <Conditions isList="true" count="0" />
+                      <Font>Arial,10</Font>
+                      <Guid>93b61ffe252d401e904b5bcc81cd86f0</Guid>
+                      <Linked>True</Linked>
+                      <Margins>6,0,0,0</Margins>
+                      <Name>Text2</Name>
+                      <Page isRef="4" />
+                      <Parent isRef="18" />
+                      <Text>{Resource_Assignment.RsRef}</Text>
+                      <TextBrush>Black</TextBrush>
+                      <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                      <Type>Expression</Type>
+                      <VertAlignment>Center</VertAlignment>
+                    </Text2>
+                  </Components>
+                  <Conditions isList="true" count="1">
+                    <value>_x007B_Work_orders.RecID_x0020__x0021__x003D__x0020_Resource_Assignment.RecordID_x007D_,Red,Transparent,Arial_x002C_10,False,False,,,None</value>
+                  </Conditions>
+                  <DataSourceName>Resource Assignment</DataSourceName>
+                  <Filters isList="true" count="0" />
+                  <Linked>True</Linked>
+                  <Name>DataBand1</Name>
+                  <Page isRef="4" />
+                  <Parent isRef="17" />
+                  <Sort isList="true" count="0" />
+                </DataBand1>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <Linked>True</Linked>
+              <Name>Panel1</Name>
+              <Page isRef="4" />
+              <Parent isRef="11" />
+            </Panel1>
+            <Text12 Ref="21" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0.6,5.4,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <Guid>5027791d2a5dfde9d2305b9a07838010</Guid>
+              <Linked>True</Linked>
+              <Margins>6,0,0,0</Margins>
+              <Name>Text12</Name>
+              <Page isRef="4" />
+              <Parent isRef="11" />
+              <Text>{IIF(Work_orders.OrdName != "", Work_orders.OrdRef + ", " + Work_orders.OrdName, Work_orders.OrdRef).ToString()}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text12>
+            <Panel5 Ref="22" type="Stimulsoft.Report.Components.StiPanel" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>15,0.6,4,1.6</ClientRectangle>
+              <Components isList="true" count="2">
+                <Text3 Ref="23" type="Text" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>0,1.2,4,0.4</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>Arial,10</Font>
+                  <Guid>a64ea79faa917eddbd395bd9581a406f</Guid>
+                  <HorAlignment>Right</HorAlignment>
+                  <Linked>True</Linked>
+                  <Margins>6,0,0,0</Margins>
+                  <Name>Text3</Name>
+                  <Page isRef="4" />
+                  <Parent isRef="22" />
+                  <Text>{Work_orders.RecID}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>DataColumn</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text3>
+                <Text5 Ref="24" type="Text" isKey="true">
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>0,0,4,1.2</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>39251,16</Font>
+                  <Guid>7b1a6a2095ab9344137e5776118a4ddb</Guid>
+                  <HorAlignment>Right</HorAlignment>
+                  <Linked>True</Linked>
+                  <Margins>6,0,0,0</Margins>
+                  <Name>Text5</Name>
+                  <Page isRef="4" />
+                  <Parent isRef="22" />
+                  <Text>{ForWorkOrderRecordBarCode}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Text5>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <Linked>True</Linked>
+              <Name>Panel5</Name>
+              <Page isRef="4" />
+              <Parent isRef="11" />
+            </Panel5>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DataSourceName>Work orders</DataSourceName>
+          <Filters isList="true" count="0" />
+          <Linked>True</Linked>
+          <Name>DataBand2</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Sort isList="true" count="0" />
+        </DataBand2>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Guid>ed64a9359e744573a19e5370d13f3ee3</Guid>
+      <Margins>1,1,1,1</Margins>
+      <Name>ReportPage</Name>
+      <PageHeight>29.7</PageHeight>
+      <PageWidth>21</PageWidth>
+      <Report isRef="0" />
+      <Watermark Ref="25" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <Font>Arial,100</Font>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
+    </ReportPage>
+  </Pages>
+  <PrinterSettings Ref="26" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>DIS_WWPP_WWOO_00000100_WorkOrderValidation</ReportAlias>
+  <ReportAuthor>SYSADM</ReportAuthor>
+  <ReportChanged>10/9/2013 4:59:36 PM</ReportChanged>
+  <ReportCreated>6/18/2013 3:18:20 PM</ReportCreated>
+  <ReportDescription>{1:60002580#Work order validation}</ReportDescription>
+  <ReportFile />
+  <ReportGuid>e01f270ee9357689c4e49dbaf33df232</ReportGuid>
+  <ReportName>DIS_WWPP_WWOO_00000100_WorkOrderValidation</ReportName>
+  <ReportUnit>Centimeters</ReportUnit>
+  <ReportVersion>2013.2.1604</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    public class DIS_WWPP_WWOO_00000100_WorkOrderValidation : Stimulsoft.Report.StiReport
+    {
+        public DIS_WWPP_WWOO_00000100_WorkOrderValidation()        {
+            this.InitializeComponent();
+        }
+		
+		public string CalculateTime(double time, int quantity) {
+			double totalSeconds = quantity &gt; 0 ? time * quantity : time;
+			TimeSpan t = new TimeSpan(0, 0, (int)Math.Round(totalSeconds,0));
+			string minutes = "00";
+			string seconds = "00";
+			string totalHours = "00";
+			if (t.Minutes != 0) minutes = t.Minutes.ToString();
+			if (t.Seconds != 0) seconds = t.Seconds.ToString();
+			if (t.TotalHours != 0) totalHours = ((int)t.TotalHours).ToString();
+			return string.Format("{0}:{1}:{2}", totalHours, minutes, seconds);
+		}
+
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="7">
+    <Titles Ref="27" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>Bottom;[199:213:224];3;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Arial,22,Bold</Font>
+      <Name>Titles</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Titles>
+    <PageHeader Ref="28" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>Bottom;[199:213:224];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Verdana,9</Font>
+      <Name>PageHeader</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </PageHeader>
+    <PageFooter Ref="29" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>Top;[199:213:224];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Verdana,9</Font>
+      <Name>PageFooter</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </PageFooter>
+    <Headers Ref="30" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>All;[131:166:224];1;Solid;False;4;Black</Border>
+      <Brush>[185:218:255]</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Arial,11,Bold</Font>
+      <Name>Headers</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Headers>
+    <DataClean Ref="31" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Verdana,10</Font>
+      <Name>DataClean</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </DataClean>
+    <DataOdd Ref="32" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>All;[216:223:232];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Verdana,10</Font>
+      <Name>DataOdd</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </DataOdd>
+    <DataEven Ref="33" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>All;[216:223:232];1;Solid;False;4;Black</Border>
+      <Brush>[240:245:251]</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Verdana,10</Font>
+      <Name>DataEven</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </DataEven>
+  </Styles>
+</StiSerializer>

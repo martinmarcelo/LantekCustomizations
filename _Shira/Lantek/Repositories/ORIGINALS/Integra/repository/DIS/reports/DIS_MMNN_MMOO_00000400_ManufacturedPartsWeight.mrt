@@ -1,0 +1,555 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="0" />
+    <DataSources isList="true" count="1">
+      <MMNN_MMOO_00000400 Ref="2" type="DataTableSource" isKey="true">
+        <Alias>MMNN_MMOO_00000400</Alias>
+        <Columns isList="true" count="31">
+          <value>CurQuan,Consumo_x0020_actual,System.Double</value>
+          <value>CurQuan__Lab,Consumo_x0020_actual_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>CurQuan__DBD,Consumo_x0020_actual_x0020__x0028_Base_x0020_de_x0020_datos_x0029_,System.Double</value>
+          <value>CurQuan__Scr,Consumo_x0020_actual_x0020__x0028_Valor_x0029_,System.String</value>
+          <value>CurQuan__ScN,Consumo_x0020_actual_x0020__x0028_Valor_x0029_,System.String</value>
+          <value>CurQuan__Dec,Consumo_x0020_actual_x0020__x0028_Dígitos_x0020_decimales_x0029_,System.Int16</value>
+          <value>CurQuan__Rnd,Consumo_x0020_actual_x0020__x0028_Redondeado_x0029_,System.Int16</value>
+          <value>CurQuan__Sff,Consumo_x0020_actual_x0020__x0028_Sufijo_x0029_,System.String</value>
+          <value>CType,Tipo_x0020_de_x0020_consumo,System.Int16</value>
+          <value>CType__Lab,Tipo_x0020_de_x0020_consumo_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>CType__ScN,Tipo_x0020_de_x0020_consumo_x0020__x0028_Valor_x0029_,System.String</value>
+          <value>UntName,Unidad,System.String</value>
+          <value>UntName__Lab,Unidad_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>UCtName,Categoría_x0020_de_x0020_unidades,System.String</value>
+          <value>UCtName__Lab,Categoría_x0020_de_x0020_unidades_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>RawRef,Materia_x0020_prima,System.String</value>
+          <value>RawRef__Lab,Materia_x0020_prima_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>MMNN_MMOO_00000100.CusRef,Cliente,System.String</value>
+          <value>MMNN_MMOO_00000100.CusRef__Lab,Cliente_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>MMNN_MMOO_00000300.WrkRef,Centro_x0020_de_x0020_trabajo,System.String</value>
+          <value>MMNN_MMOO_00000300.WrkRef__Lab,Centro_x0020_de_x0020_trabajo_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>MMNN_MMOO_00000300.DIS_MatRef,Material,System.String</value>
+          <value>MMNN_MMOO_00000300.DIS_MatRef__Lab,Material_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>MMNN_MMOO_00000300.DIS_Thickness,Espesor,System.Double</value>
+          <value>MMNN_MMOO_00000300.DIS_Thickness__Lab,Espesor_x0020__x0028_Etiqueta_x0029_,System.String</value>
+          <value>MMNN_MMOO_00000300.DIS_Thickness__DBD,Espesor_x0020__x0028_Base_x0020_de_x0020_datos_x0029_,System.Double</value>
+          <value>MMNN_MMOO_00000300.DIS_Thickness__Scr,Espesor_x0020__x0028_Valor_x0029_,System.String</value>
+          <value>MMNN_MMOO_00000300.DIS_Thickness__ScN,Espesor_x0020__x0028_Valor_x0029_,System.String</value>
+          <value>MMNN_MMOO_00000300.DIS_Thickness__Dec,Espesor_x0020__x0028_Dígitos_x0020_decimales_x0029_,System.Int16</value>
+          <value>MMNN_MMOO_00000300.DIS_Thickness__Rnd,Espesor_x0020__x0028_Redondeado_x0029_,System.Int16</value>
+          <value>MMNN_MMOO_00000300.DIS_Thickness__Sff,Espesor_x0020__x0028_Sufijo_x0029_,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>MMNN_MMOO_00000400</Name>
+        <NameInSource>DIS_MMNN_MMOO_00000400_ManufacturedPartsWeight.MMNN_MMOO_00000400</NameInSource>
+      </MMNN_MMOO_00000400>
+    </DataSources>
+    <Relations isList="true" count="0" />
+    <Report isRef="0" />
+    <Variables isList="true" count="12">
+      <value>,__Sys_DatePattern,__Sys_DatePattern,System.String,,False,False</value>
+      <value>,__Mss_33466,__Mss_33466,System.String,,False,False</value>
+      <value>,__Sys_DecSep,__Sys_DecSep,System.String,,False,False</value>
+      <value>,__Sys_ThoSep,__Sys_ThoSep,System.String,,False,False</value>
+      <value>,__UsrUnitSystem,__UsrUnitSystem,System.String,,False,False</value>
+      <value>,UnitSymbol,UnitSymbol,System.String,IIF_x0028___UsrUnitSystem_x0020__x003D__x003D__x0020__x0022_MET_x0022__x002C__x0022_kg_x0022__x002C__x0020__x0022_lb_x0022__x0029_.ToString_x0028__x0029_,False,True</value>
+      <value>,__Mss_30609,__Mss_30609,System.String,,False,False</value>
+      <value>,__Mss_30056,__Mss_30056,System.String,,False,False</value>
+      <value>,__Mss_30433,__Mss_30433,System.String,,False,False</value>
+      <value>,__Mss_1500,__Mss_1500,System.String,,False,False</value>
+      <value>,__Mss_30164,__Mss_30164,System.String,,False,False</value>
+      <value>,__Mss_60003034,__Mss_60003034,System.String,,False,False</value>
+    </Variables>
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <MetaTags isList="true" count="0" />
+  <NumberOfPass>DoublePass</NumberOfPass>
+  <Pages isList="true" count="1">
+    <ReportPage Ref="3" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="13">
+        <PageFooterBand Ref="4" type="PageFooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,26.51,19,1.19</ClientRectangle>
+          <Components isList="true" count="2">
+            <TodayFooter Ref="5" type="Text" isKey="true">
+              <Border>Top;[199:213:224];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0.51,17.02,0.61</ClientRectangle>
+              <ComponentStyle>PageFooter</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Verdana,9</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>TodayFooter</Name>
+              <Page isRef="3" />
+              <Parent isRef="4" />
+              <Text>{__Mss_60003034} - {Time}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </TodayFooter>
+            <Text13 Ref="6" type="Text" isKey="true">
+              <Border>Top;[199:213:224];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>17.02,0.51,1.9,0.61</ClientRectangle>
+              <ComponentStyle>PageFooter</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Verdana,9</Font>
+              <Guid>007504bbaf9ee91cb5f61016b5464fba</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text13</Name>
+              <Page isRef="3" />
+              <Parent isRef="4" />
+              <Text>{PageNumber} / {TotalPageCount}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text13>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>PageFooterBand</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+        </PageFooterBand>
+        <Text1 Ref="7" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>30.48,3.3,1.52,0.51</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text1</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>{__Mss_30609}</Text>
+          <TextBrush>Black</TextBrush>
+        </Text1>
+        <Text4 Ref="8" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>27.69,3.3,2.79,0.51</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text4</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>__Mss_30609</Text>
+          <TextBrush>Black</TextBrush>
+        </Text4>
+        <TitleBand Ref="9" type="ReportTitleBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0.4,19,1.8</ClientRectangle>
+          <Components isList="true" count="2">
+            <ReportTitle Ref="10" type="Text" isKey="true">
+              <Border>Bottom;[199:213:224];3;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,19,0.99</ClientRectangle>
+              <ComponentStyle>Titles</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,22,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>ReportTitle</Name>
+              <Page isRef="3" />
+              <Parent isRef="9" />
+              <Text>{__Mss_60003034}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </ReportTitle>
+            <Text11 Ref="11" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>15.6,0.2,3.4,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text11</Name>
+              <Page isRef="3" />
+              <Parent isRef="9" />
+              <Text>Lantek Integra</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text11>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>TitleBand</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+        </TitleBand>
+        <TotalHeaderBand Ref="12" type="GroupHeaderBand" isKey="true">
+          <Border>All;[131:166:224];1;Solid;False;4;Black</Border>
+          <Brush>[185:218:255]</Brush>
+          <ClientRectangle>0,3,19,0.51</ClientRectangle>
+          <Components isList="true" count="1">
+            <Text12 Ref="13" type="Text" isKey="true">
+              <Border>None;[216:223:232];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.41,0,10.16,0.51</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Guid>11280d495b87126c9af810009c58d807</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text12</Name>
+              <Page isRef="3" />
+              <Parent isRef="12" />
+              <Text>{__Mss_30164}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text12>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>TotalHeaderBand</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+        </TotalHeaderBand>
+        <WorkCenterHeaderBand Ref="14" type="GroupHeaderBand" isKey="true">
+          <Border>Left, Right, Bottom;[216:223:232];1;Solid;False;4;Black</Border>
+          <Brush>[215:234:244]</Brush>
+          <ClientRectangle>0,4.31,19,0.79</ClientRectangle>
+          <Components isList="true" count="2">
+            <Text2 Ref="15" type="Text" isKey="true">
+              <Border>None;[216:223:232];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.41,0,10.16,0.79</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text2</Name>
+              <Page isRef="3" />
+              <Parent isRef="14" />
+              <Text>{__Mss_30609}: {MMNN_MMOO_00000400.MMNN_MMOO_00000300_WrkRef}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text2>
+            <Text3 Ref="16" type="Text" isKey="true">
+              <Border>None;Transparent;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>13.21,0,5.41,0.79</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text3</Name>
+              <Page isRef="3" />
+              <Parent isRef="14" />
+              <Text>{(SumD(MMNN_MMOO_00000400.CurQuan)).ToString("n3")} {UnitSymbol}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text3>
+          </Components>
+          <Condition>{MMNN_MMOO_00000400.MMNN_MMOO_00000300_WrkRef}</Condition>
+          <Conditions isList="true" count="0" />
+          <KeepGroupTogether>True</KeepGroupTogether>
+          <Name>WorkCenterHeaderBand</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+        </WorkCenterHeaderBand>
+        <MaterialHeaderBand Ref="17" type="GroupHeaderBand" isKey="true">
+          <Border>All;[216:223:232];1;Solid;False;4;Black</Border>
+          <Brush>[232:242:249]</Brush>
+          <ClientRectangle>0,5.9,19,0.79</ClientRectangle>
+          <Components isList="true" count="2">
+            <Text5 Ref="18" type="Text" isKey="true">
+              <Border>None;[216:223:232];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>13.21,0,5.41,0.79</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Guid>33fb4a82212debdcaf0601d7562abfcb</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text5</Name>
+              <Page isRef="3" />
+              <Parent isRef="17" />
+              <Text>{(SumD(MMNN_MMOO_00000400.CurQuan)).ToString("n3")} {UnitSymbol}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text5>
+            <Text7 Ref="19" type="Text" isKey="true">
+              <Border>None;[216:223:232];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.99,0,9.65,0.79</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text7</Name>
+              <Page isRef="3" />
+              <Parent isRef="17" />
+              <Text>{__Mss_30056}: {MMNN_MMOO_00000400.MMNN_MMOO_00000300_DIS_MatRef}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text7>
+          </Components>
+          <Condition>{MMNN_MMOO_00000400.MMNN_MMOO_00000300_WrkRef} + "#SEP#" + {MMNN_MMOO_00000400.MMNN_MMOO_00000300_DIS_MatRef}</Condition>
+          <Conditions isList="true" count="0" />
+          <KeepGroupTogether>True</KeepGroupTogether>
+          <Name>MaterialHeaderBand</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+        </MaterialHeaderBand>
+        <ThicknessHeaderBand Ref="20" type="GroupHeaderBand" isKey="true">
+          <Border>All;[216:223:232];1;Solid;False;4;Black</Border>
+          <Brush>[244:250:253]</Brush>
+          <ClientRectangle>0,7.49,19,0.79</ClientRectangle>
+          <Components isList="true" count="2">
+            <Text6 Ref="21" type="Text" isKey="true">
+              <Border>None;[216:223:232];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>13.21,0,5.41,0.79</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Guid>1121fffaae5174eafa8001d76472f629</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text6</Name>
+              <Page isRef="3" />
+              <Parent isRef="20" />
+              <Text>{(SumD(MMNN_MMOO_00000400.CurQuan)).ToString("n3")} {UnitSymbol}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text6>
+            <Text9 Ref="22" type="Text" isKey="true">
+              <Border>None;[216:223:232];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.5,0,9.14,0.79</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text9</Name>
+              <Page isRef="3" />
+              <Parent isRef="20" />
+              <Text>{__Mss_30433}: {MMNN_MMOO_00000400.MMNN_MMOO_00000300_DIS_Thickness__Scr}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text9>
+          </Components>
+          <Condition>{MMNN_MMOO_00000400.MMNN_MMOO_00000300_WrkRef} + "#SEP#" + {MMNN_MMOO_00000400.MMNN_MMOO_00000300_DIS_MatRef} + "#SEP#" + {MMNN_MMOO_00000400.MMNN_MMOO_00000300_DIS_Thickness}</Condition>
+          <Conditions isList="true" count="0" />
+          <KeepGroupTogether>True</KeepGroupTogether>
+          <Name>ThicknessHeaderBand</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+        </ThicknessHeaderBand>
+        <DataBand1 Ref="23" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,9.08,19,0</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <DataSourceName>MMNN_MMOO_00000400</DataSourceName>
+          <Filters isList="true" count="0" />
+          <Name>DataBand1</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Sort isList="true" count="0" />
+        </DataBand1>
+        <WorkCenterBand Ref="24" type="GroupFooterBand" isKey="true">
+          <Border>None;[20:20:255];1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,9.88,19,0</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <Name>WorkCenterBand</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+        </WorkCenterBand>
+        <MaterialFooterBand Ref="25" type="GroupFooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,10.68,19,0</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <Name>MaterialFooterBand</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+        </MaterialFooterBand>
+        <ThicknessFooterBand Ref="26" type="GroupFooterBand" isKey="true">
+          <Border>None;[255:0:0];1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,11.48,19,0</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <Name>ThicknessFooterBand</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+        </ThicknessFooterBand>
+        <TotalFooterBand Ref="27" type="GroupFooterBand" isKey="true">
+          <Brush>[224:215:245]</Brush>
+          <ClientRectangle>0,12.28,19,0.79</ClientRectangle>
+          <Components isList="true" count="2">
+            <Text10 Ref="28" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.41,0,3.3,0.79</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8,Bold</Font>
+              <Guid>0e27d192d5879aeb768f0ffaa951e1f7</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text10</Name>
+              <Page isRef="3" />
+              <Parent isRef="27" />
+              <Text>{__Mss_1500}</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text10>
+            <Text8 Ref="29" type="Text" isKey="true">
+              <Border>None;[216:223:232];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>13.21,0,5.41,0.79</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Guid>0e9712dda47e6f0204ce0ffaa951da0a</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text8</Name>
+              <Page isRef="3" />
+              <Parent isRef="27" />
+              <Text>{(SumD(MMNN_MMOO_00000400.CurQuan)).ToString("n3")} {UnitSymbol}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text8>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>TotalFooterBand</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+        </TotalFooterBand>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Guid>38839d15d6494b53bb07e0a0aa847709</Guid>
+      <Margins>1,1,1,1</Margins>
+      <Name>ReportPage</Name>
+      <PageHeight>29.7</PageHeight>
+      <PageWidth>21</PageWidth>
+      <Report isRef="0" />
+      <Watermark Ref="30" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <Font>Arial,100</Font>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
+    </ReportPage>
+  </Pages>
+  <PrinterSettings Ref="31" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>DIS_MMNN_MMOO_00000400_ManufacturedPartsWeight</ReportAlias>
+  <ReportAuthor>SYSADM</ReportAuthor>
+  <ReportChanged>6/2/2016 12:00:46 PM</ReportChanged>
+  <ReportCreated>5/30/2016 3:16:21 PM</ReportCreated>
+  <ReportDescription>Manufactured parts weight by workcenter</ReportDescription>
+  <ReportFile />
+  <ReportGuid>d0cb25c749770e1b4b42108edec0dec9</ReportGuid>
+  <ReportName>DIS_MMNN_MMOO_00000400_ManufacturedPartsWeight</ReportName>
+  <ReportUnit>Centimeters</ReportUnit>
+  <ReportVersion>2013.2.1604</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    public class DIS_MMNN_MMOO_00000400_ManufacturedPartsWeight_STI : Stimulsoft.Report.StiReport
+    {
+        public DIS_MMNN_MMOO_00000400_ManufacturedPartsWeight_STI()        {
+            this.InitializeComponent();
+        }
+
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="7">
+    <Titles Ref="32" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>Bottom;[199:213:224];3;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Arial,22,Bold</Font>
+      <Name>Titles</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Titles>
+    <PageHeader Ref="33" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>Bottom;[199:213:224];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Verdana,9</Font>
+      <Name>PageHeader</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </PageHeader>
+    <PageFooter Ref="34" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>Top;[199:213:224];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Verdana,9</Font>
+      <Name>PageFooter</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </PageFooter>
+    <Headers Ref="35" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>All;[131:166:224];1;Solid;False;4;Black</Border>
+      <Brush>[185:218:255]</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Arial,11,Bold</Font>
+      <Name>Headers</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Headers>
+    <DataClean Ref="36" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Verdana,10</Font>
+      <Name>DataClean</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </DataClean>
+    <DataOdd Ref="37" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>All;[216:223:232];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Verdana,10</Font>
+      <Name>DataOdd</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </DataOdd>
+    <DataEven Ref="38" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>All;[216:223:232];1;Solid;False;4;Black</Border>
+      <Brush>[240:245:251]</Brush>
+      <Conditions isList="true" count="0" />
+      <Description />
+      <Font>Verdana,10</Font>
+      <Name>DataEven</Name>
+      <TextBrush>Black</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </DataEven>
+  </Styles>
+</StiSerializer>
